@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article
+    xml:lang="en"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.1">
+  <info>
+    <volumenum>2</volumenum>
+    <title></title>
+    <date></date>
+    <releaseinfo>0.1.0</releaseinfo>
+    <edition>1</edition>
+    <author role="product" xml:id="joas-yannick-kinouani">
+      <personname>
+        <firstname>Joas Yannick</firstname>
+        <surname>Kinouani</surname>
+      </personname>
+      <affiliation>
+        <jobtitle>Product manager</jobtitle>
+      </affiliation>
+    </author>
+    <publisher xml:id="chrysalis-editions">
+      <publishername>Chrysalis Éditions</publishername>
+    </publisher>
+    <copyright>
+      <year>2025</year>
+      <holder linkend="chrysalis-editions">Chrysalis Éditions</holder>
+    </copyright>
+  </info>
+  <section>
+    <title>Introduction</title>
+    <simpara>
+      Papillon Journey is a JRPG-like, game-based online training platform in system and software engineering, where players advance their education and develop their engineering skills through quests, challenges, mini-games, and immersive storylines.
+    </simpara>
+    <simpara>
+      This document presents our vision for the project: what it is, why it matters, and how we plan to make it succeed.
+    </simpara>
+  </section>
+  <section>
+    <title>Purpose</title>
+    <simpara>
+      Formal and model-driven approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
+      Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes areas (finance, hardware design).
+      They are now gradually entering unregulated, mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
+    </simpara>
+    <simpara>Papillon Journey aims to build on this momentum by tackling three major hindrances to wider adoption:</simpara>
+    <itemizedlist>
+      <listitem>
+        <simpara>
+          Limited exposure: the historical confinement of these approaches to high-assurance projects has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
+          Demonstrating their effectiveness through large-scale open-source initiatives in web, mobile, and game development will help dispel this view.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          Inverted pedagogy: children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
+          Yet formal modelling is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          Fragmented tooling: companies favour tools that integrate seamlessly into existing workflows, but those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
+          Chrysal Studio, the research subproject of Papillon Journey, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
+        </simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Stakeholders and value proposition</title>
+    <simpara>
+    </simpara>
+  </section>
+  <section>
+    <title>Lifecycle management</title>
+    <simpara>
+    </simpara>
+  </section>
+  <section>
+    <title>Success metrics</title>
+    <simpara>
+    </simpara>
+  </section>
+</article>
