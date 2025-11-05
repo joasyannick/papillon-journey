@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <article
-    xml:lang="en"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.1">
   <info>
     <volumenum>2</volumenum>
@@ -19,12 +18,12 @@
         <jobtitle>Product manager</jobtitle>
       </affiliation>
     </author>
-    <publisher xml:id="chrysalis-editions">
+    <publisher>
       <publishername>Chrysalis Éditions</publishername>
     </publisher>
     <copyright>
       <year>2025</year>
-      <holder linkend="chrysalis-editions">Chrysalis Éditions</holder>
+      <holder>Chrysalis Éditions</holder>
     </copyright>
   </info>
   <section>
@@ -41,9 +40,11 @@
     <simpara>
       Formal and model-driven approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
       Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes areas (finance, hardware design).
-      They are now gradually entering unregulated, mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
+      They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
-    <simpara>Papillon Journey aims to build on this momentum by tackling three major hindrances to wider adoption:</simpara>
+    <simpara>
+      Papillon Journey aims to build on this momentum by tackling three major hindrances to wider adoption:
+    </simpara>
     <itemizedlist>
       <listitem>
         <simpara>
@@ -64,6 +65,12 @@
         </simpara>
       </listitem>
     </itemizedlist>
+    <simpara>
+      Papillon Journey is a cross-platform game, playable directly in a web browser or through native applications for Windows desktops and iPads.
+      It is also libre: its source code, models, and documentation are intentionally designed to teach formal engineering by example.
+      Anyone may study it, contribute to it, and adapt it to their own needs, provided that all derivative works remain libre.
+      All of this aims to reduce the limited exposure of formal methods by providing a transparent, participatory, and engaging use case.
+    </simpara>
   </section>
   <section>
     <title>Stakeholders and value proposition</title>
