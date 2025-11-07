@@ -4,12 +4,12 @@
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <info>
-    <volumenum>2</volumenum>
-    <title></title>
-    <date></date>
+    <biblioid class="pubsnumber">2</biblioid>
+    <title>The <foreignphrase>papillon</foreignphrase> journey ahead</title>
+    <date>2025-11-07</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>1</edition>
-    <author role="product" xml:id="joas-yannick-kinouani">
+    <author>
       <personname>
         <firstname>Joas Yannick</firstname>
         <surname>Kinouani</surname>
@@ -25,6 +25,16 @@
       <year>2025</year>
       <holder>Chrysalis Éditions</holder>
     </copyright>
+    <revhistory>
+      <revision>
+        <revnumber>1</revnumber>
+        <date>2025-11-07</date>
+        <revdescription>
+          <simpara>
+          </simpara>
+        </revdescription>
+      </revision>
+    </revhistory>
   </info>
   <section>
     <title>Introduction</title>
@@ -68,8 +78,13 @@
     <simpara>
       Papillon Journey is a cross-platform game, playable directly in a web browser or through native applications for Windows desktops and iPads.
       It is also libre: its source code, models, and documentation are intentionally designed to teach formal engineering by example.
-      Anyone may study it, contribute to it, and adapt it to their own needs, provided that all derivative works remain libre.
-      All of this aims to reduce the limited exposure of formal methods by providing a transparent, participatory, and engaging use case.
+      Anyone may study it, contribute to it, and adapt it to their own needs, as long as derivative works remain libre.
+      All of this aims to bring greater visibility to formal methods by providing a transparent, participatory, and engaging real-world use case accessible across various devices.
+    </simpara>
+    <simpara>
+      Fusing the experience of a JRPG with that of a training platform without breaking immersion is no small task.
+      One thing is certain, though: learners will spend most of their time practising.
+      The very nature of JRPGs will steer Papillon Journey away from the pitfall of inverted pedagogy.
     </simpara>
   </section>
   <section>
@@ -79,6 +94,11 @@
   </section>
   <section>
     <title>Lifecycle management</title>
+    <simpara>
+    </simpara>
+  </section>
+  <section>
+    <title>Governance</title>
     <simpara>
     </simpara>
   </section>
