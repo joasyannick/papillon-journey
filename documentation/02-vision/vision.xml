@@ -64,14 +64,14 @@
       </listitem>
       <listitem>
         <simpara>
-          Inverted pedagogy: children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
-          Yet formal modelling is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
+          Fragmented tooling: companies favour tools that integrate seamlessly into existing workflows, but those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
+          Chrysal Studio, the research subproject of Papillon Journey, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
-          Fragmented tooling: companies favour tools that integrate seamlessly into existing workflows, but those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
-          Chrysal Studio, the research subproject of Papillon Journey, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
+          Inverted pedagogy: children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
+          Yet formal modelling is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
         </simpara>
       </listitem>
     </itemizedlist>
@@ -82,7 +82,11 @@
       All of this aims to bring greater visibility to formal methods by providing a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
     <simpara>
-      Fusing the experience of a JRPG with that of a training platform without breaking immersion is no small task.
+      At first, the game development will rely on the current patchwork of disjointed formal methods tools.
+      But as Chrysal Studio matures, it will progressively take their place, until it can fully support the engineering of both itself and Papillon Journey.
+    </simpara>
+    <simpara>
+      Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small task.
       One thing is certain, though: learners will spend most of their time practising.
       The very nature of JRPGs will steer Papillon Journey away from the pitfall of inverted pedagogy.
     </simpara>
