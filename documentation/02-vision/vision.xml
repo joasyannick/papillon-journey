@@ -39,7 +39,7 @@
   <section>
     <title>Introduction</title>
     <simpara>
-      Papillon Journey is a JRPG-like, game-based online training platform in system and software engineering, where players advance their education and develop their engineering skills through quests, challenges, mini-games, and immersive storylines.
+      <productname>Papillon Journey</productname> is a JRPG-like, game-based online training platform in system and software engineering, where players advance their education and develop their engineering skills through quests, challenges, mini-games, and immersive storylines.
     </simpara>
     <simpara>
       This document presents our vision for the project: what it is, why it matters, and how we plan to make it succeed.
@@ -53,7 +53,7 @@
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
     <simpara>
-      Papillon Journey aims to build on this momentum by tackling three major hindrances to wider adoption:
+      <productname>Papillon Journey</productname> aims to build on this momentum by tackling three major hindrances to wider adoption:
     </simpara>
     <itemizedlist>
       <listitem>
@@ -65,7 +65,7 @@
       <listitem>
         <simpara>
           Fragmented tooling: companies favour tools that integrate seamlessly into existing workflows, but those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
-          Chrysal Studio, the research subproject of Papillon Journey, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
+          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
         </simpara>
       </listitem>
       <listitem>
@@ -76,19 +76,19 @@
       </listitem>
     </itemizedlist>
     <simpara>
-      Papillon Journey is a cross-platform game, playable directly in a web browser or through native applications for Windows desktops and iPads.
+      <productname>Papillon Journey</productname> is a cross-platform game, playable directly in a web browser or through native applications for Windows desktops and iPads.
       It is also libre: its source code, models, and documentation are intentionally designed to teach formal engineering by example.
       Anyone may study it, contribute to it, and adapt it to their own needs, as long as derivative works remain libre.
-      All of this aims to bring greater visibility to formal methods by providing a transparent, participatory, and engaging real-world use case accessible across various devices.
+      All of this aims to raise the visibility of formal modelling techniques by providing a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
     <simpara>
       At first, the game development will rely on the current patchwork of disjointed formal methods tools.
-      But as Chrysal Studio matures, it will progressively take their place, until it can fully support the engineering of both itself and Papillon Journey.
+      But as <productname>Chrysal Studio</productname> matures, it will progressively take their place, until it can fully support the engineering of both itself and <productname>Papillon Journey</productname>.
     </simpara>
     <simpara>
       Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small task.
       One thing is certain, though: learners will spend most of their time practising.
-      The very nature of JRPGs will steer Papillon Journey away from the pitfall of inverted pedagogy.
+      The very nature of JRPGs will steer <productname>Papillon Journey</productname> away from the pitfall of inverted pedagogy.
     </simpara>
   </section>
   <section>
