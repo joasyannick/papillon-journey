@@ -5,7 +5,7 @@
     version="5.1">
   <info>
     <biblioid class="pubsnumber">2</biblioid>
-    <title>The <foreignphrase>papillon</foreignphrase> journey ahead</title>
+    <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <date>2025-11-12</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>1</edition>
@@ -67,7 +67,7 @@
         <simpara>
           <emphasis role="strong">Fragmented tooling.</emphasis> Companies favour tools that integrate seamlessly into existing workflows.
           Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
-          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
+          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an integrated <emphasis>engineering</emphasis> environment to change that.
           We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
         </simpara>
       </listitem>
