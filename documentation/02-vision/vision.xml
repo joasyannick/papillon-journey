@@ -6,7 +6,7 @@
   <info>
     <biblioid class="pubsnumber">2</biblioid>
     <title>The <foreignphrase>papillon</foreignphrase> journey ahead</title>
-    <date>2025-11-07</date>
+    <date>2025-11-12</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>1</edition>
     <author>
@@ -28,7 +28,7 @@
     <revhistory>
       <revision>
         <revnumber>1</revnumber>
-        <date>2025-11-07</date>
+        <date>2025-11-12</date>
         <revdescription>
           <simpara>
           </simpara>
@@ -39,56 +39,51 @@
   <section>
     <title>Introduction</title>
     <simpara>
-      <productname>Papillon Journey</productname> is a JRPG-like, game-based online training platform in system and software engineering, where players advance their education and develop their engineering skills through quests, challenges, mini-games, and immersive storylines.
+      <productname>Papillon Journey</productname> is a JRPG-like, game-based online training platform in system and software engineering, where players advance their education and hone their engineering skills through quests, challenges, mini-games, and immersive storylines.
     </simpara>
     <simpara>
-      This document presents our vision for the project: what it is, why it matters, and how we plan to make it succeed.
+      This document presents our vision for the project: what it is, why it matters, and how we intend to make it succeed.
     </simpara>
   </section>
   <section>
     <title>Purpose</title>
     <simpara>
       Formal and model-driven approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
-      Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes areas (finance, hardware design).
+      Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
     <simpara>
-      <productname>Papillon Journey</productname> aims to build on this momentum by tackling three major hindrances to wider adoption:
+      <productname>Papillon Journey</productname> seizes this momentum and tackles three persistent barriers to broader adoption:
     </simpara>
     <itemizedlist>
       <listitem>
         <simpara>
-          Limited exposure: the historical confinement of these approaches to high-assurance projects has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
-          Demonstrating their effectiveness through large-scale open-source initiatives in web, mobile, and game development will help dispel this view.
+          <emphasis role="strong">Limited exposure.</emphasis> The historical confinement of these approaches to high-assurance niches has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
+          Demonstrating their power through large-scale, open-source initiatives in web, mobile, and game development will help dispel this view.
+          That is why <productname>Papillon Journey</productname> will be cross-platform — playable directly in a web browser or via native applications for Windows and iPad.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
-          Fragmented tooling: companies favour tools that integrate seamlessly into existing workflows, but those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
+          <emphasis role="strong">Fragmented tooling.</emphasis> Companies favour tools that integrate seamlessly into existing workflows.
+          Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
           <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype a unified <emphasis>integrated engineering environment</emphasis> to change that.
+          We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
-          Inverted pedagogy: children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
+          <emphasis role="strong">Inverted pedagogy.</emphasis> Children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
           Yet formal modelling is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
+          Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small feat.
+          One thing is certain, though: learners will spend most of their time practising.
+          The very nature of JRPGs will steer us away from the pitfall of inverted pedagogy.
         </simpara>
       </listitem>
     </itemizedlist>
     <simpara>
-      <productname>Papillon Journey</productname> is a cross-platform game, playable directly in a web browser or through native applications for Windows desktops and iPads.
-      It is also libre: its source code, models, and documentation are intentionally designed to teach formal engineering by example.
-      Anyone may study it, contribute to it, and adapt it to their own needs, as long as derivative works remain libre.
-      All of this aims to raise the visibility of formal modelling techniques by providing a transparent, participatory, and engaging real-world use case accessible across various devices.
-    </simpara>
-    <simpara>
-      At first, the game development will rely on the current patchwork of disjointed formal methods tools.
-      But as <productname>Chrysal Studio</productname> matures, it will progressively take their place, until it can fully support the engineering of both itself and <productname>Papillon Journey</productname>.
-    </simpara>
-    <simpara>
-      Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small task.
-      One thing is certain, though: learners will spend most of their time practising.
-      The very nature of JRPGs will steer <productname>Papillon Journey</productname> away from the pitfall of inverted pedagogy.
+      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <emphasis>libre</emphasis>: open for study, contribution, and adaptation, provided derivatives remain libre.
+      Not only because we value freedom, but also to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
   <section>
@@ -98,11 +93,6 @@
   </section>
   <section>
     <title>Lifecycle management</title>
-    <simpara>
-    </simpara>
-  </section>
-  <section>
-    <title>Governance</title>
     <simpara>
     </simpara>
   </section>
