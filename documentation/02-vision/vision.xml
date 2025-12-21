@@ -16,14 +16,15 @@
       </personname>
       <affiliation>
         <jobtitle>Product manager</jobtitle>
+        <orgname>Chrysalide Learning</orgname>
       </affiliation>
     </author>
     <publisher>
-      <publishername>Chrysalis Éditions</publishername>
+      <publishername>Chrysalide Learning</publishername>
     </publisher>
     <copyright>
       <year>2025</year>
-      <holder>Chrysalis Éditions</holder>
+      <holder>Chrysalide Learning</holder>
     </copyright>
     <revhistory>
       <revision>
@@ -36,16 +37,16 @@
       </revision>
     </revhistory>
   </info>
-  <section>
+  <section><!-- What we are building -->
     <title>Introduction</title>
-    <simpara>
-      <productname>Papillon Journey</productname> is a JRPG-like, game-based online training platform in system and software engineering, where players advance their education and hone their engineering skills through quests, challenges, mini-games, and immersive storylines.
+    <simpara><!-- Project background -->
+      <productname>Papillon Journey</productname> is a JRPG-like, game-based online training platform in systems and software engineering, where players advance their education and hone their engineering skills through quests, challenges, mini-games, and immersive storylines.
     </simpara>
-    <simpara>
+    <simpara><!-- Purpose and scope of this document -->
       This document presents our vision for the project: what it is, why it matters, and how we intend to make it succeed.
     </simpara>
   </section>
-  <section>
+  <section><!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
       Formal and model-driven approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
@@ -86,19 +87,67 @@
       Not only because we value freedom, but also to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
-  <section>
-    <title>Stakeholders and value proposition</title>
+  <section><!-- Who we are building it for -->
+    <title>Stakeholders and value propositions</title>
     <simpara>
+      Value propositions evolve alongside the people they serve.
+      As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
+      Even so, certain needs endure — and it is these that allow a project to remain relevant over time.
+      Below, we outline these enduring needs for <productname>Papillon Journey</productname> and map them to value propositions.
+      A more comprehensive exploration, that expands on this section, is provided in <citation>papillon-docs-3</citation>.
     </simpara>
+    <section>
+      <title>Reconciling gaming and training</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Video game players</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Software engineering practitioners</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Software engineering researchers</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Software engineering learners</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Software engineering educators</title>
+      <simpara>
+      </simpara>
+    </section>
   </section>
-  <section>
+  <section><!-- How we are building it -->
     <title>Lifecycle management</title>
     <simpara>
     </simpara>
   </section>
-  <section>
+  <section><!-- What success looks like -->
     <title>Success metrics</title>
     <simpara>
     </simpara>
   </section>
+  <bibliography>
+    <title>References</title>
+    <biblioentry xml:id="papillon-docs-3">
+      <biblioid class="pubsnumber">3</biblioid>
+      <title>Value propositions</title>
+      <author>
+        <personname>
+          <firstname>Joas Yannick</firstname>
+          <surname>Kinouani</surname>
+        </personname>
+      </author>
+    </biblioentry>
+  </bibliography>
 </article>
