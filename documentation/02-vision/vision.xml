@@ -40,7 +40,7 @@
   <section><!-- What we are building -->
     <title>Introduction</title>
     <simpara><!-- Project background -->
-      <productname>Papillon Journey</productname> is a JRPG-like, game-based online training platform in systems and software engineering, where players advance their education and hone their engineering skills through quests, challenges, mini-games, and immersive storylines.
+      <productname>Papillon Journey</productname> is an online JRPG and a training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
     </simpara>
     <simpara><!-- Purpose and scope of this document -->
       This document presents our vision for the project: what it is, why it matters, and how we intend to make it succeed.
@@ -92,27 +92,19 @@
     <simpara>
       Value propositions evolve alongside the people they serve.
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
-      Even so, certain needs endure — and it is these that allow a project to remain relevant over time.
-      Below, we outline these enduring needs for <productname>Papillon Journey</productname> and map them to value propositions.
-      A more comprehensive exploration, that expands on this section, is provided in <citation>papillon-docs-3</citation>.
+      Even so, certain core needs persist — and it is these that keep a project relevant over time.
+      Below, we outline those that matter most to our stakeholders and map them to value propositions.
+      For a deeper dive, see <citation>papillon-docs-3</citation>.
     </simpara>
-    <section>
-      <title>Reconciling gaming and training</title>
-      <simpara>
-      </simpara>
-    </section>
     <section>
       <title>Video game players</title>
       <simpara>
+        Training is future-oriented: people invest time and effort now to unlock a later payoff — a job, promotion, career pivot, or proficiency.
+        There is no such thing as training for the sake of it.
+        The core appeal of gaming is precisely a break from that logic.
+        Players expect games to provide a brief window in their day through which they can throw out all future concerns and fully enjoy the present moment.
+        An experience that fails to honour this misses the whole point.
       </simpara>
-    </section>
-    <section>
-      <title>Software engineering practitioners</title>
-      <simpara>
-      </simpara>
-    </section>
-    <section>
-      <title>Software engineering researchers</title>
       <simpara>
       </simpara>
     </section>
@@ -123,6 +115,16 @@
     </section>
     <section>
       <title>Software engineering educators</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Software engineering practitioners</title>
+      <simpara>
+      </simpara>
+    </section>
+    <section>
+      <title>Software engineering researchers</title>
       <simpara>
       </simpara>
     </section>
