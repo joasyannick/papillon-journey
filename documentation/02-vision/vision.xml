@@ -6,9 +6,9 @@
   <info>
     <biblioid class="pubsnumber">2</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-01-05</date>
+    <date>2026-01-20</date>
     <releaseinfo>0.1.0</releaseinfo>
-    <edition>1</edition>
+    <edition>0.1</edition>
     <author>
       <personname>
         <firstname>Joas Yannick</firstname>
@@ -23,30 +23,34 @@
       <publishername>Chrysalide Learning</publishername>
     </publisher>
     <copyright>
-      <year>2025</year>
+      <year>2026</year>
       <holder>Chrysalide Learning</holder>
     </copyright>
     <revhistory>
       <revision>
         <revnumber>1</revnumber>
-        <date>2026-01-05</date>
+        <date>2026-01-20</date>
         <revdescription>
           <simpara>
+            Draft 0.1 — User Story 9.
           </simpara>
         </revdescription>
       </revision>
     </revhistory>
   </info>
-  <section><!-- What we are building -->
+  <section>
+    <!-- What we are building -->
     <title>Introduction</title>
-    <simpara><!-- Project background -->
+    <simpara>
       <productname>Papillon Journey</productname> is an online JRPG and a training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
     </simpara>
-    <simpara><!-- Purpose and scope of this document -->
+    <simpara>
+      <!-- Purpose and scope of this document -->
       This document presents our vision for the project: what it is, why it matters, and how we intend to make it succeed.
     </simpara>
   </section>
-  <section><!-- Why we are building it -->
+  <section>
+    <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
       Formal and model-driven approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
@@ -87,7 +91,8 @@
       Not only because we value freedom, but also to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
-  <section><!-- Who we are building it for -->
+  <section>
+    <!-- Who we are building it for -->
     <title>Stakeholders and value propositions</title>
     <simpara>
       Value propositions evolve alongside the people they serve.
@@ -98,50 +103,166 @@
     </simpara>
     <section>
       <title>Video game players</title>
-      <simpara><!-- Value proposition 1: a fun game (addresses limited exposure and inverted pedagogy) -->
+      <simpara>
+        <!-- Core needs -->
         Training is future-oriented: the time and effort invested in it aim to unlock later payoffs — a job, promotion, career pivot, or proficiency.
         There is no such thing as training for the sake of it.
         The appeal of gaming, on the other hand, is precisely a break from that logic.
-        Players expect games to provide a brief window in their day through which they can throw out all future concerns and fully enjoy the present moment.
+        Players expect games to provide a brief window in their day through which they can set aside future concerns and fully enjoy the present moment.
         An experience that fails to honour this misses the whole point.
+        <!--
+          Value Proposition 2.1. A fun game.
+          Relates to: inverted pedagogy.
+        -->
         This is why <productname>Papillon Journey</productname> will be, above all, fun.
       </simpara>
-      <simpara><!-- Value proposition 2: a cross-platform game (addresses limited exposure) -->
+      <simpara>
+        <!--
+          Value Proposition 2.2. A cross-platform game.
+          Relates to: limited exposure.
+        -->
         It will be a play-anywhere-anytime game by design.
-        The web version will render 2D isometric visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from phones to desktops.
-        Where hardware permits, native editions on Windows, Android, and iOS/iPadOS will elevate the experience with enhanced 2.5D graphics, richer lighting, and added depth.
-        Progress will synchronise across all platforms, so players can switch between devices.
+        The web version will render 2D isometric visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from smartphones to desktops.
+        Where hardware permits, native editions on Windows, Android, iOS/iPadOS, and HarmonyOS will elevate the experience with enhanced 2.5D graphics, richer lighting, and added depth.
+        Progress will synchronise across all platforms, so players can switch between devices without friction.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.3. Asynchronous multiplayer cooperation.
+          Relates to: inverted pedagogy.
+          TODO: Rewrite this.
+        -->
+        Players will be able to help each other without having to be online at the same time.
+        They will share resources, discoveries, and strategies through dedicated in-world places (for example, community shops, noticeboards, or guild halls).
+        They will also be able to compare performances on selected challenges and improve their rank over time.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.4. Synchronous multiplayer competition.
+          Relates to: inverted pedagogy.
+          TODO: Rewrite this.
+        -->
+        For specific mini-games, players will be able to compete live in short, self-contained sessions accessed through dedicated in-game areas.
+        These activities will be designed to be optional, quick to join, and rewarding even in brief play windows.
       </simpara>
     </section>
     <section>
       <title>Software engineering learners</title>
-      <simpara><!-- Value proposition 1: coverage of the full spectrum of formal engineering activities (addresses limited exposure) -->
+      <simpara>
+        <!-- Core needs -->
+        The initial training of a software engineer reaches a satisfying end once they have the skills to turn software ideas into working, maintainable systems.
+        Teamwork is one of them, as most systems are built through collaborative effort.
+        Continuing education then becomes a pursuit of mastery and specialisation.
       </simpara>
-      <simpara><!-- Value proposition 2: a libre game (addresses limited exposure and inverted pedagogy) -->
+      <simpara>
+        <productname>Papillon Journey</productname> will support both stages of the learners’ journey in two mutually reinforcing ways:
+      </simpara>
+      <itemizedlist>
+        <listitem>
+          <simpara>
+            <!--
+              Value Proposition 2.5. Broad in-game learning of software engineering fundamentals.
+              Relates to: limited exposure, inverted pedagogy.
+              TODO: Rewrite this.
+            -->
+            Software engineering fundamentals will be woven into the gameplay, so learners can grow through playful practice of project and product management, UX design, specification, development, verification, and validation.
+            As playable characters level up, their progression will mirror the learner’s growth as a software engineer, with the endgame aligning with the completion of the initial learning journey.
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            <!--
+              Value Proposition 2.6. Deep mastery acquired by working directly on the source code, with community.
+              Relates to: inverted pedagogy.
+              TODO: Rewrite this.
+            -->
+            For players who discover a new or renewed passion for what they learned in-game, the game’s codebase itself will serve as a playground for deeper mastery.
+            They will be encouraged to contribute to it or adapt it into something different, supported by strong documentation, welcoming contributor workflows, and a community culture that can grow around the project and its derivatives.
+          </simpara>
+        </listitem>
+      </itemizedlist>
+      <simpara>
+        <!--
+          Value Proposition 2.7. Peer-to-peer knowledge transmission through modding.
+          Relates to: inverted pedagogy.
+          TODO: Rewrite this.
+        -->
+        Teaching is one of the fastest ways to learn.
+        <productname>Papillon Journey</productname> will let learners gradually step into educator roles by creating and sharing their own storylines, quests, and training content.
+        This will be enabled through a modding system (including player-built downloadable content) designed to reward clarity, creativity, and helpfulness — and to make peer-to-peer knowledge transmission a natural part of the game.
       </simpara>
     </section>
     <section>
       <title>Software engineering educators</title>
       <simpara>
+        <!-- TODO: Core needs -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.8. Forkability for curriculum-aligned teaching.
+          TODO: Rewrite this.
+        -->
+        <productname>Papillon Journey</productname> will be designed to be forked and adapted.
+        Clear documentation, predictable architecture, and curriculum-friendly extension points will help educators tailor the game to their teaching goals while keeping learners immersed.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.9. Partnerships with established institutions and game franchises.
+          TODO: Rewrite this.
+        -->
+        As adoption grows, the project will seek partnerships with recognised institutions and, where aligned, established game studios or franchises.
+        Such collaborations can add legitimacy (which learners often value), broaden reach, and accelerate content quality — while remaining compatible with the project’s libre commitments.
       </simpara>
     </section>
     <section>
       <title>Software engineering practitioners</title>
       <simpara>
+        <!-- TODO: Core needs -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.10. Exposure to formal engineering through a real-world-scale, familiar domain.
+          Relates to: limited exposure.
+          TODO: Write this.
+        -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.11. Chrysal Studio as an integrated engineering environment.
+          Relates to: fragmented tooling.
+          TODO: Write this.
+        -->
       </simpara>
     </section>
     <section>
       <title>Software engineering researchers</title>
       <simpara>
+        <!-- TODO: Core needs -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.12. A living use case to apply and demonstrate research in context.
+          Relates to: inverted pedagogy.
+          TODO: Write this.
+        -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition 2.13. A unified engineering environment to host research-grade integrations.
+          Relates to: fragmented tooling.
+          TODO: Write this.
+        -->
       </simpara>
     </section>
   </section>
-  <section><!-- How we are building it -->
+  <section>
+    <!-- How we are building it -->
     <title>Lifecycle management</title>
     <simpara>
     </simpara>
   </section>
-  <section><!-- What success looks like -->
+  <section>
+    <!-- What success looks like -->
     <title>Success metrics</title>
     <simpara>
       <!--
@@ -157,7 +278,8 @@
       -->
     </simpara>
   </section>
-  <section><!-- Conclusion: what to do with this information -->
+  <section>
+    <!-- Conclusion: what to do with this information -->
     <title>What now?</title>
     <simpara>
     </simpara>
