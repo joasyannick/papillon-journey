@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<article
-    xml:lang="en-GB"
-    xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+<article xml:lang="en-GB" xmlns="http://docbook.org/ns/docbook" version="5.1">
   <info>
-    <biblioid class="pubsnumber">2</biblioid>
+    <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <date>2026-01-20</date>
     <releaseinfo>0.1.0</releaseinfo>
@@ -99,7 +96,7 @@
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist — and it is these that keep a project relevant over time.
       Below, we outline those that matter most to our stakeholders and map them to value propositions.
-      For a deeper dive, see <citation>papillon-docs-3</citation>.
+      For a deeper dive, see <citation>papillon-docs-γ</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
@@ -111,39 +108,41 @@
         Players expect games to provide a brief window in their day through which they can set aside future concerns and fully enjoy the present moment.
         An experience that fails to honour this misses the whole point.
         <!--
-          Value Proposition 2.1. A fun game.
+          Value Proposition VPαʹ1. Enjoyable gameplay.
           Relates to: inverted pedagogy.
         -->
         This is why <productname>Papillon Journey</productname> will be, above all, fun.
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.2. A cross-platform game.
+          Value Proposition VPαʹ2. Cross-platform play.
           Relates to: limited exposure.
         -->
         It will be a play-anywhere-anytime game by design.
         The web version will render 2D isometric visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from smartphones to desktops.
         Where hardware permits, native editions on Windows, Android, iOS/iPadOS, and HarmonyOS will elevate the experience with enhanced 2.5D graphics, richer lighting, and added depth.
-        Progress will synchronise across all platforms, so players can switch between devices without friction.
+        Progress will synchronise across all platforms, so players can switch between devices.
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.3. Asynchronous multiplayer cooperation.
+          Value Proposition VPαʹ3. Asynchronous cooperation.
           Relates to: inverted pedagogy.
-          TODO: Rewrite this.
         -->
-        Players will be able to help each other without having to be online at the same time.
-        They will share resources, discoveries, and strategies through dedicated in-world places (for example, community shops, noticeboards, or guild halls).
-        They will also be able to compare performances on selected challenges and improve their rank over time.
+        Using in-game systems such as courier services or trading posts, players will be able to share resources, discoveries, and hard-won strategies whenever it suits them, without needing to be online at the same time.
+        <!--
+          Value Proposition VPαʹ4. Synchronous competition.
+          Relates to: inverted pedagogy.
+        -->
+        Certain locations and NPCs will also offer mini-games in which players can compete live.
+        These multiplayer features will feel like a part of the world rather than something bolted on.
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.4. Synchronous multiplayer competition.
-          Relates to: inverted pedagogy.
-          TODO: Rewrite this.
+          Value Proposition VPαʹ5. Franchise partnerships.
+          Relates to: limited exposure.
         -->
-        For specific mini-games, players will be able to compete live in short, self-contained sessions accessed through dedicated in-game areas.
-        These activities will be designed to be optional, quick to join, and rewarding even in brief play windows.
+        As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises and studios to create crossover content.
+        Such scope-limited collaborations will reconnect players with stories they alreadylove while they learn formal software engineering.
       </simpara>
     </section>
     <section>
@@ -161,7 +160,7 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition 2.5. Broad in-game learning of software engineering fundamentals.
+              Value Proposition VPαʹ6. Broad in-game learning of software engineering fundamentals.
               Relates to: limited exposure, inverted pedagogy.
               TODO: Rewrite this.
             -->
@@ -172,7 +171,7 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition 2.6. Deep mastery acquired by working directly on the source code, with community.
+              Value Proposition VPαʹ7. Deep mastery acquired by working directly on the source code, with community.
               Relates to: inverted pedagogy.
               TODO: Rewrite this.
             -->
@@ -183,7 +182,7 @@
       </itemizedlist>
       <simpara>
         <!--
-          Value Proposition 2.7. Peer-to-peer knowledge transmission through modding.
+          Value Proposition VPαʹ8. Peer-to-peer knowledge transmission through modding.
           Relates to: inverted pedagogy.
           TODO: Rewrite this.
         -->
@@ -199,7 +198,7 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.8. Forkability for curriculum-aligned teaching.
+          Value Proposition VPαʹ9. Forkability for curriculum-aligned teaching.
           TODO: Rewrite this.
         -->
         <productname>Papillon Journey</productname> will be designed to be forked and adapted.
@@ -207,7 +206,7 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.9. Partnerships with established institutions and game franchises.
+          Value Proposition VPαʹ10. Partnerships with established institutions and game franchises.
           TODO: Rewrite this.
         -->
         As adoption grows, the project will seek partnerships with recognised institutions and, where aligned, established game studios or franchises.
@@ -221,14 +220,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.10. Exposure to formal engineering through a real-world-scale, familiar domain.
+          Value Proposition VPαʹ11. Exposure to formal engineering through a real-world-scale, familiar domain.
           Relates to: limited exposure.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.11. Chrysal Studio as an integrated engineering environment.
+          Value Proposition VPαʹ12. Chrysal Studio as an integrated engineering environment.
           Relates to: fragmented tooling.
           TODO: Write this.
         -->
@@ -241,14 +240,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.12. A living use case to apply and demonstrate research in context.
+          Value Proposition VPαʹ13. A living use case to apply and demonstrate research in context.
           Relates to: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition 2.13. A unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ14. A unified engineering environment to host research-grade integrations.
           Relates to: fragmented tooling.
           TODO: Write this.
         -->
