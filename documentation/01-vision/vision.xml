@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <article xml:lang="en-GB" xmlns="http://docbook.org/ns/docbook" version="5.1">
   <info>
-    <biblioid class="pubsnumber">α</biblioid>
+    <biblioid class="pubsnumber">αʹ</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-01-20</date>
+    <date>2026-01-29</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <author>
@@ -26,7 +26,7 @@
     <revhistory>
       <revision>
         <revnumber>1</revnumber>
-        <date>2026-01-20</date>
+        <date>2026-01-29</date>
         <revdescription>
           <simpara>
             Draft 0.1 — User Story 9.
@@ -96,7 +96,7 @@
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist — and it is these that keep a project relevant over time.
       Below, we outline those that matter most to our stakeholders and map them to value propositions.
-      For a deeper dive, see <citation>papillon-docs-γ</citation>.
+      For a deeper dive, see <citation>papillon-docs-β</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
@@ -105,7 +105,7 @@
         Training is future-oriented: the time and effort invested in it aim to unlock later payoffs — a job, promotion, career pivot, or proficiency.
         There is no such thing as training for the sake of it.
         The appeal of gaming, on the other hand, is precisely a break from that logic.
-        Players expect games to provide a brief window in their day through which they can set aside future concerns and fully enjoy the present moment.
+        Players expect games to provide a brief window in their day through which they can throw out all future concerns and fully enjoy the present moment.
         An experience that fails to honour this misses the whole point.
         <!--
           Value Proposition VPαʹ1. Enjoyable gameplay.
@@ -133,7 +133,7 @@
           Value Proposition VPαʹ4. Synchronous competition.
           Relates to: inverted pedagogy.
         -->
-        Certain locations and NPCs will also offer mini-games in which players can compete live.
+        Certain locations and NPCs will also offer mini-games in which they can compete live.
         These multiplayer features will feel like a part of the world rather than something bolted on.
       </simpara>
       <simpara>
@@ -142,7 +142,7 @@
           Relates to: limited exposure.
         -->
         As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises and studios to create crossover content.
-        Such scope-limited collaborations will reconnect players with stories they alreadylove while they learn formal software engineering.
+        Such scope-limited collaborations will reconnect players with characters and stories they already love while they learn formal engineering.
       </simpara>
     </section>
     <section>
@@ -160,35 +160,37 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition VPαʹ6. Broad in-game learning of software engineering fundamentals.
+              Value Proposition VPαʹ6. Learning fundamentals through play.
               Relates to: limited exposure, inverted pedagogy.
-              TODO: Rewrite this.
-            -->
-            Software engineering fundamentals will be woven into the gameplay, so learners can grow through playful practice of project and product management, UX design, specification, development, verification, and validation.
-            As playable characters level up, their progression will mirror the learner’s growth as a software engineer, with the endgame aligning with the completion of the initial learning journey.
+              -->
+            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of project and product management, UX design, specification, development, verification, and validation.
+            As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame posing the ultimate challenge to their training.
           </simpara>
         </listitem>
         <listitem>
           <simpara>
             <!--
-              Value Proposition VPαʹ7. Deep mastery acquired by working directly on the source code, with community.
-              Relates to: inverted pedagogy.
-              TODO: Rewrite this.
+              Value Proposition VPαʹ7. Hands-on mastery through the source code.
+              Relates to: limited exposure, inverted pedagogy.
             -->
-            For players who discover a new or renewed passion for what they learned in-game, the game’s codebase itself will serve as a playground for deeper mastery.
-            They will be encouraged to contribute to it or adapt it into something different, supported by strong documentation, welcoming contributor workflows, and a community culture that can grow around the project and its derivatives.
+            For learners eager to apply lessons learned in-game to real-world scenarios, the project’s libre codebase will serve as an expansive playground for deeper mastery.
+            The comprehensive and high-quality documentation will empower them to study, contribute to, and adapt it with confidence.
+            Dedicated community channels will foster support, collaboration, and knowledge sharing, ensuring no one navigates this journey alone.
           </simpara>
         </listitem>
       </itemizedlist>
       <simpara>
         <!--
-          Value Proposition VPαʹ8. Peer-to-peer knowledge transmission through modding.
-          Relates to: inverted pedagogy.
-          TODO: Rewrite this.
+          Value Proposition VPαʹ8. Peer learning through modding.
+          Relates to: limited exposure, inverted pedagogy.
         -->
-        Teaching is one of the fastest ways to learn.
-        <productname>Papillon Journey</productname> will let learners gradually step into educator roles by creating and sharing their own storylines, quests, and training content.
-        This will be enabled through a modding system (including player-built downloadable content) designed to reward clarity, creativity, and helpfulness — and to make peer-to-peer knowledge transmission a natural part of the game.
+        We never truly know something until we teach it to someone else.
+        <productname>Papillon Journey</productname> will provide a mod development framework that enables players to upskill one another.
+        It will facilitate the creation of custom downloadable content (DLC) that transforms visuals, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
+        By officially embracing modding, we will motivate learners to dive into the source code and practise formal engineering in earnest.
+      </simpara>
+      <simpara>
+        <!-- TODO: Address legal considerations and IP infringement risks in modding, e.g., mods using protected characters like Spider-Man or Pokémon. -->
       </simpara>
     </section>
     <section>
@@ -199,18 +201,16 @@
       <simpara>
         <!--
           Value Proposition VPαʹ9. Forkability for curriculum-aligned teaching.
-          TODO: Rewrite this.
+          TODO: Write this.
         -->
-        <productname>Papillon Journey</productname> will be designed to be forked and adapted.
-        Clear documentation, predictable architecture, and curriculum-friendly extension points will help educators tailor the game to their teaching goals while keeping learners immersed.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ10. Partnerships with established institutions and game franchises.
+          Value Proposition VPαʹ10. Partnerships with established institutions.
           TODO: Rewrite this.
         -->
-        As adoption grows, the project will seek partnerships with recognised institutions and, where aligned, established game studios or franchises.
-        Such collaborations can add legitimacy (which learners often value), broaden reach, and accelerate content quality — while remaining compatible with the project’s libre commitments.
+        Can add legitimacy (which learners often value), broaden reach, and accelerate content quality.
+        What do institutions win from this?
       </simpara>
     </section>
     <section>
@@ -285,8 +285,8 @@
   </section>
   <bibliography>
     <title>References</title>
-    <biblioentry xml:id="papillon-docs-3">
-      <biblioid class="pubsnumber">3</biblioid>
+    <biblioentry xml:id="papillon-docs-β">
+      <biblioid class="pubsnumber">βʹ</biblioid>
       <title>Value propositions</title>
       <author>
         <personname>
