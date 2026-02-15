@@ -3,7 +3,7 @@
   <info>
     <biblioid class="pubsnumber">αʹ</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-01-29</date>
+    <date>2026-02-15</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <author>
@@ -13,6 +13,7 @@
       </personname>
       <affiliation>
         <jobtitle>Product manager</jobtitle>
+        <jobtitle>Project manager</jobtitle>
         <orgname>Chrysalide Learning</orgname>
       </affiliation>
     </author>
@@ -23,10 +24,27 @@
       <year>2026</year>
       <holder>Chrysalide Learning</holder>
     </copyright>
+    <legalnotice>
+      <simpara>
+        <productname>Papillon Journey</productname> and <productname>Chrysal Studio</productname> are trademarks of <orgname>Chrysalide Learning</orgname>.
+        All other trademarks are the property of their respective owners.
+      </simpara>
+    </legalnotice>
     <revhistory>
       <revision>
         <revnumber>1</revnumber>
-        <date>2026-01-29</date>
+        <date>2026-02-15</date>
+        <author>
+          <personname>
+            <firstname>Joas Yannick</firstname>
+            <surname>Kinouani</surname>
+          </personname>
+          <affiliation>
+            <jobtitle>Product manager</jobtitle>
+            <jobtitle>Project manager</jobtitle>
+            <orgname>Chrysalide Learning</orgname>
+          </affiliation>
+        </author>
         <revdescription>
           <simpara>
             Draft 0.1 — User Story 9.
@@ -84,7 +102,7 @@
       </listitem>
     </itemizedlist>
     <simpara>
-      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <emphasis>libre</emphasis>: open for study, contribution, and adaptation, provided derivatives remain libre.
+      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <emphasis>libre</emphasis>: open for study, contribution, and adaptation, provided derivatives remain libre and are clearly distinguished from the official project, including through distinct branding and, where applicable, separate trademarks.
       Not only because we value freedom, but also to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
@@ -96,7 +114,7 @@
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist — and it is these that keep a project relevant over time.
       Below, we outline those that matter most to our stakeholders and map them to value propositions.
-      For a deeper dive, see <citation>papillon-docs-β</citation>.
+      For a deeper dive, see <citation>papillon-docs-γ</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
@@ -163,7 +181,7 @@
               Value Proposition VPαʹ6. Learning fundamentals through play.
               Relates to: limited exposure, inverted pedagogy.
               -->
-            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of project and product management, UX design, specification, development, verification, and validation.
+            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of product and project management, UX design, specification, development, verification, and validation.
             As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame posing the ultimate challenge to their training.
           </simpara>
         </listitem>
@@ -186,11 +204,19 @@
         -->
         We never truly know something until we teach it to someone else.
         <productname>Papillon Journey</productname> will provide a mod development framework that enables players to upskill one another.
-        It will facilitate the creation of custom downloadable content (DLC) that transforms visuals, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
+        It will facilitate the creation of custom downloadable content (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
         By officially embracing modding, we will motivate learners to dive into the source code and practise formal engineering in earnest.
       </simpara>
       <simpara>
-        <!-- TODO: Address legal considerations and IP infringement risks in modding, e.g., mods using protected characters like Spider-Man or Pokémon. -->
+        <!--
+          Value Proposition VPαʹ9. Navigating cross-cutting concerns through mod governance.
+          Relates to: limited exposure, inverted pedagogy.
+        -->
+        Mods featured in-game will be selected through a transparent, fair, and community-driven peer-review process in which learners actively participate.
+        To maintain a clear legal boundary, they will be indexed from third-party repositories rather than hosted on the project’s infrastructure.
+        The process will filter out insecure or IP-infringing content, protecting the <productname>Papillon Journey</productname> trademark from association with harmful or unauthorised material.
+        Any that erroneously slipped through will be de-indexed upon report, and every mod update will have to undergo re-evaluation before being re-indexed.
+        Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the cross-cutting concerns of security auditing, quality assurance, and legal compliance.
       </simpara>
     </section>
     <section>
@@ -200,13 +226,13 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ9. Forkability for curriculum-aligned teaching.
+          Value Proposition VPαʹ10. Forkability for curriculum-aligned teaching.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ10. Partnerships with established institutions.
+          Value Proposition VPαʹ11. Partnerships with established institutions.
           TODO: Rewrite this.
         -->
         Can add legitimacy (which learners often value), broaden reach, and accelerate content quality.
@@ -220,14 +246,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ11. Exposure to formal engineering through a real-world-scale, familiar domain.
-          Relates to: limited exposure.
+          Value Proposition VPαʹ12. A new formal specification language for the agentic era.
+          Relates to: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ12. Chrysal Studio as an integrated engineering environment.
+          Value Proposition VPαʹ13. An integrated engineering environment.
           Relates to: fragmented tooling.
           TODO: Write this.
         -->
@@ -240,14 +266,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ13. A living use case to apply and demonstrate research in context.
+          Value Proposition VPαʹ14. A living use case to apply and demonstrate research in context.
           Relates to: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ14. A unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ15. A unified engineering environment to host research-grade integrations.
           Relates to: fragmented tooling.
           TODO: Write this.
         -->
@@ -285,8 +311,8 @@
   </section>
   <bibliography>
     <title>References</title>
-    <biblioentry xml:id="papillon-docs-β">
-      <biblioid class="pubsnumber">βʹ</biblioid>
+    <biblioentry xml:id="papillon-docs-γ">
+      <biblioid class="pubsnumber">γʹ</biblioid>
       <title>Value propositions</title>
       <author>
         <personname>
