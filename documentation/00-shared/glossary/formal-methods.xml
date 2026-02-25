@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-formal-methods"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Formal methods</glossterm>
+  <glossdef>
+    <simpara>Mathematically grounded techniques used to specify, verify, and validate software and systems with precision.</simpara>
+  </glossdef>
+</glossentry>

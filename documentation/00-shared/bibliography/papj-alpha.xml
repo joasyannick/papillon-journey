@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biblioentry
+    xml:id="papj-α"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <biblioid class="pubsnumber">α</biblioid>
+  <title>The papillon journey ahead</title>
+  <author>
+    <personname>
+      <firstname>Joas Yannick</firstname>
+      <surname>Kinouani</surname>
+    </personname>
+  </author>
+</biblioentry>

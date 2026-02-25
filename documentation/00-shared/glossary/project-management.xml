@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-project-management"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Project management</glossterm>
+  <glossdef>
+    <simpara>The discipline of planning, executing, and controlling work to deliver outcomes on time and within scope.</simpara>
+  </glossdef>
+</glossentry>

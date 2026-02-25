@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-specification"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Specification</glossterm>
+  <glossdef>
+    <simpara>A precise description of what a system should do, often serving as a contract between stakeholders and developers.</simpara>
+  </glossdef>
+</glossentry>

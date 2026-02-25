@@ -11,12 +11,12 @@
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
-    <xi:include href="../00-shared/publisher.xml"/>
-    <xi:include href="../00-shared/copyright.xml"/>
+    <xi:include href="../00-shared/legal/publisher.xml"/>
+    <xi:include href="../00-shared/legal/copyright.xml"/>
     <legalnotice>
       <simpara>
-        <xi:include href="../00-shared/owned-trademarks.xml"/>
-        <xi:include href="../00-shared/other-trademarks.xml"/>
+        <xi:include href="../00-shared/legal/trademarks-owned.xml"/>
+        <xi:include href="../00-shared/legal/trademarks-other.xml"/>
       </simpara>
     </legalnotice>
     <revhistory>
@@ -41,8 +41,8 @@
   <section>
     <!-- What we are building -->
     <title>Introduction</title>
-    <xi:include href="../00-shared/papillon-journey-definition.xml"/>
-    <xi:include href="../00-shared/chrysal-studio-definition.xml"/>
+    <xi:include href="../00-shared/products/papillon-journey.xml"/>
+    <xi:include href="../00-shared/products/chrysal-studio.xml"/>
     <simpara>
       <!-- Purpose and scope of this document -->
       This document sets out our vision for the project: what it is, why it matters, and how we intend to make it succeed.
@@ -52,7 +52,7 @@
     <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
-      Formal and model-driven approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
+      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-model-driven-engineering">model-driven engineering</firstterm> approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
       Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
@@ -71,15 +71,15 @@
         <simpara>
           <emphasis role="strong">Fragmented tooling.</emphasis> Companies favour tools that integrate smoothly into existing workflows.
           Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
-          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an integrated <emphasis>engineering</emphasis> environment to change that.
+          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an <firstterm linkend="papj-term-integrated-engineering-environment">integrated engineering environment</firstterm> to change that.
           We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
-          <emphasis role="strong">Inverted pedagogy.</emphasis> Children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
+          <emphasis role="strong"><firstterm linkend="papj-term-inverted-pedagogy">Inverted pedagogy</firstterm>.</emphasis> Children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
           Yet formal modelling is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
-          Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small feat.
+          Fusing the experience of a <firstterm linkend="papj-term-jrpg">JRPG</firstterm> (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small feat.
           One thing is certain, though: learners will spend most of their time practising.
           The very nature of JRPGs will steer us away from the pitfall of inverted pedagogy.
         </simpara>
@@ -95,11 +95,11 @@
     <!-- Who we are building it for -->
     <title>Stakeholders and value propositions</title>
     <simpara>
-      Value propositions evolve alongside the people they serve.
+      <firstterm linkend="papj-term-value-proposition">Value propositions</firstterm> evolve alongside the people they serve.
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist — and these are what keep a project relevant over time.
       Below, we outline those that matter most to our stakeholders and map them to value propositions.
-      For a deeper dive, see <citation>papillon-docs-γ</citation>.
+      For a deeper dive, see <citation>papj-γ</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
@@ -189,8 +189,8 @@
         -->
         We never truly know something until we teach it to someone else.
         <productname>Papillon Journey</productname> will provide a mod development framework that enables players to upskill one another.
-        It will facilitate the creation of custom downloadable content (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
-        By officially embracing modding, we will motivate learners to dive into the source code and practise formal engineering in earnest.
+        It will facilitate the creation of custom <firstterm linkend="papj-term-dlc">downloadable content</firstterm> (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
+        By officially embracing <firstterm linkend="papj-term-modding">modding</firstterm>, we will motivate learners to dive into the source code and practise formal engineering in earnest.
       </simpara>
       <simpara>
         <!--
@@ -296,17 +296,31 @@
     <simpara>
     </simpara>
   </section>
+  <glossary>
+    <title>Glossary</title>
+    <xi:include href="../00-shared/glossary/cross-platform-play.xml"/>
+    <xi:include href="../00-shared/glossary/development.xml"/>
+    <xi:include href="../00-shared/glossary/downloadable-content.xml"/>
+    <xi:include href="../00-shared/glossary/formal-methods.xml"/>
+    <xi:include href="../00-shared/glossary/integrated-engineering-environment.xml"/>
+    <xi:include href="../00-shared/glossary/inverted-pedagogy.xml"/>
+    <xi:include href="../00-shared/glossary/japanese-role-playing-game.xml"/>
+    <xi:include href="../00-shared/glossary/libre-software.xml"/>
+    <xi:include href="../00-shared/glossary/model-driven-engineering.xml"/>
+    <xi:include href="../00-shared/glossary/modding.xml"/>
+    <xi:include href="../00-shared/glossary/product-management.xml"/>
+    <xi:include href="../00-shared/glossary/project-management.xml"/>
+    <xi:include href="../00-shared/glossary/quality-assurance.xml"/>
+    <xi:include href="../00-shared/glossary/security.xml"/>
+    <xi:include href="../00-shared/glossary/specification.xml"/>
+    <xi:include href="../00-shared/glossary/stakeholder.xml"/>
+    <xi:include href="../00-shared/glossary/ux-design.xml"/>
+    <xi:include href="../00-shared/glossary/validation.xml"/>
+    <xi:include href="../00-shared/glossary/value-proposition.xml"/>
+    <xi:include href="../00-shared/glossary/verification.xml"/>
+  </glossary>
   <bibliography>
     <title>References</title>
-    <biblioentry xml:id="papillon-docs-γ">
-      <biblioid class="pubsnumber">γ</biblioid>
-      <title>Value propositions</title>
-      <author>
-        <personname>
-          <firstname>Joas Yannick</firstname>
-          <surname>Kinouani</surname>
-        </personname>
-      </author>
-    </biblioentry>
+    <xi:include href="../00-shared/bibliography/papj-gamma.xml"/>
   </bibliography>
 </article>

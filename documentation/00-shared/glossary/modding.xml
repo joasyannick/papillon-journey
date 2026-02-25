@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-modding"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Modding</glossterm>
+  <glossdef>
+    <simpara>The practice of creating and distributing community-made modifications that extend or alter a game.</simpara>
+  </glossdef>
+</glossentry>

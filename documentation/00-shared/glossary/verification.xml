@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-verification"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Verification</glossterm>
+  <glossdef>
+    <simpara>The process of evaluating whether a system or component meets its specification — confirming it was built right.</simpara>
+  </glossdef>
+</glossentry>

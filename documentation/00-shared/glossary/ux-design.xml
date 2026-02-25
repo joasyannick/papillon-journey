@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-ux-design"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>UX design</glossterm>
+  <glossdef>
+    <simpara>User experience design — the practice of shaping how people interact with a product so that it is useful, usable, and enjoyable.</simpara>
+  </glossdef>
+</glossentry>

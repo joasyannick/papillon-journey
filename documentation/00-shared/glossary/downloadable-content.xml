@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-dlc"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Downloadable content</glossterm>
+  <acronym>DLC</acronym>
+  <glossdef>
+    <simpara>Downloadable content — additional game material distributed electronically after a title's initial release.</simpara>
+  </glossdef>
+</glossentry>

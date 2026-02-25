@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-stakeholder"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Stakeholder</glossterm>
+  <glossdef>
+    <simpara>Any individual or group with an interest in, or influence over, the outcomes of a project.</simpara>
+  </glossdef>
+</glossentry>

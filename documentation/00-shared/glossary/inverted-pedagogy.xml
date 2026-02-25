@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-inverted-pedagogy"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Inverted pedagogy</glossterm>
+  <glossdef>
+    <simpara>A teaching approach in which abstract theory precedes practice, often leaving learners with little hands-on experience or only unrealistic examples.</simpara>
+  </glossdef>
+</glossentry>

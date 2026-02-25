@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-integrated-engineering-environment"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Integrated engineering environment</glossterm>
+  <glossdef>
+    <simpara>A unified toolchain where specification, development, verification, and validation activities are connected in one workflow.</simpara>
+  </glossdef>
+</glossentry>

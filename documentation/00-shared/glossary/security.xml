@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-security"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Security</glossterm>
+  <glossdef>
+    <simpara>The practice of protecting systems, data, and users from unauthorised access, misuse, or harm.</simpara>
+  </glossdef>
+</glossentry>

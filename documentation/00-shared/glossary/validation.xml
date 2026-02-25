@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-validation"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Validation</glossterm>
+  <glossdef>
+    <simpara>The process of evaluating whether a system fulfils its intended purpose — confirming the right thing was built.</simpara>
+  </glossdef>
+</glossentry>

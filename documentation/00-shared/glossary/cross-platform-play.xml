@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-cross-platform-play"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Cross-platform play</glossterm>
+  <glossdef>
+    <simpara>A game experience designed to run across multiple device types and operating systems while preserving player progress.</simpara>
+  </glossdef>
+</glossentry>

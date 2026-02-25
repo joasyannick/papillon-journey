@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-libre-software"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Libre software</glossterm>
+  <glossdef>
+    <simpara>Software that users are free to study, modify, and redistribute, with licensing terms that preserve these freedoms.</simpara>
+  </glossdef>
+</glossentry>

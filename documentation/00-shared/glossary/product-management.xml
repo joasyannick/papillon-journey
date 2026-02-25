@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-product-management"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Product management</glossterm>
+  <glossdef>
+    <simpara>The discipline of defining what to build and why, balancing user needs, business goals, and technical constraints.</simpara>
+  </glossdef>
+</glossentry>

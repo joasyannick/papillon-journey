@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossentry
+    xml:id="papj-term-value-proposition"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Value proposition</glossterm>
+  <glossdef>
+    <simpara>A clear statement of the benefit a product or service delivers to a specific group of stakeholders.</simpara>
+  </glossdef>
+</glossentry>
