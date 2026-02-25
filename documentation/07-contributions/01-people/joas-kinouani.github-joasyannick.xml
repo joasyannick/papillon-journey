@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<author
+    xml:lang="en-GB"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <personname>
+    <firstname>Joas</firstname>
+    <othername role="middle-name">Yannick</othername>
+    <surname>Kinouani</surname>
+  </personname>
+  <uri role="github" xlink:href="https://github.com/joasyannick"/>
+  <affiliation>
+    <jobtitle>Product manager</jobtitle>
+    <jobtitle>Project manager</jobtitle>
+    <orgname>Chrysalide Learning</orgname>
+  </affiliation>
+</author>

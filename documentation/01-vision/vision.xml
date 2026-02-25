@@ -1,54 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<article xml:lang="en-GB" xmlns="http://docbook.org/ns/docbook" version="5.1">
+<article
+    xml:lang="en-GB"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
   <info>
-    <biblioid class="pubsnumber">αʹ</biblioid>
+    <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <date>2026-02-15</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
-    <author>
-      <personname>
-        <firstname>Joas Yannick</firstname>
-        <surname>Kinouani</surname>
-      </personname>
-      <affiliation>
-        <jobtitle>Product manager</jobtitle>
-        <jobtitle>Project manager</jobtitle>
-        <orgname>Chrysalide Learning</orgname>
-      </affiliation>
-    </author>
-    <publisher>
-      <publishername>Chrysalide Learning</publishername>
-    </publisher>
-    <copyright>
-      <year>2026</year>
-      <holder>Chrysalide Learning</holder>
-    </copyright>
+    <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+    <xi:include href="../00-shared/publisher.xml"/>
+    <xi:include href="../00-shared/copyright.xml"/>
     <legalnotice>
       <simpara>
-        <productname>Papillon Journey</productname> and <productname>Chrysal Studio</productname> are trademarks of <orgname>Chrysalide Learning</orgname>.
-        All other trademarks are the property of their respective owners.
+        <xi:include href="../00-shared/owned-trademarks.xml"/>
+        <xi:include href="../00-shared/other-trademarks.xml"/>
       </simpara>
     </legalnotice>
     <revhistory>
       <revision>
-        <revnumber>1</revnumber>
+        <revnumber>Draft 0.1 — User Story 9</revnumber>
         <date>2026-02-15</date>
-        <author>
-          <personname>
-            <firstname>Joas Yannick</firstname>
-            <surname>Kinouani</surname>
-          </personname>
-          <affiliation>
-            <jobtitle>Product manager</jobtitle>
-            <jobtitle>Project manager</jobtitle>
-            <orgname>Chrysalide Learning</orgname>
-          </affiliation>
-        </author>
+        <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
         <revdescription>
-          <simpara>
-            Draft 0.1 — User Story 9.
-          </simpara>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Described what we are building.</simpara></listitem>
+            <listitem><simpara>Explained why we are building it.</simpara></listitem>
+            <listitem><simpara>Identified who we are building it for.</simpara></listitem>
+            <listitem><simpara>Outlined how we are building it.</simpara></listitem>
+            <listitem><simpara>Defined what success looks like.</simpara></listitem>
+            <listitem><simpara>Signposted how to get involved.</simpara></listitem>
+          </itemizedlist>
         </revdescription>
       </revision>
     </revhistory>
@@ -56,12 +41,11 @@
   <section>
     <!-- What we are building -->
     <title>Introduction</title>
-    <simpara>
-      <productname>Papillon Journey</productname> is an online JRPG and a training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
-    </simpara>
+    <xi:include href="../00-shared/papillon-journey-definition.xml"/>
+    <xi:include href="../00-shared/chrysal-studio-definition.xml"/>
     <simpara>
       <!-- Purpose and scope of this document -->
-      This document presents our vision for the project: what it is, why it matters, and how we intend to make it succeed.
+      This document sets out our vision for the project: what it is, why it matters, and how we intend to make it succeed.
     </simpara>
   </section>
   <section>
@@ -102,8 +86,9 @@
       </listitem>
     </itemizedlist>
     <simpara>
-      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <emphasis>libre</emphasis>: open for study, contribution, and adaptation, provided derivatives remain libre and are clearly distinguished from the official project, including through distinct branding and, where applicable, separate trademarks.
-      Not only because we value freedom, but also to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
+      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <emphasis>libre</emphasis>: open for study, contribution, and adaptation.
+      We require only that derivatives remain libre and clearly distinguished from the official project through distinct branding and separate trademarks.
+      All this, because we value freedom and seek to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
   <section>
@@ -112,7 +97,7 @@
     <simpara>
       Value propositions evolve alongside the people they serve.
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
-      Even so, certain core needs persist — and it is these that keep a project relevant over time.
+      Even so, certain core needs persist — and these are what keep a project relevant over time.
       Below, we outline those that matter most to our stakeholders and map them to value propositions.
       For a deeper dive, see <citation>papillon-docs-γ</citation>.
     </simpara>
@@ -156,7 +141,7 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ5. Franchise partnerships.
+          Value Proposition VPαʹ5. Franchise partnerships.
           Relates to: limited exposure.
         -->
         As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises and studios to create crossover content.
@@ -178,7 +163,7 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition VPαʹ6. Learning fundamentals through play.
+              Value Proposition VPαʹ6. Learning fundamentals through play.
               Relates to: limited exposure, inverted pedagogy.
               -->
             The fundamentals will be woven into the gameplay, so learners build skills through playful practice of product and project management, UX design, specification, development, verification, and validation.
@@ -188,7 +173,7 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition VPαʹ7. Hands-on mastery through the source code.
+              Value Proposition VPαʹ7. Hands-on mastery through the source code.
               Relates to: limited exposure, inverted pedagogy.
             -->
             For learners eager to apply lessons learned in-game to real-world scenarios, the project’s libre codebase will serve as an expansive playground for deeper mastery.
@@ -199,7 +184,7 @@
       </itemizedlist>
       <simpara>
         <!--
-          Value Proposition VPαʹ8. Peer learning through modding.
+          Value Proposition VPαʹ8. Peer learning through modding.
           Relates to: limited exposure, inverted pedagogy.
         -->
         We never truly know something until we teach it to someone else.
@@ -209,14 +194,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ9. Navigating cross-cutting concerns through mod governance.
+          Value Proposition VPαʹ9. Navigating cross-cutting concerns through mod governance.
           Relates to: limited exposure, inverted pedagogy.
         -->
         Mods featured in-game will be selected through a transparent, fair, and community-driven peer-review process in which learners actively participate.
         To maintain a clear legal boundary, they will be indexed from third-party repositories rather than hosted on the project’s infrastructure.
         The process will filter out insecure or IP-infringing content, protecting the <productname>Papillon Journey</productname> trademark from association with harmful or unauthorised material.
         Any that erroneously slipped through will be de-indexed upon report, and every mod update will have to undergo re-evaluation before being re-indexed.
-        Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the cross-cutting concerns of security auditing, quality assurance, and legal compliance.
+        Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the cross-cutting concerns of security, legal compliance, and quality assurance.
       </simpara>
     </section>
     <section>
@@ -226,13 +211,15 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ10. Forkability for curriculum-aligned teaching.
+          Value Proposition VPαʹ10. Forkability for curriculum-aligned teaching.
+          Relates to: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ11. Partnerships with established institutions.
+          Value Proposition VPαʹ11. Partnerships with established institutions.
+          Relates to: limited exposure.
           TODO: Rewrite this.
         -->
         Can add legitimacy (which learners often value), broaden reach, and accelerate content quality.
@@ -246,15 +233,15 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ12. A new formal specification language for the agentic era.
+          Value Proposition VPαʹ12. A formal specification language for the agentic era.
           Relates to: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ13. An integrated engineering environment.
-          Relates to: fragmented tooling.
+          Value Proposition VPαʹ13. An integrated engineering environment.
+          Relates to: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
@@ -266,14 +253,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ14. A living use case to apply and demonstrate research in context.
+          Value Proposition VPαʹ14. A living use case to apply and demonstrate research in context.
           Relates to: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ15. A unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ15. A unified engineering environment to host research-grade integrations.
           Relates to: fragmented tooling.
           TODO: Write this.
         -->
@@ -304,15 +291,15 @@
     </simpara>
   </section>
   <section>
-    <!-- Conclusion: what to do with this information -->
-    <title>What now?</title>
+    <!-- How to get involved -->
+    <title>Getting involved</title>
     <simpara>
     </simpara>
   </section>
   <bibliography>
     <title>References</title>
     <biblioentry xml:id="papillon-docs-γ">
-      <biblioid class="pubsnumber">γʹ</biblioid>
+      <biblioid class="pubsnumber">γ</biblioid>
       <title>Value propositions</title>
       <author>
         <personname>
