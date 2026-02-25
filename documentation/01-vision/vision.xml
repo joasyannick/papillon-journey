@@ -11,12 +11,12 @@
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
-    <xi:include href="../00-shared/legal/publisher.xml"/>
-    <xi:include href="../00-shared/legal/copyright.xml"/>
+    <xi:include href="../shared/legal/publisher.xml"/>
+    <xi:include href="../shared/legal/copyright.xml"/>
     <legalnotice>
       <simpara>
-        <xi:include href="../00-shared/legal/trademarks-owned.xml"/>
-        <xi:include href="../00-shared/legal/trademarks-other.xml"/>
+        <xi:include href="../shared/legal/trademarks-owned.xml"/>
+        <xi:include href="../shared/legal/trademarks-other.xml"/>
       </simpara>
     </legalnotice>
     <revhistory>
@@ -41,8 +41,8 @@
   <section>
     <!-- What we are building -->
     <title>Introduction</title>
-    <xi:include href="../00-shared/products/papillon-journey.xml"/>
-    <xi:include href="../00-shared/products/chrysal-studio.xml"/>
+    <xi:include href="../shared/products/papillon-journey.xml"/>
+    <xi:include href="../shared/products/chrysal-studio.xml"/>
     <simpara>
       <!-- Purpose and scope of this document -->
       This document sets out our vision for the project: what it is, why it matters, and how we intend to make it succeed.
@@ -298,29 +298,29 @@
   </section>
   <glossary>
     <title>Glossary</title>
-    <xi:include href="../00-shared/glossary/cross-platform-play.xml"/>
-    <xi:include href="../00-shared/glossary/development.xml"/>
-    <xi:include href="../00-shared/glossary/downloadable-content.xml"/>
-    <xi:include href="../00-shared/glossary/formal-methods.xml"/>
-    <xi:include href="../00-shared/glossary/integrated-engineering-environment.xml"/>
-    <xi:include href="../00-shared/glossary/inverted-pedagogy.xml"/>
-    <xi:include href="../00-shared/glossary/japanese-role-playing-game.xml"/>
-    <xi:include href="../00-shared/glossary/libre-software.xml"/>
-    <xi:include href="../00-shared/glossary/model-driven-engineering.xml"/>
-    <xi:include href="../00-shared/glossary/modding.xml"/>
-    <xi:include href="../00-shared/glossary/product-management.xml"/>
-    <xi:include href="../00-shared/glossary/project-management.xml"/>
-    <xi:include href="../00-shared/glossary/quality-assurance.xml"/>
-    <xi:include href="../00-shared/glossary/security.xml"/>
-    <xi:include href="../00-shared/glossary/specification.xml"/>
-    <xi:include href="../00-shared/glossary/stakeholder.xml"/>
-    <xi:include href="../00-shared/glossary/ux-design.xml"/>
-    <xi:include href="../00-shared/glossary/validation.xml"/>
-    <xi:include href="../00-shared/glossary/value-proposition.xml"/>
-    <xi:include href="../00-shared/glossary/verification.xml"/>
+    <xi:include href="../shared/glossary/cross-platform-play.xml"/>
+    <xi:include href="../shared/glossary/development.xml"/>
+    <xi:include href="../shared/glossary/downloadable-content.xml"/>
+    <xi:include href="../shared/glossary/formal-methods.xml"/>
+    <xi:include href="../shared/glossary/integrated-engineering-environment.xml"/>
+    <xi:include href="../shared/glossary/inverted-pedagogy.xml"/>
+    <xi:include href="../shared/glossary/japanese-role-playing-game.xml"/>
+    <xi:include href="../shared/glossary/libre-software.xml"/>
+    <xi:include href="../shared/glossary/model-driven-engineering.xml"/>
+    <xi:include href="../shared/glossary/modding.xml"/>
+    <xi:include href="../shared/glossary/product-management.xml"/>
+    <xi:include href="../shared/glossary/project-management.xml"/>
+    <xi:include href="../shared/glossary/quality-assurance.xml"/>
+    <xi:include href="../shared/glossary/security.xml"/>
+    <xi:include href="../shared/glossary/specification.xml"/>
+    <xi:include href="../shared/glossary/stakeholder.xml"/>
+    <xi:include href="../shared/glossary/ux-design.xml"/>
+    <xi:include href="../shared/glossary/validation.xml"/>
+    <xi:include href="../shared/glossary/value-proposition.xml"/>
+    <xi:include href="../shared/glossary/verification.xml"/>
   </glossary>
   <bibliography>
     <title>References</title>
-    <xi:include href="../00-shared/bibliography/papj-gamma.xml"/>
+    <xi:include href="../shared/bibliography/papj-gamma.xml"/>
   </bibliography>
 </article>
