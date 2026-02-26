@@ -14,16 +14,18 @@ Early documentation phase (v0.1.0). Focus is on vision, value propositions, and 
 ## Documentation
 
 - **Format**: DocBook 5.1
-- **Shared fragments**: `documentation/00-shared/`
+- **Shared fragments**: `documentation/shared/`
+- **Templates**: `documentation/templates/`
+- **Doc toolchain**: `documentation/tools/`
 - **Vision document**: `documentation/01-vision/`
 - **Change control**: `documentation/05-change-control/` (sorted by narrative types)
 - **Contributors**: `documentation/07-contributions/01-people/`
 
 ### XInclude Usage
 
-Reusable content should be extracted to `00-shared/` and included via XInclude:
+Reusable content should be extracted to `shared/` and included via XInclude:
 ```xml
-<xi:include href="../00-shared/fragment.xml"/>
+<xi:include href="../shared/fragment.xml"/>
 ```
 
 ## Commit Message Format
@@ -56,6 +58,15 @@ Factorise reusable snippets from the vision document
   - Use em dashes (—) for parenthetical content, not en dashes
 - **License**: GNU GPL v3
   - Files should follow REUSE best practices
+- **REUSE**:
+  - License texts live in `LICENSES/` using SPDX filenames (for example, `GPL-3.0-or-later.txt`)
+  - Project-authored XML files should use inline SPDX headers:
+    - `SPDX-FileCopyrightText: <year> Chrysalide Learning`
+    - `SPDX-FileCopyrightText: <year> <author>`
+    - `SPDX-License-Identifier: GPL-3.0-or-later`
+  - For third-party files, preserve upstream notices and attribution
+  - Do not replace third-party copyright lines with project ownership
+  - If third-party files are uncommentable (for example, binaries), annotate with REUSE-compatible metadata files
 - Indent using 2 spaces
 - **DocBook**: default paragraph element is `<simpara>`
 
