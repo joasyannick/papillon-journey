@@ -1,0 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Chrysalide Learning
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# OxygenXML project file (machine-specific)
+*.xpr

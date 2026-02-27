@@ -1,0 +1,88 @@
+# SPDX-FileCopyrightText: 2026 Chrysalide Learning
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+version = 1
+
+# Project files without inline headers
+[[annotations]]
+path = ["AGENTS.md", "CLAUDE.md"]
+SPDX-FileCopyrightText = "2026 Chrysalide Learning"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# Images in content folders (binary, uncommentable)
+[[annotations]]
+path = "documentation/*-*/**/images/**"
+SPDX-FileCopyrightText = "2026 Chrysalide Learning"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# DocBook 5.1 Schema (RELAX NG)
+# Custom OASIS-style permissive license embedded in files
+[[annotations]]
+path = "documentation/tools/docbook/5.1/docbook.rng"
+SPDX-FileCopyrightText = "1992-2015 HaL Computer Systems, Inc., O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software Corporation, Norman Walsh, Sun Microsystems, Inc., and OASIS"
+SPDX-License-Identifier = "LicenseRef-DocBook-Schema"
+
+# DocBook XSLT-NG 2.5.0
+# https://github.com/docbook/xslTNG
+[[annotations]]
+path = "documentation/tools/docbook/5.1/xsltng/2.5.0/**"
+SPDX-FileCopyrightText = "Norman Walsh"
+SPDX-License-Identifier = "MIT"
+
+# Third-party libraries bundled within XSLT-NG
+
+# Highlight.js
+# https://github.com/highlightjs/highlight.js
+[[annotations]]
+path = "documentation/tools/docbook/5.1/xsltng/2.5.0/resources/js/highlight-*.min.js"
+precedence = "override"
+SPDX-FileCopyrightText = "2006-2024 Josh Goebel and contributors"
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = "documentation/tools/docbook/5.1/xsltng/2.5.0/resources/css/highlight-*.min.css"
+precedence = "override"
+SPDX-FileCopyrightText = "Ivan Sagalaev and highlight.js contributors"
+SPDX-License-Identifier = "BSD-3-Clause"
+
+# Prism.js
+# https://github.com/PrismJS/prism
+[[annotations]]
+path = ["documentation/tools/docbook/5.1/xsltng/2.5.0/resources/js/prism.js",
+        "documentation/tools/docbook/5.1/xsltng/2.5.0/resources/css/prism.css"]
+precedence = "override"
+SPDX-FileCopyrightText = "Lea Verou and contributors"
+SPDX-License-Identifier = "MIT"
+
+# highlight.js line numbers plugin
+# https://github.com/wcoder/highlightjs-line-numbers.js
+[[annotations]]
+path = "documentation/tools/docbook/5.1/xsltng/2.5.0/resources/js/highlightjs-line-numbers-*.min.js"
+precedence = "override"
+SPDX-FileCopyrightText = "Yauheni Pakala"
+SPDX-License-Identifier = "MIT"
+
+# Jing (RELAX NG validator)
+# https://github.com/relaxng/jing-trang
+[[annotations]]
+path = "documentation/tools/jing/**"
+SPDX-FileCopyrightText = "Thai Open Source Software Center Ltd"
+SPDX-License-Identifier = "BSD-3-Clause"
+
+# Saxon-HE (XSLT processor)
+# https://www.saxonica.com/
+[[annotations]]
+path = "documentation/tools/saxon/**/saxon*.jar"
+SPDX-FileCopyrightText = "Saxonica Limited"
+SPDX-License-Identifier = "MPL-2.0"
+
+# Saxon dependencies
+[[annotations]]
+path = "documentation/tools/saxon/**/jline-*.jar"
+SPDX-FileCopyrightText = "JLine contributors"
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = "documentation/tools/saxon/**/xmlresolver-*.jar"
+SPDX-FileCopyrightText = "Norman Walsh"
+SPDX-License-Identifier = "Apache-2.0"
