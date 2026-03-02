@@ -11,5 +11,20 @@
   <glossterm>Security</glossterm>
   <glossdef>
     <simpara>The practice of protecting systems, data, and users from unauthorised access, misuse, or harm.</simpara>
+    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined security.
+  - Cross-referenced related terms.
+-->

@@ -11,6 +11,19 @@
   <glossterm>Japanese role-playing game</glossterm>
   <acronym>JRPG</acronym>
   <glossdef>
-    <simpara>Japanese role-playing game — a genre characterised by story-driven adventures, turn-based or real-time combat, and character progression systems.</simpara>
+    <simpara>A role-playing game tradition that originated in Japan, in which an overarching narrative shapes the progression of a cast of interdependent characters, and combat systems emphasise strategy over reflex alone.</simpara>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined Japanese role-playing game.
+-->

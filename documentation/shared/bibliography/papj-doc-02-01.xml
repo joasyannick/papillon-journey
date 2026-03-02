@@ -4,11 +4,19 @@
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<publisher
+<biblioentry
+    xml:id="papj-doc-02-01"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <publishername>Chrysalide Learning</publishername>
-</publisher>
+  <biblioid class="pubsnumber">β.α</biblioid>
+  <title>Lifecycle Management Plan</title>
+  <author>
+    <personname>
+      <firstname>Joas Yannick</firstname>
+      <surname>Kinouani</surname>
+    </personname>
+  </author>
+</biblioentry>
 <!--
   # Changelog
 
@@ -20,5 +28,5 @@
 
   ### Added
 
-  - Named the publisher.
+  - Made _Lifecycle Management Plan_ citable.
 -->

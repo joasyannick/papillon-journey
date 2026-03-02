@@ -5,13 +5,13 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-ux-design"
+    xml:id="papj-term-formal-modelling"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>UX design</glossterm>
+  <glossterm>Formal modelling</glossterm>
   <glossdef>
-    <simpara>User experience design — the practice of shaping how people interact with a product so that it is useful, usable, and enjoyable.</simpara>
-    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
+    <simpara>The activity of describing a system or its properties using mathematical notation, forming the foundation of formal methods.</simpara>
+    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -25,6 +25,6 @@
 
   ### Added
 
-  - Defined UX design.
+  - Defined formal modelling.
   - Cross-referenced related terms.
 -->

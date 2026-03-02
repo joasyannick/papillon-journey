@@ -5,11 +5,11 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <biblioentry
-    xml:id="papj-α"
+    xml:id="papj-doc-02-02"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <biblioid class="pubsnumber">α</biblioid>
-  <title>The papillon journey ahead</title>
+  <biblioid class="pubsnumber">β.β</biblioid>
+  <title>Lifecycle Management Playbook</title>
   <author>
     <personname>
       <firstname>Joas Yannick</firstname>
@@ -17,3 +17,16 @@
     </personname>
   </author>
 </biblioentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Made _Lifecycle Management Playbook_ citable.
+-->

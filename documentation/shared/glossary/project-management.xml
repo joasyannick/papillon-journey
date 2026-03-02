@@ -11,5 +11,20 @@
   <glossterm>Project management</glossterm>
   <glossdef>
     <simpara>The discipline of planning, executing, and controlling work to deliver outcomes on time and within scope.</simpara>
+    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined project management.
+  - Cross-referenced related terms.
+-->

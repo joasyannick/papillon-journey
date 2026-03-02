@@ -11,5 +11,20 @@
   <glossterm>Stakeholder</glossterm>
   <glossdef>
     <simpara>Any individual or group with an interest in, or influence over, the outcomes of a project.</simpara>
+    <glossseealso otherterm="papj-term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined stakeholder.
+  - Cross-referenced related terms.
+-->

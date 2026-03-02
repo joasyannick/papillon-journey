@@ -12,5 +12,22 @@
   <acronym>QA</acronym>
   <glossdef>
     <simpara>A systematic approach to ensuring that processes and outputs meet defined standards of quality.</simpara>
+    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
+    <glossseealso otherterm="papj-term-security">Security</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined quality assurance.
+  - Cross-referenced related terms.
+-->

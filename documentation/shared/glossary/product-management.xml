@@ -11,5 +11,23 @@
   <glossterm>Product management</glossterm>
   <glossdef>
     <simpara>The discipline of defining what to build and why, balancing user needs, business goals, and technical constraints.</simpara>
+    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="papj-term-project-management">Project management</glossseealso>
+    <glossseealso otherterm="papj-term-value-proposition">Value proposition</glossseealso>
+    <glossseealso otherterm="papj-term-ux-design">UX design</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined product management.
+  - Cross-referenced related terms.
+-->

@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+/*
   SPDX-FileCopyrightText: 2026 Chrysalide Learning
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
--->
-<publisher
-    xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
-  <publishername>Chrysalide Learning</publishername>
-</publisher>
-<!--
+*/
+
+/*
   # Changelog
 
   ## User Story 9 — 2026-03-02
@@ -20,5 +15,5 @@
 
   ### Added
 
-  - Named the publisher.
--->
+  - Started the CSS stylesheet for articles.
+*/

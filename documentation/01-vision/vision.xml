@@ -57,7 +57,7 @@
     <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
-      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-model-driven-engineering">model-driven engineering</firstterm> approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
+      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
       Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
@@ -76,15 +76,15 @@
         <simpara>
           <emphasis role="strong">Fragmented tooling.</emphasis> Companies favour tools that integrate smoothly into existing workflows.
           Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
-          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an <firstterm linkend="papj-term-integrated-engineering-environment">integrated engineering environment</firstterm> to change that.
+          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an integrated <emphasis>engineering</emphasis> environment to change that.
           We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
           <emphasis role="strong"><firstterm linkend="papj-term-inverted-pedagogy">Inverted pedagogy</firstterm>.</emphasis> Children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
-          Yet formal modelling is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
-          Fusing the experience of a <firstterm linkend="papj-term-jrpg">JRPG</firstterm> (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small feat.
+          Yet <firstterm linkend="papj-term-formal-modelling">formal modelling</firstterm> is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
+          Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small feat.
           One thing is certain, though: learners will spend most of their time practising.
           The very nature of JRPGs will steer us away from the pitfall of inverted pedagogy.
         </simpara>
@@ -104,7 +104,7 @@
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist — and these are what keep a project relevant over time.
       Below, we outline those that matter most to our stakeholders and map them to value propositions.
-      For a deeper dive, see <citation>papj-γ</citation>.
+      For a deeper dive, see <citation>papj-doc-03</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
@@ -150,7 +150,7 @@
           Relates to: limited exposure.
         -->
         As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises and studios to create crossover content.
-        Such scope-limited collaborations will reconnect players with characters and stories they already love while they learn formal engineering.
+        Such scope-limited collaborations will reconnect players with characters and stories they already love while they learn <firstterm linkend="papj-term-formal-engineering">formal engineering</firstterm>.
       </simpara>
     </section>
     <section>
@@ -306,16 +306,19 @@
     <xi:include href="../shared/glossary/cross-platform-play.xml"/>
     <xi:include href="../shared/glossary/development.xml"/>
     <xi:include href="../shared/glossary/downloadable-content.xml"/>
+    <xi:include href="../shared/glossary/formal-engineering.xml"/>
+    <xi:include href="../shared/glossary/formal-modelling.xml"/>
     <xi:include href="../shared/glossary/formal-methods.xml"/>
     <xi:include href="../shared/glossary/integrated-engineering-environment.xml"/>
     <xi:include href="../shared/glossary/inverted-pedagogy.xml"/>
     <xi:include href="../shared/glossary/japanese-role-playing-game.xml"/>
     <xi:include href="../shared/glossary/libre-software.xml"/>
-    <xi:include href="../shared/glossary/model-driven-engineering.xml"/>
+    <xi:include href="../shared/glossary/model-based-engineering.xml"/>
     <xi:include href="../shared/glossary/modding.xml"/>
     <xi:include href="../shared/glossary/product-management.xml"/>
     <xi:include href="../shared/glossary/project-management.xml"/>
     <xi:include href="../shared/glossary/quality-assurance.xml"/>
+    <xi:include href="../shared/glossary/requirements-management.xml"/>
     <xi:include href="../shared/glossary/security.xml"/>
     <xi:include href="../shared/glossary/specification.xml"/>
     <xi:include href="../shared/glossary/stakeholder.xml"/>
@@ -326,6 +329,6 @@
   </glossary>
   <bibliography>
     <title>References</title>
-    <xi:include href="../shared/bibliography/papj-gamma.xml"/>
+    <xi:include href="../shared/bibliography/papj-doc-03.xml"/>
   </bibliography>
 </article>

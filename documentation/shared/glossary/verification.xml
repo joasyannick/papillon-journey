@@ -11,5 +11,22 @@
   <glossterm>Verification</glossterm>
   <glossdef>
     <simpara>The process of evaluating whether a system or component meets its specification — confirming it was built right.</simpara>
+    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-development">Development</glossseealso>
+    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined verification.
+  - Cross-referenced related terms.
+-->

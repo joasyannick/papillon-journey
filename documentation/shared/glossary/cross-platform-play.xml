@@ -13,3 +13,16 @@
     <simpara>A game experience designed to run across multiple device types and operating systems while preserving player progress.</simpara>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined cross-platform play.
+-->

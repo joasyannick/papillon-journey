@@ -13,3 +13,12 @@
     version="3.0">
   <xsl:import href="../tools/docbook/5.1/xsltng/2.5.0/xslt/docbook.xsl" />
 </xsl:stylesheet>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Added
+
+  - Started the XSLT stylesheet transformation for articles.
+-->

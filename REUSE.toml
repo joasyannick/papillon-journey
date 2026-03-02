@@ -6,7 +6,7 @@ version = 1
 # Project files without inline headers
 [[annotations]]
 path = ["AGENTS.md", "CLAUDE.md"]
-SPDX-FileCopyrightText = "2026 Chrysalide Learning"
+SPDX-FileCopyrightText = ["2026 Chrysalide Learning", "2026 Joas Yannick Kinouani"]
 SPDX-License-Identifier = "GPL-3.0-or-later"
 
 # Images in content folders (binary, uncommentable)
@@ -19,7 +19,7 @@ SPDX-License-Identifier = "GPL-3.0-or-later"
 # Custom OASIS-style permissive license embedded in files
 [[annotations]]
 path = "documentation/tools/docbook/5.1/docbook.rng"
-SPDX-FileCopyrightText = "1992-2015 HaL Computer Systems, Inc., O'Reilly & Associates, Inc., ArborText, Inc., Fujitsu Software Corporation, Norman Walsh, Sun Microsystems, Inc., and OASIS"
+SPDX-FileCopyrightText = ["1992-2015 HaL Computer Systems, Inc.", "1992-2015 O'Reilly & Associates, Inc.", "1992-2015 ArborText, Inc.", "1992-2015 Fujitsu Software Corporation", "1992-2015 Norman Walsh", "1992-2015 Sun Microsystems, Inc.", "1992-2015 OASIS"]
 SPDX-License-Identifier = "LicenseRef-DocBook-Schema"
 
 # DocBook XSLT-NG 2.5.0
@@ -86,3 +86,15 @@ SPDX-License-Identifier = "BSD-3-Clause"
 path = "documentation/tools/saxon/**/xmlresolver-*.jar"
 SPDX-FileCopyrightText = "Norman Walsh"
 SPDX-License-Identifier = "Apache-2.0"
+
+# # Changelog
+#
+# ## User Story 9 — 2026-03-02
+#
+# ### Authors
+#
+# - Joas Yannick Kinouani
+#
+# ### Added
+#
+# - Annotated project files and third-party tools with SPDX metadata.

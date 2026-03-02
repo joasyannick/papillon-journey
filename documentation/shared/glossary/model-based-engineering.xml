@@ -5,13 +5,13 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-integrated-engineering-environment"
+    xml:id="papj-term-model-based-engineering"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Integrated engineering environment</glossterm>
-  <acronym>IEE</acronym>
+  <glossterm>Model-based engineering</glossterm>
+  <acronym>MBE</acronym>
   <glossdef>
-    <simpara>A unified toolchain where requirements management, specification, development, verification, and validation activities are integrated — all conducted through one user interface.</simpara>
+    <simpara>An approach that centres software engineering around explicit models as the primary means of understanding, communicating, and guiding development; some practitioners extend this further by generating implementations and other artefacts directly from those models.</simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
   </glossdef>
 </glossentry>
@@ -26,6 +26,6 @@
 
   ### Added
 
-  - Defined integrated engineering environment.
+  - Defined model-based engineering.
   - Cross-referenced related terms.
 -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="papj-term-formal-engineering"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Formal engineering</glossterm>
+  <glossdef>
+    <simpara>An approach to software engineering in which requirements management, specification, development, verification, and validation are model-based and grounded in formal methods.</simpara>
+    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
+    <glossseealso otherterm="papj-term-model-based-engineering">Model-based engineering</glossseealso>
+    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined formal engineering.
+  - Cross-referenced related terms.
+-->

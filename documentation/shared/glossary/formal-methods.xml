@@ -10,6 +10,22 @@
     version="5.1">
   <glossterm>Formal methods</glossterm>
   <glossdef>
-    <simpara>Mathematically grounded techniques used to specify, verify, and validate software and systems with precision.</simpara>
+    <simpara>Use of mathematical models to specify, verify (theorem proving, model checking, and counter-example generation), and validate (animation) software and systems with precision.</simpara>
+    <glossseealso otherterm="papj-term-formal-modelling">Formal modelling</glossseealso>
+    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined formal methods.
+  - Cross-referenced related terms.
+-->

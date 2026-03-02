@@ -11,5 +11,21 @@
   <glossterm>Value proposition</glossterm>
   <glossdef>
     <simpara>A clear statement of the benefit a product or service delivers to a specific group of stakeholders.</simpara>
+    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
+    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined value proposition.
+  - Cross-referenced related terms.
+-->

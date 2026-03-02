@@ -1,12 +1,15 @@
 # Papillon Journey
 
-Online JRPG teaching systems and software engineering fundamentals through immersive gameplay.
+Online JRPG teaching systems and software engineering fundamentals through
+immersive gameplay. Chrysal Studio is its integrated engineering environment,
+built to sustain it.
 
-## Project Status
+## Scope
 
-Early documentation phase (v0.1.0). Focus is on vision, value propositions, and lifecycle management. Game development has not yet started.
+Early documentation phase (v0.1.0). The current focus is vision, value
+propositions, and lifecycle management.
 
-## Branch Conventions
+## Branching
 
 - **Main branch**: `canon`
 - **Feature branches**: `<team>/<narrative-type>/<github-id>-<branch-label>`
@@ -14,26 +17,77 @@ Early documentation phase (v0.1.0). Focus is on vision, value propositions, and 
 ## Documentation
 
 - **Format**: DocBook 5.1
+- **Default paragraph element**: `<simpara>`
+- **Indentation**: 2 spaces
+- **File ending**: all files must end with a newline
 - **Shared fragments**: `documentation/shared/`
 - **Templates**: `documentation/templates/`
-- **Doc toolchain**: `documentation/tools/`
+- **Toolchain**: `documentation/tools/`
 - **Vision document**: `documentation/01-vision/`
-- **Change control**: `documentation/05-change-control/` (sorted by narrative types)
+- **Change control**: `documentation/05-change-control/`
 - **Contributors**: `documentation/07-contributions/01-people/`
 
-### XInclude Usage
-
-Reusable content should be extracted to `shared/` and included via XInclude:
+Extract reusable content into `shared/` and include it via XInclude:
 ```xml
 <xi:include href="../shared/fragment.xml"/>
 ```
 
-## Commit Message Format
+A document's glossary and bibliography must contain only entries used in that
+document:
+- **Glossary**: include entries referenced in the document body, plus all
+  entries in the same connected component of the `<glossseealso>` graph
+- **Bibliography**: include only entries cited in the document body
 
-- Title line: max 72 characters
-- Other lines: max 80 characters
-- Exactly one `--` (state before) and one `=>` (state after)
-- At most one `*` (additional info) — optional
+`<glossseealso>` links are bidirectional: if entry A links to entry B, B must
+also link back to A.
+
+Project-authored commentable files without a built-in changelog mechanism (such
+as `<revhistory>`) carry a footer changelog in Keep a Changelog format, using
+User Story numbers instead of release versions. The union of authors listed
+across all changelog entries must equal the SPDX copyright holders of the file.
+Use `<!-- -->` for XML files, `/* */` for CSS files, and `#` for files using
+line comments (TOML, `.gitignore`):
+```xml
+<!--
+  # Changelog
+
+  ## User Story N — YYYY-MM-DD
+
+  ### Authors
+
+  - Author Name
+
+  ### Added
+
+  - ...
+-->
+```
+
+## Writing conventions
+
+- Use British typography and American phrasing
+- First-level quotations use single quotes; second-level quotations use double
+  quotes
+- Use em dashes (—) for parenthetical content, not en dashes (–)
+- Use the Oxford comma in lists of three or more items
+
+## Licensing
+
+Keep the project REUSE-compliant:
+- Store licence texts in `LICENSES/` using SPDX filenames
+- For project-authored files that can carry headers:
+  - Set SPDX `License-Identifier` to `GPL-3.0-or-later`
+  - Use SPDX `FileCopyrightText` to credit Chrysalide Learning and the author
+- Preserve upstream copyright notices in third-party files
+- Use `REUSE.toml` for files that cannot carry headers, such as binaries or
+  Markdown, or for upstream notices that are not REUSE-compliant
+
+## Commit messages
+
+- Title line: max 72 characters — new line included
+- Other lines: max 80 characters — new line included
+- Exactly one `--` line (state before) and one `=>` line (state after)
+- At most one `*` line (optional additional info)
 
 ```
 <title>
@@ -52,36 +106,20 @@ Factorise reusable snippets from the vision document
 [Product: User Story 9]
 ```
 
-## Conventions
-
-- **Language**: British spelling (e.g., "colour", "centre", "artefacts") but American phrasing
-  - Use em dashes (—) for parenthetical content, not en dashes
-- **License**: GNU GPL v3
-  - Files should follow REUSE best practices
-- **REUSE**:
-  - License texts live in `LICENSES/` using SPDX filenames (for example, `GPL-3.0-or-later.txt`)
-  - Project-authored XML files should carry inline copyright and licence headers using the FileCopyrightText and License-Identifier SPDX tags, crediting both Chrysalide Learning and the author, under GPL-3.0-or-later
-  - For third-party files, preserve upstream notices and attribution
-  - Do not replace third-party copyright lines with project ownership
-  - If third-party files are uncommentable (for example, binaries), annotate with REUSE-compatible metadata files
-- Indent using 2 spaces
-- All files must end with a newline
-- **DocBook**: default paragraph element is `<simpara>`
-
-## Current Work
+## Current work
 
 User Story 9: Write Vision (branch `product/stories/9-write-vision`)
 
 Stakeholder groups:
-1. Video game players (VPαʹ1–5)
-2. Software engineering learners (VPαʹ6–9)
-3. Software engineering educators (VPαʹ10–11)
-4. Software engineering practitioners (VPαʹ12–13)
-5. Software engineering researchers (VPαʹ14–15)
+1. Video game players
+2. Software engineering learners
+3. Software engineering educators
+4. Software engineering practitioners
+5. Software engineering researchers
 
 Outstanding TODOs:
-- Complete educators value propositions (VPαʹ10–11)
-- Complete practitioners value propositions (VPαʹ12–13)
-- Complete researchers value propositions (VPαʹ14–15)
-- Success metrics definition
+- Complete educators' value propositions
+- Complete practitioners' value propositions
+- Complete researchers' value propositions
 - Lifecycle management documentation
+- Success metrics definition

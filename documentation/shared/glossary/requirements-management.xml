@@ -5,12 +5,14 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-ux-design"
+    xml:id="papj-term-requirements-management"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>UX design</glossterm>
+  <glossterm>Requirements management</glossterm>
   <glossdef>
-    <simpara>User experience design — the practice of shaping how people interact with a product so that it is useful, usable, and enjoyable.</simpara>
+    <simpara>The activity of eliciting, documenting, and managing the needs and constraints that a system must satisfy.</simpara>
+    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
     <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
   </glossdef>
 </glossentry>
@@ -25,6 +27,6 @@
 
   ### Added
 
-  - Defined UX design.
+  - Defined requirements management.
   - Cross-referenced related terms.
 -->

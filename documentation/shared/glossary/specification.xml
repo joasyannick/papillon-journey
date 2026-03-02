@@ -11,5 +11,23 @@
   <glossterm>Specification</glossterm>
   <glossdef>
     <simpara>A precise description of what a system should do, often serving as a contract between stakeholders and developers.</simpara>
+    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="papj-term-development">Development</glossseealso>
+    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined specification.
+  - Cross-referenced related terms.
+-->

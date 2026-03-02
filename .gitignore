@@ -1,5 +1,18 @@
 # SPDX-FileCopyrightText: 2026 Chrysalide Learning
+# SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-# OxygenXML project file (machine-specific)
+# Oxygen XML project files
 *.xpr
+
+# Changelog
+#
+# ## User Story 9 — 2026-03-02
+#
+# ### Authors
+#
+# - Joas Yannick Kinouani
+#
+# ### Added
+#
+# - Excluded Oxygen XML project files.

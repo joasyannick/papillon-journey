@@ -11,5 +11,20 @@
   <glossterm>Modding</glossterm>
   <glossdef>
     <simpara>The practice of creating and distributing community-made modifications that extend or alter a game.</simpara>
+    <glossseealso otherterm="papj-term-dlc">Downloadable content</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined modding.
+  - Cross-referenced related terms.
+-->

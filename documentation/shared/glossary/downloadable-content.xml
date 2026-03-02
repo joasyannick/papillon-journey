@@ -11,6 +11,21 @@
   <glossterm>Downloadable content</glossterm>
   <acronym>DLC</acronym>
   <glossdef>
-    <simpara>Downloadable content — additional game material distributed electronically after a title's initial release.</simpara>
+    <simpara>Additional game material distributed electronically after a title's initial release.</simpara>
+    <glossseealso otherterm="papj-term-modding">Modding</glossseealso>
   </glossdef>
 </glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined downloadable content.
+  - Cross-referenced related terms.
+-->
