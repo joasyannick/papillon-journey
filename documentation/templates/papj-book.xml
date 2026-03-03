@@ -4,7 +4,7 @@
   SPDX-FileCopyrightText: YYYY Author
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<article
+<book
     xml:lang="en-GB"
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
@@ -34,20 +34,31 @@
         <revdescription>
           <simpara>Added:</simpara>
           <itemizedlist>
-            <listitem><simpara>Started the article template.</simpara></listitem>
+            <listitem><simpara>Started the book template.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>
     </revhistory>
   </info>
-  <section>
-    <!-- What we are building -->
+  <preface>
     <title>Introduction</title>
     <xi:include href="../shared/products/papillon-journey.xml"/>
     <xi:include href="../shared/products/chrysal-studio.xml"/>
     <simpara><!-- TODO: describe the purpose and scope of this document (at most two paragraphs) --></simpara>
-  </section>
-  <!-- TODO: add further sections -->
+  </preface>
+  <part>
+    <!-- TODO: replace with the part title -->
+    <title>Part Title</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <!-- TODO: replace with the chapter title -->
+      <title>Chapter Title</title>
+      <simpara><!-- TODO: write the chapter content --></simpara>
+    </chapter>
+  </part>
+  <!-- TODO: add further parts as needed -->
   <glossary>
     <title>Glossary</title>
     <xi:include href="../shared/glossary/integrated-engineering-environment.xml"/>
@@ -61,4 +72,4 @@
     <xi:include href="../shared/bibliography/papj-alpha.xml"/>
   </bibliography>
   -->
-</article>
+</book>

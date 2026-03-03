@@ -24,5 +24,5 @@
 
   ### Added
 
-  - Started the XSLT stylesheet transformation for articles.
+  - Started the XSLT stylesheet transformation for books.
 -->

@@ -12,7 +12,8 @@
   <title>Lifecycle Management Plan</title>
   <author>
     <personname>
-      <firstname>Joas Yannick</firstname>
+      <firstname>Joas</firstname>
+      <othername role="middle-name">Yannick</othername>
       <surname>Kinouani</surname>
     </personname>
   </author>
@@ -20,7 +21,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-03
 
   ### Authors
 

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<book
+    xml:lang="en-GB"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <info>
+    <biblioid class="pubsnumber">β.β</biblioid>
+    <title>Lifecycle Management Playbook</title>
+    <date><!-- TODO: publication date (YYYY-MM-DD) --></date>
+    <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
+    <edition><!-- TODO: edition number --></edition>
+    <xi:include href="../../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+    <xi:include href="../../shared/legal/publisher.xml"/>
+    <xi:include href="../../shared/legal/copyright.xml"/>
+    <legalnotice>
+      <simpara>
+        <xi:include href="../../shared/legal/trademarks-owned.xml"/>
+        <xi:include href="../../shared/legal/trademarks-other.xml"/>
+      </simpara>
+    </legalnotice>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — User Story 9</revnumber>
+        <date>2026-03-03</date>
+        <xi:include href="../../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+        <revdescription>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started to capture general lifecycle management practices.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <preface>
+    <title>Introduction</title>
+    <xi:include href="../../shared/products/papillon-journey.xml"/>
+    <xi:include href="../../shared/products/chrysal-studio.xml"/>
+    <simpara>
+      <!-- TODO: describe the purpose and scope of this document (at most two paragraphs) -->
+    </simpara>
+  </preface>
+  <part>
+    <title>General</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title>Documentation</title>
+      <simpara>
+        Project documents are authored in DocBook 5.1.
+        Use <code>simpara</code> as the default paragraph element.
+        Indent with two spaces.
+        Every file must end with a newline.
+      </simpara>
+      <section>
+        <title>Project layout</title>
+        <variablelist>
+          <varlistentry>
+            <term><filename>documentation/shared/</filename></term>
+            <listitem>
+              <simpara>
+                Shared fragments included via XInclude.
+              </simpara>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><filename>documentation/templates/</filename></term>
+            <listitem>
+              <simpara>
+                Document templates.
+              </simpara>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><filename>documentation/tools/</filename></term>
+            <listitem>
+              <simpara>
+                Toolchain (XSLT, schemas, and so on).
+              </simpara>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><filename>documentation/01-vision/</filename></term>
+            <listitem>
+              <simpara>
+                Vision document.
+              </simpara>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><filename>documentation/05-change-control/</filename></term>
+            <listitem>
+              <simpara>
+                Change control records.
+              </simpara>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><filename>documentation/07-contributions/01-people/</filename></term>
+            <listitem>
+              <simpara>
+                Contributor files, one XML file per person.
+              </simpara>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </section>
+      <section>
+        <title>Shared content</title>
+        <simpara>
+          Reusable fragments live in <filename>documentation/shared/</filename> and are included via XInclude:
+        </simpara>
+        <programlisting language="xml"><![CDATA[<xi:include href="../shared/fragment.xml"/>]]></programlisting>
+      </section>
+      <section>
+        <title>Glossary</title>
+        <simpara>
+          A document's glossary must contain every term referenced in the document body, plus every term in the same connected component of the <code>glossseealso</code> graph.
+          <code>glossseealso</code> links are bidirectional: if entry A links to B, entry B must also link back to A.
+        </simpara>
+      </section>
+      <section>
+        <title>Bibliography</title>
+        <simpara>
+          A document's bibliography must contain only entries cited in the document body.
+        </simpara>
+      </section>
+      <section>
+        <title>Changelogs</title>
+        <simpara>
+          Project-authored files without a built-in changelog mechanism (such as <code>revhistory</code>) carry a footer changelog in Keep a Changelog format, using User Story numbers instead of release versions.
+          The union of authors across all changelog entries must equal the SPDX copyright holders of the file.
+        </simpara>
+        <simpara>
+          Use <code>&lt;!-- --&gt;</code> for XML and XSL files, <code>/* */</code> for CSS files, and <code>#</code> for files using line comments such as TOML and <filename>.gitignore</filename>:
+        </simpara>
+        <programlisting language="xml"><![CDATA[<!--
+  # Changelog
+
+  ## User Story N — YYYY-MM-DD
+
+  ### Authors
+
+  - Author Name
+
+  ### Added
+
+  - ...
+-->]]></programlisting>
+      </section>
+    </chapter>
+    <chapter>
+      <title>Writing</title>
+      <simpara>
+        Project documents use British typography with American phrasing.
+      </simpara>
+      <itemizedlist>
+        <listitem>
+          <simpara>
+            First-level quotations use single quotes; second-level quotations use double quotes.
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            Use em dashes (—) for parenthetical content, not en dashes (–).
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            Use the Oxford comma in lists of three or more items.
+          </simpara>
+        </listitem>
+      </itemizedlist>
+    </chapter>
+    <chapter>
+      <title>Change Control</title>
+      <section>
+        <title>Branching</title>
+        <simpara>
+          The main branch is <literal>canon</literal>.
+          Feature branches follow the naming convention:
+        </simpara>
+        <programlisting><![CDATA[<team>/<narrative-type>/<github-id>-<branch-label>]]></programlisting>
+      </section>
+      <section>
+        <title>Commit messages</title>
+        <simpara>
+          The title line must not exceed 72 characters including the newline.
+          All other lines must not exceed 80 characters including the newline.
+          Every commit message has exactly one <code>--</code> line describing the state before, one <code>=></code> line describing the state after, and at most one <code>*</code> line for optional additional information:
+        </simpara>
+        <programlisting><![CDATA[<title>
+-- <state-before>.
+=> <state-after>.
+* <additional-information>.
+[<team>: <narrative-type> <github-id>]]]></programlisting>
+        <simpara>
+          Example:
+        </simpara>
+        <programlisting><![CDATA[Factorise reusable snippets from the vision document
+-- Other documents will have the same author, publisher, or introduction.
+=> Extracted shareable fragments for reuse via XInclude.
+* Enhanced phrasing along the way.
+[Product: User Story 9]]]></programlisting>
+      </section>
+    </chapter>
+    <chapter>
+      <title>Licensing</title>
+      <simpara>
+        The project is REUSE-compliant.
+        Licence texts are stored in <filename>LICENSES/</filename> using SPDX filenames.
+      </simpara>
+      <simpara>
+        For project-authored files that can carry headers:
+      </simpara>
+      <itemizedlist>
+        <listitem>
+          <simpara>
+            Set the SPDX <code>License-Identifier</code> to <literal>GPL-3.0-or-later</literal>.
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            Use <code>FileCopyrightText</code> to credit Chrysalide Learning and the author.
+          </simpara>
+        </listitem>
+      </itemizedlist>
+      <simpara>
+        Preserve upstream copyright notices in third-party files.
+        Use <filename>REUSE.toml</filename> for files that cannot carry headers, such as binaries or Markdown, or for upstream notices that are not REUSE-compliant.
+      </simpara>
+    </chapter>
+  </part>
+  <part>
+    <title>Product</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Project</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>UX</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Art</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Specification</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Development</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>DevOps</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Verification</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Validation</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Quality</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <part>
+    <title>Security</title>
+    <partintro>
+      <!-- TODO: write the part introduction -->
+    </partintro>
+    <chapter>
+      <title><!-- TODO: chapter title --></title>
+      <!-- TODO: write the chapter content -->
+    </chapter>
+  </part>
+  <glossary>
+    <title>Glossary</title>
+    <xi:include href="../../shared/glossary/integrated-engineering-environment.xml"/>
+    <xi:include href="../../shared/glossary/japanese-role-playing-game.xml"/>
+    <!-- TODO: add further glossary entries as needed, all taken from the shared glossary directory -->
+  </glossary>
+</book>
