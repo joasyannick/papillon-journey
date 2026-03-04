@@ -4,16 +4,13 @@
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<biblioentry
-    xml:id="papj-doc-01"
+<chapter
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <biblioid class="pubsnumber">α</biblioid>
-  <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-  <xi:include href="../../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
-</biblioentry>
+  <title><!-- TODO: chapter title --></title>
+  <!-- TODO: write the chapter content -->
+</chapter>
 <!--
   # Changelog
 
@@ -25,5 +22,5 @@
 
   ### Added
 
-  - Made _The papillon journey ahead_ citable.
+  - Started the chapter.
 -->

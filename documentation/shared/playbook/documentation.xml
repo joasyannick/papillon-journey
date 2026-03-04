@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <title>Documentation</title>
+  <simpara>
+    Project documents are authored in DocBook 5.1.
+    Use <code>simpara</code> as the default paragraph element.
+    Indent with two spaces.
+    Every file must end with a newline.
+  </simpara>
+  <section>
+    <title>Project layout</title>
+    <variablelist>
+      <varlistentry>
+        <term><filename>documentation/shared/</filename></term>
+        <listitem>
+          <simpara>
+            Shared fragments included via XInclude.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><filename>documentation/templates/</filename></term>
+        <listitem>
+          <simpara>
+            Document templates.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><filename>documentation/tools/</filename></term>
+        <listitem>
+          <simpara>
+            Toolchain (XSLT, schemas, and so on).
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><filename>documentation/01-vision/</filename></term>
+        <listitem>
+          <simpara>
+            Vision document.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><filename>documentation/05-change-control/</filename></term>
+        <listitem>
+          <simpara>
+            Change control records.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><filename>documentation/07-contributions/01-people/</filename></term>
+        <listitem>
+          <simpara>
+            Contributor files, one XML file per person.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+  <section>
+    <title>Shared content</title>
+    <simpara>
+      Reusable fragments live in <filename>documentation/shared/</filename> and are included via XInclude:
+    </simpara>
+    <programlisting language="xml"><![CDATA[<xi:include href="../shared/fragment.xml"/>]]></programlisting>
+  </section>
+  <section>
+    <title>Glossary</title>
+    <simpara>
+      A document's glossary must contain every term referenced in the document body, plus every term in the same connected component of the <code>glossseealso</code> graph.
+      <code>glossseealso</code> links are bidirectional: if entry A links to B, entry B must also link back to A.
+    </simpara>
+  </section>
+  <section>
+    <title>Bibliography</title>
+    <simpara>
+      A document's bibliography must contain only entries cited in the document body.
+    </simpara>
+  </section>
+  <section>
+    <title>Changelogs</title>
+    <simpara>
+      Project-authored files without a built-in changelog mechanism (such as <code>revhistory</code>) carry a footer changelog in Keep a Changelog format, using User Story numbers instead of release versions.
+      The union of authors across all changelog entries must equal the SPDX copyright holders of the file.
+    </simpara>
+    <simpara>
+      Use <code>&lt;!-- --&gt;</code> for XML and XSL files, <code>/* */</code> for CSS files, and <code>#</code> for files using line comments such as TOML and <filename>.gitignore</filename>:
+    </simpara>
+    <programlisting language="xml"><![CDATA[<!--
+  # Changelog
+
+  ## User Story N — YYYY-MM-DD
+
+  ### Authors
+
+  - Author Name
+
+  ### Added
+
+  - ...
+-->]]></programlisting>
+  </section>
+</chapter>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Started the chapter.
+-->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <title>Change Control</title>
+  <section>
+    <title>Branching</title>
+    <simpara>
+      The main branch is <literal>canon</literal>.
+      Feature branches follow the naming convention:
+    </simpara>
+    <programlisting><![CDATA[<team>/<narrative-type>/<github-id>-<branch-label>]]></programlisting>
+  </section>
+  <section>
+    <title>Commit messages</title>
+    <simpara>
+      The title line must not exceed 72 characters including the newline.
+      All other lines must not exceed 80 characters including the newline.
+      Every commit message has exactly one <code>--</code> line describing the state before, one <code>=></code> line describing the state after, and at most one <code>*</code> line for optional additional information:
+    </simpara>
+    <programlisting><![CDATA[<title>
+-- <state-before>.
+=> <state-after>.
+* <additional-information>.
+[<team>: <narrative-type> <github-id>]]]></programlisting>
+    <simpara>
+      Example:
+    </simpara>
+    <programlisting><![CDATA[Factorise reusable snippets from the vision document
+-- Other documents will have the same author, publisher, or introduction.
+=> Extracted shareable fragments for reuse via XInclude.
+* Enhanced phrasing along the way.
+[Product: User Story 9]]]></programlisting>
+  </section>
+</chapter>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Started the chapter.
+-->

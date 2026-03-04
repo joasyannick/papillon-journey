@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <title>Writing</title>
+  <simpara>
+    Project documents use British typography with American phrasing.
+  </simpara>
+  <itemizedlist>
+    <listitem>
+      <simpara>
+        First-level quotations use single quotes; second-level quotations use double quotes.
+      </simpara>
+    </listitem>
+    <listitem>
+      <simpara>
+        Use em dashes (—) for parenthetical content, not en dashes (–).
+      </simpara>
+    </listitem>
+    <listitem>
+      <simpara>
+        Use the Oxford comma in lists of three or more items.
+      </simpara>
+    </listitem>
+  </itemizedlist>
+</chapter>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Started the chapter.
+-->
