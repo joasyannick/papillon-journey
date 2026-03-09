@@ -6,19 +6,22 @@
 -->
 <glossentry
     xml:id="papj-term-formal-methods"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Formal methods</glossterm>
   <glossdef>
-    <simpara>Use of mathematical models to specify, verify (theorem proving, model checking, and counter-example generation), and validate (animation) software and systems with precision.</simpara>
-    <glossseealso otherterm="papj-term-formal-modelling">Formal modelling</glossseealso>
+    <simpara>
+      The modelling of systems and software as mathematical objects, refined stepwise until they are broad enough to capture the requirements of interest and deep enough to support development.
+      The term is an umbrella for techniques used to create such models and automate as much of their mathematical verification as possible.
+    </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-09
 
   ### Authors
 
@@ -26,6 +29,6 @@
 
   ### Added
 
-  - Defined formal methods.
+  - Defined ‘formal methods’.
   - Cross-referenced related terms.
 -->

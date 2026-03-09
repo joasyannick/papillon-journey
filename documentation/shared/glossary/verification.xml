@@ -6,20 +6,23 @@
 -->
 <glossentry
     xml:id="papj-term-verification"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Verification</glossterm>
   <glossdef>
-    <simpara>The process of evaluating whether a system or component meets its specification — confirming it was built right.</simpara>
-    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <simpara>
+      The process of evaluating whether a system or component meets its specification — confirming it was built right.
+    </simpara>
     <glossseealso otherterm="papj-term-development">Development</glossseealso>
     <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
+    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-05
 
   ### Authors
 
@@ -27,6 +30,6 @@
 
   ### Added
 
-  - Defined verification.
+  - Defined ‘verification’.
   - Cross-referenced related terms.
 -->

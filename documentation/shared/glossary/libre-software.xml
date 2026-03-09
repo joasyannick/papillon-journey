@@ -6,17 +6,20 @@
 -->
 <glossentry
     xml:id="papj-term-libre-software"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Libre software</glossterm>
   <glossdef>
-    <simpara>Software that users are free to study, modify, and redistribute, with licensing terms that preserve these freedoms.</simpara>
+    <simpara>
+      Software that users are free to study, modify, and redistribute, with licensing terms that preserve these freedoms.
+    </simpara>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-05
 
   ### Authors
 
@@ -24,5 +27,5 @@
 
   ### Added
 
-  - Defined libre software.
+  - Defined ‘libre software’.
 -->

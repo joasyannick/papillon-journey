@@ -5,20 +5,24 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-model-based-engineering"
+    xml:id="papj-term-mbe"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Model-based engineering</glossterm>
   <acronym>MBE</acronym>
   <glossdef>
-    <simpara>An approach that centres software engineering around explicit models as the primary means of understanding, communicating, and guiding development; some practitioners extend this further by generating implementations and other artefacts directly from those models.</simpara>
+    <simpara>
+      An approach to systems and software engineering in which requirements and design, first expressed in inherently ambiguous natural language and sketches, are refined into models using modelling languages that offer greater precision and clarity.
+      These models become everyone’s authoritative source of truth and the basis for development, devops, verification, and validation activities, be they manual or automated.
+    </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-07
 
   ### Authors
 
@@ -26,6 +30,6 @@
 
   ### Added
 
-  - Defined model-based engineering.
+  - Defined ‘MBE’.
   - Cross-referenced related terms.
 -->

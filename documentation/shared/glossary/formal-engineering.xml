@@ -6,21 +6,29 @@
 -->
 <glossentry
     xml:id="papj-term-formal-engineering"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Formal engineering</glossterm>
   <glossdef>
-    <simpara>An approach to software engineering in which requirements management, specification, development, verification, and validation are model-based and grounded in formal methods.</simpara>
+    <simpara>
+      An approach to systems and software engineering in which requirements management, specification, development, devops, verification, and validation activities are model-based and grounded in formal methods.
+    </simpara>
+    <glossseealso otherterm="papj-term-development">Development</glossseealso>
+    <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
     <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-    <glossseealso otherterm="papj-term-model-based-engineering">Model-based engineering</glossseealso>
+    <glossseealso otherterm="papj-term-iee">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="papj-term-mbe">Model-based engineering</glossseealso>
+    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
     <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
+    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-07
 
   ### Authors
 
@@ -28,6 +36,6 @@
 
   ### Added
 
-  - Defined formal engineering.
+  - Defined ‘formal engineering’.
   - Cross-referenced related terms.
 -->

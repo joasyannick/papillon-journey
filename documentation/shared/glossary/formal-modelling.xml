@@ -6,18 +6,16 @@
 -->
 <glossentry
     xml:id="papj-term-formal-modelling"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Formal modelling</glossterm>
-  <glossdef>
-    <simpara>The activity of describing a system or its properties using mathematical notation, forming the foundation of formal methods.</simpara>
-    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-  </glossdef>
+  <glosssee otherterm="papj-term-formal-methods">Formal methods</glosssee>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-09
 
   ### Authors
 
@@ -25,6 +23,5 @@
 
   ### Added
 
-  - Defined formal modelling.
-  - Cross-referenced related terms.
+  - Made 'formal modelling' a see-reference to 'formal methods'.
 -->

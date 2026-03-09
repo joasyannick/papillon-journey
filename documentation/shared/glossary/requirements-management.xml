@@ -6,20 +6,23 @@
 -->
 <glossentry
     xml:id="papj-term-requirements-management"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Requirements management</glossterm>
   <glossdef>
-    <simpara>The activity of eliciting, documenting, and managing the needs and constraints that a system must satisfy.</simpara>
+    <simpara>
+      The activity of eliciting, documenting, and managing the needs and constraints that a system must satisfy.
+    </simpara>
+    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
     <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
     <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
-    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-05
 
   ### Authors
 
@@ -27,6 +30,6 @@
 
   ### Added
 
-  - Defined requirements management.
+  - Defined ‘requirements management’.
   - Cross-referenced related terms.
 -->

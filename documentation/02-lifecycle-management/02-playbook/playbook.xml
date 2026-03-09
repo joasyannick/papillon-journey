@@ -15,7 +15,11 @@
     <date><!-- TODO: publication date (YYYY-MM-DD) --></date>
     <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
     <edition><!-- TODO: edition number --></edition>
-    <xi:include href="../../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+    <authorgroup>
+      <author>
+        <orgname>Chrysalide Learning</orgname>
+      </author>
+    </authorgroup>
     <xi:include href="../../shared/legal/publisher.xml"/>
     <xi:include href="../../shared/legal/copyright.xml"/>
     <legalnotice>
@@ -59,6 +63,7 @@
   <xi:include href="../../16-validation/playbook/playbook.xml"/>
   <xi:include href="../../17-quality/playbook/playbook.xml"/>
   <xi:include href="../../18-security/playbook/playbook.xml"/>
+  <xi:include href="../../19-legal/playbook/playbook.xml"/>
   <glossary>
     <title>Glossary</title>
     <xi:include href="../../shared/glossary/integrated-engineering-environment.xml"/>

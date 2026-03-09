@@ -5,24 +5,24 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-validation"
+    xml:id="papj-term-devops"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Validation</glossterm>
+  <glossterm>Devops</glossterm>
   <glossdef>
     <simpara>
-      The process of evaluating whether a system fulfils its intended purpose — confirming the right thing was built.
+      A set of practices that unifies software development and IT operations to continuously build, test, deliver, and operate software through automation and rapid feedback.
     </simpara>
     <glossseealso otherterm="papj-term-development">Development</glossseealso>
-    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
-    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="papj-term-iee">Integrated engineering environment</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-07
 
   ### Authors
 
@@ -30,6 +30,6 @@
 
   ### Added
 
-  - Defined ‘validation’.
+  - Defined 'devops'.
   - Cross-referenced related terms.
 -->

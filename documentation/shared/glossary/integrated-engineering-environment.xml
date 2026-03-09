@@ -5,20 +5,29 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-integrated-engineering-environment"
+    xml:id="papj-term-iee"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Integrated engineering environment</glossterm>
   <acronym>IEE</acronym>
   <glossdef>
-    <simpara>A unified toolchain where requirements management, specification, development, verification, and validation activities are integrated — all conducted through one user interface.</simpara>
+    <simpara>
+      A unified toolchain where requirements management, specification, development, devops, verification, and validation activities are integrated — all conducted through one user interface.
+    </simpara>
+    <glossseealso otherterm="papj-term-development">Development</glossseealso>
+    <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
+    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-07
 
   ### Authors
 
@@ -26,6 +35,6 @@
 
   ### Added
 
-  - Defined integrated engineering environment.
+  - Defined ‘IEE’.
   - Cross-referenced related terms.
 -->

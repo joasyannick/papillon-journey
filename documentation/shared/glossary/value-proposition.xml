@@ -6,11 +6,14 @@
 -->
 <glossentry
     xml:id="papj-term-value-proposition"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Value proposition</glossterm>
   <glossdef>
-    <simpara>A clear statement of the benefit a product or service delivers to a specific group of stakeholders.</simpara>
+    <simpara>
+      A clear statement of the benefit a product or service delivers to a specific group of stakeholders.
+    </simpara>
     <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
     <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
   </glossdef>
@@ -18,7 +21,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-05
 
   ### Authors
 
@@ -26,6 +29,6 @@
 
   ### Added
 
-  - Defined value proposition.
+  - Defined ‘value proposition’.
   - Cross-referenced related terms.
 -->

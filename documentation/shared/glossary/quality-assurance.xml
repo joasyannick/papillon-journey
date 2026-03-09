@@ -6,21 +6,24 @@
 -->
 <glossentry
     xml:id="papj-term-quality-assurance"
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Quality assurance</glossterm>
   <acronym>QA</acronym>
   <glossdef>
-    <simpara>A systematic approach to ensuring that processes and outputs meet defined standards of quality.</simpara>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
-    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
+    <simpara>
+      A systematic approach to ensuring that processes and outputs meet defined standards of quality.
+    </simpara>
     <glossseealso otherterm="papj-term-security">Security</glossseealso>
+    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
+    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-02
+  ## User Story 9 — 2026-03-05
 
   ### Authors
 
@@ -28,6 +31,6 @@
 
   ### Added
 
-  - Defined quality assurance.
+  - Defined ‘quality assurance’.
   - Cross-referenced related terms.
 -->
