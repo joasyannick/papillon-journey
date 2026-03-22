@@ -11,14 +11,16 @@
     version="5.1">
   <title>UX</title>
   <partintro>
-    <!-- TODO: write the part introduction -->
+    <simpara>
+      The UX team designs intuitive and engaging user experiences that harmonise business goals with user needs, grounding decisions in user research and testing.
+    </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
 </part>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-03-12
 
   ### Authors
 

@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-iee"
+    xml:id="papj-term-integrated-engineering-environment"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -13,13 +13,14 @@
   <acronym>IEE</acronym>
   <glossdef>
     <simpara>
-      A unified toolchain where requirements management, specification, development, devops, verification, and validation activities are integrated — all conducted through one user interface.
+      A unified toolchain where <glossterm linkend="papj-term-requirements-management">requirements management</glossterm>, <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</glossterm>, <glossterm linkend="papj-term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="papj-term-devops">devops</glossterm>, <glossterm linkend="papj-term-verification">verification</glossterm>, and <glossterm linkend="papj-term-validation">validation</glossterm> activities are integrated — all conducted through one user interface.
     </simpara>
-    <glossseealso otherterm="papj-term-development">Development</glossseealso>
     <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="papj-term-fragmented-tooling">Fragmented tooling</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
-    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
     <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
     <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
@@ -27,7 +28,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-07
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

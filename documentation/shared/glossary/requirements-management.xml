@@ -12,17 +12,25 @@
   <glossterm>Requirements management</glossterm>
   <glossdef>
     <simpara>
-      The activity of eliciting, documenting, and managing the needs and constraints that a system must satisfy.
+      The systematic process of eliciting, decomposing, documenting, prioritising, and tracing user and stakeholder requirements throughout the product lifecycle.
     </simpara>
+    <simpara>
+      Because users and stakeholders care about functionality and value, requirements should reflect this — leaving design, architecture, and technical choices to UX designers and specification engineers.
+      In practice, however, these teams are often handed ‘requirements’ that already embed pre-design or pre-specification decisions.
+    </simpara>
+    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
+    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="papj-term-ux-design">UX design</glossseealso>
     <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

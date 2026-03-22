@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-mbe"
+    xml:id="papj-term-model-based-engineering"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -17,12 +17,13 @@
       These models become everyone’s authoritative source of truth and the basis for development, devops, verification, and validation activities, be they manual or automated.
     </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-07
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 
@@ -30,6 +31,6 @@
 
   ### Added
 
-  - Defined ‘MBE’.
+  - Defined ‘model-based engineering’.
   - Cross-referenced related terms.
 -->

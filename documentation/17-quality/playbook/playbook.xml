@@ -11,14 +11,16 @@
     version="5.1">
   <title>Quality</title>
   <partintro>
-    <!-- TODO: write the part introduction -->
+    <simpara>
+      The Quality team upholds and improves quality practices throughout the product lifecycle, auditing workflows and ensuring traceability.
+    </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
 </part>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-03-10
 
   ### Authors
 
@@ -27,4 +29,5 @@
   ### Added
 
   - Started the Quality part of the playbook.
+  - Wrote the part introduction.
 -->

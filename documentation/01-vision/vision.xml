@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-02-15</date>
+    <date>2026-03-18</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-02-15</date>
+        <date>2026-03-18</date>
         <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -59,7 +59,7 @@
     <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
-      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-mbe" baseform="Model-based engineering">model-based</firstterm> approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
+      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
       Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
@@ -196,7 +196,7 @@
         -->
         We never truly know something until we teach it to someone else.
         <productname>Papillon Journey</productname> will provide a mod development framework that enables players to upskill one another.
-        It will facilitate the creation of custom <firstterm linkend="papj-term-dlc">downloadable content</firstterm> (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
+        It will facilitate the creation of custom <firstterm linkend="papj-term-downloadable-content">downloadable content</firstterm> (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
         By officially embracing <firstterm linkend="papj-term-modding">modding</firstterm>, we will motivate learners to dive into the source code and practise formal engineering in earnest.
       </simpara>
       <simpara>
@@ -305,26 +305,34 @@
   </section>
   <glossary>
     <title>Glossary</title>
+    <xi:include href="../shared/glossary/architecture.xml"/>
+    <xi:include href="../shared/glossary/art-direction.xml"/>
+    <xi:include href="../shared/glossary/cross-cutting-concern.xml"/>
     <xi:include href="../shared/glossary/cross-platform-play.xml"/>
-    <xi:include href="../shared/glossary/development.xml"/>
     <xi:include href="../shared/glossary/devops.xml"/>
     <xi:include href="../shared/glossary/downloadable-content.xml"/>
     <xi:include href="../shared/glossary/formal-engineering.xml"/>
     <xi:include href="../shared/glossary/formal-modelling.xml"/>
     <xi:include href="../shared/glossary/formal-methods.xml"/>
+    <xi:include href="../shared/glossary/formal-verification.xml"/>
+    <xi:include href="../shared/glossary/fragmented-tooling.xml"/>
     <xi:include href="../shared/glossary/integrated-engineering-environment.xml"/>
     <xi:include href="../shared/glossary/inverted-pedagogy.xml"/>
     <xi:include href="../shared/glossary/japanese-role-playing-game.xml"/>
+    <xi:include href="../shared/glossary/legal-compliance.xml"/>
+    <xi:include href="../shared/glossary/limited-exposure.xml"/>
     <xi:include href="../shared/glossary/libre-software.xml"/>
     <xi:include href="../shared/glossary/model-based-engineering.xml"/>
     <xi:include href="../shared/glossary/modding.xml"/>
+    <xi:include href="../shared/glossary/observability.xml"/>
     <xi:include href="../shared/glossary/product-management.xml"/>
     <xi:include href="../shared/glossary/project-management.xml"/>
     <xi:include href="../shared/glossary/quality-assurance.xml"/>
     <xi:include href="../shared/glossary/requirements-management.xml"/>
     <xi:include href="../shared/glossary/security.xml"/>
-    <xi:include href="../shared/glossary/specification.xml"/>
+    <xi:include href="../shared/glossary/software-development.xml"/>
     <xi:include href="../shared/glossary/stakeholder.xml"/>
+    <xi:include href="../shared/glossary/technical-specification.xml"/>
     <xi:include href="../shared/glossary/ux-design.xml"/>
     <xi:include href="../shared/glossary/validation.xml"/>
     <xi:include href="../shared/glossary/value-proposition.xml"/>

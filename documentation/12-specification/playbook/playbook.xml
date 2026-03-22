@@ -11,14 +11,16 @@
     version="5.1">
   <title>Specification</title>
   <partintro>
-    <!-- TODO: write the part introduction -->
+    <simpara>
+      The Specification team defines architecture and actionable technical specifications that bridge the gap between abstract requirements and concrete implementation.
+    </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
 </part>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-03-17
 
   ### Authors
 

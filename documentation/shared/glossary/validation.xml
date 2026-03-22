@@ -14,15 +14,17 @@
     <simpara>
       The process of evaluating whether a system fulfils its intended purpose — confirming the right thing was built.
     </simpara>
-    <glossseealso otherterm="papj-term-development">Development</glossseealso>
+    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

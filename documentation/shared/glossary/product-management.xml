@@ -12,18 +12,18 @@
   <glossterm>Product management</glossterm>
   <glossdef>
     <simpara>
-      The discipline of defining what to build and why, balancing user needs, business goals, and technical constraints.
+      The steering and feature prioritisation of a product based on user and market insights, leading it toward the agreed vision.
     </simpara>
     <glossseealso otherterm="papj-term-project-management">Project management</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
-    <glossseealso otherterm="papj-term-ux-design">UX design</glossseealso>
+    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
     <glossseealso otherterm="papj-term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

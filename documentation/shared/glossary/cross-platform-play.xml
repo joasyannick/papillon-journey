@@ -14,12 +14,13 @@
     <simpara>
       A game experience designed to run across multiple device types and operating systems while preserving player progress.
     </simpara>
+    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 
@@ -28,4 +29,5 @@
   ### Added
 
   - Defined ‘cross-platform play’.
+  - Cross-referenced related terms.
 -->

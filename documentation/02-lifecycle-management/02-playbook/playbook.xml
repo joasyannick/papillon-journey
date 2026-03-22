@@ -12,14 +12,12 @@
   <info>
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle Management Playbook</title>
-    <date><!-- TODO: publication date (YYYY-MM-DD) --></date>
-    <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
-    <edition><!-- TODO: edition number --></edition>
-    <authorgroup>
-      <author>
-        <orgname>Chrysalide Learning</orgname>
-      </author>
-    </authorgroup>
+    <date>2026-03-17</date>
+    <releaseinfo>0.1.0</releaseinfo>
+    <edition>0.1</edition>
+    <author>
+      <orgname>Chrysalide Learning</orgname>
+    </author>
     <xi:include href="../../shared/legal/publisher.xml"/>
     <xi:include href="../../shared/legal/copyright.xml"/>
     <legalnotice>
@@ -54,9 +52,9 @@
   <xi:include href="../../shared/playbook/playbook.xml"/>
   <xi:include href="../../08-product/playbook/playbook.xml"/>
   <xi:include href="../../09-project/playbook/playbook.xml"/>
+  <xi:include href="../../12-specification/playbook/playbook.xml"/>
   <xi:include href="../../10-ux/playbook/playbook.xml"/>
   <xi:include href="../../11-art/playbook/playbook.xml"/>
-  <xi:include href="../../12-specification/playbook/playbook.xml"/>
   <xi:include href="../../13-development/playbook/playbook.xml"/>
   <xi:include href="../../14-devops/playbook/playbook.xml"/>
   <xi:include href="../../15-verification/playbook/playbook.xml"/>

@@ -11,16 +11,14 @@
     version="5.1">
   <biblioid class="pubsnumber">ββ</biblioid>
   <title>Lifecycle Management Playbook</title>
-  <authorgroup>
-    <author>
-      <orgname>Chrysalide Learning</orgname>
-    </author>
-  </authorgroup>
+  <author>
+    <orgname>Chrysalide Learning</orgname>
+  </author>
 </biblioentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-07
+  ## User Story 9 — 2026-03-11
 
   ### Authors
 

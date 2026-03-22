@@ -5,25 +5,24 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-quality-assurance"
+    xml:id="papj-term-observability"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Quality assurance</glossterm>
-  <acronym>QA</acronym>
+  <glossterm>Observability</glossterm>
   <glossdef>
     <simpara>
-      A systematic approach to ensuring that processes and outputs meet defined standards of quality.
+      The degree to which the internal state and behaviour of a system can be understood from the information it exposes externally — primarily logs, metrics, and traces.
+      Good observability means this data is sufficient to monitor health, diagnose failures, and answer questions that were not anticipated when the system was instrumented.
     </simpara>
     <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-21
 
   ### Authors
 
@@ -31,6 +30,6 @@
 
   ### Added
 
-  - Defined ‘quality assurance’.
+  - Defined ‘observability’.
   - Cross-referenced related terms.
 -->

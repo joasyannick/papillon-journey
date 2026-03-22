@@ -11,14 +11,16 @@
     version="5.1">
   <title>Project</title>
   <partintro>
-    <!-- TODO: write the part introduction -->
+    <simpara>
+      The Project team shapes and coordinates teams, monitoring risks to safeguard timely, on-budget delivery that meets stakeholder expectations.
+    </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
 </part>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-03-10
 
   ### Authors
 

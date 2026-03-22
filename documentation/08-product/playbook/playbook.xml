@@ -11,14 +11,16 @@
     version="5.1">
   <title>Product</title>
   <partintro>
-    <!-- TODO: write the part introduction -->
+    <simpara>
+      The Product team steers the product toward the agreed vision, turning user and market insights into prioritised features.
+    </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
 </part>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-03-10
 
   ### Authors
 

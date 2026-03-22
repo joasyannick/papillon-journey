@@ -12,15 +12,16 @@
   <glossterm>Formal engineering</glossterm>
   <glossdef>
     <simpara>
-      An approach to systems and software engineering in which requirements management, specification, development, devops, verification, and validation activities are model-based and grounded in formal methods.
+      An approach to systems and software engineering in which <glossterm linkend="papj-term-requirements-management">requirements management</glossterm>, <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</glossterm>, <glossterm linkend="papj-term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="papj-term-devops">devops</glossterm>, <glossterm linkend="papj-term-verification">verification</glossterm>, and <glossterm linkend="papj-term-validation">validation</glossterm> activities are <glossterm linkend="papj-term-model-based-engineering" baseform="Model-based engineering">model-based</glossterm> and grounded in <glossterm linkend="papj-term-formal-methods">formal methods</glossterm>.
     </simpara>
-    <glossseealso otherterm="papj-term-development">Development</glossseealso>
     <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
     <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-    <glossseealso otherterm="papj-term-iee">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-mbe">Model-based engineering</glossseealso>
+    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
+    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="papj-term-model-based-engineering">Model-based engineering</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
-    <glossseealso otherterm="papj-term-specification">Specification</glossseealso>
+    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
     <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
     <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
@@ -28,7 +29,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-07
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

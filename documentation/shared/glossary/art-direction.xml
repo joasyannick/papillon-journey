@@ -5,24 +5,22 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-downloadable-content"
+    xml:id="papj-term-art-direction"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Downloadable content</glossterm>
-  <acronym>DLC</acronym>
+  <glossterm>Art direction</glossterm>
   <glossdef>
     <simpara>
-      Additional game material distributed electronically after a title's initial release.
+      The discipline of defining and maintaining a coherent visual and audio style across all product assets to strengthen the user experience.
     </simpara>
-    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
-    <glossseealso otherterm="papj-term-modding">Modding</glossseealso>
+    <glossseealso otherterm="papj-term-ux-design">UX design</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-21
 
   ### Authors
 
@@ -30,6 +28,6 @@
 
   ### Added
 
-  - Defined ‘downloadable content’.
+  - Defined ‘art direction’.
   - Cross-referenced related terms.
 -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="papj-term-cross-cutting-concern"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Cross-cutting concern</glossterm>
+  <glossdef>
+    <simpara>
+      A concern like security or observability that has no natural boundary within the architecture, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by recording an audit trail of its actions for regulatory compliance and troubleshooting.
+      There is no real ‘done’ status to such concerns: they keep recurring as the system or software evolves.
+    </simpara>
+    <glossseealso otherterm="papj-term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="papj-term-legal-compliance">Legal compliance</glossseealso>
+    <glossseealso otherterm="papj-term-observability">Observability</glossseealso>
+    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
+    <glossseealso otherterm="papj-term-security">Security</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-03-21
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined ‘cross-cutting concern’.
+  - Cross-referenced related terms.
+-->

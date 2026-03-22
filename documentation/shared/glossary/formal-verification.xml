@@ -5,22 +5,21 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-verification"
+    xml:id="papj-term-formal-verification"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Verification</glossterm>
+  <glossterm>Formal verification</glossterm>
   <glossdef>
     <simpara>
-      The process of evaluating whether a system or component meets its specification — confirming it was built right.
+      The use of mathematical proof techniques to establish that a system or component rigorously satisfies its specification.
+      <!-- Formal Verification is a rigorous method of proving the correctness of a system’s logic against a formal specification or property. It uses mathematical models—rather than just trial-and-error testing—to ensure that a system will behave correctly under all possible conditions, not just the ones we thought to test. -->
     </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
-    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="papj-term-security">Security</glossseealso>
     <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -34,6 +33,6 @@
 
   ### Added
 
-  - Defined ‘verification’.
+  - Defined ‘formal verification’.
   - Cross-referenced related terms.
 -->

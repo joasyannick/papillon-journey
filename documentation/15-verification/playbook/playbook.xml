@@ -11,14 +11,16 @@
     version="5.1">
   <title>Verification</title>
   <partintro>
-    <!-- TODO: write the part introduction -->
+    <simpara>
+      The Verification team ensures the product meets its technical specifications through testing or formal verification.
+    </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
 </part>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-03-10
 
   ### Authors
 
@@ -27,4 +29,5 @@
   ### Added
 
   - Started the Verification part of the playbook.
+  - Wrote the part introduction.
 -->

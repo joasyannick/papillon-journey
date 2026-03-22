@@ -14,13 +14,15 @@
     <simpara>
       The practice of protecting systems, data, and users from unauthorised access, misuse, or harm.
     </simpara>
-    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
+    <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
+    <glossseealso otherterm="papj-term-legal-compliance">Legal compliance</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

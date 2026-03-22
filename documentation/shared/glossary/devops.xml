@@ -14,15 +14,16 @@
     <simpara>
       A set of practices that unifies software development and IT operations to continuously build, test, deliver, and operate software through automation and rapid feedback.
     </simpara>
-    <glossseealso otherterm="papj-term-development">Development</glossseealso>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-iee">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="papj-term-observability">Observability</glossseealso>
+    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-07
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 
@@ -30,6 +31,6 @@
 
   ### Added
 
-  - Defined 'devops'.
+  - Defined ‘devops’.
   - Cross-referenced related terms.
 -->

@@ -14,12 +14,13 @@
     <simpara>
       A teaching approach in which abstract theory precedes practice, often leaving learners with little hands-on experience or only unrealistic examples.
     </simpara>
+    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 
@@ -28,4 +29,5 @@
   ### Added
 
   - Defined ‘inverted pedagogy’.
+  - Cross-referenced related terms.
 -->
