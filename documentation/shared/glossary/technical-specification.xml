@@ -12,12 +12,10 @@
   <glossterm>Technical specification</glossterm>
   <glossdef>
     <simpara>
-      A precise description of what a system must do and how it is to be structured, serving as a contract between stakeholders and developers.
+      The precise and actionable description of what a system must do and how it is to be structured, bridging the gap between abstract <glossterm linkend="papj-term-requirements-management" baseform="Requirements management">requirements</glossterm> and concrete implementation.
     </simpara>
     <glossseealso otherterm="papj-term-architecture">Architecture</glossseealso>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
     <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
     <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
@@ -27,7 +25,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

@@ -8,12 +8,12 @@
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <productname>Papillon Journey</productname> is an online <firstterm linkend="japanese-role-playing-game" baseform="Japanese role-playing game">JRPG</firstterm> and training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
+  <productname>Papillon Journey</productname> is an online <firstterm linkend="papj-term-japanese-role-playing-game" baseform="Japanese role-playing game">JRPG</firstterm> and training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
 </simpara>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-18
+  ## User Story 9 — 2026-03-22
 
   ### Authors
 

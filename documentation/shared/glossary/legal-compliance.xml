@@ -12,16 +12,17 @@
   <glossterm>Legal compliance</glossterm>
   <glossdef>
     <simpara>
-      The practice of overseeing compliance with applicable laws and regulations to safeguard the project and its stakeholders throughout the product lifecycle.
+      The oversight of compliance with applicable laws and regulations throughout the <glossterm linkend="papj-term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to safeguard the project and its <glossterm linkend="papj-term-stakeholder">stakeholders</glossterm>.
     </simpara>
     <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
     <glossseealso otherterm="papj-term-security">Security</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

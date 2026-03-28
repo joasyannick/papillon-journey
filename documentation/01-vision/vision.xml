@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-03-18</date>
+    <date>2026-03-28</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-03-18</date>
+        <date>2026-03-28</date>
         <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -59,7 +59,7 @@
     <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
-      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to software development emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
+      <firstterm linkend="papj-term-formal-methods">Formal methods</firstterm> and <firstterm linkend="papj-term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to <firstterm linkend="papj-term-software-development">software development</firstterm> emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
       Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
@@ -69,16 +69,16 @@
     <itemizedlist>
       <listitem>
         <simpara>
-          <emphasis role="strong">Limited exposure.</emphasis> The historical confinement of these approaches to high-assurance niches has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
+          <emphasis role="strong"><firstterm linkend="papj-term-limited-exposure">Limited exposure</firstterm>.</emphasis> The historical confinement of these approaches to high-assurance niches has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
           Demonstrating their power through large-scale, open-source initiatives in web, mobile, and game development will help dispel this view.
           That is why <productname>Papillon Journey</productname> will be cross-platform — playable directly in a web browser or via native applications on smartphones, tablets, and PCs.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
-          <emphasis role="strong">Fragmented tooling.</emphasis> Companies favour tools that integrate smoothly into existing workflows.
+          <emphasis role="strong"><firstterm linkend="papj-term-fragmented-tooling">Fragmented tooling</firstterm>.</emphasis> Companies favour tools that integrate smoothly into existing workflows.
           Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
-          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an integrated <emphasis>engineering</emphasis> environment to change that.
+          <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an <glossterm linkend="papj-term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm> to change that.
           We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
         </simpara>
       </listitem>
@@ -93,7 +93,7 @@
       </listitem>
     </itemizedlist>
     <simpara>
-      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <emphasis>libre</emphasis>: open for study, contribution, and adaptation.
+      For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <firstterm linkend="papj-term-libre-software" baseform="Libre software">libre</firstterm>: open for study, contribution, and adaptation.
       We require only that derivatives remain libre and clearly distinguished from the official project through distinct branding and separate trademarks.
       All this, because we value freedom and seek to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
@@ -105,13 +105,13 @@
       <firstterm linkend="papj-term-value-proposition">Value propositions</firstterm> evolve alongside the people they serve.
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist — and these are what keep a project relevant over time.
-      Below, we outline those that matter most to our stakeholders and map them to value propositions.
+      Below, we outline those that matter most to our <firstterm linkend="papj-term-stakeholder">stakeholders</firstterm> and map them to value propositions.
       For a deeper dive, see <citation>papj-doc-03</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
       <simpara>
-        <!-- Core needs -->
+        <!-- Core jobs -->
         Training is future-oriented: the time and effort invested in it aim to unlock later payoffs — a job, promotion, career pivot, or proficiency.
         There is no such thing as training for the sake of it.
         The appeal of gaming, on the other hand, is precisely a break from that logic.
@@ -143,7 +143,7 @@
           Value Proposition VPαʹ4. Synchronous competition.
           Relates to: inverted pedagogy.
         -->
-        Certain locations and NPCs will also offer mini-games in which they can compete live.
+        Certain locations and <firstterm linkend="papj-term-non-player-character" baseform="Non-player character">NPCs</firstterm> will also offer mini-games in which they can compete live.
         These multiplayer features will feel like a part of the world rather than something bolted on.
       </simpara>
       <simpara>
@@ -158,7 +158,7 @@
     <section>
       <title>Software engineering learners</title>
       <simpara>
-        <!-- Core needs -->
+        <!-- Core jobs -->
         The initial training of a software engineer reaches a satisfying end once they have the skills to turn software ideas into working, maintainable systems.
         Teamwork is one of them, as most systems are built through collaborative effort.
         Continuing education then becomes a pursuit of mastery and specialisation.
@@ -173,8 +173,8 @@
               Value Proposition VPαʹ6. Learning fundamentals through play.
               Relates to: limited exposure, inverted pedagogy.
               -->
-            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of product and project management, UX design, specification, development, verification, and validation.
-            As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame posing the ultimate challenge to their training.
+            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="papj-term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="papj-term-project-management" baseform="Project management">project management</firstterm>, <firstterm linkend="papj-term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="papj-term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="papj-term-verification">verification</firstterm>, and <firstterm linkend="papj-term-validation">validation</firstterm>.
+            As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame putting their skills to the ultimate test.
           </simpara>
         </listitem>
         <listitem>
@@ -183,7 +183,7 @@
               Value Proposition VPαʹ7. Hands-on mastery through the source code.
               Relates to: limited exposure, inverted pedagogy.
             -->
-            For learners eager to apply lessons learned in-game to real-world scenarios, the project’s libre codebase will serve as an expansive playground for deeper mastery.
+            For learners eager to apply lessons learnt in-game to real-world scenarios, the project’s libre codebase will serve as an expansive playground for deeper mastery.
             The comprehensive and high-quality documentation will empower them to study, contribute to, and adapt it with confidence.
             Dedicated community channels will foster support, collaboration, and knowledge sharing, ensuring no one navigates this journey alone.
           </simpara>
@@ -195,9 +195,9 @@
           Relates to: limited exposure, inverted pedagogy.
         -->
         We never truly know something until we teach it to someone else.
-        <productname>Papillon Journey</productname> will provide a mod development framework that enables players to upskill one another.
+        <productname>Papillon Journey</productname> will provide a <firstterm linkend="papj-term-mod">mod</firstterm> development framework that enables players to upskill one another.
         It will facilitate the creation of custom <firstterm linkend="papj-term-downloadable-content">downloadable content</firstterm> (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
-        By officially embracing <firstterm linkend="papj-term-modding">modding</firstterm>, we will motivate learners to dive into the source code and practise formal engineering in earnest.
+        By officially embracing <glossterm linkend="papj-term-mod" baseform="Mod">modding</glossterm>, we will motivate learners to dive into the source code and practise formal engineering in earnest.
       </simpara>
       <simpara>
         <!--
@@ -208,13 +208,19 @@
         To maintain a clear legal boundary, they will be indexed from third-party repositories rather than hosted on the project’s infrastructure.
         The process will filter out insecure or IP-infringing content, protecting the <productname>Papillon Journey</productname> trademark from association with harmful or unauthorised material.
         Any that erroneously slipped through will be de-indexed upon report, and every mod update will have to undergo re-evaluation before being re-indexed.
-        Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the cross-cutting concerns of security, legal compliance, and quality assurance.
+        Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the <firstterm linkend="papj-term-cross-cutting-concern">cross-cutting concerns</firstterm> of <firstterm linkend="papj-term-security">security</firstterm>, <firstterm linkend="papj-term-legal-compliance">legal compliance</firstterm>, and <firstterm linkend="papj-term-quality-assurance">quality assurance</firstterm>.
       </simpara>
     </section>
     <section>
       <title>Software engineering educators</title>
       <simpara>
-        <!-- TODO: Core needs -->
+        <!-- Core jobs -->
+        Software engineering is a vast discipline whose frontier keeps expanding — rapidly.
+        Without guidance, newcomers can easily feel lost or remain trapped at the surface, chasing one fleeting trend after another while missing both the broader picture and the deeper foundations beneath it.
+        The educator’s role is to help them navigate the field, meeting them where they are and guiding them towards where they want or need to go.
+      </simpara>
+      <simpara>
+        <!-- TODO: No two training journeys are ever the same — a source of both pain and joy. -->
       </simpara>
       <simpara>
         <!--
@@ -229,14 +235,12 @@
           Relates to: limited exposure.
           TODO: Rewrite this.
         -->
-        Can add legitimacy (which learners often value), broaden reach, and accelerate content quality.
-        What do institutions win from this?
       </simpara>
     </section>
     <section>
       <title>Software engineering practitioners</title>
       <simpara>
-        <!-- TODO: Core needs -->
+        <!-- TODO: Core jobs -->
       </simpara>
       <simpara>
         <!--
@@ -256,7 +260,7 @@
     <section>
       <title>Software engineering researchers</title>
       <simpara>
-        <!-- TODO: Core needs -->
+        <!-- TODO: Core jobs -->
       </simpara>
       <simpara>
         <!--
@@ -284,6 +288,9 @@
     <!-- What success looks like -->
     <title>Success metrics</title>
     <simpara>
+      <!--
+        TODO: Start with a summary table of all the VPs.
+      -->
       <!--
         - Number of derivative projects (à la Linux distributions):
             indicates the project is genuinely libre, technically reusable, and inspiring enough to fork and adapt.
@@ -322,18 +329,21 @@
     <xi:include href="../shared/glossary/legal-compliance.xml"/>
     <xi:include href="../shared/glossary/limited-exposure.xml"/>
     <xi:include href="../shared/glossary/libre-software.xml"/>
+    <xi:include href="../shared/glossary/lifecycle-management.xml"/>
     <xi:include href="../shared/glossary/model-based-engineering.xml"/>
-    <xi:include href="../shared/glossary/modding.xml"/>
+    <xi:include href="../shared/glossary/mod.xml"/>
+    <xi:include href="../shared/glossary/non-player-character.xml"/>
     <xi:include href="../shared/glossary/observability.xml"/>
     <xi:include href="../shared/glossary/product-management.xml"/>
     <xi:include href="../shared/glossary/project-management.xml"/>
     <xi:include href="../shared/glossary/quality-assurance.xml"/>
+    <xi:include href="../shared/glossary/quality-attribute.xml"/>
     <xi:include href="../shared/glossary/requirements-management.xml"/>
     <xi:include href="../shared/glossary/security.xml"/>
     <xi:include href="../shared/glossary/software-development.xml"/>
     <xi:include href="../shared/glossary/stakeholder.xml"/>
     <xi:include href="../shared/glossary/technical-specification.xml"/>
-    <xi:include href="../shared/glossary/ux-design.xml"/>
+    <xi:include href="../shared/glossary/user-experience-design.xml"/>
     <xi:include href="../shared/glossary/validation.xml"/>
     <xi:include href="../shared/glossary/value-proposition.xml"/>
     <xi:include href="../shared/glossary/verification.xml"/>

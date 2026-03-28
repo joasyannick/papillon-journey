@@ -12,10 +12,9 @@
   <glossterm>Verification</glossterm>
   <glossdef>
     <simpara>
-      The process of evaluating whether a system or component meets its specification — confirming it was built right.
+      The process of ensuring that a product is being built right — that it meets its <glossterm linkend="papj-term-technical-specification">technical specifications</glossterm> — through testing or <glossterm linkend="papj-term-formal-verification">formal verification</glossterm>.
     </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
     <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
     <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
@@ -26,7 +25,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

@@ -12,20 +12,20 @@
   <glossterm>Formal verification</glossterm>
   <glossdef>
     <simpara>
+      Consistency (between notation/language, viewpoints, refinement, and implementation)
       The use of mathematical proof techniques to establish that a system or component rigorously satisfies its specification.
       <!-- Formal Verification is a rigorous method of proving the correctness of a system’s logic against a formal specification or property. It uses mathematical models—rather than just trial-and-error testing—to ensure that a system will behave correctly under all possible conditions, not just the ones we thought to test. -->
     </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
     <glossseealso otherterm="papj-term-security">Security</glossseealso>
-    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
     <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-25
 
   ### Authors
 

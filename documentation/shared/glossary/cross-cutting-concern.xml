@@ -12,7 +12,7 @@
   <glossterm>Cross-cutting concern</glossterm>
   <glossdef>
     <simpara>
-      A concern like security or observability that has no natural boundary within the architecture, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by recording an audit trail of its actions for regulatory compliance and troubleshooting.
+      A concern like <glossterm linkend="papj-term-security">security</glossterm> or <glossterm linkend="papj-term-observability">observability</glossterm> that has no natural boundary within the <glossterm linkend="papj-term-architecture">architecture</glossterm>, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by recording an audit trail of its actions for <glossterm linkend="papj-term-legal-compliance">legal compliance</glossterm> and troubleshooting.
       There is no real ‘done’ status to such concerns: they keep recurring as the system or software evolves.
     </simpara>
     <glossseealso otherterm="papj-term-architecture">Architecture</glossseealso>
@@ -25,7 +25,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-21
+  ## User Story 9 — 2026-03-25
 
   ### Authors
 

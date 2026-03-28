@@ -14,6 +14,7 @@
     <simpara>
       The steering and feature prioritisation of a product based on user and market insights, leading it toward the agreed vision.
     </simpara>
+    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
     <glossseealso otherterm="papj-term-project-management">Project management</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
     <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
@@ -23,7 +24,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

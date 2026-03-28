@@ -12,8 +12,9 @@
   <glossterm>Project management</glossterm>
   <glossdef>
     <simpara>
-      The discipline of planning, executing, and controlling work to deliver outcomes on time and within scope.
+      The shaping and coordination of teams, and the monitoring of risks, to safeguard timely, on-budget delivery that meets <glossterm linkend="papj-term-stakeholder">stakeholder</glossterm> expectations.
     </simpara>
+    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
     <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
     <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
   </glossdef>
@@ -21,7 +22,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

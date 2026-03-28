@@ -12,7 +12,7 @@
   <glossterm>Validation</glossterm>
   <glossdef>
     <simpara>
-      The process of evaluating whether a system fulfils its intended purpose — confirming the right thing was built.
+      The process of engaging users and <glossterm linkend="papj-term-stakeholder">stakeholders</glossterm> to validate that the right product is being built — that it meets their acceptance criteria and delivers value.
     </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
@@ -24,7 +24,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

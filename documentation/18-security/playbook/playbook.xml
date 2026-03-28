@@ -12,7 +12,7 @@
   <title>Security</title>
   <partintro>
     <simpara>
-      The Security team embeds secure practices throughout the product lifecycle, proactively mitigating risks and vulnerabilities.
+      The Security team embeds secure practices throughout the <glossterm linkend="papj-term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, proactively mitigating risks and vulnerabilities.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-10
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 
@@ -28,6 +28,5 @@
 
   ### Added
 
-  - Started the Security part of the playbook.
-  - Wrote the part introduction.
+  - Started the Security team’s playbook.
 -->

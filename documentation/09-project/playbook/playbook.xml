@@ -12,7 +12,7 @@
   <title>Project</title>
   <partintro>
     <simpara>
-      The Project team shapes and coordinates teams, monitoring risks to safeguard timely, on-budget delivery that meets stakeholder expectations.
+      The Project team shapes and coordinates teams, monitoring risks to safeguard timely, on-budget delivery that meets <glossterm linkend="papj-term-stakeholder">stakeholder</glossterm> expectations.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-10
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 
@@ -28,5 +28,5 @@
 
   ### Added
 
-  - Started the Project part of the playbook.
+  - Started the Project team’s playbook.
 -->

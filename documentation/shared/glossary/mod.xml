@@ -5,18 +5,18 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-downloadable-content"
+    xml:id="papj-term-mod"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Downloadable content</glossterm>
-  <acronym>DLC</acronym>
+  <glossterm>Mod</glossterm>
   <glossdef>
     <simpara>
-      Additional game material distributed electronically after a title's initial release.
+      A community-made modification that extends or alters a game.
+      The practice of creating and sharing mods is known as modding.
     </simpara>
+    <glossseealso otherterm="papj-term-downloadable-content">Downloadable content</glossseealso>
     <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
-    <glossseealso otherterm="papj-term-mod">Mod</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -30,6 +30,6 @@
 
   ### Added
 
-  - Defined ‘downloadable content’.
+  - Defined 'mod'.
   - Cross-referenced related terms.
 -->

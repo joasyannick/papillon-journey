@@ -5,14 +5,15 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-ux-design"
+    xml:id="papj-term-user-experience-design"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>UX design</glossterm>
+  <glossterm>User experience design</glossterm>
+  <acronym>UX design</acronym>
   <glossdef>
     <simpara>
-      User experience design — the practice of shaping how people interact with a product so that it is useful, usable, and enjoyable.
+      The design of intuitive and engaging user experiences that harmonise business goals with user needs, grounding decisions in user research and testing.
     </simpara>
     <glossseealso otherterm="papj-term-art-direction">Art direction</glossseealso>
     <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
@@ -21,7 +22,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-17
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 
@@ -29,6 +30,6 @@
 
   ### Added
 
-  - Defined ‘UX design’.
+  - Defined 'user experience design'.
   - Cross-referenced related terms.
 -->

@@ -12,7 +12,7 @@
   <title>Verification</title>
   <partintro>
     <simpara>
-      The Verification team ensures the product meets its technical specifications through testing or formal verification.
+      The Verification team ensures the product meets its <glossterm linkend="papj-term-technical-specification">technical specifications</glossterm> through testing or <glossterm linkend="papj-term-formal-verification">formal verification</glossterm>.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-10
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 
@@ -28,6 +28,5 @@
 
   ### Added
 
-  - Started the Verification part of the playbook.
-  - Wrote the part introduction.
+  - Started the Verification team’s playbook.
 -->

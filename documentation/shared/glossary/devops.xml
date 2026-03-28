@@ -12,7 +12,7 @@
   <glossterm>Devops</glossterm>
   <glossdef>
     <simpara>
-      A set of practices that unifies software development and IT operations to continuously build, test, deliver, and operate software through automation and rapid feedback.
+      The provision and maintenance of the infrastructure and tooling that enable automated integration, delivery, and deployment.
     </simpara>
     <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
@@ -23,7 +23,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 

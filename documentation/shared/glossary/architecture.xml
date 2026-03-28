@@ -13,17 +13,18 @@
   <glossdef>
     <simpara>
       The structural and organisational design decisions about a system or software that are hardest and most costly to change.
-      They govern how it fulfils its purpose while achieving desired qualities and mitigating key risks.
+      They aim to achieve key <glossterm linkend="papj-term-quality-attribute">quality attributes</glossterm> and mitigate risks by governing how it fulfils its purpose.
       They determine the responsibilities and boundaries of its components, and the form their interactions take.
     </simpara>
     <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="papj-term-quality-attribute">Quality attribute</glossseealso>
     <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-21
+  ## User Story 9 — 2026-03-25
 
   ### Authors
 

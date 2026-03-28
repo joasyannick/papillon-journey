@@ -12,7 +12,7 @@
   <title>Validation</title>
   <partintro>
     <simpara>
-      The Validation team engages users and stakeholders to validate that the product meets their acceptance criteria and delivers value.
+      The Validation team engages users and <glossterm linkend="papj-term-stakeholder">stakeholders</glossterm> to validate that the product meets their acceptance criteria and delivers value.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-10
+  ## User Story 9 — 2026-03-28
 
   ### Authors
 
@@ -28,6 +28,5 @@
 
   ### Added
 
-  - Started the Validation part of the playbook.
-  - Wrote the part introduction.
+  - Started the Validation team’s playbook.
 -->
