@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <title>Toolchain</title>
+  <simpara>
+    The documentation toolchain consists of bundled tools, which are checked into the repository under <filename>documentation/tools/</filename>, and runtime dependencies, which must be installed separately.
+  </simpara>
+  <section>
+    <title>Bundled tools</title>
+    <variablelist>
+      <varlistentry>
+        <term>Saxon HE 12.7</term>
+        <listitem>
+          <simpara>
+            XSLT processor used to run transformations.
+            Located at <filename>documentation/tools/saxon/</filename>.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Jing</term>
+        <listitem>
+          <simpara>
+            RELAX NG validator.
+            Located at <filename>documentation/tools/jing/</filename>.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+  <section>
+    <title>Runtime dependencies</title>
+    <variablelist>
+      <varlistentry>
+        <term>Java 21 or later</term>
+        <listitem>
+          <simpara>
+            Required to run Saxon and Jing.
+            Install OpenJDK 21 via your system package manager (for example, <package>default-jdk</package> on Debian-based systems).
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>xmllint</term>
+        <listitem>
+          <simpara>
+            Required for XSD validation.
+            Available as part of the <package>libxml2-utils</package> package on Debian-based systems.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </section>
+</chapter>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-03
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Documented the toolchain, including bundled tools and runtime dependencies.
+-->

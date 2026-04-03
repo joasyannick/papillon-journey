@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://chrysalide-learning.coop/ns/contributor"
+    targetNamespace="http://chrysalide-learning.coop/ns/contributor"
+    elementFormDefault="qualified">
+
+  <xs:element name="contributor" type="ContributorType"/>
+
+  <xs:complexType name="ContributorType">
+    <xs:sequence>
+      <xs:element name="name" type="NameType"/>
+      <xs:element name="account" type="AccountType"/>
+      <xs:element name="organisations" type="OrganisationsType" minOccurs="0"/>
+      <xs:element name="teams" type="TeamsType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="NameType">
+    <xs:sequence>
+      <xs:element name="first" type="xs:string"/>
+      <xs:element name="middle" type="xs:string" minOccurs="0"/>
+      <xs:element name="last" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="AccountType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="platform" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="github"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="OrganisationsType">
+    <xs:sequence>
+      <xs:element name="organisation" type="OrganisationType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OrganisationType">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="position" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TeamsType">
+    <xs:sequence>
+      <xs:element name="team" type="TeamType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="TeamType">
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="product"/>
+          <xs:enumeration value="project"/>
+          <xs:enumeration value="ux"/>
+          <xs:enumeration value="art"/>
+          <xs:enumeration value="specification"/>
+          <xs:enumeration value="development"/>
+          <xs:enumeration value="devops"/>
+          <xs:enumeration value="verification"/>
+          <xs:enumeration value="validation"/>
+          <xs:enumeration value="quality"/>
+          <xs:enumeration value="security"/>
+          <xs:enumeration value="legal"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="leader" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-03
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined the contributor schema.
+-->

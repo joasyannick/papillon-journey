@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<contributor xmlns="http://chrysalide-learning.coop/ns/contributor">
+  <name>
+    <first>Joas</first>
+    <middle>Yannick</middle>
+    <last>Kinouani</last>
+  </name>
+  <account platform="github">joasyannick</account>
+  <organisations>
+    <organisation>
+      <name>Chrysalide Learning</name>
+      <position>Product manager</position>
+      <position>Project manager</position>
+    </organisation>
+  </organisations>
+  <teams>
+    <team name="product" leader="true"/>
+    <team name="project" leader="true"/>
+  </teams>
+</contributor>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-03
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Registered Joas Yannick Kinouani as a contributor.
+-->

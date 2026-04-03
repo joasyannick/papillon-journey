@@ -29,8 +29,8 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-03-28</date>
-        <xi:include href="../../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+        <date>2026-04-03</date>
+        <xi:include href="../../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
           <itemizedlist>
@@ -71,8 +71,8 @@
     <xi:include href="../../shared/glossary/devops.xml"/>
     <xi:include href="../../shared/glossary/downloadable-content.xml"/>
     <xi:include href="../../shared/glossary/formal-engineering.xml"/>
-    <xi:include href="../../shared/glossary/formal-modelling.xml"/>
     <xi:include href="../../shared/glossary/formal-methods.xml"/>
+    <xi:include href="../../shared/glossary/formal-modelling.xml"/>
     <xi:include href="../../shared/glossary/formal-verification.xml"/>
     <xi:include href="../../shared/glossary/fragmented-tooling.xml"/>
     <xi:include href="../../shared/glossary/integrated-engineering-environment.xml"/>

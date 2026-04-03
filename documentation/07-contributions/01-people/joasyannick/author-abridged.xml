@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<author xmlns="http://docbook.org/ns/docbook" xml:lang="en-GB" version="5.1">
+   <personname>
+      <firstname>Joas</firstname>
+      <othername role="middle-name">Yannick</othername>
+      <surname>Kinouani</surname>
+   </personname>
+</author>
+<!--
+  Generated from contributor.xml by author-abridged.xsl.
+  Do not edit directly.
+-->

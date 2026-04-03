@@ -13,13 +13,13 @@
   <biblioid class="pubsnumber">α</biblioid>
   <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
   <authorgroup>
-    <xi:include href="../../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+    <xi:include href="../../07-contributions/01-people/joasyannick/author-abridged.xml"/>
   </authorgroup>
 </biblioentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-07
+  ## User Story 9 — 2026-04-03
 
   ### Authors
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <title>Contributor registration</title>
+  <simpara>
+    Every contributor is registered via a profile file conforming to the contributor schema at <filename>documentation/07-contributions/contributor.xsd</filename>.
+    Profiles live under <filename>documentation/07-contributions/01-people/</filename>, one directory per contributor named after their GitHub username:
+  </simpara>
+  <programlisting>documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
+  <section>
+    <title>Validation</title>
+    <simpara>
+      Validate a contributor profile against the schema with <command>xmllint</command>:
+    </simpara>
+    <programlisting>xmllint --schema documentation/07-contributions/contributor.xsd \
+  --noout \
+  documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
+  </section>
+  <section>
+    <title>DocBook fragment generation</title>
+    <simpara>
+      Two DocBook fragments are generated from each profile and committed alongside it: a full <tag>author</tag> element for document headers, and an abridged one for bibliographies.
+      Regenerate them with Saxon after any change to the profile:
+    </simpara>
+    <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
+  -xsl:documentation/07-contributions/author-full.xsl \
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-full.xml
+
+java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
+  -xsl:documentation/07-contributions/author-abridged.xsl \
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-abridged.xml</programlisting>
+  </section>
+</chapter>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-03
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Documented contributor registration, validation, and DocBook fragment generation.
+-->

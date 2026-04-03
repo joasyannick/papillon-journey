@@ -12,8 +12,8 @@
   <glossterm>Mod</glossterm>
   <glossdef>
     <simpara>
-      A community-made modification that extends or alters a game.
-      The practice of creating and sharing mods is known as modding.
+      A community-made modification that extends or alters a game’s existing content.
+      The creation and sharing of mods is known as modding.
     </simpara>
     <glossseealso otherterm="papj-term-downloadable-content">Downloadable content</glossseealso>
     <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
@@ -22,7 +22,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-27
+  ## User Story 9 — 2026-04-03
 
   ### Authors
 
@@ -30,6 +30,6 @@
 
   ### Added
 
-  - Defined 'mod'.
+  - Defined ‘mod’.
   - Cross-referenced related terms.
 -->

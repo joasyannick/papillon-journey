@@ -29,8 +29,8 @@
       <!-- TODO: replace this entry with your document's first revision -->
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-03-03</date>
-        <xi:include href="../07-contributions/01-people/joas-kinouani.github-joasyannick.xml"/>
+        <date>2026-04-03</date>
+        <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
           <itemizedlist>
