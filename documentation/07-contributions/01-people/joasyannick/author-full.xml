@@ -8,8 +8,8 @@
         xml:lang="en-GB"
         version="5.1">
    <personname>
-      <firstname>Joas</firstname>
-      <othername role="middle-name">Yannick</othername>
+      <givenname>Joas</givenname>
+      <othername>Yannick</othername>
       <surname>Kinouani</surname>
    </personname>
    <uri role="github" xlink:href="https://github.com/joasyannick"/>

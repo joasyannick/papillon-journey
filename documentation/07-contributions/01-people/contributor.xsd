@@ -6,9 +6,13 @@
 -->
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://chrysalide-learning.coop/ns/contributor"
-    targetNamespace="http://chrysalide-learning.coop/ns/contributor"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns="http://chrysalide-learning.coop/ns/contributions"
+    targetNamespace="http://chrysalide-learning.coop/ns/contributions"
     elementFormDefault="qualified">
+
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+             schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 
   <xs:element name="contributor" type="ContributorType"/>
 
@@ -17,16 +21,25 @@
       <xs:element name="name" type="NameType"/>
       <xs:element name="account" type="AccountType"/>
       <xs:element name="organisations" type="OrganisationsType" minOccurs="0"/>
-      <xs:element name="teams" type="TeamsType" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute ref="xml:id" use="required"/>
+    <xs:attribute ref="xml:lang" use="required" fixed="en-GB"/>
+    <xs:attribute name="version" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\d+\.\d+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
   </xs:complexType>
 
   <xs:complexType name="NameType">
     <xs:sequence>
-      <xs:element name="first" type="xs:string"/>
-      <xs:element name="middle" type="xs:string" minOccurs="0"/>
-      <xs:element name="last" type="xs:string"/>
+      <xs:element name="given" type="xs:string"/>
+      <xs:element name="additional" type="xs:string" minOccurs="0"/>
+      <xs:element name="family" type="xs:string" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute ref="xml:lang" use="optional"/>
   </xs:complexType>
 
   <xs:complexType name="AccountType">
@@ -56,39 +69,12 @@
     </xs:sequence>
   </xs:complexType>
 
-  <xs:complexType name="TeamsType">
-    <xs:sequence>
-      <xs:element name="team" type="TeamType" minOccurs="0" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="TeamType">
-    <xs:attribute name="name" use="required">
-      <xs:simpleType>
-        <xs:restriction base="xs:string">
-          <xs:enumeration value="product"/>
-          <xs:enumeration value="project"/>
-          <xs:enumeration value="ux"/>
-          <xs:enumeration value="art"/>
-          <xs:enumeration value="specification"/>
-          <xs:enumeration value="development"/>
-          <xs:enumeration value="devops"/>
-          <xs:enumeration value="verification"/>
-          <xs:enumeration value="validation"/>
-          <xs:enumeration value="quality"/>
-          <xs:enumeration value="security"/>
-          <xs:enumeration value="legal"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:attribute>
-    <xs:attribute name="leader" type="xs:boolean" use="optional"/>
-  </xs:complexType>
 
 </xs:schema>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

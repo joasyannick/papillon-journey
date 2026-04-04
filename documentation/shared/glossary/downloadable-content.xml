@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-downloadable-content"
+    xml:id="term-downloadable-content"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -15,14 +15,14 @@
     <simpara>
       Official game content distributed electronically after a title’s initial release, typically to add new material rather than modify the base game.
     </simpara>
-    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
-    <glossseealso otherterm="papj-term-mod">Mod</glossseealso>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+    <glossseealso otherterm="term-mod">Mod</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

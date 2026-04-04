@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-limited-exposure"
+    xml:id="term-limited-exposure"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,14 +14,14 @@
     <simpara>
       The restricted presence of formal methods outside high-assurance domains, which perpetuates the misconception that they are irrelevant to mainstream software engineering.
     </simpara>
-    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
-    <glossseealso otherterm="papj-term-libre-software">Libre software</glossseealso>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+    <glossseealso otherterm="term-libre-software">Libre software</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

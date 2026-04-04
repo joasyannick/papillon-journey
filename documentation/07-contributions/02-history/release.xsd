@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns="http://chrysalide-learning.coop/ns/contributions"
+    targetNamespace="http://chrysalide-learning.coop/ns/contributions"
+    elementFormDefault="qualified">
+
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+             schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+
+  <xs:element name="release" type="ReleaseType"/>
+
+  <xs:complexType name="ReleaseType">
+    <xs:sequence>
+      <xs:element name="contribution" type="ContributionType" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute ref="xml:id" use="required"/>
+    <xs:attribute ref="xml:lang" use="required" fixed="en-GB"/>
+    <xs:attribute name="version" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\d+\.\d+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="number" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\d+\.\d+\.\d+"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="ContributionType">
+    <xs:sequence>
+      <xs:element name="team" type="TeamType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="issue" type="IssueType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="contributor" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="TeamType">
+    <xs:attribute name="name" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="product"/>
+          <xs:enumeration value="project"/>
+          <xs:enumeration value="ux"/>
+          <xs:enumeration value="art"/>
+          <xs:enumeration value="specification"/>
+          <xs:enumeration value="development"/>
+          <xs:enumeration value="devops"/>
+          <xs:enumeration value="verification"/>
+          <xs:enumeration value="validation"/>
+          <xs:enumeration value="quality"/>
+          <xs:enumeration value="security"/>
+          <xs:enumeration value="legal"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="leader" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="IssueType">
+    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
+  </xs:complexType>
+
+</xs:schema>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Defined the release history schema.
+-->

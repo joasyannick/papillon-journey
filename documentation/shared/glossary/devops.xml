@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-devops"
+    xml:id="term-devops"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,16 +14,16 @@
     <simpara>
       The provision and maintenance of the infrastructure and tooling that enable automated integration, delivery, and deployment.
     </simpara>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-observability">Observability</glossseealso>
-    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-observability">Observability</glossseealso>
+    <glossseealso otherterm="term-software-development">Software development</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

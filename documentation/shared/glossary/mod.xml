@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-mod"
+    xml:id="term-mod"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -15,14 +15,14 @@
       A community-made modification that extends or alters a game’s existing content.
       The creation and sharing of mods is known as modding.
     </simpara>
-    <glossseealso otherterm="papj-term-downloadable-content">Downloadable content</glossseealso>
-    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+    <glossseealso otherterm="term-downloadable-content">Downloadable content</glossseealso>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

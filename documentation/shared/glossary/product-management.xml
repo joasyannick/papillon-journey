@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-product-management"
+    xml:id="term-product-management"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,17 +14,17 @@
     <simpara>
       The steering and feature prioritisation of a product based on user and market insights, leading it toward the agreed vision.
     </simpara>
-    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
-    <glossseealso otherterm="papj-term-project-management">Project management</glossseealso>
-    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
-    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
-    <glossseealso otherterm="papj-term-value-proposition">Value proposition</glossseealso>
+    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-project-management">Project management</glossseealso>
+    <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="term-stakeholder">Stakeholder</glossseealso>
+    <glossseealso otherterm="term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

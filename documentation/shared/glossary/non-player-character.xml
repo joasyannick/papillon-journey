@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-non-player-character"
+    xml:id="term-non-player-character"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -15,13 +15,13 @@
     <simpara>
       A character in a video game that is not controlled by a player, typically used to populate the game world, advance the narrative, or offer services.
     </simpara>
-    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-23
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

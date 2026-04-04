@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-lifecycle-management"
+    xml:id="term-lifecycle-management"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,17 +14,17 @@
     <simpara>
       The coordinated oversight of all engineering activities across the product lifecycle, from conception through delivery and beyond.
     </simpara>
-    <glossseealso otherterm="papj-term-legal-compliance">Legal compliance</glossseealso>
-    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="papj-term-project-management">Project management</glossseealso>
-    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
-    <glossseealso otherterm="papj-term-security">Security</glossseealso>
+    <glossseealso otherterm="term-legal-compliance">Legal compliance</glossseealso>
+    <glossseealso otherterm="term-product-management">Product management</glossseealso>
+    <glossseealso otherterm="term-project-management">Project management</glossseealso>
+    <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
+    <glossseealso otherterm="term-security">Security</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

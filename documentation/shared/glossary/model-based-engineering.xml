@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-model-based-engineering"
+    xml:id="term-model-based-engineering"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,16 +14,16 @@
   <glossdef>
     <simpara>
       An approach to systems and software engineering in which requirements and design, first expressed in inherently ambiguous natural language and sketches, are refined into models using modelling languages that offer greater precision and clarity.
-      These models become everyone’s authoritative source of truth and the basis for <glossterm linkend="papj-term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="papj-term-devops">devops</glossterm>, <glossterm linkend="papj-term-verification">verification</glossterm>, and <glossterm linkend="papj-term-validation">validation</glossterm> activities, be they manual or automated.
+      These models become everyone’s authoritative source of truth and the basis for <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="term-devops">devops</glossterm>, <glossterm linkend="term-verification">verification</glossterm>, and <glossterm linkend="term-validation">validation</glossterm> activities, be they manual or automated.
     </simpara>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-formal-methods">Formal methods</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-25
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

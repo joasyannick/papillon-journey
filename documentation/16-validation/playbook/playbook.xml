@@ -12,7 +12,7 @@
   <title>Validation</title>
   <partintro>
     <simpara>
-      The Validation team engages users and <glossterm linkend="papj-term-stakeholder">stakeholders</glossterm> to validate that the product meets their acceptance criteria and delivers value.
+      The Validation team engages users and <glossterm linkend="term-stakeholder">stakeholders</glossterm> to validate that the product meets their acceptance criteria and delivers value.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

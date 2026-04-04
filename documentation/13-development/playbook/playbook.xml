@@ -12,7 +12,7 @@
   <title>Development</title>
   <partintro>
     <simpara>
-      The Development team implements features and fixes, constructively challenging design, <glossterm linkend="papj-term-architecture">architecture</glossterm>, and <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specifications</glossterm> to drive higher quality.
+      The Development team implements features and fixes, constructively challenging design, <glossterm linkend="term-architecture">architecture</glossterm>, and <glossterm linkend="term-technical-specification" baseform="Technical specification">specifications</glossterm> to drive higher quality.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

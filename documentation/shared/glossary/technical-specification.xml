@@ -5,27 +5,27 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-technical-specification"
+    xml:id="term-technical-specification"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Technical specification</glossterm>
   <glossdef>
     <simpara>
-      The precise and actionable description of what a system must do and how it is to be structured, bridging the gap between abstract <glossterm linkend="papj-term-requirements-management" baseform="Requirements management">requirements</glossterm> and concrete implementation.
+      The precise and actionable description of what a system must do and how it is to be structured, bridging the gap between abstract <glossterm linkend="term-requirements-management" baseform="Requirements management">requirements</glossterm> and concrete implementation.
     </simpara>
-    <glossseealso otherterm="papj-term-architecture">Architecture</glossseealso>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
-    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

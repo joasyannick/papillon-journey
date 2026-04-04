@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-value-proposition"
+    xml:id="term-value-proposition"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,14 +14,14 @@
     <simpara>
       A clear statement of the benefit a product or service delivers to a specific group of stakeholders.
     </simpara>
-    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
+    <glossseealso otherterm="term-product-management">Product management</glossseealso>
+    <glossseealso otherterm="term-stakeholder">Stakeholder</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-05
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

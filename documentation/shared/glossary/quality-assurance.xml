@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-quality-assurance"
+    xml:id="term-quality-assurance"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -13,18 +13,18 @@
   <acronym>QA</acronym>
   <glossdef>
     <simpara>
-      The systematic upholding and improvement of quality practices throughout the <glossterm linkend="papj-term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, by auditing workflows and overseeing traceability.
+      The systematic upholding and improvement of quality practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, by auditing workflows and overseeing traceability.
     </simpara>
-    <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
-    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-validation">Validation</glossseealso>
+    <glossseealso otherterm="term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle Management Playbook</title>
-    <date>2026-03-28</date>
+    <date>2026-04-04</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <author>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-03</date>
+        <date>2026-04-04</date>
         <xi:include href="../../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -64,40 +64,7 @@
   <xi:include href="../../19-legal/playbook/playbook.xml"/>
   <glossary>
     <title>Glossary</title>
-    <xi:include href="../../shared/glossary/architecture.xml"/>
-    <xi:include href="../../shared/glossary/art-direction.xml"/>
-    <xi:include href="../../shared/glossary/cross-cutting-concern.xml"/>
-    <xi:include href="../../shared/glossary/cross-platform-play.xml"/>
-    <xi:include href="../../shared/glossary/devops.xml"/>
-    <xi:include href="../../shared/glossary/downloadable-content.xml"/>
-    <xi:include href="../../shared/glossary/formal-engineering.xml"/>
-    <xi:include href="../../shared/glossary/formal-methods.xml"/>
-    <xi:include href="../../shared/glossary/formal-modelling.xml"/>
-    <xi:include href="../../shared/glossary/formal-verification.xml"/>
-    <xi:include href="../../shared/glossary/fragmented-tooling.xml"/>
-    <xi:include href="../../shared/glossary/integrated-engineering-environment.xml"/>
-    <xi:include href="../../shared/glossary/inverted-pedagogy.xml"/>
-    <xi:include href="../../shared/glossary/japanese-role-playing-game.xml"/>
-    <xi:include href="../../shared/glossary/legal-compliance.xml"/>
-    <xi:include href="../../shared/glossary/limited-exposure.xml"/>
-    <xi:include href="../../shared/glossary/libre-software.xml"/>
-    <xi:include href="../../shared/glossary/lifecycle-management.xml"/>
-    <xi:include href="../../shared/glossary/model-based-engineering.xml"/>
-    <xi:include href="../../shared/glossary/mod.xml"/>
-    <xi:include href="../../shared/glossary/non-player-character.xml"/>
-    <xi:include href="../../shared/glossary/observability.xml"/>
-    <xi:include href="../../shared/glossary/product-management.xml"/>
-    <xi:include href="../../shared/glossary/project-management.xml"/>
-    <xi:include href="../../shared/glossary/quality-assurance.xml"/>
-    <xi:include href="../../shared/glossary/quality-attribute.xml"/>
-    <xi:include href="../../shared/glossary/requirements-management.xml"/>
-    <xi:include href="../../shared/glossary/security.xml"/>
-    <xi:include href="../../shared/glossary/software-development.xml"/>
-    <xi:include href="../../shared/glossary/stakeholder.xml"/>
-    <xi:include href="../../shared/glossary/technical-specification.xml"/>
-    <xi:include href="../../shared/glossary/user-experience-design.xml"/>
-    <xi:include href="../../shared/glossary/validation.xml"/>
-    <xi:include href="../../shared/glossary/value-proposition.xml"/>
-    <xi:include href="../../shared/glossary/verification.xml"/>
+    <xi:include href="../../shared/glossary/engineering-and-management.xml"/>
+    <xi:include href="../../shared/glossary/game-design.xml"/>
   </glossary>
 </book>

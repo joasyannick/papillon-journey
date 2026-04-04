@@ -29,7 +29,7 @@
       <!-- TODO: replace this entry with your document's first revision -->
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-03</date>
+        <date>2026-04-04</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -69,7 +69,7 @@
   <!--
   <bibliography>
     <title>References</title>
-    <xi:include href="../shared/bibliography/papj-alpha.xml"/>
+    <xi:include href="../shared/bibliography/papj-doc-01.xml"/>
   </bibliography>
   -->
 </book>

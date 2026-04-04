@@ -12,7 +12,7 @@
   <title>Verification</title>
   <partintro>
     <simpara>
-      The Verification team ensures the product meets its <glossterm linkend="papj-term-technical-specification">technical specifications</glossterm> through testing or <glossterm linkend="papj-term-formal-verification">formal verification</glossterm>.
+      The Verification team ensures the product meets its <glossterm linkend="term-technical-specification">technical specifications</glossterm> through testing or <glossterm linkend="term-formal-verification">formal verification</glossterm>.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

@@ -10,7 +10,7 @@
     version="5.1">
   <title>Contributor registration</title>
   <simpara>
-    Every contributor is registered via a profile file conforming to the contributor schema at <filename>documentation/07-contributions/contributor.xsd</filename>.
+    Every contributor is registered via a profile file conforming to the contributor schema at <filename>documentation/07-contributions/01-people/contributor.xsd</filename>.
     Profiles live under <filename>documentation/07-contributions/01-people/</filename>, one directory per contributor named after their GitHub username:
   </simpara>
   <programlisting>documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
@@ -19,7 +19,7 @@
     <simpara>
       Validate a contributor profile against the schema with <command>xmllint</command>:
     </simpara>
-    <programlisting>xmllint --schema documentation/07-contributions/contributor.xsd \
+    <programlisting>xmllint --schema documentation/07-contributions/01-people/contributor.xsd \
   --noout \
   documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
   </section>
@@ -31,19 +31,19 @@
     </simpara>
     <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
-  -xsl:documentation/07-contributions/author-full.xsl \
+  -xsl:documentation/07-contributions/01-people/author-full.xsl \
   -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-full.xml
 
 java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
-  -xsl:documentation/07-contributions/author-abridged.xsl \
+  -xsl:documentation/07-contributions/01-people/author-abridged.xsl \
   -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-abridged.xml</programlisting>
   </section>
 </chapter>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

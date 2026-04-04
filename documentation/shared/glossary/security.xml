@@ -5,25 +5,25 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-security"
+    xml:id="term-security"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Security</glossterm>
   <glossdef>
     <simpara>
-      The integration of secure practices throughout the <glossterm linkend="papj-term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to proactively mitigate risks and vulnerabilities.
+      The integration of secure practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to proactively mitigate risks and vulnerabilities.
     </simpara>
-    <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
-    <glossseealso otherterm="papj-term-legal-compliance">Legal compliance</glossseealso>
-    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="term-formal-verification">Formal verification</glossseealso>
+    <glossseealso otherterm="term-legal-compliance">Legal compliance</glossseealso>
+    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

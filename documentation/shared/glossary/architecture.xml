@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-architecture"
+    xml:id="term-architecture"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -13,18 +13,18 @@
   <glossdef>
     <simpara>
       The structural and organisational design decisions about a system or software that are hardest and most costly to change.
-      They aim to achieve key <glossterm linkend="papj-term-quality-attribute">quality attributes</glossterm> and mitigate risks by governing how it fulfils its purpose.
+      They aim to achieve key <glossterm linkend="term-quality-attribute">quality attributes</glossterm> and mitigate risks by governing how it fulfils its purpose.
       They determine the responsibilities and boundaries of its components, and the form their interactions take.
     </simpara>
-    <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="papj-term-quality-attribute">Quality attribute</glossseealso>
-    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
+    <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

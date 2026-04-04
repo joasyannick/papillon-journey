@@ -8,12 +8,12 @@
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <productname>Chrysal Studio</productname> is <productname>Papillon Journey</productname>’s <firstterm linkend="papj-term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</firstterm>, built alongside the game to sustain it.
+  <productname>Chrysal Studio</productname> is <productname>Papillon Journey</productname>’s <firstterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</firstterm>, built alongside the game to sustain it.
 </simpara>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

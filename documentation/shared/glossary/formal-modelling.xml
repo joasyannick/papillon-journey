@@ -5,17 +5,17 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-formal-modelling"
+    xml:id="term-formal-modelling"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Formal modelling</glossterm>
-  <glosssee otherterm="papj-term-formal-methods">Formal methods</glosssee>
+  <glosssee otherterm="term-formal-methods">Formal methods</glosssee>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-21
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

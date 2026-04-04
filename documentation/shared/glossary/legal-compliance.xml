@@ -5,24 +5,24 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-legal-compliance"
+    xml:id="term-legal-compliance"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Legal compliance</glossterm>
   <glossdef>
     <simpara>
-      The oversight of compliance with applicable laws and regulations throughout the <glossterm linkend="papj-term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to safeguard the project and its <glossterm linkend="papj-term-stakeholder">stakeholders</glossterm>.
+      The oversight of compliance with applicable laws and regulations throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to safeguard the project and its <glossterm linkend="term-stakeholder">stakeholders</glossterm>.
     </simpara>
-    <glossseealso otherterm="papj-term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
-    <glossseealso otherterm="papj-term-security">Security</glossseealso>
+    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
+    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-security">Security</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

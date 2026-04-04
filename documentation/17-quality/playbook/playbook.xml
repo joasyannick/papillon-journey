@@ -12,7 +12,7 @@
   <title>Quality</title>
   <partintro>
     <simpara>
-      The Quality team upholds and improves quality practices throughout the product lifecycle, auditing workflows and overseeing traceability.
+      The Quality team upholds and improves quality practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, auditing workflows and overseeing traceability.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

@@ -5,27 +5,27 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-software-development"
+    xml:id="term-software-development"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Software development</glossterm>
   <glossdef>
     <simpara>
-      The implementation of features and fixes, and the constructive pushback on design, <glossterm linkend="papj-term-architecture">architecture</glossterm>, and <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specifications</glossterm> to drive higher quality.
+      The implementation of features and fixes, and the constructive pushback on design, <glossterm linkend="term-architecture">architecture</glossterm>, and <glossterm linkend="term-technical-specification" baseform="Technical specification">specifications</glossterm> to drive higher quality.
     </simpara>
-    <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
-    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="term-devops">Devops</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="term-validation">Validation</glossseealso>
+    <glossseealso otherterm="term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

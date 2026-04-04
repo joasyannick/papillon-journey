@@ -5,22 +5,22 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-art-direction"
+    xml:id="term-art-direction"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Art direction</glossterm>
   <glossdef>
     <simpara>
-      The definition of a coherent audiovisual style, and its consistent application across all assets created to strengthen the <glossterm linkend="papj-term-user-experience-design" baseform="User experience design">user experience</glossterm>.
+      The definition of a coherent audiovisual style, and its consistent application across all assets created to strengthen the <glossterm linkend="term-user-experience-design" baseform="User experience design">user experience</glossterm>.
     </simpara>
-    <glossseealso otherterm="papj-term-user-experience-design">User experience design</glossseealso>
+    <glossseealso otherterm="term-user-experience-design">User experience design</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

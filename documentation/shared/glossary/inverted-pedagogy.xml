@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-inverted-pedagogy"
+    xml:id="term-inverted-pedagogy"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,13 +14,13 @@
     <simpara>
       A teaching approach in which abstract theory precedes practice, often leaving learners with little hands-on experience or only unrealistic examples.
     </simpara>
-    <glossseealso otherterm="papj-term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

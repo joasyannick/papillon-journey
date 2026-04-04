@@ -5,31 +5,31 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-formal-engineering"
+    xml:id="term-formal-engineering"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Formal engineering</glossterm>
   <glossdef>
     <simpara>
-      An approach to systems and software engineering in which <glossterm linkend="papj-term-requirements-management">requirements management</glossterm>, <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</glossterm>, <glossterm linkend="papj-term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="papj-term-devops">devops</glossterm>, <glossterm linkend="papj-term-verification">verification</glossterm>, and <glossterm linkend="papj-term-validation">validation</glossterm> activities are <glossterm linkend="papj-term-model-based-engineering" baseform="Model-based engineering">model-based</glossterm> and grounded in <glossterm linkend="papj-term-formal-methods">formal methods</glossterm>.
+      An approach to systems and software engineering in which <glossterm linkend="term-requirements-management">requirements management</glossterm>, <glossterm linkend="term-technical-specification" baseform="Technical specification">specification</glossterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="term-devops">devops</glossterm>, <glossterm linkend="term-verification">verification</glossterm>, and <glossterm linkend="term-validation">validation</glossterm> activities are <glossterm linkend="term-model-based-engineering" baseform="Model-based engineering">model-based</glossterm> and grounded in <glossterm linkend="term-formal-methods">formal methods</glossterm>.
     </simpara>
-    <glossseealso otherterm="papj-term-devops">Devops</glossseealso>
-    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-model-based-engineering">Model-based engineering</glossseealso>
-    <glossseealso otherterm="papj-term-requirements-management">Requirements management</glossseealso>
-    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
-    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
-    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="term-devops">Devops</glossseealso>
+    <glossseealso otherterm="term-formal-methods">Formal methods</glossseealso>
+    <glossseealso otherterm="term-formal-verification">Formal verification</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-model-based-engineering">Model-based engineering</glossseealso>
+    <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="term-validation">Validation</glossseealso>
+    <glossseealso otherterm="term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

@@ -5,27 +5,27 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-cross-cutting-concern"
+    xml:id="term-cross-cutting-concern"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Cross-cutting concern</glossterm>
   <glossdef>
     <simpara>
-      A concern like <glossterm linkend="papj-term-security">security</glossterm> or <glossterm linkend="papj-term-observability">observability</glossterm> that has no natural boundary within the <glossterm linkend="papj-term-architecture">architecture</glossterm>, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by recording an audit trail of its actions for <glossterm linkend="papj-term-legal-compliance">legal compliance</glossterm> and troubleshooting.
+      A concern like <glossterm linkend="term-security">security</glossterm> or <glossterm linkend="term-observability">observability</glossterm> that has no natural boundary within the <glossterm linkend="term-architecture">architecture</glossterm>, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by recording an audit trail of its actions for <glossterm linkend="term-legal-compliance">legal compliance</glossterm> and troubleshooting.
       There is no real ‘done’ status to such concerns: they keep recurring as the system or software evolves.
     </simpara>
-    <glossseealso otherterm="papj-term-architecture">Architecture</glossseealso>
-    <glossseealso otherterm="papj-term-legal-compliance">Legal compliance</glossseealso>
-    <glossseealso otherterm="papj-term-observability">Observability</glossseealso>
-    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
-    <glossseealso otherterm="papj-term-security">Security</glossseealso>
+    <glossseealso otherterm="term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="term-legal-compliance">Legal compliance</glossseealso>
+    <glossseealso otherterm="term-observability">Observability</glossseealso>
+    <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
+    <glossseealso otherterm="term-security">Security</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-25
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

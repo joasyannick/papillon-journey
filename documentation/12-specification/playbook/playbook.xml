@@ -12,7 +12,7 @@
   <title>Specification</title>
   <partintro>
     <simpara>
-      The Specification team defines <glossterm linkend="papj-term-architecture">architecture</glossterm> and actionable <glossterm linkend="papj-term-technical-specification">technical specifications</glossterm> that bridge the gap between abstract <glossterm linkend="papj-term-requirements-management" baseform="Requirements management">requirements</glossterm> and concrete implementation.
+      The Specification team defines <glossterm linkend="term-architecture">architecture</glossterm> and actionable <glossterm linkend="term-technical-specification">technical specifications</glossterm> that bridge the gap between abstract <glossterm linkend="term-requirements-management" baseform="Requirements management">requirements</glossterm> and concrete implementation.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

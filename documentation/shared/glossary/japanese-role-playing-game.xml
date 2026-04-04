@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-japanese-role-playing-game"
+    xml:id="term-japanese-role-playing-game"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -15,18 +15,18 @@
     <simpara>
       A role-playing game tradition that originated in Japan, in which an overarching narrative shapes the progression of a cast of interdependent characters, and combat systems emphasise strategy over reflex alone.
     </simpara>
-    <glossseealso otherterm="papj-term-cross-platform-play">Cross-platform play</glossseealso>
-    <glossseealso otherterm="papj-term-downloadable-content">Downloadable content</glossseealso>
-    <glossseealso otherterm="papj-term-inverted-pedagogy">Inverted pedagogy</glossseealso>
-    <glossseealso otherterm="papj-term-limited-exposure">Limited exposure</glossseealso>
-    <glossseealso otherterm="papj-term-mod">Mod</glossseealso>
-    <glossseealso otherterm="papj-term-non-player-character">Non-player character</glossseealso>
+    <glossseealso otherterm="term-cross-platform-play">Cross-platform play</glossseealso>
+    <glossseealso otherterm="term-downloadable-content">Downloadable content</glossseealso>
+    <glossseealso otherterm="term-inverted-pedagogy">Inverted pedagogy</glossseealso>
+    <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
+    <glossseealso otherterm="term-mod">Mod</glossseealso>
+    <glossseealso otherterm="term-non-player-character">Non-player character</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-27
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

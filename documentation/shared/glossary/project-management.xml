@@ -5,24 +5,24 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-project-management"
+    xml:id="term-project-management"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Project management</glossterm>
   <glossdef>
     <simpara>
-      The shaping and coordination of teams, and the monitoring of risks, to safeguard timely, on-budget delivery that meets <glossterm linkend="papj-term-stakeholder">stakeholder</glossterm> expectations.
+      The shaping and coordination of teams, and the monitoring of risks, to safeguard timely, on-budget delivery that meets <glossterm linkend="term-stakeholder">stakeholder</glossterm> expectations.
     </simpara>
-    <glossseealso otherterm="papj-term-lifecycle-management">Lifecycle management</glossseealso>
-    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
+    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-product-management">Product management</glossseealso>
+    <glossseealso otherterm="term-stakeholder">Stakeholder</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

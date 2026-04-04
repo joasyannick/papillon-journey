@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-libre-software"
+    xml:id="term-libre-software"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,13 +14,13 @@
     <simpara>
       Software that users are free to study, modify, and redistribute, with licensing terms that preserve these freedoms.
     </simpara>
-    <glossseealso otherterm="papj-term-limited-exposure">Limited exposure</glossseealso>
+    <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-22
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

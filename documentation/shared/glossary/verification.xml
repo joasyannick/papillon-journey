@@ -5,27 +5,27 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-verification"
+    xml:id="term-verification"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Verification</glossterm>
   <glossdef>
     <simpara>
-      The process of ensuring that a product is being built right — that it meets its <glossterm linkend="papj-term-technical-specification">technical specifications</glossterm> — through testing or <glossterm linkend="papj-term-formal-verification">formal verification</glossterm>.
+      The process of ensuring that a product is being built right — that it meets its <glossterm linkend="term-technical-specification">technical specifications</glossterm> — through testing or <glossterm linkend="term-formal-verification">formal verification</glossterm>.
     </simpara>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-quality-assurance">Quality assurance</glossseealso>
-    <glossseealso otherterm="papj-term-software-development">Software development</glossseealso>
-    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-formal-verification">Formal verification</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
+    <glossseealso otherterm="term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

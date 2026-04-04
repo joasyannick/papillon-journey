@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<release
+    xml:id="release-0.1.0"
+    xml:lang="en-GB"
+    number="0.1.0"
+    xmlns="http://chrysalide-learning.coop/ns/contributions"
+    version="1.0">
+  <contribution contributor="github-joasyannick">
+    <team name="product" leader="true"/>
+    <team name="project" leader="true"/>
+    <issue number="9"/>
+  </contribution>
+</release>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Recorded contributions for release 0.1.0.
+-->

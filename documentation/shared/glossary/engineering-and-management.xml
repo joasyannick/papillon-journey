@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossdiv
+    xml:lang="en-GB"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <title>Engineering and management</title>
+  <xi:include href="architecture.xml"/>
+  <xi:include href="art-direction.xml"/>
+  <xi:include href="cross-cutting-concern.xml"/>
+  <xi:include href="devops.xml"/>
+  <xi:include href="formal-engineering.xml"/>
+  <xi:include href="formal-methods.xml"/>
+  <xi:include href="formal-modelling.xml"/>
+  <xi:include href="formal-verification.xml"/>
+  <xi:include href="fragmented-tooling.xml"/>
+  <xi:include href="integrated-engineering-environment.xml"/>
+  <xi:include href="legal-compliance.xml"/>
+  <xi:include href="lifecycle-management.xml"/>
+  <xi:include href="model-based-engineering.xml"/>
+  <xi:include href="observability.xml"/>
+  <xi:include href="product-management.xml"/>
+  <xi:include href="project-management.xml"/>
+  <xi:include href="quality-assurance.xml"/>
+  <xi:include href="quality-attribute.xml"/>
+  <xi:include href="requirements-management.xml"/>
+  <xi:include href="security.xml"/>
+  <xi:include href="software-development.xml"/>
+  <xi:include href="stakeholder.xml"/>
+  <xi:include href="technical-specification.xml"/>
+  <xi:include href="user-experience-design.xml"/>
+  <xi:include href="validation.xml"/>
+  <xi:include href="value-proposition.xml"/>
+  <xi:include href="verification.xml"/>
+</glossdiv>
+<!--
+  # Changelog
+
+  ## User Story 9 — 2026-04-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Added
+
+  - Created the Engineering and Management glossary division.
+  - Groups the 27 terms that form a single connected component in the see/see-also graph.
+-->

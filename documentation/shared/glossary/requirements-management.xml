@@ -5,32 +5,32 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-requirements-management"
+    xml:id="term-requirements-management"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Requirements management</glossterm>
   <glossdef>
     <simpara>
-      The systematic process of eliciting, decomposing, documenting, prioritising, and tracing user and stakeholder requirements throughout the product lifecycle.
+      The systematic process of eliciting, decomposing, documenting, prioritising, and tracing user and <glossterm linkend="term-stakeholder">stakeholder</glossterm> requirements throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>.
     </simpara>
     <simpara>
-      Because users and <glossterm linkend="papj-term-stakeholder">stakeholders</glossterm> care about functionality and value, requirements should reflect this — leaving design, <glossterm linkend="papj-term-architecture">architecture</glossterm>, and technical choices to <glossterm linkend="papj-term-user-experience-design" baseform="User experience design">UX</glossterm> designers and <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</glossterm> engineers.
+      Because users and stakeholders care about functionality and value, requirements should reflect this — leaving design, <glossterm linkend="term-architecture">architecture</glossterm>, and technical choices to <glossterm linkend="term-user-experience-design" baseform="User experience design">UX</glossterm> designers and <glossterm linkend="term-technical-specification" baseform="Technical specification">specification</glossterm> engineers.
       In practice, however, these teams are often handed ‘requirements’ that already embed pre-design or pre-specification decisions.
     </simpara>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
-    <glossseealso otherterm="papj-term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="papj-term-stakeholder">Stakeholder</glossseealso>
-    <glossseealso otherterm="papj-term-technical-specification">Technical specification</glossseealso>
-    <glossseealso otherterm="papj-term-user-experience-design">User experience design</glossseealso>
-    <glossseealso otherterm="papj-term-validation">Validation</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-product-management">Product management</glossseealso>
+    <glossseealso otherterm="term-stakeholder">Stakeholder</glossseealso>
+    <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
+    <glossseealso otherterm="term-user-experience-design">User experience design</glossseealso>
+    <glossseealso otherterm="term-validation">Validation</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

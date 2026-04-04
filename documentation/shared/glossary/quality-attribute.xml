@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-quality-attribute"
+    xml:id="term-quality-attribute"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -14,13 +14,13 @@
     <simpara>
       A property of a system used to judge how well it fulfils non-functional expectations such as performance, security, reliability, or usability.
     </simpara>
-    <glossseealso otherterm="papj-term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="term-architecture">Architecture</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-24
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

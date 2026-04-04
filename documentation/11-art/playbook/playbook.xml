@@ -12,7 +12,7 @@
   <title>Art</title>
   <partintro>
     <simpara>
-      The Art team defines <glossterm linkend="papj-term-art-direction">art direction</glossterm> and creates audiovisual assets that strengthen the <glossterm linkend="papj-term-user-experience-design" baseform="User experience design">user experience</glossterm>.
+      The Art team defines <glossterm linkend="term-art-direction">art direction</glossterm> and creates audiovisual assets that strengthen the <glossterm linkend="term-user-experience-design" baseform="User experience design">user experience</glossterm>.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-28
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

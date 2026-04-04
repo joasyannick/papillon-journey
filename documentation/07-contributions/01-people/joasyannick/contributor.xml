@@ -4,11 +4,15 @@
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<contributor xmlns="http://chrysalide-learning.coop/ns/contributor">
-  <name>
-    <first>Joas</first>
-    <middle>Yannick</middle>
-    <last>Kinouani</last>
+<contributor
+    xml:id="github-joasyannick"
+    xml:lang="en-GB"
+    xmlns="http://chrysalide-learning.coop/ns/contributions"
+    version="1.0">
+  <name xml:lang="fr-FR">
+    <given>Joas</given>
+    <additional>Yannick</additional>
+    <family>Kinouani</family>
   </name>
   <account platform="github">joasyannick</account>
   <organisations>
@@ -18,15 +22,11 @@
       <position>Project manager</position>
     </organisation>
   </organisations>
-  <teams>
-    <team name="product" leader="true"/>
-    <team name="project" leader="true"/>
-  </teams>
 </contributor>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

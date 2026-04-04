@@ -5,27 +5,27 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-formal-verification"
+    xml:id="term-formal-verification"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <glossterm>Formal verification</glossterm>
   <glossdef>
     <simpara>
-      The logical proof that a system or software conforms to its <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</glossterm>, and that the mathematical models defining that <glossterm linkend="papj-term-technical-specification" baseform="Technical specification">specification</glossterm> are consistent with one another across notations, languages, viewpoints, and refinements.
+      The logical proof that a system or software conforms to its <glossterm linkend="term-technical-specification" baseform="Technical specification">specification</glossterm>, and that the mathematical models defining that specification are consistent with one another across notations, languages, viewpoints, and refinements.
       It establishes correctness of behaviour under all admissible conditions rather than a selection of test cases.
       This proof is a first-class artefact.
     </simpara>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-formal-methods">Formal methods</glossseealso>
-    <glossseealso otherterm="papj-term-security">Security</glossseealso>
-    <glossseealso otherterm="papj-term-verification">Verification</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-formal-methods">Formal methods</glossseealso>
+    <glossseealso otherterm="term-security">Security</glossseealso>
+    <glossseealso otherterm="term-verification">Verification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-03
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 

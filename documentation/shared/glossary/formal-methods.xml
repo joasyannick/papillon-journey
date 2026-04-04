@@ -5,7 +5,7 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="papj-term-formal-methods"
+    xml:id="term-formal-methods"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
@@ -13,17 +13,17 @@
   <glossdef>
     <simpara>
       The modelling of systems and software as mathematical objects, refined stepwise until they are broad enough to capture the requirements of interest and deep enough to support development.
-      The term is an umbrella for techniques used to create such models and automate as much of their <glossterm linkend="papj-term-formal-verification" baseform="Formal verification">verification</glossterm> as possible.
+      The term is an umbrella for techniques used to create such models and automate as much of their <glossterm linkend="term-formal-verification" baseform="Formal verification">verification</glossterm> as possible.
     </simpara>
-    <glossseealso otherterm="papj-term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="papj-term-formal-verification">Formal verification</glossseealso>
-    <glossseealso otherterm="papj-term-model-based-engineering">Model-based engineering</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-formal-verification">Formal verification</glossseealso>
+    <glossseealso otherterm="term-model-based-engineering">Model-based engineering</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-25
+  ## User Story 9 — 2026-04-04
 
   ### Authors
 
