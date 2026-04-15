@@ -31,19 +31,20 @@
     </simpara>
     <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
-  -xsl:documentation/07-contributions/01-people/author-full.xsl \
+  -xsl:documentation/07-contributions/01-people/author.xsl \
   -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-full.xml
 
 java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
-  -xsl:documentation/07-contributions/01-people/author-abridged.xsl \
-  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-abridged.xml</programlisting>
+  -xsl:documentation/07-contributions/01-people/author.xsl \
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-abridged.xml \
+  mode=abridged</programlisting>
   </section>
 </chapter>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-04
+  ## User Story 9 — 2026-04-15
 
   ### Authors
 

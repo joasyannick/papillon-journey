@@ -5,17 +5,16 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-security"
+    xml:id="term-safety"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Security</glossterm>
+  <glossterm>Safety</glossterm>
   <glossdef>
     <simpara>
-      The integration of secure practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to proactively mitigate risks and vulnerabilities.
+      A <glossterm linkend="term-quality-attribute">quality attribute</glossterm> expressing the degree to which a system avoids causing harm to people, property, or the environment under all admissible operating conditions.
     </simpara>
-    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -29,6 +28,6 @@
 
   ### Added
 
-  - Defined ‘security’.
+  - Defined ‘safety’.
   - Cross-referenced related terms.
 -->

@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-04-04</date>
+    <date>2026-04-15</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-04</date>
+        <date>2026-04-15</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -59,7 +59,7 @@
     <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
-      <firstterm linkend="term-formal-methods">Formal methods</firstterm> and <firstterm linkend="term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to <firstterm linkend="term-software-development">software development</firstterm> emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme safety and reliability demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
+      <firstterm linkend="term-formal-methods">Formal methods</firstterm> and <firstterm linkend="term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to <firstterm linkend="term-software-development">software development</firstterm> emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme <firstterm linkend="term-safety">safety</firstterm> and <firstterm linkend="term-reliability">reliability</firstterm> demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
       Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
       They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
     </simpara>
@@ -118,15 +118,15 @@
         Players expect games to provide a brief window in their day through which they can throw out all future concerns and fully enjoy the present moment.
         An experience that fails to honour this misses the whole point.
         <!--
-          Value Proposition VPαʹ1. Enjoyable gameplay.
-          Relates to: inverted pedagogy.
+          Value Proposition VPαʹ1: enjoyable gameplay.
+          Purpose: inverted pedagogy.
         -->
         This is why <productname>Papillon Journey</productname> will be, above all, fun.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ2. Cross-platform play.
-          Relates to: limited exposure.
+          Value Proposition VPαʹ2: cross-platform play.
+          Purpose: limited exposure.
         -->
         It will be a play-anywhere-anytime game by design.
         The web version will render 2D isometric visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from smartphones to desktops.
@@ -135,25 +135,25 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ3. Asynchronous cooperation.
-          Relates to: inverted pedagogy.
+          Value Proposition VPαʹ3: asynchronous cooperation.
+          Purpose: inverted pedagogy.
         -->
         Using in-game systems such as courier services or trading posts, players will be able to share resources, discoveries, and hard-won strategies whenever it suits them, without needing to be online at the same time.
         <!--
-          Value Proposition VPαʹ4. Synchronous competition.
-          Relates to: inverted pedagogy.
+          Value Proposition VPαʹ4: synchronous competition.
+          Purpose: inverted pedagogy.
         -->
         Certain locations and <firstterm linkend="term-non-player-character" baseform="Non-player character">NPCs</firstterm> will also offer mini-games in which they can compete live.
         These multiplayer features will feel like a part of the world rather than something bolted on.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ5. Franchise partnerships.
-          Relates to: limited exposure.
+          Value Proposition VPαʹ5: franchise partnerships.
+          Purpose: limited exposure.
         -->
         As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises to create crossover content.
         Such scope-limited collaborations will reconnect players with characters and stories they already love while they learn <firstterm linkend="term-formal-engineering">formal engineering</firstterm>.
-        For partner studios, this is a distinctive opportunity to associate their franchises with education, skill-building, and positive social impact.
+        For partner studios, this will be a distinctive opportunity to associate their franchises with education, skill-building, and positive social impact.
       </simpara>
     </section>
     <section>
@@ -171,8 +171,8 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition VPαʹ6. Learning fundamentals through play.
-              Relates to: limited exposure, inverted pedagogy.
+              Value Proposition VPαʹ6: learning fundamentals through play.
+              Purpose: limited exposure, inverted pedagogy.
               -->
             The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="term-project-management" baseform="Project management">project management</firstterm>, <firstterm linkend="term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="term-verification">verification</firstterm>, and <firstterm linkend="term-validation">validation</firstterm>.
             As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame putting their skills to the ultimate test.
@@ -181,8 +181,8 @@
         <listitem>
           <simpara>
             <!--
-              Value Proposition VPαʹ7. Hands-on mastery through the source code.
-              Relates to: limited exposure, inverted pedagogy.
+              Value Proposition VPαʹ7: hands-on mastery through the source code.
+              Purpose: limited exposure, inverted pedagogy.
             -->
             For learners eager to apply lessons learnt in-game to real-world scenarios, the project’s libre codebase will serve as an expansive playground for deeper mastery.
             The comprehensive and high-quality documentation will empower them to study, contribute to, and adapt it with confidence.
@@ -192,8 +192,8 @@
       </itemizedlist>
       <simpara>
         <!--
-          Value Proposition VPαʹ8. Peer learning through modding.
-          Relates to: limited exposure, inverted pedagogy.
+          Value Proposition VPαʹ8: peer learning through modding.
+          Purpose: limited exposure, inverted pedagogy.
         -->
         We never truly know something until we teach it to someone else.
         <productname>Papillon Journey</productname> will provide a <firstterm linkend="term-mod">mod</firstterm> development framework that enables players to upskill one another.
@@ -202,8 +202,8 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ9. Navigating cross-cutting concerns through mod governance.
-          Relates to: limited exposure, inverted pedagogy.
+          Value Proposition VPαʹ9: navigating cross-cutting concerns through mod governance.
+          Purpose: limited exposure, inverted pedagogy.
         -->
         Mods featured in-game will be selected through a transparent, fair, and community-driven peer-review process in which learners actively participate.
         To maintain a clear legal boundary, they will be indexed from third-party repositories rather than hosted on the project’s infrastructure.
@@ -217,27 +217,34 @@
       <simpara>
         <!-- Core jobs -->
         Software engineering is a vast discipline whose frontier keeps expanding — rapidly.
-        Without guidance, newcomers can easily feel lost or remain trapped at the surface, chasing one fleeting trend after another while missing both the broader picture and the deeper foundations beneath it.
+        Without guidance, newcomers can easily feel lost or remain trapped at the surface, chasing one trend after another while missing both the broader picture and the deeper foundations.
         The educator’s role is to help them navigate the field, meeting them where they are and guiding them towards where they want or need to go.
       </simpara>
       <simpara>
-        <!-- TODO: No two training journeys are ever the same — a source of both pain and joy. -->
-      </simpara>
-      <simpara>
-        <!-- TODO: Formal engineering projects that students can genuinely learn from are rare — this is the project I wish had existed when I was one. -->
+        Effective navigation relies on reference points: at sea, a lighthouse; ashore, a landmark.
+        For educators, the equivalent is a canonical work — a textbook, a research paper, or a project — that learners can steer by.
+        In formal engineering, the foundational texts are well established; what is still missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ10. Forkability for curriculum-aligned teaching.
-          Relates to: inverted pedagogy.
+          Value Proposition VPαʹ10: a real-world formal engineering project built for teaching.
+          Purpose: inverted pedagogy.
+        -->
+        <productname>Papillon Journey</productname> will be that real-world project.
+        Its engineering lifecycle will be anchored in industry standards, starting with ISO/IEC/IEEE 12207, while its documentation will be deliberately written as teaching material for classrooms and self-study.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ11: forkability for curriculum-aligned teaching.
+          Purpose: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ11. Partnerships with established institutions.
-          Relates to: limited exposure.
-          TODO: Rewrite this.
+          Value Proposition VPαʹ12: partnerships with established institutions.
+          Purpose: limited exposure.
+          TODO: Write this.
         -->
       </simpara>
     </section>
@@ -248,15 +255,15 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ12. A formal specification language for the agentic era.
-          Relates to: limited exposure, fragmented tooling.
+          Value Proposition VPαʹ13: a formal specification language for the agentic era.
+          Purpose: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ13. An integrated engineering environment.
-          Relates to: limited exposure, fragmented tooling.
+          Value Proposition VPαʹ14: an integrated engineering environment.
+          Purpose: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
@@ -268,15 +275,15 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ14. A living use case to apply and demonstrate research in context.
-          Relates to: inverted pedagogy.
+          Value Proposition VPαʹ15: a living use case to apply and demonstrate research in context.
+          Purpose: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ15. A unified engineering environment to host research-grade integrations.
-          Relates to: fragmented tooling.
+          Value Proposition VPαʹ16: a unified engineering environment to host research-grade integrations.
+          Purpose: fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
@@ -291,10 +298,147 @@
   <section>
     <!-- What success looks like -->
     <title>Success metrics</title>
+    <table>
+      <title>Value propositions</title>
+      <tgroup cols="6">
+        <colspec colname="stakeholder"/>
+        <colspec colname="id"/>
+        <colspec colname="title"/>
+        <colspec colname="summary"/>
+        <colspec colname="purpose"/>
+        <colspec colname="ksis"/>
+        <thead>
+          <row>
+            <entry>Stakeholder</entry>
+            <entry>ID</entry>
+            <entry>Title</entry>
+            <entry>Summary</entry>
+            <entry>Purpose</entry>
+            <entry>KSIs</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry morerows="4">Video game players</entry>
+            <entry>VPαʹ1</entry>
+            <entry>Enjoyable gameplay</entry>
+            <entry>An experience that puts fun first, honouring the player's expectation of a present-moment escape.</entry>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ2</entry>
+            <entry>Cross-platform play</entry>
+            <entry>A play-anywhere-anytime game with web and native editions that synchronise progress across devices.</entry>
+            <entry>Limited exposure</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ3</entry>
+            <entry>Asynchronous cooperation</entry>
+            <entry>In-game systems let players share resources and strategies without needing to be online at the same time.</entry>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ4</entry>
+            <entry>Synchronous competition</entry>
+            <entry>Live mini-games at select locations let players compete in real time.</entry>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ5</entry>
+            <entry>Franchise partnerships</entry>
+            <entry>Crossover content with established franchises reconnects players with familiar characters while they learn formal engineering.</entry>
+            <entry>Limited exposure</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry morerows="3">Software engineering learners</entry>
+            <entry>VPαʹ6</entry>
+            <entry>Learning fundamentals through play</entry>
+            <entry>Engineering fundamentals are woven into the gameplay, so learners build skills through practice.</entry>
+            <entry>Limited exposure, inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ7</entry>
+            <entry>Hands-on mastery through the source code</entry>
+            <entry>The libre codebase and its documentation serve as a playground for learners seeking deeper mastery.</entry>
+            <entry>Limited exposure, inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ8</entry>
+            <entry>Peer learning through modding</entry>
+            <entry>A modding framework lets players upskill one another by creating and sharing custom content.</entry>
+            <entry>Limited exposure, inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ9</entry>
+            <entry>Navigating cross-cutting concerns through mod governance</entry>
+            <entry>A community-driven mod review process sharpens learners' awareness of security, legal compliance, and quality assurance.</entry>
+            <entry>Limited exposure, inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry morerows="2">Software engineering educators</entry>
+            <entry>VPαʹ10</entry>
+            <entry>A real-world formal engineering project built for teaching</entry>
+            <entry>An industrial-scale project anchored in ISO/IEC/IEEE 12207, with documentation written as teaching material for classrooms and self-study.</entry>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ11</entry>
+            <entry>Forkability for curriculum-aligned teaching</entry>
+            <entry/>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ12</entry>
+            <entry>Partnerships with established institutions</entry>
+            <entry/>
+            <entry>Limited exposure</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry morerows="1">Software engineering practitioners</entry>
+            <entry>VPαʹ13</entry>
+            <entry>A formal specification language for the agentic era</entry>
+            <entry/>
+            <entry>Limited exposure, fragmented tooling</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ14</entry>
+            <entry>An integrated engineering environment</entry>
+            <entry/>
+            <entry>Limited exposure, fragmented tooling</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry morerows="1">Software engineering researchers</entry>
+            <entry>VPαʹ15</entry>
+            <entry>A living use case to apply and demonstrate research in context</entry>
+            <entry/>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ16</entry>
+            <entry>A unified engineering environment to host research-grade integrations</entry>
+            <entry/>
+            <entry>Fragmented tooling</entry>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
     <simpara>
-      <!--
-        TODO: Start with a summary table of all the VPs.
-      -->
       <!--
         - Number of derivative projects (à la Linux distributions):
             indicates the project is genuinely libre, technically reusable, and inspiring enough to fork and adapt.
@@ -316,7 +460,7 @@
   </section>
   <glossary>
     <title>Glossary</title>
-    <xi:include href="../shared/glossary/engineering-and-management.xml"/>
+    <xi:include href="../shared/glossary/engineering.xml"/>
     <xi:include href="../shared/glossary/game-design.xml"/>
   </glossary>
   <bibliography>

@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle Management Playbook</title>
-    <date>2026-04-04</date>
+    <date>2026-04-14</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <author>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-04</date>
+        <date>2026-04-14</date>
         <xi:include href="../../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -64,7 +64,7 @@
   <xi:include href="../../19-legal/playbook/playbook.xml"/>
   <glossary>
     <title>Glossary</title>
-    <xi:include href="../../shared/glossary/engineering-and-management.xml"/>
+    <xi:include href="../../shared/glossary/engineering.xml"/>
     <xi:include href="../../shared/glossary/game-design.xml"/>
   </glossary>
 </book>

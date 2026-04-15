@@ -41,7 +41,11 @@
   <xs:complexType name="ContributionType">
     <xs:sequence>
       <xs:element name="team" type="TeamType" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="issue" type="IssueType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="epic" type="ChangeControlNarrativeType"/>
+        <xs:element name="story" type="ChangeControlNarrativeType"/>
+        <xs:element name="tale" type="ChangeControlNarrativeType"/>
+      </xs:choice>
     </xs:sequence>
     <xs:attribute name="contributor" type="xs:string" use="required"/>
   </xs:complexType>
@@ -68,15 +72,15 @@
     <xs:attribute name="leader" type="xs:boolean" use="optional"/>
   </xs:complexType>
 
-  <xs:complexType name="IssueType">
-    <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
+  <xs:complexType name="ChangeControlNarrativeType">
+    <xs:attribute name="change-control" type="xs:positiveInteger" use="required"/>
   </xs:complexType>
 
 </xs:schema>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-04
+  ## User Story 9 — 2026-04-14
 
   ### Authors
 
@@ -84,5 +88,5 @@
 
   ### Added
 
-  - Defined the release history schema.
+  - Introduced the release history schema.
 -->

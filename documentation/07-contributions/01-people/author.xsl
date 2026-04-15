@@ -13,9 +13,12 @@
     exclude-result-prefixes="c">
 
   <!--
-    Transforms a contributor profile into a full DocBook <author> element,
-    including affiliation and GitHub URI.
+    Transforms a contributor profile into a DocBook <author> element.
+    Pass -param:mode=abridged for a personname-only element suitable for
+    bibliographies. Defaults to full output including affiliation and GitHub URI.
   -->
+
+  <xsl:param name="mode" select="'full'"/>
 
   <xsl:output method="xml" encoding="utf-8" indent="yes"/>
 
@@ -29,7 +32,7 @@
     <xsl:apply-templates select="c:contributor"/>
     <xsl:text>&#10;</xsl:text>
     <xsl:comment>
-      <xsl:text>&#10;  Generated from contributor.xml by author-full.xsl.&#10;  Do not edit directly.&#10;</xsl:text>
+      <xsl:text>&#10;  Generated from contributor.xml by author.xsl.&#10;  Do not edit directly.&#10;</xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
@@ -45,15 +48,17 @@
           <surname><xsl:value-of select="c:name/c:family"/></surname>
         </xsl:if>
       </personname>
-      <uri role="github" xlink:href="{concat('https://github.com/', c:account[@platform='github'])}"/>
-      <xsl:for-each select="c:organisations/c:organisation">
-        <affiliation>
-          <xsl:for-each select="c:position">
-            <jobtitle><xsl:value-of select="."/></jobtitle>
-          </xsl:for-each>
-          <orgname><xsl:value-of select="c:name"/></orgname>
-        </affiliation>
-      </xsl:for-each>
+      <xsl:if test="$mode = 'full'">
+        <uri role="github" xlink:href="{concat('https://github.com/', c:account[@platform='github'])}"/>
+        <xsl:for-each select="c:organisations/c:organisation">
+          <affiliation>
+            <xsl:for-each select="c:position">
+              <jobtitle><xsl:value-of select="."/></jobtitle>
+            </xsl:for-each>
+            <orgname><xsl:value-of select="c:name"/></orgname>
+          </affiliation>
+        </xsl:for-each>
+      </xsl:if>
     </author>
   </xsl:template>
 
@@ -61,7 +66,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-04
+  ## User Story 9 — 2026-04-15
 
   ### Authors
 
@@ -69,5 +74,5 @@
 
   ### Added
 
-  - Defined the full author transformation.
+  - Introduced the author transformation, merging full and abridged variants into one stylesheet with a mode parameter.
 -->

@@ -5,16 +5,15 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-legal-compliance"
+    xml:id="term-artefact"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Legal compliance</glossterm>
+  <glossterm>Artefact</glossterm>
   <glossdef>
     <simpara>
-      The oversight of compliance with applicable laws and regulations throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to safeguard the project and its <glossterm linkend="term-stakeholder">stakeholders</glossterm>.
+      A tangible output produced or consumed during the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, such as a <glossterm linkend="term-technical-specification">technical specification</glossterm>, a model, a formal proof, or an executable.
     </simpara>
-    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
   </glossdef>
 </glossentry>
@@ -29,6 +28,6 @@
 
   ### Added
 
-  - Defined ‘legal compliance’.
+  - Defined ‘artefact’.
   - Cross-referenced related terms.
 -->
