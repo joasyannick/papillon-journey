@@ -17,11 +17,10 @@
   <section>
     <title>Validation</title>
     <simpara>
-      Validate a contributor profile against the schema with <command>xmllint</command>:
+      The contributor schema uses XSD 1.1 features and requires an XSD 1.1-capable validator.
+      <!-- TODO: Build a dedicated command-line XSD 1.1 validator (fat JAR wrapping Xerces2-J) and add it to documentation/tools/, then replace this note with the corresponding command. -->
+      Until a dedicated tool is available, validate contributor profiles using Oxygen XML or another XSD 1.1-capable editor.
     </simpara>
-    <programlisting>xmllint --schema documentation/07-contributions/01-people/contributor.xsd \
-  --noout \
-  documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
   </section>
   <section>
     <title>DocBook fragment generation</title>
@@ -44,7 +43,7 @@ java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-15
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 

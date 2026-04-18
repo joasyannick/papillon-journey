@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-04-15</date>
+    <date>2026-04-17</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-15</date>
+        <date>2026-04-17</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
           <simpara>Added:</simpara>
@@ -69,14 +69,16 @@
     <itemizedlist>
       <listitem>
         <simpara>
-          <emphasis role="strong"><firstterm linkend="term-limited-exposure">Limited exposure</firstterm>.</emphasis> The historical confinement of these approaches to high-assurance niches has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
+          <emphasis role="strong"><firstterm linkend="term-limited-exposure">Limited exposure</firstterm>.</emphasis>
+          The historical confinement of these approaches to high-assurance niches has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
           Demonstrating their power through large-scale, open-source initiatives in web, mobile, and game development will help dispel this view.
           That is why <productname>Papillon Journey</productname> will be <firstterm linkend="term-cross-platform-play" baseform="Cross-platform play">cross-platform</firstterm> — playable directly in a web browser or via native applications on smartphones, tablets, and PCs.
         </simpara>
       </listitem>
       <listitem>
         <simpara>
-          <emphasis role="strong"><firstterm linkend="term-fragmented-tooling">Fragmented tooling</firstterm>.</emphasis> Companies favour tools that integrate smoothly into existing workflows.
+          <emphasis role="strong"><firstterm linkend="term-fragmented-tooling">Fragmented tooling</firstterm>.</emphasis>
+          Companies favour tools that integrate smoothly into existing workflows.
           Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
           <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an <glossterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm> to change that.
           We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
@@ -84,8 +86,9 @@
       </listitem>
       <listitem>
         <simpara>
-          <emphasis role="strong"><firstterm linkend="term-inverted-pedagogy">Inverted pedagogy</firstterm>.</emphasis> Children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
-          Yet <firstterm linkend="term-formal-modelling">formal modelling</firstterm> is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic ‘toy examples’ that bear little resemblance to the challenges encountered in industry.
+          <emphasis role="strong"><firstterm linkend="term-inverted-pedagogy">Inverted pedagogy</firstterm>.</emphasis>
+          Children learn to add and multiply long before they ever hear of ring theory — and only if they choose to.
+          Yet <firstterm linkend="term-formal-modelling">formal modelling</firstterm> is typically taught the other way around: heavy on theory, light on practice, and illustrated with simplistic toy examples that bear little resemblance to the challenges encountered in industry.
           Fusing the experience of a JRPG (for example, <productname>Final Fantasy</productname>) with that of a training platform (such as <productname>Coursera</productname>) without breaking immersion is no small feat.
           One thing is certain, though: learners will spend most of their time practising.
           The very nature of JRPGs will steer us away from the pitfall of inverted pedagogy.
@@ -174,7 +177,7 @@
               Value Proposition VPαʹ6: learning fundamentals through play.
               Purpose: limited exposure, inverted pedagogy.
               -->
-            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="term-project-management" baseform="Project management">project management</firstterm>, <firstterm linkend="term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="term-verification">verification</firstterm>, and <firstterm linkend="term-validation">validation</firstterm>.
+            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="term-project-management">project management</firstterm>, <firstterm linkend="term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="term-verification">verification</firstterm>, and <firstterm linkend="term-validation">validation</firstterm>.
             As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame putting their skills to the ultimate test.
           </simpara>
         </listitem>

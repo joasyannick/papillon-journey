@@ -6,13 +6,15 @@
 -->
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:xml="http://www.w3.org/XML/1998/namespace"
     xmlns="http://chrysalide-learning.coop/ns/contributions"
     targetNamespace="http://chrysalide-learning.coop/ns/contributions"
-    elementFormDefault="qualified">
+    elementFormDefault="qualified"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    vc:minVersion="1.1">
 
-  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
-             schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+  <xs:import
+      namespace="http://www.w3.org/XML/1998/namespace"
+      schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 
   <xs:element name="contributor" type="ContributorType"/>
 
@@ -21,6 +23,7 @@
       <xs:element name="name" type="NameType"/>
       <xs:element name="account" type="AccountType"/>
       <xs:element name="organisations" type="OrganisationsType" minOccurs="0"/>
+      <xs:element name="persona" type="PersonaType" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="xml:id" use="required"/>
     <xs:attribute ref="xml:lang" use="required" fixed="en-GB"/>
@@ -35,11 +38,29 @@
 
   <xs:complexType name="NameType">
     <xs:sequence>
-      <xs:element name="given" type="xs:string"/>
-      <xs:element name="additional" type="xs:string" minOccurs="0"/>
-      <xs:element name="family" type="xs:string" minOccurs="0"/>
+      <xs:element name="given" type="NamePartType"/>
+      <xs:element name="additional" type="NamePartType" minOccurs="0"/>
+      <xs:element name="family" type="NamePartType" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="xml:lang" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="NamePartType" mixed="true">
+    <xs:sequence minOccurs="0">
+      <xs:element name="translation" type="TranslationType"/>
+    </xs:sequence>
+    <xs:assert
+        test="not(translation) or not(text()[normalize-space()])"
+        xpathDefaultNamespace="##targetNamespace"/>
+  </xs:complexType>
+
+  <xs:complexType name="TranslationType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="from" type="xs:language" use="required"/>
+        <xs:attribute name="original" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
   </xs:complexType>
 
   <xs:complexType name="AccountType">
@@ -54,6 +75,25 @@
         </xs:attribute>
       </xs:extension>
     </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="PersonaType">
+    <xs:sequence>
+      <xs:element name="home" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="portfolio" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="blog" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="social" type="SocialType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="NamedLinkType">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="url" type="xs:anyURI" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="SocialType">
+    <xs:attribute name="network" type="xs:string" use="required"/>
+    <xs:attribute name="url" type="xs:anyURI" use="required"/>
   </xs:complexType>
 
   <xs:complexType name="OrganisationsType">
@@ -74,7 +114,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-04
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 

@@ -5,6 +5,8 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <contributor
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://chrysalide-learning.coop/ns/contributions ../contributor.xsd"
     xml:id="github-joasyannick"
     xml:lang="en-GB"
     xmlns="http://chrysalide-learning.coop/ns/contributions"
@@ -22,11 +24,15 @@
       <position>Project manager</position>
     </organisation>
   </organisations>
+  <persona>
+    <social network="X" url="https://x.com/JoasYannick" />
+    <social network="LinkedIn" url="https://www.linkedin.com/in/joas-yannick-kinouani" />
+  </persona>
 </contributor>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-04
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 

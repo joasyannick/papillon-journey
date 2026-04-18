@@ -74,13 +74,14 @@
 
   <xs:complexType name="ChangeControlNarrativeType">
     <xs:attribute name="change-control" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="slug" type="xs:string" use="required"/>
   </xs:complexType>
 
 </xs:schema>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-14
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 

@@ -13,13 +13,13 @@
   <contribution contributor="github-joasyannick">
     <team name="product" leader="true"/>
     <team name="project" leader="true"/>
-    <story change-control="9"/>
+    <story change-control="9" slug="write-vision"/>
   </contribution>
 </release>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-14
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 
