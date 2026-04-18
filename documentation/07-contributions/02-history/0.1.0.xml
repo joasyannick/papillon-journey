@@ -25,6 +25,11 @@
 
   - Joas Yannick Kinouani
 
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
+
   ### Added
 
   - Recorded contributions for release 0.1.0.

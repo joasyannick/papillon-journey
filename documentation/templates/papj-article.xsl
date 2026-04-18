@@ -16,11 +16,16 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-03
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 
   - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
 
   ### Added
 

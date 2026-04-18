@@ -49,6 +49,11 @@ java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
 
   - Joas Yannick Kinouani
 
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
+
   ### Added
 
   - Documented contributor registration, validation, and DocBook fragment generation.

@@ -38,15 +38,48 @@
 * Enhanced phrasing along the way.
 [Product: User Story 9]]]></programlisting>
   </section>
+  <section>
+    <title>Changelogs</title>
+    <simpara>
+      Every file carries a changelog in a trailing XML comment.
+      Each entry covers one user story and follows this structure:
+    </simpara>
+    <programlisting><![CDATA[## <narrative-type> <github-id> — <date>
+
+### Authors
+
+- <full name>
+
+### Agents
+
+- Claude Code: Sonnet 4.5, Sonnet 4.6
+- Codex: GPT-5.4
+
+### Added
+
+- <what was introduced>]]></programlisting>
+    <simpara>
+      <code>### Authors</code> lists the people who worked on the entry.
+      <code>### Agents</code> immediately follows and lists any AI agents that contributed — name and version are sufficient.
+      Authorship implies responsibility: an author can be contacted and held accountable for what they have written.
+      AI agents cannot bear that responsibility, which is why they are recorded separately and omitted from commit messages.
+      Omit <code>### Agents</code> entirely when no agent contributed.
+    </simpara>
+  </section>
 </chapter>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-03-04
+  ## User Story 9 — 2026-04-18
 
   ### Authors
 
   - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
 
   ### Added
 

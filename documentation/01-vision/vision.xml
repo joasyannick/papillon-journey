@@ -32,6 +32,11 @@
         <date>2026-04-17</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
         <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+          </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
             <listitem><simpara>Described what we are building.</simpara></listitem>
