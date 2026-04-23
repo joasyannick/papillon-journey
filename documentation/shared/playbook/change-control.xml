@@ -15,7 +15,7 @@
       The main branch is <literal>canon</literal>.
       Feature branches follow the naming convention:
     </simpara>
-    <programlisting><![CDATA[<team>/<narrative-type>/<github-id>-<branch-label>]]></programlisting>
+    <programlisting><![CDATA[<team>/<storytelling>/<github-id>-<branch-label>]]></programlisting>
   </section>
   <section>
     <title>Commit messages</title>
@@ -28,7 +28,7 @@
 -- <state-before>.
 => <state-after>.
 * <additional-information>.
-[<team>: <narrative-type> <github-id>]]]></programlisting>
+[<Team> <Storytelling> <github-id>]]]></programlisting>
     <simpara>
       Example:
     </simpara>
@@ -36,13 +36,13 @@
 -- Other documents will have the same author, publisher, or introduction.
 => Extracted shareable fragments for reuse via XInclude.
 * Enhanced phrasing along the way.
-[Product: User Story 9]]]></programlisting>
+[Product Story 9]]]></programlisting>
   </section>
   <section>
     <title>Changelogs</title>
     <simpara>
       Every file carries a changelog in a trailing XML comment.
-      Each entry covers one user story and follows this structure:
+      Each entry covers one story and follows this structure:
     </simpara>
     <programlisting><![CDATA[## <narrative-type> <github-id> — <date>
 
@@ -66,11 +66,25 @@
       Omit <code>### Agents</code> entirely when no agent contributed.
     </simpara>
   </section>
+  <section>
+    <title>Storytelling vocabulary</title>
+    <simpara>
+      Change control narratives are authored in the storytelling vocabulary at <filename>documentation/06-change-control/storytelling.xsd</filename>.
+      Each narrative type — <tag>saga</tag>, <tag>epic</tag>, <tag>story</tag>, <tag>tale</tag>, or <tag>what-if</tag> — wraps a DocBook <tag>article</tag> and carries the metadata required for change control: <tag>responsible-team</tag> and <tag>priority</tag>.
+    </simpara>
+    <simpara>
+      The DocBook article can be extracted into a standalone document using the storytelling stylesheet:
+    </simpara>
+    <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/06-change-control/<replaceable>path/to/narrative.xml</replaceable> \
+  -xsl:documentation/06-change-control/storytelling.xsl \
+  -o:documentation/06-change-control/<replaceable>path/to/narrative-article.xml</replaceable></programlisting>
+  </section>
 </chapter>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

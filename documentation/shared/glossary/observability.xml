@@ -12,17 +12,19 @@
   <glossterm>Observability</glossterm>
   <glossdef>
     <simpara>
-      The degree to which the internal state and behaviour of a system can be understood from the information it exposes externally — primarily logs, metrics, and traces.
-      Good observability means this data is sufficient to monitor health, diagnose failures, and answer questions that were not anticipated when the system was instrumented.
+      The degree to which the internal state and behaviour of a system or software can be understood from the information it exposes externally — primarily logs, metrics, and traces.
+      Good observability means this data is sufficient to monitor health, diagnose failures, and answer unanticipated questions.
     </simpara>
     <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
     <glossseealso otherterm="term-devops">Devops</glossseealso>
+    <glossseealso otherterm="term-performance">Performance</glossseealso>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

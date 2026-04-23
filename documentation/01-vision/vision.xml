@@ -12,11 +12,11 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-04-17</date>
+    <date>2026-04-24</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
-      <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
+      <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
     </authorgroup>
     <xi:include href="../shared/legal/publisher.xml"/>
     <xi:include href="../shared/legal/copyright.xml"/>
@@ -28,9 +28,9 @@
     </legalnotice>
     <revhistory>
       <revision>
-        <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-17</date>
-        <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
+        <revnumber>Draft 0.1 — Story 9</revnumber>
+        <date>2026-04-24</date>
+        <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
@@ -50,7 +50,7 @@
       </revision>
     </revhistory>
   </info>
-  <section>
+  <section role="intro">
     <!-- What we are building -->
     <title>Introduction</title>
     <xi:include href="../shared/products/papillon-journey.xml"/>
@@ -230,8 +230,8 @@
       </simpara>
       <simpara>
         Effective navigation relies on reference points: at sea, a lighthouse; ashore, a landmark.
-        For educators, the equivalent is a canonical work — a textbook, a research paper, or a project — that learners can steer by.
-        In formal engineering, the foundational texts are well established; what is still missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
+        For educators, the equivalent is a canonical work — a book, a research paper, or a project — that learners can steer by.
+        Formal engineering does not lack reference texts; what is missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
       </simpara>
       <simpara>
         <!--
@@ -243,17 +243,29 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ11: forkability for curriculum-aligned teaching.
-          Purpose: inverted pedagogy.
-          TODO: Write this.
+          Teaching is never one-size-fits-all: what motivates one learner may leave another untouched.
+          Some learners respond more readily to play than to conventional instruction.
+          For them, <productname>Papillon Journey</productname> can serve not only as a project to study, but also as a medium through which software engineering is taught.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ12: partnerships with established institutions.
-          Purpose: limited exposure.
-          TODO: Write this.
+          Value Proposition VPαʹ11: curriculum-aligned institutional partnerships.
+          Purpose: limited exposure, inverted pedagogy.
+
+          Strategic rationale:
+          - This value proposition may also support project profitability through funded institutional collaborations.
+          - Partner institutions may value official in-game presence as a way to showcase their programmes and attract prospective learners.
+
+          Governance rationale:
+          - Unlike third-party educational mods, partner content should go through a dedicated editorial and partnership process.
+          - This offers institutions a more controlled and prestigious mode of participation than the ordinary mod ecosystem.
+
+          Ecosystem rationale:
+          - Institutions that do not enter formal partnerships may still create and distribute teaching content through the mod development framework.
         -->
+        Educators at partner institutions will co-create with us adventures for players and prospective learners that showcase the expertise and distinctive character of their schools or universities.
+        As official game content, they will be developed through a dedicated partnership process rather than the community review route used for third-party mods.
       </simpara>
     </section>
     <section>
@@ -263,14 +275,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ13: a formal specification language for the agentic era.
+          Value Proposition VPαʹ12: a formal specification language for the agentic era.
           Purpose: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ14: an integrated engineering environment.
+          Value Proposition VPαʹ13: an integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
           TODO: Write this.
         -->
@@ -283,14 +295,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ15: a living use case to apply and demonstrate research in context.
+          Value Proposition VPαʹ14: a living use case to apply and demonstrate research in context.
           Purpose: inverted pedagogy.
           TODO: Write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ16: a unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ15: a unified engineering environment to host research-grade integrations.
           Purpose: fragmented tooling.
           TODO: Write this.
         -->
@@ -392,7 +404,7 @@
             <entry/>
           </row>
           <row>
-            <entry morerows="2">Software engineering educators</entry>
+            <entry morerows="1">Software engineering educators</entry>
             <entry>VPαʹ10</entry>
             <entry>A real-world formal engineering project built for teaching</entry>
             <entry>An industrial-scale project anchored in ISO/IEC/IEEE 12207, with documentation written as teaching material for classrooms and self-study.</entry>
@@ -401,28 +413,21 @@
           </row>
           <row>
             <entry>VPαʹ11</entry>
-            <entry>Forkability for curriculum-aligned teaching</entry>
+            <entry>Curriculum-aligned institutional partnerships</entry>
             <entry/>
-            <entry>Inverted pedagogy</entry>
-            <entry/>
-          </row>
-          <row>
-            <entry>VPαʹ12</entry>
-            <entry>Partnerships with established institutions</entry>
-            <entry/>
-            <entry>Limited exposure</entry>
+            <entry>Limited exposure, inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry morerows="1">Software engineering practitioners</entry>
-            <entry>VPαʹ13</entry>
+            <entry>VPαʹ12</entry>
             <entry>A formal specification language for the agentic era</entry>
             <entry/>
             <entry>Limited exposure, fragmented tooling</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ14</entry>
+            <entry>VPαʹ13</entry>
             <entry>An integrated engineering environment</entry>
             <entry/>
             <entry>Limited exposure, fragmented tooling</entry>
@@ -430,14 +435,14 @@
           </row>
           <row>
             <entry morerows="1">Software engineering researchers</entry>
-            <entry>VPαʹ15</entry>
+            <entry>VPαʹ14</entry>
             <entry>A living use case to apply and demonstrate research in context</entry>
             <entry/>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ16</entry>
+            <entry>VPαʹ15</entry>
             <entry>A unified engineering environment to host research-grade integrations</entry>
             <entry/>
             <entry>Fragmented tooling</entry>
@@ -463,6 +468,11 @@
   <section>
     <!-- How to get involved -->
     <title>Getting involved</title>
+    <simpara>
+    </simpara>
+  </section>
+  <section role="outro">
+    <title>Feedback</title>
     <simpara>
     </simpara>
   </section>

@@ -3,16 +3,15 @@
   SPDX-FileCopyrightText: 2026 Chrysalide Learning
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<author xmlns="http://docbook.org/ns/docbook"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        xml:lang="en-GB"
-        version="5.1">
+<author xmlns="http://docbook.org/ns/docbook" xml:lang="en-GB" version="5.1">
    <personname>
       <givenname>Joas</givenname>
       <othername>Yannick</othername>
       <surname>Kinouani</surname>
    </personname>
-   <uri role="github" xlink:href="https://github.com/joasyannick"/>
+   <uri xmlns:xlink="http://www.w3.org/1999/xlink"
+        role="github"
+        xlink:href="https://github.com/joasyannick"/>
    <affiliation>
       <jobtitle>Product manager</jobtitle>
       <jobtitle>Project manager</jobtitle>
@@ -20,6 +19,6 @@
    </affiliation>
 </author>
 <!--
-  Generated from contributor.xml by author.xsl.
-  Do not edit directly.
+  Generated from ./contributor.xml using ../author.xsl.
+  See the Lifecycle Management Playbook [ββ] for regeneration instructions.
 -->

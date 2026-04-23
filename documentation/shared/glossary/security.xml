@@ -13,15 +13,17 @@
   <glossdef>
     <simpara>
       The integration of secure practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to proactively mitigate risks and vulnerabilities.
+      As a <glossterm linkend="term-quality-attribute">quality attribute</glossterm>, it expresses the degree to which a system or software protects itself and its data from disruption and unauthorised access, modification, or disclosure.
     </simpara>
     <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

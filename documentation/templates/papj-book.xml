@@ -15,8 +15,10 @@
     <date><!-- TODO: publication date (YYYY-MM-DD) --></date>
     <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
     <edition><!-- TODO: edition number --></edition>
-    <!-- TODO: replace with the author's contributor file -->
-    <xi:include href="../07-contributions/01-people/author.xml"/>
+    <authorgroup>
+      <!-- TODO: replace with the author's contributor file -->
+       <xi:include href="../07-contributions/01-people/author/author.xml"/>
+    </authorgroup>
     <xi:include href="../shared/legal/publisher.xml"/>
     <xi:include href="../shared/legal/copyright.xml"/>
     <legalnotice>
@@ -28,9 +30,9 @@
     <revhistory>
       <!-- TODO: replace this entry with your document's first revision -->
       <revision>
-        <revnumber>Draft 0.1 — User Story 9</revnumber>
-        <date>2026-04-04</date>
-        <xi:include href="../07-contributions/01-people/joasyannick/author-full.xml"/>
+        <revnumber>Draft 0.1 — Story 9</revnumber>
+        <date>2026-04-22</date>
+        <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>

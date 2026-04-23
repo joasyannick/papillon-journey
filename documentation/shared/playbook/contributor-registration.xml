@@ -25,25 +25,25 @@
   <section>
     <title>DocBook fragment generation</title>
     <simpara>
-      Two DocBook fragments are generated from each profile and committed alongside it: a full <tag>author</tag> element for document headers, and an abridged one for bibliographies.
+      Two DocBook fragments are generated from each profile and committed alongside it: a full <tag>author</tag> element for document headers, and a name-only one for bibliographies.
       Regenerate them with Saxon after any change to the profile:
     </simpara>
     <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
   -xsl:documentation/07-contributions/01-people/author.xsl \
-  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-full.xml
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author.xml
 
 java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
   -xsl:documentation/07-contributions/01-people/author.xsl \
-  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-abridged.xml \
-  mode=abridged</programlisting>
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-name.xml \
+  detail=name</programlisting>
   </section>
 </chapter>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

@@ -12,7 +12,7 @@
   <glossterm>Reliability</glossterm>
   <glossdef>
     <simpara>
-      A <glossterm linkend="term-quality-attribute">quality attribute</glossterm> expressing the degree to which a system performs its intended functions correctly and consistently over time under specified conditions.
+      A <glossterm linkend="term-quality-attribute">quality attribute</glossterm> expressing the degree to which a system or software performs its functions correctly and consistently over time in its intended operating environment.
     </simpara>
     <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
   </glossdef>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

@@ -13,13 +13,13 @@
   <biblioid class="pubsnumber">βα</biblioid>
   <title>Lifecycle Management Plan</title>
   <authorgroup>
-    <xi:include href="../../07-contributions/01-people/joasyannick/author-abridged.xml"/>
+    <xi:include href="../../07-contributions/01-people/joasyannick/author-name.xml"/>
   </authorgroup>
 </biblioentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

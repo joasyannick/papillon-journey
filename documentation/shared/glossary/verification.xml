@@ -12,7 +12,7 @@
   <glossterm>Verification</glossterm>
   <glossdef>
     <simpara>
-      The process of ensuring that a product is being built right — that it meets its <glossterm linkend="term-technical-specification">technical specifications</glossterm> — through testing or <glossterm linkend="term-formal-verification">formal verification</glossterm>.
+      The practice of ensuring that a product is being built right — that it meets its <glossterm linkend="term-technical-specification">technical specifications</glossterm> — through testing or <glossterm linkend="term-formal-verification">formal verification</glossterm>.
     </simpara>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="term-formal-verification">Formal verification</glossseealso>
@@ -25,7 +25,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

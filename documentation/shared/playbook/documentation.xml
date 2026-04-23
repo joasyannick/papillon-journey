@@ -91,7 +91,7 @@
   <section>
     <title>Changelogs</title>
     <simpara>
-      Project-authored files without a built-in changelog mechanism (such as <code>revhistory</code>) carry a footer changelog in Keep a Changelog format, using User Story numbers instead of release versions.
+      Project-authored files without a built-in changelog mechanism (such as <code>revhistory</code>) carry a footer changelog in Keep a Changelog format, using Story numbers instead of release versions.
       The union of authors across all changelog entries must equal the SPDX copyright holders of the file.
     </simpara>
     <simpara>
@@ -100,7 +100,7 @@
     <programlisting language="xml"><![CDATA[<!--
   # Changelog
 
-  ## User Story N — YYYY-MM-DD
+  ## Story N — YYYY-MM-DD
 
   ### Authors
 
@@ -115,7 +115,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

@@ -11,7 +11,7 @@
     xml:lang="en-GB"
     xmlns="http://chrysalide-learning.coop/ns/contributions"
     version="0.1">
-  <name xml:lang="fr-FR">
+  <name>
     <given>Joas</given>
     <additional>Yannick</additional>
     <family>Kinouani</family>
@@ -25,14 +25,14 @@
     </organisation>
   </organisations>
   <persona>
-    <social network="X" url="https://x.com/JoasYannick" />
-    <social network="LinkedIn" url="https://www.linkedin.com/in/joas-yannick-kinouani" />
+    <social network="X" url="https://x.com/JoasYannick"/>
+    <social network="LinkedIn" url="https://www.linkedin.com/in/joas-yannick-kinouani"/>
   </persona>
 </contributor>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

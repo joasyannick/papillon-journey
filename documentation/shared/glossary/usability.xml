@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="term-usability"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Usability</glossterm>
+  <glossdef>
+    <simpara>
+      A <glossterm linkend="term-quality-attribute">quality attribute</glossterm> expressing the degree to which a system or software allows its users to achieve their goals effectively, efficiently, and with satisfaction.
+    </simpara>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
+    <glossseealso otherterm="term-user-experience-design">User experience design</glossseealso>
+    <glossseealso otherterm="term-validation">Validation</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-04-23
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
+
+  ### Added
+
+  - Defined 'usability'.
+  - Cross-referenced related terms.
+-->

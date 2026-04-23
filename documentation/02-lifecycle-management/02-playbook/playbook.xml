@@ -28,9 +28,9 @@
     </legalnotice>
     <revhistory>
       <revision>
-        <revnumber>Draft 0.1 — User Story 9</revnumber>
+        <revnumber>Draft 0.1 — Story 9</revnumber>
         <date>2026-04-14</date>
-        <xi:include href="../../07-contributions/01-people/joasyannick/author-full.xml"/>
+        <xi:include href="../../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>

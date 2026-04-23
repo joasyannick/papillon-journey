@@ -12,10 +12,10 @@
   <glossterm>Requirements management</glossterm>
   <glossdef>
     <simpara>
-      The systematic process of eliciting, decomposing, documenting, prioritising, and tracing user and <glossterm linkend="term-stakeholder">stakeholder</glossterm> requirements throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>.
+      The discipline of eliciting, decomposing, documenting, prioritising, and tracing user and <glossterm linkend="term-stakeholder">stakeholder</glossterm> requirements throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>.
     </simpara>
     <simpara>
-      Because users and stakeholders care about functionality and value, requirements should reflect this — leaving design, <glossterm linkend="term-architecture">architecture</glossterm>, and technical choices to <glossterm linkend="term-user-experience-design" baseform="User experience design">UX</glossterm> designers and <glossterm linkend="term-technical-specification" baseform="Technical specification">specification</glossterm> engineers.
+      Because users and stakeholders care about functionality and <glossterm linkend="term-value-proposition" baseform="Value proposition">value</glossterm>, requirements should reflect this — leaving design, <glossterm linkend="term-architecture">architecture</glossterm>, and technical choices to <glossterm linkend="term-user-experience-design" baseform="User experience design">UX</glossterm> designers and <glossterm linkend="term-technical-specification" baseform="Technical specification">specification</glossterm> engineers.
       In practice, however, these teams are often handed ‘requirements’ that already embed pre-design or pre-specification decisions.
     </simpara>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
@@ -30,7 +30,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

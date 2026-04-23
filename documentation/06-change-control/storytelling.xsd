@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://chrysalide-learning.coop/ns/storytelling"
+    targetNamespace="http://chrysalide-learning.coop/ns/storytelling"
+    elementFormDefault="qualified">
+
+  <xs:element name="saga"   type="NarrativeType"/>
+  <xs:element name="what-if" type="NarrativeType"/>
+  <xs:element name="tale"   type="NarrativeType"/>
+  <xs:element name="epic"   type="NarrativeType"/>
+  <xs:element name="story"  type="NarrativeType"/>
+
+  <xs:complexType name="NarrativeType">
+    <xs:sequence>
+      <xs:element name="responsible-team" type="TeamType"/>
+      <xs:element name="priority"         type="PriorityType"/>
+      <xs:any namespace="http://docbook.org/ns/docbook" processContents="lax"/>
+    </xs:sequence>
+    <xs:attribute name="change-control" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="slug"           type="xs:string"          use="required"/>
+  </xs:complexType>
+
+  <xs:simpleType name="TeamType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="product"/>
+      <xs:enumeration value="project"/>
+      <xs:enumeration value="ux"/>
+      <xs:enumeration value="art"/>
+      <xs:enumeration value="specification"/>
+      <xs:enumeration value="development"/>
+      <xs:enumeration value="devops"/>
+      <xs:enumeration value="verification"/>
+      <xs:enumeration value="validation"/>
+      <xs:enumeration value="quality"/>
+      <xs:enumeration value="security"/>
+      <xs:enumeration value="legal"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="PriorityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="lowest"/>
+      <xs:enumeration value="low"/>
+      <xs:enumeration value="medium"/>
+      <xs:enumeration value="high"/>
+      <xs:enumeration value="highest"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-04-23
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
+
+  ### Added
+
+  - Introduced the storytelling schema.
+-->

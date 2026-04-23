@@ -12,17 +12,21 @@
   <glossterm>Quality attribute</glossterm>
   <glossdef>
     <simpara>
-      A property of a system used to judge how well it fulfils non-functional expectations such as performance, <glossterm linkend="term-security">security</glossterm>, <glossterm linkend="term-reliability">reliability</glossterm>, or usability.
+      A property of a system or software used to judge how well it fulfils non-functional expectations such as <glossterm linkend="term-reliability">reliability</glossterm>, <glossterm linkend="term-security">security</glossterm>, <glossterm linkend="term-performance">performance</glossterm>, or <glossterm linkend="term-usability">usability</glossterm>.
     </simpara>
     <glossseealso otherterm="term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="term-observability">Observability</glossseealso>
+    <glossseealso otherterm="term-performance">Performance</glossseealso>
     <glossseealso otherterm="term-reliability">Reliability</glossseealso>
     <glossseealso otherterm="term-safety">Safety</glossseealso>
+    <glossseealso otherterm="term-security">Security</glossseealso>
+    <glossseealso otherterm="term-usability">Usability</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

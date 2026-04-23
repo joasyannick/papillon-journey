@@ -12,7 +12,7 @@
   <glossterm>Product management</glossterm>
   <glossdef>
     <simpara>
-      The steering and feature prioritisation of a product based on user and market insights, leading it toward the agreed vision.
+      The steering and feature prioritisation of a product based on user and market insights, leading it towards the agreed vision.
     </simpara>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
     <glossseealso otherterm="term-project-management">Project management</glossseealso>
@@ -24,7 +24,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

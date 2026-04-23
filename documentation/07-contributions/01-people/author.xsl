@@ -7,18 +7,18 @@
 <xsl:stylesheet
     version="2.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:c="http://chrysalide-learning.coop/ns/contributions"
+    xmlns:contrib="http://chrysalide-learning.coop/ns/contributions"
     xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    exclude-result-prefixes="c">
+    exclude-result-prefixes="contrib xlink">
 
   <!--
     Transforms a contributor profile into a DocBook <author> element.
-    Pass -param:mode=abridged for a personname-only element suitable for
-    bibliographies. Defaults to full output including affiliation and GitHub URI.
+    Pass detail=name for a personname-only element suitable for bibliographies.
+    Defaults to full output including affiliation and GitHub URI.
   -->
 
-  <xsl:param name="mode" select="'full'"/>
+  <xsl:param name="detail" select="'full'"/>
 
   <xsl:output method="xml" encoding="utf-8" indent="yes"/>
 
@@ -29,33 +29,33 @@
       <xsl:text> Chrysalide Learning&#10;  SPDX-License-Identifier: GPL-3.0-or-later&#10;</xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
-    <xsl:apply-templates select="c:contributor"/>
+    <xsl:apply-templates select="contrib:contributor"/>
     <xsl:text>&#10;</xsl:text>
     <xsl:comment>
-      <xsl:text>&#10;  Generated from contributor.xml by author.xsl.&#10;  Do not edit directly.&#10;</xsl:text>
+      <xsl:text>&#10;  Generated from ./contributor.xml using ../author.xsl.&#10;  See the Lifecycle Management Playbook [ββ] for regeneration instructions.&#10;</xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="c:contributor">
+  <xsl:template match="contrib:contributor">
     <author xml:lang="en-GB" version="5.1">
       <personname>
-        <givenname><xsl:value-of select="c:name/c:given"/></givenname>
-        <xsl:if test="c:name/c:additional">
-          <othername><xsl:value-of select="c:name/c:additional"/></othername>
+        <givenname><xsl:value-of select="contrib:name/contrib:given"/></givenname>
+        <xsl:if test="contrib:name/contrib:additional">
+          <othername><xsl:value-of select="contrib:name/contrib:additional"/></othername>
         </xsl:if>
-        <xsl:if test="c:name/c:family">
-          <surname><xsl:value-of select="c:name/c:family"/></surname>
+        <xsl:if test="contrib:name/contrib:family">
+          <surname><xsl:value-of select="contrib:name/contrib:family"/></surname>
         </xsl:if>
       </personname>
-      <xsl:if test="$mode = 'full'">
-        <uri role="github" xlink:href="{concat('https://github.com/', c:account[@platform='github'])}"/>
-        <xsl:for-each select="c:organisations/c:organisation">
+      <xsl:if test="$detail = 'full'">
+        <uri role="github" xlink:href="{concat('https://github.com/', contrib:account[@platform='github'])}"/>
+        <xsl:for-each select="contrib:organisations/contrib:organisation">
           <affiliation>
-            <xsl:for-each select="c:position">
+            <xsl:for-each select="contrib:position">
               <jobtitle><xsl:value-of select="."/></jobtitle>
             </xsl:for-each>
-            <orgname><xsl:value-of select="c:name"/></orgname>
+            <orgname><xsl:value-of select="contrib:name"/></orgname>
           </affiliation>
         </xsl:for-each>
       </xsl:if>
@@ -66,7 +66,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 
@@ -79,5 +79,5 @@
 
   ### Added
 
-  - Introduced the author transformation, merging full and abridged variants into one stylesheet with a mode parameter.
+  - Introduced the author transformation, merging full and name variants into one stylesheet with a detail parameter.
 -->

@@ -12,7 +12,7 @@
   <glossterm>Cross-platform play</glossterm>
   <glossdef>
     <simpara>
-      A game experience designed to run across multiple device types and operating systems while preserving player progress.
+      A game experience designed to span multiple device types and operating systems while preserving player progress. In multiplayer modes, it also allows players to connect regardless of platform.
     </simpara>
     <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

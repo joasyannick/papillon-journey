@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="term-performance"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Performance</glossterm>
+  <glossdef>
+    <simpara>
+      A <glossterm linkend="term-quality-attribute">quality attribute</glossterm> expressing the degree to which a system or software carries out its functions within acceptable time and resource constraints for its intended operating environment.
+    </simpara>
+    <glossseealso otherterm="term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="term-observability">Observability</glossseealso>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-04-23
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
+
+  ### Added
+
+  - Defined 'performance'.
+  - Cross-referenced related terms.
+-->

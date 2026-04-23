@@ -13,7 +13,7 @@
   <acronym>QA</acronym>
   <glossdef>
     <simpara>
-      The systematic upholding and improvement of quality practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, by auditing workflows and overseeing traceability.
+      The upholding and improvement of quality practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, by auditing workflows and overseeing traceability.
     </simpara>
     <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
@@ -24,7 +24,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

@@ -12,19 +12,20 @@
   <glossterm>Validation</glossterm>
   <glossdef>
     <simpara>
-      The process of engaging users and <glossterm linkend="term-stakeholder">stakeholders</glossterm> to validate that the right product is being built — that it meets their acceptance criteria and delivers value.
+      The practice of engaging users and <glossterm linkend="term-stakeholder">stakeholders</glossterm> to assess whether the right product is being built — whether it meets their acceptance criteria and delivers <glossterm linkend="term-value-proposition" baseform="Value proposition">value</glossterm>.
     </simpara>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
     <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
     <glossseealso otherterm="term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="term-usability">Usability</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 

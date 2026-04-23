@@ -25,6 +25,7 @@
   <xi:include href="lifecycle-management.xml"/>
   <xi:include href="model-based-engineering.xml"/>
   <xi:include href="observability.xml"/>
+  <xi:include href="performance.xml"/>
   <xi:include href="product-management.xml"/>
   <xi:include href="project-management.xml"/>
   <xi:include href="quality-assurance.xml"/>
@@ -36,6 +37,7 @@
   <xi:include href="software-development.xml"/>
   <xi:include href="stakeholder.xml"/>
   <xi:include href="technical-specification.xml"/>
+  <xi:include href="usability.xml"/>
   <xi:include href="user-experience-design.xml"/>
   <xi:include href="validation.xml"/>
   <xi:include href="value-proposition.xml"/>
@@ -44,7 +46,7 @@
 <!--
   # Changelog
 
-  ## User Story 9 — 2026-04-18
+  ## Story 9 — 2026-04-23
 
   ### Authors
 
@@ -58,5 +60,5 @@
   ### Added
 
   - Created the Engineering and Management glossary division.
-  - Groups the 30 terms that form a single connected component in the see/see-also graph.
+  - Groups the 32 terms that form a single connected component in the see/see-also graph.
 -->

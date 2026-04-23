@@ -11,6 +11,6 @@
    </personname>
 </author>
 <!--
-  Generated from contributor.xml by author.xsl.
-  Do not edit directly.
+  Generated from ./contributor.xml using ../author.xsl.
+  See the Lifecycle Management Playbook [ββ] for regeneration instructions.
 -->

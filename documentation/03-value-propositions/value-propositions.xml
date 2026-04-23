@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<article
+    xml:lang="en-GB"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <info>
+    <biblioid class="pubsnumber">γ</biblioid>
+    <title>Value propositions</title>
+    <date>2026-04-23</date>
+    <releaseinfo>0.1.0</releaseinfo>
+    <edition>0.1</edition>
+    <authorgroup>
+      <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+    </authorgroup>
+    <xi:include href="../shared/legal/publisher.xml"/>
+    <xi:include href="../shared/legal/copyright.xml"/>
+    <legalnotice>
+      <simpara>
+        <xi:include href="../shared/legal/trademarks-owned.xml"/>
+        <xi:include href="../shared/legal/trademarks-other.xml"/>
+      </simpara>
+    </legalnotice>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 9</revnumber>
+        <date>2026-04-23</date>
+        <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started the Value Propositions document.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <section role="intro">
+    <title>Introduction</title>
+    <xi:include href="../shared/products/papillon-journey.xml"/>
+    <xi:include href="../shared/products/chrysal-studio.xml"/>
+    <simpara><!-- TODO: describe the purpose and scope of this document --></simpara>
+  </section>
+  <!-- TODO: add one section per stakeholder group -->
+  <section role="outro">
+    <title>Feedback</title>
+    <simpara></simpara>
+  </section>
+  <glossary>
+    <title>Glossary</title>
+    <xi:include href="../shared/glossary/engineering.xml"/>
+    <xi:include href="../shared/glossary/game-design.xml"/>
+  </glossary>
+</article>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-04-23
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.4
+
+  ### Added
+
+  - Started the Value Propositions document.
+-->

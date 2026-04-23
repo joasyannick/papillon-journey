@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<article xmlns="http://docbook.org/ns/docbook" xml:lang="en-GB" version="5.1">
+   <info>
+      <biblioid class="pubsnumber">ϛε9</biblioid>
+      <title>Story 9</title>
+      <subtitle>Write the project vision document — by 31 May 2026</subtitle>
+      <date>2026-04-24</date>
+      <releaseinfo>0.1.0</releaseinfo>
+      <edition>0.1</edition>
+      <xi:include xmlns="http://chrysalide-learning.coop/ns/storytelling"
+                  xmlns:doc="http://docbook.org/ns/docbook"
+                  xmlns:xi="http://www.w3.org/2001/XInclude"
+                  href="../../../07-contributions/01-people/joasyannick/author.xml"/>
+      <revhistory>
+         <revision>
+            <revnumber>Draft 0.1 — Story 9</revnumber>
+            <date>2026-04-24</date>
+            <xi:include xmlns="http://chrysalide-learning.coop/ns/storytelling"
+                        xmlns:doc="http://docbook.org/ns/docbook"
+                        xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="../../../07-contributions/01-people/joasyannick/author.xml"/>
+            <revdescription>
+          </revdescription>
+         </revision>
+      </revhistory>
+   </info>
+   <section>
+      <title>Introduction</title>
+      <simpara>
+        This document records Story 9 within the controlled change system of <productname>Papillon Journey</productname>.
+        It formalises the need to produce a concise project vision document intended to clarify the project's direction for prospective contributors and stakeholders.
+      </simpara>
+      <simpara>
+        The story defines the motivation, narrative context, ownership, and lifecycle placement of this work item, and provides traceability within the project's documentation structure.
+      </simpara>
+   </section>
+   <section>
+      <title>Story</title>
+      <simpara>
+        As a prospective contributor evaluating whether to invest time in <productname>Papillon Journey</productname>, I prefer not having to guess a project's purpose, goals, value propositions, and action plan by trawling through GitHub issues or discussions — as is often the case in open source.
+        Instead, I want these elements articulated in a concise 2–4-page vision document, so that I can quickly decide whether the project aligns with my interests, contribute effectively, and share my enthusiasm for it.
+      </simpara>
+   </section>
+   <section>
+      <title>Backstory</title>
+      <itemizedlist>
+         <listitem>
+            <simpara>Prospective contributor: Joséphine Rossi</simpara>
+         </listitem>
+      </itemizedlist>
+      <simpara>
+        'Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!'
+      </simpara>
+      <simpara>
+        The SMS notification lit up Joséphine's phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
+        Messages like this are what keep her going. She is a freelance web designer and front-end developer who has helped several small businesses thrive online.
+        Nothing makes her happier than seeing her clients reach their goals through the UX she has crafted, and watching their users genuinely enjoy the experience.
+        Her growing portfolio of success stories attests to this.
+      </simpara>
+      <simpara>
+        Just before the SMS pulled her away, Joséphine had been immersed in the <productname>Papillon Journey</productname> GitHub project, scrolling through issues and discussions.
+        The idea of repurposing JRPG mechanics for graduate-level education set her imagination racing with UX concepts, all promising serious design challenges — the kind that could stretch her skills, enrich her portfolio, and open doors to new opportunities.
+        She wanted to contribute.
+      </simpara>
+      <simpara>
+        She set her phone on the desk and turned her eyes back to her laptop screen, picking up where she had left off.
+        She had already spent an hour exploring the project, and her seasoned UX instincts were starting to raise red flags — questions piling up unanswered with every page she opened.
+        Whose problems was <productname>Papillon Journey</productname> actually aiming to solve?
+        Why opt for a JRPG format over a straightforward course catalogue?
+        How was success meant to be gauged — through completion rates, skills gained, player retention, or something else?
+        And, zooming out, what did the project's roadmap look like, even loosely sketched, over the next three to five years?
+      </simpara>
+      <simpara>
+        She couldn't find any document that brought these elements into one place.
+        The fragments pieced together from various issues and comments fell short, leaving her uncertain if contributing would truly align with the project's direction or meaningfully strengthen her professional trajectory.
+        As a freelancer with limited time for open source, she couldn't afford guesswork.
+        She bookmarked the repo, gulped down her remaining coffee, and shifted to another important task — one backed by a clear path forward.
+      </simpara>
+      <simpara>
+        To boost the odds that Joséphine contributes on her next visit, a concise 2–4-page vision document answering these questions is essential.
+        A detailed lifecycle management plan is the next step — but that's another story.
+      </simpara>
+   </section>
+   <section>
+      <title>Activity notes</title>
+      <itemizedlist>
+         <listitem>
+            <simpara>Evaluation: /documentation/06-change-control/05-stories/9-write-vision/01-evaluation</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Specification: N/A</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Development: /documentation/06-change-control/05-stories/9-write-vision/02-development</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Integration: TBD</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Verification: N/A</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Validation: TBD</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Retrospective: TBD</simpara>
+         </listitem>
+      </itemizedlist>
+   </section>
+</article>
+<!--
+  Generated from  using storytelling.xsl.
+  See the Lifecycle Management Playbook [ββ] for regeneration instructions.
+-->
