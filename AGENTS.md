@@ -11,7 +11,7 @@ propositions, and lifecycle management.
 
 ## Conventions
 
-All project conventions are documented in the Lifecycle Management Playbook
+All project conventions are documented in the _Lifecycle management playbook_
 at `documentation/02-lifecycle-management/02-playbook/playbook.xml`. Read the
 General part (Documentation, Writing, Change Control, Licensing) before
 starting any task.
@@ -28,7 +28,6 @@ Stakeholder groups:
 5. Software engineering researchers
 
 Outstanding TODOs:
-- Complete educators' value propositions
 - Complete practitioners' value propositions
 - Complete researchers' value propositions
 - Lifecycle management documentation

@@ -12,20 +12,18 @@
   <glossterm>Cross-cutting concern</glossterm>
   <glossdef>
     <simpara>
-      A concern like <glossterm linkend="term-security">security</glossterm> or <glossterm linkend="term-observability">observability</glossterm> that has no natural boundary within the <glossterm linkend="term-architecture">architecture</glossterm>, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by recording an audit trail of its actions for <glossterm linkend="term-legal-compliance">legal compliance</glossterm> and troubleshooting.
+      A concern like <glossterm linkend="term-security">security</glossterm> or <glossterm linkend="term-observability">observability</glossterm> that has no natural boundary within the <glossterm linkend="term-architecture">architecture</glossterm>, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by writing logs for troubleshooting.
       There is no real ‘done’ status to such concerns: they keep recurring as the system or software evolves.
     </simpara>
     <glossseealso otherterm="term-architecture">Architecture</glossseealso>
-    <glossseealso otherterm="term-legal-compliance">Legal compliance</glossseealso>
     <glossseealso otherterm="term-observability">Observability</glossseealso>
-    <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
     <glossseealso otherterm="term-security">Security</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -34,7 +32,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

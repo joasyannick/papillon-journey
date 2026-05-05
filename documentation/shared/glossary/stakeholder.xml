@@ -16,14 +16,14 @@
     </simpara>
     <glossseealso otherterm="term-product-management">Product management</glossseealso>
     <glossseealso otherterm="term-project-management">Project management</glossseealso>
-    <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="term-requirement">Requirement</glossseealso>
     <glossseealso otherterm="term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-27
 
   ### Authors
 
@@ -32,7 +32,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

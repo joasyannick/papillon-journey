@@ -15,7 +15,6 @@
     <simpara>
       The upholding and improvement of quality practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, by auditing workflows and overseeing traceability.
     </simpara>
-    <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
     <glossseealso otherterm="term-validation">Validation</glossseealso>
     <glossseealso otherterm="term-verification">Verification</glossseealso>
@@ -24,7 +23,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -33,7 +32,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

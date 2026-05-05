@@ -5,22 +5,23 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-legal-compliance"
+    xml:id="term-interoperability"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Legal compliance</glossterm>
+  <glossterm>Interoperability</glossterm>
   <glossdef>
     <simpara>
-      The oversight of compliance with applicable laws and regulations throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to safeguard the project and its <glossterm linkend="term-stakeholder">stakeholders</glossterm>.
+      The ability of tools, systems, or software components to work together through well-defined interfaces, shared formats, and compatible workflows.
     </simpara>
-    <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-fragmented-tooling">Fragmented tooling</glossseealso>
+    <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-25
+  ## Story 9 — 2026-04-28
 
   ### Authors
 
@@ -33,6 +34,6 @@
 
   ### Added
 
-  - Defined ‘legal compliance’.
+  - Defined ‘interoperability’.
   - Cross-referenced related terms.
 -->

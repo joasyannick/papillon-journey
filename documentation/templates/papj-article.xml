@@ -31,13 +31,13 @@
       <!-- TODO: replace this entry with your document's first revision -->
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-04-22</date>
+        <date>2026-05-05</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
@@ -52,7 +52,9 @@
     <title>Introduction</title>
     <xi:include href="../shared/products/papillon-journey.xml"/>
     <xi:include href="../shared/products/chrysal-studio.xml"/>
-    <simpara><!-- TODO: describe the purpose and scope of this document (at most two paragraphs) --></simpara>
+    <simpara>
+      <!-- TODO: describe the purpose and scope of this document (at most two paragraphs) -->
+    </simpara>
   </section>
   <!-- TODO: add further sections -->
    <section role="outro">

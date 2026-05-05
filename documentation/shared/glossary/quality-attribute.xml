@@ -12,9 +12,10 @@
   <glossterm>Quality attribute</glossterm>
   <glossdef>
     <simpara>
-      A property of a system or software used to judge how well it fulfils non-functional expectations such as <glossterm linkend="term-reliability">reliability</glossterm>, <glossterm linkend="term-security">security</glossterm>, <glossterm linkend="term-performance">performance</glossterm>, or <glossterm linkend="term-usability">usability</glossterm>.
+      A property of a system or software used to judge how well it fulfils non-functional expectations such as <glossterm linkend="term-reliability">reliability</glossterm>, <glossterm linkend="term-security">security</glossterm>, or <glossterm linkend="term-performance">performance</glossterm>.
     </simpara>
     <glossseealso otherterm="term-architecture">Architecture</glossseealso>
+    <glossseealso otherterm="term-interoperability">Interoperability</glossseealso>
     <glossseealso otherterm="term-observability">Observability</glossseealso>
     <glossseealso otherterm="term-performance">Performance</glossseealso>
     <glossseealso otherterm="term-reliability">Reliability</glossseealso>
@@ -26,7 +27,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-28
 
   ### Authors
 
@@ -35,7 +36,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

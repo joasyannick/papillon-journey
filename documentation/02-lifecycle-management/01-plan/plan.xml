@@ -11,8 +11,8 @@
     version="5.1">
   <info>
     <biblioid class="pubsnumber">βα</biblioid>
-    <title>Lifecycle Management Plan</title>
-    <date>2026-04-23</date>
+    <title>Lifecycle management plan</title>
+    <date>2026-04-27</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-04-23</date>
+        <date>2026-04-27</date>
         <xi:include href="../../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
@@ -39,7 +39,7 @@
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
-            <listitem><simpara>Started the Lifecycle Management Plan.</simpara></listitem>
+            <listitem><simpara>Started the lifecycle management plan.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>
@@ -70,21 +70,3 @@
     <xi:include href="../../shared/glossary/game-design.xml"/>
   </glossary>
 </book>
-<!--
-  # Changelog
-
-  ## Story 9 — 2026-04-23
-
-  ### Authors
-
-  - Joas Yannick Kinouani
-
-  ### Agents
-
-  - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
-
-  ### Added
-
-  - Created the Lifecycle Management Plan book.
--->

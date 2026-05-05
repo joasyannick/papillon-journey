@@ -12,7 +12,7 @@
   <glossterm>Artefact</glossterm>
   <glossdef>
     <simpara>
-      A tangible output produced or consumed during the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, such as a <glossterm linkend="term-technical-specification">technical specification</glossterm>, a model, a formal proof, or an executable.
+      A tangible output produced or consumed during the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, such as a <glossterm linkend="term-technical-specification">technical specification</glossterm>, a <glossterm linkend="term-formal-verification" baseform="Formal verification">formal proof</glossterm>, or an executable.
     </simpara>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
   </glossdef>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -29,7 +29,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

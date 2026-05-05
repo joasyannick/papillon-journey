@@ -12,7 +12,7 @@
   <title>Devops</title>
   <partintro>
     <simpara>
-      The Devops team builds and maintains the infrastructure and tooling that enable automated integration, delivery, and deployment.
+      The Devops team builds and maintains the infrastructure and tooling that enable automated integration, delivery, deployment, and <glossterm linkend="term-observability" baseform="Observability">operational observation</glossterm>.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-05-04
 
   ### Authors
 
@@ -29,7 +29,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

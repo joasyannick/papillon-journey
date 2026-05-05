@@ -12,8 +12,13 @@
   <glossterm>Devops</glossterm>
   <glossdef>
     <simpara>
-      The provision and maintenance of the infrastructure and tooling that enable automated integration, delivery, and deployment.
+      The provision and maintenance of the infrastructure and tooling that enable automated integration, delivery, deployment, and <glossterm linkend="term-observability" baseform="Observability">operational observation</glossterm>.
     </simpara>
+    <note>
+      <simpara>
+        Operational observation closes the feedback loop from deployed systems back to development: runtime failures, performance degradation, and usage patterns reveal what should be fixed, improved, or redesigned next.
+      </simpara>
+    </note>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="term-observability">Observability</glossseealso>
@@ -23,7 +28,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-27
 
   ### Authors
 
@@ -32,7 +37,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

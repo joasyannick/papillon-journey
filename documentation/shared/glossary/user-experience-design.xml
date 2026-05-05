@@ -16,14 +16,14 @@
       The design of intuitive and engaging user experiences that harmonise business goals with user needs, grounding decisions in user research and testing.
     </simpara>
     <glossseealso otherterm="term-art-direction">Art direction</glossseealso>
-    <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
+    <glossseealso otherterm="term-requirement">Requirement</glossseealso>
     <glossseealso otherterm="term-usability">Usability</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-27
 
   ### Authors
 
@@ -32,7 +32,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

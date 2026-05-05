@@ -13,7 +13,7 @@
   <acronym>DLC</acronym>
   <glossdef>
     <simpara>
-      Official game content distributed electronically after a title’s initial release, typically to add new material rather than modify the base game.
+      Official game content distributed electronically after a title’s initial release, usually to add new material rather than modify the base game.
     </simpara>
     <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
     <glossseealso otherterm="term-mod">Mod</glossseealso>
@@ -22,7 +22,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -31,7 +31,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

@@ -27,7 +27,7 @@
     <xsl:comment>
       <xsl:text>&#10;  Generated from </xsl:text>
       <xsl:value-of select="tokenize(document-uri(/), '/')[last()]"/>
-      <xsl:text> using storytelling.xsl.&#10;  See the Lifecycle Management Playbook [ββ] for regeneration instructions.&#10;</xsl:text>
+      <xsl:text> using storytelling.xsl.&#10;  See the _Lifecycle management playbook_ [ββ] for regeneration instructions.&#10;</xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
@@ -52,7 +52,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-27
 
   ### Authors
 

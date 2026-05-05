@@ -13,17 +13,16 @@
   <acronym>MBE</acronym>
   <glossdef>
     <simpara>
-      An approach to systems and software engineering in which requirements and design, first expressed in inherently ambiguous natural language and sketches, are refined into models using modelling languages that offer greater precision and clarity.
+      An approach to systems and software engineering in which <glossterm linkend="term-requirement" baseform="Requirement">requirements</glossterm> and design, first expressed in inherently ambiguous natural language and sketches, are refined into models using modelling languages that offer greater precision and clarity.
       These models become everyone’s authoritative source of truth and the basis for <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <glossterm linkend="term-devops">devops</glossterm>, <glossterm linkend="term-verification">verification</glossterm>, and <glossterm linkend="term-validation">validation</glossterm> activities, be they manual or automated.
     </simpara>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
-    <glossseealso otherterm="term-formal-methods">Formal methods</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -32,7 +31,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

@@ -10,7 +10,7 @@
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
   <biblioid class="pubsnumber">ββ</biblioid>
-  <title>Lifecycle Management Playbook</title>
+  <title>Lifecycle management playbook</title>
   <author>
     <orgname>Chrysalide Learning</orgname>
   </author>
@@ -18,7 +18,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-28
 
   ### Authors
 
@@ -31,5 +31,5 @@
 
   ### Added
 
-  - Made _Lifecycle Management Playbook_ citable.
+  - Made the _Lifecycle management playbook_ citable.
 -->

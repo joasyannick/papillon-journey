@@ -17,7 +17,6 @@
       They determine the responsibilities and boundaries of its components, and the form their interactions take.
     </simpara>
     <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
-    <glossseealso otherterm="term-performance">Performance</glossseealso>
     <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
     <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
   </glossdef>
@@ -25,7 +24,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -34,7 +33,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

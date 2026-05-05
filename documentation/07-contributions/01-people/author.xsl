@@ -32,7 +32,7 @@
     <xsl:apply-templates select="contrib:contributor"/>
     <xsl:text>&#10;</xsl:text>
     <xsl:comment>
-      <xsl:text>&#10;  Generated from ./contributor.xml using ../author.xsl.&#10;  See the Lifecycle Management Playbook [ββ] for regeneration instructions.&#10;</xsl:text>
+      <xsl:text>&#10;  Generated from ./contributor.xml using ../author.xsl.&#10;  See the _Lifecycle management playbook_ [ββ] for regeneration instructions.&#10;</xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
@@ -66,7 +66,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-27
 
   ### Authors
 
@@ -79,5 +79,5 @@
 
   ### Added
 
-  - Introduced the author transformation, merging full and name variants into one stylesheet with a detail parameter.
+  - Introduced the author transformation.
 -->

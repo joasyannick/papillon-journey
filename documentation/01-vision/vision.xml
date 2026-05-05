@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-04-24</date>
+    <date>2026-05-05</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-04-24</date>
+        <date>2026-05-05</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
@@ -64,9 +64,9 @@
     <!-- Why we are building it -->
     <title>Purpose</title>
     <simpara>
-      <firstterm linkend="term-formal-methods">Formal methods</firstterm> and <firstterm linkend="term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to <firstterm linkend="term-software-development">software development</firstterm> emerged in the 1960s–1980s through close collaboration between academia and industries operating under extreme <firstterm linkend="term-safety">safety</firstterm> and <firstterm linkend="term-reliability">reliability</firstterm> demands — the earliest being defence, aerospace, nuclear power, and railway signalling.
-      Their use broadened during the 1990s–2000s to other life-critical (automotive, medical devices) and high-stakes domains (finance, hardware design).
-      They are now gradually entering mainstream software engineering, finding applications in cloud infrastructure, telecommunications, blockchain, and cybersecurity.
+      <firstterm linkend="term-formal-methods">Formal methods</firstterm> and <firstterm linkend="term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to <firstterm linkend="term-software-development">software development</firstterm> gained industrial traction in the 1960s–1980s through close collaboration between academia and industries operating under extreme <firstterm linkend="term-safety">safety</firstterm> and <firstterm linkend="term-reliability">reliability</firstterm> demands — the earliest being defence, aerospace, and nuclear power.
+      Their use broadened during the 1990s–2000s to other life-critical (railways, automotive, medical devices) and high-stakes domains (hardware design, finance).
+      They are now gradually entering mainstream software engineering, finding applications in cloud computing, cybersecurity, and blockchain.
     </simpara>
     <simpara>
       <productname>Papillon Journey</productname> seizes this momentum and tackles three persistent barriers to broader adoption:
@@ -84,7 +84,7 @@
         <simpara>
           <emphasis role="strong"><firstterm linkend="term-fragmented-tooling">Fragmented tooling</firstterm>.</emphasis>
           Companies favour tools that integrate smoothly into existing workflows.
-          Those supporting formal methods — narrowly specialised and rarely interoperable — often fail to do so.
+          Those supporting formal methods — narrowly specialised and rarely <firstterm linkend="term-interoperability" baseform="Interoperability">interoperable</firstterm> — often fail to do so.
           <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an <glossterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm> to change that.
           We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
         </simpara>
@@ -103,7 +103,9 @@
     <simpara>
       For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <firstterm linkend="term-libre-software" baseform="Libre software">libre</firstterm>: open for study, contribution, and adaptation.
       We require only that derivatives remain libre and clearly distinguished from the official project through distinct branding and separate trademarks.
-      All this, because we value freedom and seek to raise the visibility of formal modelling techniques — through a transparent, participatory, and engaging real-world use case accessible across various devices.
+    </simpara>
+    <simpara>
+      Formal modelling deserves wider visibility through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
   <section>
@@ -242,30 +244,27 @@
         Its engineering lifecycle will be anchored in industry standards, starting with ISO/IEC/IEEE 12207, while its documentation will be deliberately written as teaching material for classrooms and self-study.
       </simpara>
       <simpara>
-        <!--
-          Teaching is never one-size-fits-all: what motivates one learner may leave another untouched.
-          Some learners respond more readily to play than to conventional instruction.
-          For them, <productname>Papillon Journey</productname> can serve not only as a project to study, but also as a medium through which software engineering is taught.
-        -->
+        Teaching is never one-size-fits-all.
+        Some learners respond more readily to play than to conventional instruction.
+        For them, a gamified approach may unlock understanding that lectures and homework projects do not.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ11: curriculum-aligned institutional partnerships.
+          Value Proposition VPαʹ11: partnerships for signature educational adventures.
           Purpose: limited exposure, inverted pedagogy.
 
           Strategic rationale:
-          - This value proposition may also support project profitability through funded institutional collaborations.
-          - Partner institutions may value official in-game presence as a way to showcase their programmes and attract prospective learners.
+          - This value proposition may also support project profitability through funded partnerships.
+          - Partner organisations may value official in-game presence as a way to showcase their programmes and reach prospective learners.
 
           Governance rationale:
-          - Unlike third-party educational mods, partner content should go through a dedicated editorial and partnership process.
-          - This offers institutions a more controlled and prestigious mode of participation than the ordinary mod ecosystem.
-
-          Ecosystem rationale:
-          - Institutions that do not enter formal partnerships may still create and distribute teaching content through the mod development framework.
+          - Unlike third-party mods, partner content is developed through a dedicated partnership process.
+          - This offers partners a more controlled and prestigious mode of participation than the mod ecosystem.
+          - Organisations that do not enter formal partnerships may still create and distribute teaching content through the mod development framework.
         -->
-        Educators at partner institutions will co-create with us adventures for players and prospective learners that showcase the expertise and distinctive character of their schools or universities.
-        As official game content, they will be developed through a dedicated partnership process rather than the community review route used for third-party mods.
+        Educators at partner organisations will co-create with us adventures for players and prospective learners that showcase their expertise and the distinctive character of their programmes.
+        Their development will follow a dedicated partnership process, giving partners an official presence in the game through a route more prestigious than community mods.
+        This will offer partners a valuable path to audiences who may not encounter them through conventional outreach.
       </simpara>
     </section>
     <section>

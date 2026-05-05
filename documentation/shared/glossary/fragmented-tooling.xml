@@ -12,15 +12,16 @@
   <glossterm>Fragmented tooling</glossterm>
   <glossdef>
     <simpara>
-      The lack of integrated, interoperable tool support for formal methods, which obstructs their adoption into everyday engineering workflows.
+      The lack of integrated, <glossterm linkend="term-interoperability" baseform="Interoperability">interoperable</glossterm> tool support for formal methods, which obstructs their adoption into everyday engineering workflows.
     </simpara>
     <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-interoperability">Interoperability</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-28
 
   ### Authors
 
@@ -29,7 +30,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

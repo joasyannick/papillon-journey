@@ -12,7 +12,8 @@
   <glossterm>Cross-platform play</glossterm>
   <glossdef>
     <simpara>
-      A game experience designed to span multiple device types and operating systems while preserving player progress. In multiplayer modes, it also allows players to connect regardless of platform.
+      A game experience designed to span multiple device types and operating systems while preserving player progress.
+      In multiplayer, it allows players to play together regardless of platform.
     </simpara>
     <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
   </glossdef>
@@ -20,7 +21,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -29,7 +30,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

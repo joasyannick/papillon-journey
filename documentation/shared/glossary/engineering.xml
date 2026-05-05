@@ -21,6 +21,7 @@
   <xi:include href="formal-verification.xml"/>
   <xi:include href="fragmented-tooling.xml"/>
   <xi:include href="integrated-engineering-environment.xml"/>
+  <xi:include href="interoperability.xml"/>
   <xi:include href="legal-compliance.xml"/>
   <xi:include href="lifecycle-management.xml"/>
   <xi:include href="model-based-engineering.xml"/>
@@ -31,6 +32,7 @@
   <xi:include href="quality-assurance.xml"/>
   <xi:include href="quality-attribute.xml"/>
   <xi:include href="reliability.xml"/>
+  <xi:include href="requirement.xml"/>
   <xi:include href="requirements-management.xml"/>
   <xi:include href="safety.xml"/>
   <xi:include href="security.xml"/>
@@ -46,7 +48,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-04-25
 
   ### Authors
 
@@ -55,10 +57,9 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 
-  - Created the Engineering and Management glossary division.
-  - Groups the 32 terms that form a single connected component in the see/see-also graph.
+  - Created the Engineering glossary division to group terms that form a single connected component in the see/see-also graph.
 -->
