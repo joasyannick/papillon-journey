@@ -5,18 +5,27 @@
 # Oxygen XML project files
 *.xpr
 
-# Codex file
+# Claude Code files
+.claude/
+
+# Codex files
 .codex
 
 # # Changelog
 #
-# ## Story 9 — 2026-04-23
+# ## Story 9 — 2026-05-09
 #
 # ### Authors
 #
 # - Joas Yannick Kinouani
 #
+# ### Agents
+#
+# - Claude Code: Sonnet 4.6
+# - Codex: GPT-5.5
+#
 # ### Added
 #
 # - Excluded Oxygen XML project files.
-# - Excluded the .codex file.
+# - Excluded Claude Code files.
+# - Excluded Codex files.

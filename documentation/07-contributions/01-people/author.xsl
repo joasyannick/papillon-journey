@@ -52,10 +52,10 @@
         <uri role="github" xlink:href="{concat('https://github.com/', contrib:account[@platform='github'])}"/>
         <xsl:for-each select="contrib:organisations/contrib:organisation">
           <affiliation>
+            <orgname><xsl:value-of select="contrib:name"/></orgname>
             <xsl:for-each select="contrib:position">
               <jobtitle><xsl:value-of select="."/></jobtitle>
             </xsl:for-each>
-            <orgname><xsl:value-of select="contrib:name"/></orgname>
           </affiliation>
         </xsl:for-each>
       </xsl:if>
@@ -66,7 +66,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-27
+  ## Story 9 — 2026-05-09
 
   ### Authors
 

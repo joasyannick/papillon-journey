@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="papj-doc-04-02"
+    xml:lang="en-GB"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <biblioid class="pubsnumber">δβ</biblioid>
+  <title>Business plan</title>
+  <authorgroup>
+    <xi:include href="../../07-contributions/01-people/joasyannick/author-name.xml"/>
+  </authorgroup>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-05-07
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+
+  ### Added
+
+  - Made the _Business plan_ citable.
+-->

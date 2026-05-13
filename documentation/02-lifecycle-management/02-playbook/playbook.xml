@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle management playbook</title>
-    <date>2026-04-27</date>
+    <date>2026-05-09</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <author>
@@ -29,17 +29,17 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-04-27</date>
+        <date>2026-05-09</date>
         <xi:include href="../../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
-            <listitem><simpara>Started to capture general lifecycle management practices.</simpara></listitem>
+            <listitem><simpara>Started the lifecycle management playbook.</simpara></listitem>
             <listitem><simpara>Extracted each part into its own folder so teams can own and evolve their sections independently.</simpara></listitem>
           </itemizedlist>
         </revdescription>
@@ -54,19 +54,19 @@
       <!-- TODO: describe the purpose and scope of this document (at most two paragraphs) -->
     </simpara>
   </preface>
-  <xi:include href="../../shared/playbook/playbook.xml"/>
-  <xi:include href="../../08-product/playbook/playbook.xml"/>
-  <xi:include href="../../09-project/playbook/playbook.xml"/>
-  <xi:include href="../../12-specification/playbook/playbook.xml"/>
-  <xi:include href="../../10-ux/playbook/playbook.xml"/>
-  <xi:include href="../../11-art/playbook/playbook.xml"/>
-  <xi:include href="../../13-development/playbook/playbook.xml"/>
-  <xi:include href="../../14-devops/playbook/playbook.xml"/>
-  <xi:include href="../../15-verification/playbook/playbook.xml"/>
-  <xi:include href="../../16-validation/playbook/playbook.xml"/>
-  <xi:include href="../../17-quality/playbook/playbook.xml"/>
-  <xi:include href="../../18-security/playbook/playbook.xml"/>
-  <xi:include href="../../19-legal/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/shared/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/01-product/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/02-project/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/03-ux/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/04-art/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/05-specification/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/06-development/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/07-devops/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/08-verification/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/09-validation/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/10-quality/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/11-security/playbook/playbook.xml"/>
+  <xi:include href="../../08-teams/12-legal/playbook/playbook.xml"/>
   <glossary>
     <title>Glossary</title>
     <xi:include href="../../shared/glossary/engineering.xml"/>

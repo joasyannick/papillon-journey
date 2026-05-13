@@ -5,19 +5,17 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-value-proposition"
+    xml:id="term-open-source-software"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Value proposition</glossterm>
+  <glossterm>Open-source software</glossterm>
   <glossdef>
     <simpara>
-      A clear statement of the benefit a product or service delivers to a specific group of stakeholders.
+      Software that users can study, modify, and redistribute, with licensing terms that may allow derivatives to deny others these freedoms.
     </simpara>
-    <glossseealso otherterm="term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="term-key-success-indicator">Key success indicator</glossseealso>
-    <glossseealso otherterm="term-requirement">Requirement</glossseealso>
-    <glossseealso otherterm="term-stakeholder">Stakeholder</glossseealso>
+    <glossseealso otherterm="term-libre-software">Libre software</glossseealso>
+    <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -36,6 +34,6 @@
 
   ### Added
 
-  - Defined ‘value proposition’.
+  - Defined ‘open-source software’.
   - Cross-referenced related terms.
 -->

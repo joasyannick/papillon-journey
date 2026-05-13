@@ -18,11 +18,12 @@
   <xi:include href="limited-exposure.xml"/>
   <xi:include href="mod.xml"/>
   <xi:include href="non-player-character.xml"/>
+  <xi:include href="open-source-software.xml"/>
 </glossdiv>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-25
+  ## Story 9 — 2026-05-07
 
   ### Authors
 

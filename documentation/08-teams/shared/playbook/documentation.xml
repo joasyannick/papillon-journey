@@ -51,7 +51,7 @@
         </listitem>
       </varlistentry>
       <varlistentry>
-        <term><filename>documentation/05-change-control/</filename></term>
+        <term><filename>documentation/06-change-control/</filename></term>
         <listitem>
           <simpara>
             Change control records.
@@ -62,7 +62,7 @@
         <term><filename>documentation/07-contributions/01-people/</filename></term>
         <listitem>
           <simpara>
-            Contributor files, one XML file per person.
+            Contributor files.
           </simpara>
         </listitem>
       </varlistentry>
@@ -115,7 +115,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-05-09
 
   ### Authors
 

@@ -16,6 +16,7 @@
     </simpara>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-key-success-indicator">Key success indicator</glossseealso>
     <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
     <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
   </glossdef>
@@ -23,7 +24,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-25
+  ## Story 9 — 2026-05-07
 
   ### Authors
 

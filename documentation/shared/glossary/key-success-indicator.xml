@@ -5,17 +5,18 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-libre-software"
+    xml:id="term-key-success-indicator"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Libre software</glossterm>
+  <glossterm>Key success indicator</glossterm>
+  <acronym>KSI</acronym>
   <glossdef>
     <simpara>
-      Software that users are free to study, modify, and redistribute, with licensing terms that preserve these freedoms.
+      A measurable signal used to assess whether a goal, <glossterm linkend="term-value-proposition">value proposition</glossterm>, or project outcome is being achieved.
     </simpara>
-    <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
-    <glossseealso otherterm="term-open-source-software">Open-source software</glossseealso>
+    <glossseealso otherterm="term-validation">Validation</glossseealso>
+    <glossseealso otherterm="term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -29,11 +30,10 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
   - Codex: GPT-5.5
 
   ### Added
 
-  - Defined ‘libre software’.
+  - Defined ‘key success indicator’.
   - Cross-referenced related terms.
 -->

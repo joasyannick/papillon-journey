@@ -16,6 +16,8 @@
       The design of intuitive and engaging user experiences that harmonise business goals with user needs, grounding decisions in user research and testing.
     </simpara>
     <glossseealso otherterm="term-art-direction">Art direction</glossseealso>
+    <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
+    <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
     <glossseealso otherterm="term-requirement">Requirement</glossseealso>
     <glossseealso otherterm="term-usability">Usability</glossseealso>
   </glossdef>
@@ -23,7 +25,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-27
+  ## Story 9 — 2026-05-07
 
   ### Authors
 

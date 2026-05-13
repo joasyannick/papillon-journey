@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-05-05</date>
+    <date>2026-05-13</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,13 +29,13 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-05-05</date>
+        <date>2026-05-13</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
@@ -76,8 +76,8 @@
         <simpara>
           <emphasis role="strong"><firstterm linkend="term-limited-exposure">Limited exposure</firstterm>.</emphasis>
           The historical confinement of these approaches to high-assurance niches has unintentionally reinforced the misconception that they are irrelevant to the daily concerns of most software professionals.
-          Demonstrating their power through large-scale, open-source initiatives in web, mobile, and game development will help dispel this view.
-          That is why <productname>Papillon Journey</productname> will be <firstterm linkend="term-cross-platform-play" baseform="Cross-platform play">cross-platform</firstterm> — playable directly in a web browser or via native applications on smartphones, tablets, and PCs.
+          Demonstrating their power through large-scale, <firstterm linkend="term-open-source-software" baseform="Open-source software">open-source</firstterm> initiatives in web, mobile, and game development will help dispel this view.
+          That is why <productname>Papillon Journey</productname> will be <firstterm linkend="term-cross-platform-play" baseform="Cross-platform play">cross-platform</firstterm> — playable directly in a web browser or via native applications on smartphones, tablets, and PCs, including handheld gaming PCs.
         </simpara>
       </listitem>
       <listitem>
@@ -140,7 +140,7 @@
         -->
         It will be a play-anywhere-anytime game by design.
         The web version will render 2D isometric visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from smartphones to desktops.
-        Where hardware permits, native editions on Windows, Android, iOS/iPadOS, and HarmonyOS will elevate the experience with enhanced 2.5D graphics, richer lighting, and added depth.
+        Where hardware permits, native editions on Windows, Linux, Android, iOS/iPadOS, and HarmonyOS will elevate the experience with enhanced 2.5D graphics, richer lighting, and added depth.
         Progress will synchronise across all platforms, so players can switch between devices.
       </simpara>
       <simpara>
@@ -316,11 +316,10 @@
   </section>
   <section>
     <!-- What success looks like -->
-    <title>Success metrics</title>
+    <title>Key success indicators</title>
     <table>
       <title>Value propositions</title>
-      <tgroup cols="6">
-        <colspec colname="stakeholder"/>
+      <tgroup cols="5">
         <colspec colname="id"/>
         <colspec colname="title"/>
         <colspec colname="summary"/>
@@ -328,7 +327,6 @@
         <colspec colname="ksis"/>
         <thead>
           <row>
-            <entry>Stakeholder</entry>
             <entry>ID</entry>
             <entry>Title</entry>
             <entry>Summary</entry>
@@ -338,75 +336,80 @@
         </thead>
         <tbody>
           <row>
-            <entry morerows="4">Video game players</entry>
             <entry>VPαʹ1</entry>
             <entry>Enjoyable gameplay</entry>
-            <entry>An experience that puts fun first, honouring the player's expectation of a present-moment escape.</entry>
+            <entry>
+              As a player drawn to the genuine breaks from daily concerns that video games offer, I would be pleased if my play sessions also gave me valuable real-world skills.
+              But I am not looking for educational games that sacrifice fun for instruction.
+              I want gameplay that puts entertainment first, so that I can fully enjoy the present moment.
+            </entry>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ2</entry>
             <entry>Cross-platform play</entry>
-            <entry>A play-anywhere-anytime game with web and native editions that synchronise progress across devices.</entry>
+            <entry>
+              As a player, I sometimes buy multiple versions of my favourite video games for home, handheld, and mobile devices, or rely on cloud gaming to enjoy them wherever and whenever I have time and feel like playing.
+              But progress remains fragmented across devices, operating systems, digital storefronts, and cloud gaming services.
+              I want a game playable on any screen, with progress that follows me, so that I can always pick up where I left off.
+            </entry>
             <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ3</entry>
             <entry>Asynchronous cooperation</entry>
-            <entry>In-game systems let players share resources and strategies without needing to be online at the same time.</entry>
+            <entry>As a player who enjoys cooperating with others, but whose schedule rarely allows live sessions, I want in-game systems that let me share resources, discoveries, and strategies whenever it suits me, so that I can stay connected and contribute to a shared adventure on my own terms.</entry>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ4</entry>
             <entry>Synchronous competition</entry>
-            <entry>Live mini-games at select locations let players compete in real time.</entry>
+            <entry>As a player who loves both JRPGs and live competition, I would prefer not to turn to a different genre to find worthy opponents. I want competitive encounters within the world I am exploring, so that I can enjoy the thrill of competing without leaving the adventure.</entry>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ5</entry>
             <entry>Franchise partnerships</entry>
-            <entry>Crossover content with established franchises reconnects players with familiar characters while they learn formal engineering.</entry>
+            <entry/>
             <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
-            <entry morerows="3">Software engineering learners</entry>
             <entry>VPαʹ6</entry>
             <entry>Learning fundamentals through play</entry>
-            <entry>Engineering fundamentals are woven into the gameplay, so learners build skills through practice.</entry>
+            <entry/>
             <entry>Limited exposure, inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ7</entry>
             <entry>Hands-on mastery through the source code</entry>
-            <entry>The libre codebase and its documentation serve as a playground for learners seeking deeper mastery.</entry>
+            <entry/>
             <entry>Limited exposure, inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ8</entry>
             <entry>Peer learning through modding</entry>
-            <entry>A modding framework lets players upskill one another by creating and sharing custom content.</entry>
+            <entry/>
             <entry>Limited exposure, inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ9</entry>
             <entry>Navigating cross-cutting concerns through mod governance</entry>
-            <entry>A community-driven mod review process sharpens learners' awareness of security, legal compliance, and quality assurance.</entry>
+            <entry/>
             <entry>Limited exposure, inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
-            <entry morerows="1">Software engineering educators</entry>
             <entry>VPαʹ10</entry>
             <entry>A real-world formal engineering project built for teaching</entry>
-            <entry>An industrial-scale project anchored in ISO/IEC/IEEE 12207, with documentation written as teaching material for classrooms and self-study.</entry>
+            <entry/>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
@@ -418,7 +421,6 @@
             <entry/>
           </row>
           <row>
-            <entry morerows="1">Software engineering practitioners</entry>
             <entry>VPαʹ12</entry>
             <entry>A formal specification language for the agentic era</entry>
             <entry/>
@@ -433,7 +435,6 @@
             <entry/>
           </row>
           <row>
-            <entry morerows="1">Software engineering researchers</entry>
             <entry>VPαʹ14</entry>
             <entry>A living use case to apply and demonstrate research in context</entry>
             <entry/>

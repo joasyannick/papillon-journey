@@ -22,6 +22,7 @@
   <xi:include href="fragmented-tooling.xml"/>
   <xi:include href="integrated-engineering-environment.xml"/>
   <xi:include href="interoperability.xml"/>
+  <xi:include href="key-success-indicator.xml"/>
   <xi:include href="legal-compliance.xml"/>
   <xi:include href="lifecycle-management.xml"/>
   <xi:include href="model-based-engineering.xml"/>
@@ -48,7 +49,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-25
+  ## Story 9 — 2026-05-07
 
   ### Authors
 

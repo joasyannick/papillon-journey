@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">δα</biblioid>
     <title>Business Model</title>
-    <date>2026-04-23</date>
+    <date>2026-05-07</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,17 +29,17 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-04-23</date>
+        <date>2026-05-07</date>
         <xi:include href="../../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
-            <listitem><simpara>Started the Business Model document.</simpara></listitem>
+            <listitem><simpara>Started the business model.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>
@@ -62,21 +62,3 @@
     <xi:include href="../../shared/glossary/game-design.xml"/>
   </glossary>
 </article>
-<!--
-  # Changelog
-
-  ## Story 9 — 2026-04-23
-
-  ### Authors
-
-  - Joas Yannick Kinouani
-
-  ### Agents
-
-  - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
-
-  ### Added
-
-  - Started the Business Model document.
--->

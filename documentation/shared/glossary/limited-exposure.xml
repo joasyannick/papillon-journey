@@ -16,12 +16,13 @@
     </simpara>
     <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
     <glossseealso otherterm="term-libre-software">Libre software</glossseealso>
+    <glossseealso otherterm="term-open-source-software">Open-source software</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-05-07
 
   ### Authors
 
@@ -30,7 +31,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 
