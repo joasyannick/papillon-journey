@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="term-crossover"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Crossover</glossterm>
+  <glossdef>
+    <simpara>
+      The inclusion of characters, stories, worlds, or other recognisable elements from one franchise into another.
+    </simpara>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-05-22
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Defined ‘crossover’.
+  - Cross-referenced related terms.
+-->

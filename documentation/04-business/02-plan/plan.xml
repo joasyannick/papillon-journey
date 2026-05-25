@@ -11,8 +11,8 @@
     version="5.1">
   <info>
     <biblioid class="pubsnumber">δβ</biblioid>
-    <title>Business Plan</title>
-    <date>2026-05-07</date>
+    <title>Business plan</title>
+    <date>2026-05-15</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-05-07</date>
+        <date>2026-05-15</date>
         <xi:include href="../../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>

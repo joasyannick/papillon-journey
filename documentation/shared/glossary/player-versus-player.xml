@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="term-player-versus-player"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Player-versus-player</glossterm>
+  <acronym>PvP</acronym>
+  <glossdef>
+    <simpara>
+      A multiplayer mode or activity in which players compete directly against one another.
+    </simpara>
+    <glossseealso otherterm="term-japanese-role-playing-game">Japanese role-playing game</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-05-22
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Defined ‘player-versus-player’.
+  - Cross-referenced related terms.
+-->

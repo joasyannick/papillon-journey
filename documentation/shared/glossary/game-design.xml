@@ -11,6 +11,7 @@
     version="5.1">
   <title>Game design</title>
   <xi:include href="cross-platform-play.xml"/>
+  <xi:include href="crossover.xml"/>
   <xi:include href="downloadable-content.xml"/>
   <xi:include href="inverted-pedagogy.xml"/>
   <xi:include href="japanese-role-playing-game.xml"/>
@@ -19,11 +20,12 @@
   <xi:include href="mod.xml"/>
   <xi:include href="non-player-character.xml"/>
   <xi:include href="open-source-software.xml"/>
+  <xi:include href="player-versus-player.xml"/>
 </glossdiv>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-05-07
+  ## Story 9 — 2026-05-22
 
   ### Authors
 

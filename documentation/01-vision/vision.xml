@@ -12,7 +12,7 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-05-13</date>
+    <date>2026-05-25</date>
     <releaseinfo>0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -29,7 +29,7 @@
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-05-13</date>
+        <date>2026-05-25</date>
         <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
@@ -102,10 +102,10 @@
     </itemizedlist>
     <simpara>
       For <productname>Papillon Journey</productname> to be a living example of what it teaches, it must be <firstterm linkend="term-libre-software" baseform="Libre software">libre</firstterm>: open for study, contribution, and adaptation.
-      We require only that derivatives remain libre and clearly distinguished from the official project through distinct branding and separate trademarks.
+      We require only that derivatives remain libre and clearly distinguishable from the official project by their own branding and trademarks.
     </simpara>
     <simpara>
-      Formal modelling deserves wider visibility through a transparent, participatory, and engaging real-world use case accessible across various devices.
+      <firstterm linkend="term-formal-engineering">Formal engineering</firstterm> deserves wider visibility through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
   <section>
@@ -114,7 +114,7 @@
     <simpara>
       <firstterm linkend="term-value-proposition">Value propositions</firstterm> evolve alongside the people they serve.
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
-      Even so, certain core needs persist — and these are what keep a project relevant over time.
+      Even so, certain core needs persist, and these are what keep a project relevant over time.
       Below, we outline those that matter most to our <firstterm linkend="term-stakeholder">stakeholders</firstterm> and map them to value propositions.
       For a deeper dive, see <citation>papj-doc-03</citation>.
     </simpara>
@@ -154,15 +154,15 @@
           Purpose: inverted pedagogy.
         -->
         Certain locations and <firstterm linkend="term-non-player-character" baseform="Non-player character">NPCs</firstterm> will also offer mini-games in which they can compete live.
-        These multiplayer features will feel like a part of the world rather than something bolted on.
+        These multiplayer features will feel like part of the world rather than something bolted on.
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ5: franchise partnerships.
           Purpose: limited exposure.
         -->
-        As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises to create crossover content.
-        Such scope-limited collaborations will reconnect players with characters and stories they already love while they learn <firstterm linkend="term-formal-engineering">formal engineering</firstterm>.
+        As the player base expands, <productname>Papillon Journey</productname> will pursue partnerships with renowned game franchises to create <firstterm linkend="term-crossover">crossover</firstterm> content.
+        Such scope-limited collaborations will reconnect players with characters and stories they already love while they learn formal engineering.
         For partner studios, this will be a distinctive opportunity to associate their franchises with education, skill-building, and positive social impact.
       </simpara>
     </section>
@@ -270,40 +270,40 @@
     <section>
       <title>Software engineering practitioners</title>
       <simpara>
-        <!-- TODO: Core jobs -->
+        <!-- TODO: core jobs -->
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ12: a formal specification language for the agentic era.
           Purpose: limited exposure, fragmented tooling.
-          TODO: Write this.
+          TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ13: an integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
-          TODO: Write this.
+          TODO: write this.
         -->
       </simpara>
     </section>
     <section>
       <title>Software engineering researchers</title>
       <simpara>
-        <!-- TODO: Core jobs -->
+        <!-- TODO: core jobs -->
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ14: a living use case to apply and demonstrate research in context.
           Purpose: inverted pedagogy.
-          TODO: Write this.
+          TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ15: a unified engineering environment to host research-grade integrations.
           Purpose: fragmented tooling.
-          TODO: Write this.
+          TODO: write this.
         -->
       </simpara>
     </section>
@@ -312,13 +312,55 @@
     <!-- How we are building it -->
     <title>Lifecycle management</title>
     <simpara>
+      The project lifecycle is defined by outcomes rather than fixed timing.
+      Its pace will depend on community building, community support, and the evidence gathered at each gate.
     </simpara>
+    <itemizedlist>
+      <listitem>
+        <simpara>
+          <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Éclosion</foreignphrase>.</emphasis>
+          The project hatches publicly: initial vision, first prototypes, public devlogs, reproducible development and test setup for contributors, and early community.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Chenille</foreignphrase>.</emphasis>
+          The project grows by feeding on experiments: gameplay, story, tools, pipelines, and feedback.
+          It starts seeking financial community support and sowing the seeds for partnerships.
+          A polished vertical slice and a mature <productname>Chrysal Studio</productname> form the maturity gate at the end of this phase.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Métamorphose</foreignphrase>.</emphasis>
+          Full production begins: the project transforms from validated slice into the complete game, using <productname>Chrysal Studio</productname> only, while integrating and developing it as necessary.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Renaissance</foreignphrase>.</emphasis>
+          The game becomes ready for public operation through rented infrastructure, deployment rehearsal, launch testing, operational hardening, and the partnerships needed to sustain it.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Envol</foreignphrase>.</emphasis>
+          The project goes live: promotion, community growth, maintenance, partnerships, expansions, and feedback loops.
+        </simpara>
+      </listitem>
+    </itemizedlist>
   </section>
   <section>
     <!-- What success looks like -->
     <title>Key success indicators</title>
+    <simpara>
+      <!-- TODO: introduce this section -->
+    </simpara>
+    <simpara>
+      <!-- TODO: introduce the VP summary -->
+    </simpara>
     <table>
-      <title>Value propositions</title>
+      <title>Value proposition summary</title>
       <tgroup cols="5">
         <colspec colname="id"/>
         <colspec colname="title"/>
@@ -339,9 +381,9 @@
             <entry>VPαʹ1</entry>
             <entry>Enjoyable gameplay</entry>
             <entry>
-              As a player drawn to the genuine breaks from daily concerns that video games offer, I would be pleased if my play sessions also gave me valuable real-world skills.
+              As a player drawn to the genuine breaks from daily concerns video games offer, I would welcome play sessions that also gave me valuable real-world skills.
               But I am not looking for educational games that sacrifice fun for instruction.
-              I want gameplay that puts entertainment first, so that I can fully enjoy the present moment.
+              I want gameplay that puts entertainment first and lets me fully enjoy the present moment.
             </entry>
             <entry>Inverted pedagogy</entry>
             <entry/>
@@ -350,9 +392,9 @@
             <entry>VPαʹ2</entry>
             <entry>Cross-platform play</entry>
             <entry>
-              As a player, I sometimes buy multiple versions of my favourite video games for home, handheld, and mobile devices, or rely on cloud gaming to enjoy them wherever and whenever I have time and feel like playing.
-              But progress remains fragmented across devices, operating systems, digital storefronts, and cloud gaming services.
-              I want a game playable on any screen, with progress that follows me, so that I can always pick up where I left off.
+              As a player, I sometimes buy multiple versions of my favourite video games for my home setup, handhelds, and mobile devices, or turn to cloud gaming when the hardware at hand lacks the power to run them.
+              That flexibility is great, but starting my playthrough over is not.
+              I want a game playable on any screen, with progress that follows me, so that I can always pick up exactly where I left off.
             </entry>
             <entry>Limited exposure</entry>
             <entry/>
@@ -360,21 +402,33 @@
           <row>
             <entry>VPαʹ3</entry>
             <entry>Asynchronous cooperation</entry>
-            <entry>As a player who enjoys cooperating with others, but whose schedule rarely allows live sessions, I want in-game systems that let me share resources, discoveries, and strategies whenever it suits me, so that I can stay connected and contribute to a shared adventure on my own terms.</entry>
+            <entry>
+              As a player, I like to feel I am not alone exploring the world and uncovering its story.
+              But when it comes to JRPGs, I do not want other players intruding on my playthrough.
+              I prefer our interactions to remain indirect and asynchronous — through in-game resource-sharing systems like courier services and trading posts — so that our journeys gently influence one another.
+            </entry>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ4</entry>
             <entry>Synchronous competition</entry>
-            <entry>As a player who loves both JRPGs and live competition, I would prefer not to turn to a different genre to find worthy opponents. I want competitive encounters within the world I am exploring, so that I can enjoy the thrill of competing without leaving the adventure.</entry>
+            <entry>
+              As a JRPG player, I like to compete live against other people.
+              But <firstterm linkend="term-player-versus-player">player-versus-player</firstterm> is not part of the genre’s core traditions.
+              I want specific locations and NPCs to offer competitive mini-games — where <glossterm linkend="term-player-versus-player">PvP</glossterm> feels right at home — so that I can enjoy the thrill of competing at moments in my adventure.
+            </entry>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ5</entry>
             <entry>Franchise partnerships</entry>
-            <entry/>
+            <entry>
+              As a player, saying goodbye to the characters and stories that left an impact on me is always a sad moment.
+              I welcome the chance to meet them again in another game, but only when it is done in a meaningful and respectful way, and with the studio that created them involved.
+              I want official crossover adventures, so that I can trust the new stories I experience honour the vision of the original creators.
+            </entry>
             <entry>Limited exposure</entry>
             <entry/>
           </row>
@@ -452,18 +506,128 @@
       </tgroup>
     </table>
     <simpara>
-      <!--
-        - Number of derivative projects (à la Linux distributions):
-            indicates the project is genuinely libre, technically reusable, and inspiring enough to fork and adapt.
-
-        - Total number of players across the original project + derivatives:
-            indicates reach, sustained interest, and the strength of the game as a standalone experience.
-
-        - Share of players without a software-engineering background:
-            indicates we have broken out of the niche and made the experience enjoyable beyond “learning as obligation”
-            (a proxy for overcoming limited exposure and validating the entertainment-first design).
-      -->
+      <!-- TODO: introduce KSIs -->
     </simpara>
+    <table>
+      <title>Key success indicator summary</title>
+      <tgroup cols="3">
+        <colspec colname="id"/>
+        <colspec colname="ksi"/>
+        <colspec colname="interpretation"/>
+        <thead>
+          <row>
+            <entry>ID</entry>
+            <entry>KSI</entry>
+            <entry>What it indicates</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>KSIαʹ1</entry>
+            <entry>Player <firstterm linkend="term-reach">reach</firstterm></entry>
+            <entry>
+              <productname>Papillon Journey</productname> attracts enough players to continue expanding its lore, developing its community, and advancing its educational mission.
+            </entry>
+          </row>
+          <row>
+            <entry>KSIαʹ2</entry>
+            <entry>Share of players without a software-engineering background</entry>
+            <entry>
+              <productname>Papillon Journey</productname> has broken out of the software-engineering niche: its entertainment-first design succeeds on its own merits, regardless of its educational dimension.
+            </entry>
+          </row>
+          <row>
+            <entry>KSIαʹ3</entry>
+            <entry>Player <firstterm linkend="term-retention">retention</firstterm> rate</entry>
+            <entry>
+              Players keep playing beyond the initial novelty: the gameplay loop delivers sustained value.
+            </entry>
+          </row>
+          <row>
+            <entry>KSIαʹ4</entry>
+            <entry>Player <firstterm linkend="term-completion">completion</firstterm> rate</entry>
+            <entry>
+              Players reach the credit roll: the adventure sustains interest throughout.
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <simpara>
+      The same indicators are observed through different metrics as the project matures.
+      The thresholds below are initial calibration targets: they make success visible at each phase and should be revised as real evidence accumulates.
+    </simpara>
+    <table>
+      <title>Lifecycle metric thresholds</title>
+      <tgroup cols="7">
+        <colspec colname="id"/>
+        <colspec colname="ksi"/>
+        <colspec colname="eclosion"/>
+        <colspec colname="chenille"/>
+        <colspec colname="metamorphose"/>
+        <colspec colname="renaissance"/>
+        <colspec colname="envol"/>
+        <thead>
+          <row>
+            <entry morerows="1">KSI ID</entry>
+            <entry morerows="1">KSI</entry>
+            <entry namest="eclosion" nameend="envol">Metrics</entry>
+          </row>
+          <row>
+            <entry><foreignphrase xml:lang="fr-FR">Éclosion</foreignphrase></entry>
+            <entry><foreignphrase xml:lang="fr-FR">Chenille</foreignphrase></entry>
+            <entry><foreignphrase xml:lang="fr-FR">Métamorphose</foreignphrase></entry>
+            <entry><foreignphrase xml:lang="fr-FR">Renaissance</foreignphrase></entry>
+            <entry><foreignphrase xml:lang="fr-FR">Envol</foreignphrase></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>KSIαʹ1</entry>
+            <entry>Player <glossterm linkend="term-reach">reach</glossterm></entry>
+            <entry>Public project followers ≥ 100</entry>
+            <entry>Recurring prototype testers ≥ 25</entry>
+            <entry>Vertical-slice players ≥ 100</entry>
+            <entry>Beta or launch players ≥ 1,000</entry>
+            <entry>Monthly active players ≥ 10,000</entry>
+          </row>
+          <row>
+            <entry>KSIαʹ2</entry>
+            <entry>Share of players without a software-engineering background</entry>
+            <entry>Non-engineering audience share ≥ 25%</entry>
+            <entry>Non-engineering tester share ≥ 30%</entry>
+            <entry>Non-engineering vertical-slice player share ≥ 40%</entry>
+            <entry>Non-engineering launch player share ≥ 50%</entry>
+            <entry>Non-engineering active player share ≥ 60%</entry>
+          </row>
+          <row>
+            <entry>KSIαʹ3</entry>
+            <entry>Player <glossterm linkend="term-retention">retention</glossterm> rate</entry>
+            <entry>Returning devlog readers ≥ 25%</entry>
+            <entry>Returning prototype testers ≥ 40%</entry>
+            <entry>Vertical-slice return rate ≥ 50%</entry>
+            <entry>Week-one retention ≥ 35%</entry>
+            <entry>Monthly retention ≥ 25%</entry>
+          </row>
+          <row>
+            <entry>KSIαʹ4</entry>
+            <entry>Player <glossterm linkend="term-completion">completion</glossterm> rate</entry>
+            <entry>Environment reproduction completion ≥ 60%</entry>
+            <entry>Prototype scenario completion ≥ 60%</entry>
+            <entry>Vertical-slice completion ≥ 50%</entry>
+            <entry>Launch onboarding completion ≥ 40%</entry>
+            <entry>Credit-roll completion ≥ 25%</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <simpara>
+      <!-- TODO: conclude this section -->
+    </simpara>
+    <!--
+      - Number of derivative projects (à la Linux distributions):
+          indicates the project is genuinely libre, technically reusable, and inspiring enough to fork and adapt.
+    -->
   </section>
   <section>
     <!-- How to get involved -->

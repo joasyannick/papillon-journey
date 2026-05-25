@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="term-retention"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Retention</glossterm>
+  <glossdef>
+    <simpara>
+      The degree to which people continue using a product after their first <glossterm linkend="term-user-experience-design" baseform="User experience design">experiences</glossterm> with it.
+    </simpara>
+    <glossseealso otherterm="term-key-success-indicator">Key success indicator</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## Story 9 — 2026-05-25
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Defined ‘retention’.
+  - Cross-referenced related terms.
+-->
