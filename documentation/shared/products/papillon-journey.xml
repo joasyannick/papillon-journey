@@ -8,12 +8,12 @@
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <productname>Papillon Journey</productname> is an online <firstterm linkend="term-japanese-role-playing-game" baseform="Japanese role-playing game">JRPG</firstterm> and training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
+  <productname>Papillon Journey</productname> is a <firstterm linkend="term-japanese-role-playing-game" baseform="Japanese role-playing game">JRPG</firstterm> and training platform where players sharpen their systems and software engineering skills through quests, challenges, mini-games, and immersive storylines.
 </simpara>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-05-29
 
   ### Authors
 
@@ -22,7 +22,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

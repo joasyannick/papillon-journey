@@ -16,16 +16,18 @@
     </simpara>
     <glossseealso otherterm="term-artefact">Artefact</glossseealso>
     <glossseealso otherterm="term-legal-compliance">Legal compliance</glossseealso>
+    <glossseealso otherterm="term-maintenance">Maintenance</glossseealso>
     <glossseealso otherterm="term-product-management">Product management</glossseealso>
     <glossseealso otherterm="term-project-management">Project management</glossseealso>
     <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
     <glossseealso otherterm="term-security">Security</glossseealso>
+    <glossseealso otherterm="term-software-engineering">Software engineering</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 9 — 2026-05-30
 
   ### Authors
 
@@ -34,7 +36,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

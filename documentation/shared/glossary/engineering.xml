@@ -26,6 +26,7 @@
   <xi:include href="key-success-indicator.xml"/>
   <xi:include href="legal-compliance.xml"/>
   <xi:include href="lifecycle-management.xml"/>
+  <xi:include href="maintenance.xml"/>
   <xi:include href="model-based-engineering.xml"/>
   <xi:include href="observability.xml"/>
   <xi:include href="performance.xml"/>
@@ -41,6 +42,7 @@
   <xi:include href="safety.xml"/>
   <xi:include href="security.xml"/>
   <xi:include href="software-development.xml"/>
+  <xi:include href="software-engineering.xml"/>
   <xi:include href="stakeholder.xml"/>
   <xi:include href="technical-specification.xml"/>
   <xi:include href="usability.xml"/>
@@ -52,7 +54,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-05-25
+  ## Story 9 — 2026-05-30
 
   ### Authors
 

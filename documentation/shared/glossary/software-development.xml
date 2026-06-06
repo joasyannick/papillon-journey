@@ -17,6 +17,7 @@
     <glossseealso otherterm="term-devops">Devops</glossseealso>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="term-integrated-engineering-environment">Integrated engineering environment</glossseealso>
+    <glossseealso otherterm="term-maintenance">Maintenance</glossseealso>
     <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
     <glossseealso otherterm="term-verification">Verification</glossseealso>
   </glossdef>
@@ -24,7 +25,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-25
+  ## Story 9 — 2026-05-30
 
   ### Authors
 

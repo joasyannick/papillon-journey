@@ -21,6 +21,7 @@
     <glossseealso otherterm="term-model-based-engineering">Model-based engineering</glossseealso>
     <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
     <glossseealso otherterm="term-software-development">Software development</glossseealso>
+    <glossseealso otherterm="term-software-engineering">Software engineering</glossseealso>
     <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
     <glossseealso otherterm="term-user-experience-design">User experience design</glossseealso>
     <glossseealso otherterm="term-validation">Validation</glossseealso>
@@ -30,7 +31,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-05-07
+  ## Story 9 — 2026-05-30
 
   ### Authors
 

@@ -12,7 +12,7 @@
   <glossterm>Devops</glossterm>
   <glossdef>
     <simpara>
-      The provision and maintenance of the infrastructure and tooling that enable automated integration, delivery, deployment, and <glossterm linkend="term-observability" baseform="Observability">operational observation</glossterm>.
+      The provision and <glossterm linkend="term-maintenance">maintenance</glossterm> of the infrastructure and tooling that enable automated integration, delivery, deployment, and <glossterm linkend="term-observability" baseform="Observability">operational observation</glossterm>.
     </simpara>
     <note>
       <simpara>
@@ -28,7 +28,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-27
+  ## Story 9 — 2026-05-30
 
   ### Authors
 
