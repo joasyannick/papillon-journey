@@ -8,18 +8,18 @@
     xml:id="release-0.1.0"
     xml:lang="en-GB"
     number="0.1.0"
-    xmlns="http://chrysalide-learning.coop/ns/contributions"
+    xmlns="http://chrysalide-learning.coop/ns/releases"
     version="0.1">
-  <contribution contributor="github-joasyannick">
+  <contribution contributor="joas">
     <team name="product" leader="true"/>
     <team name="project" leader="true"/>
-    <story change-control="9" slug="write-vision"/>
+    <story id="1" slug="product-vision"/>
   </contribution>
 </release>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 1 — 2026-06-18
 
   ### Authors
 

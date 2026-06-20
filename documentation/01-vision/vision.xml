@@ -12,11 +12,11 @@
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-06-06</date>
-    <releaseinfo>0.1.0</releaseinfo>
+    <date>2026-06-19</date>
+    <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
-      <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+      <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
     <xi:include href="../shared/legal/publisher.xml"/>
     <xi:include href="../shared/legal/copyright.xml"/>
@@ -28,9 +28,9 @@
     </legalnotice>
     <revhistory>
       <revision>
-        <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-06-06</date>
-        <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date>2026-06-19</date>
+        <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
@@ -310,7 +310,7 @@
   </section>
   <section>
     <!-- How we are building it -->
-    <title>Lifecycle management</title>
+    <title>Lifecycle</title>
     <simpara>
       The project lifecycle is defined by outcomes rather than fixed timing.
       Its pace will depend on community building, community support, and the evidence gathered at each gate.

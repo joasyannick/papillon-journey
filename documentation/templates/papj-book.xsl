@@ -16,7 +16,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 1 — 2026-06-14
 
   ### Authors
 

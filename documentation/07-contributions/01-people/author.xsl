@@ -7,10 +7,9 @@
 <xsl:stylesheet
     version="2.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:contrib="http://chrysalide-learning.coop/ns/contributions"
+    xmlns:contrib="http://chrysalide-learning.coop/ns/contributors"
     xmlns="http://docbook.org/ns/docbook"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    exclude-result-prefixes="contrib xlink">
+    exclude-result-prefixes="contrib">
 
   <!--
     Transforms a contributor profile into a DocBook <author> element.
@@ -32,7 +31,7 @@
     <xsl:apply-templates select="contrib:contributor"/>
     <xsl:text>&#10;</xsl:text>
     <xsl:comment>
-      <xsl:text>&#10;  Generated from ./contributor.xml using ../author.xsl.&#10;  See the _Lifecycle management playbook_ [ββ] for regeneration instructions.&#10;</xsl:text>
+      <xsl:text>&#10;  Generated from ./contributor.xml using ../author.xsl.&#10;  Do not edit directly.&#10;  See the _Lifecycle management playbook_ [ββ] for regeneration instructions.&#10;</xsl:text>
     </xsl:comment>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
@@ -49,7 +48,6 @@
         </xsl:if>
       </personname>
       <xsl:if test="$detail = 'full'">
-        <uri role="github" xlink:href="{concat('https://github.com/', contrib:account[@platform='github'])}"/>
         <xsl:for-each select="contrib:organisations/contrib:organisation">
           <affiliation>
             <xsl:for-each select="contrib:position">
@@ -66,7 +64,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-05-14
+  ## Story 1 — 2026-06-20
 
   ### Authors
 

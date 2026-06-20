@@ -9,8 +9,14 @@
       <othername>Yannick</othername>
       <surname>Kinouani</surname>
    </personname>
+   <affiliation>
+      <jobtitle>Product manager</jobtitle>
+      <jobtitle>Project manager</jobtitle>
+      <orgname>Chrysalide Learning</orgname>
+   </affiliation>
 </author>
 <!--
   Generated from ./contributor.xml using ../author.xsl.
+  Do not edit directly.
   See the _Lifecycle management playbook_ [ββ] for regeneration instructions.
 -->

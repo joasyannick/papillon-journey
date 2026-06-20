@@ -18,7 +18,7 @@ starting any task.
 
 ## Current work
 
-Story 9: Write Vision (branch `product/stories/9-write-vision`)
+Story 1: Product Vision (branch `product/story/1-product-vision`)
 
 Stakeholder groups:
 1. Video game players

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<trackers
+    xmlns="http://chrysalide-learning.coop/ns/contributors/trackers"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://chrysalide-learning.coop/ns/contributors/trackers trackers.xsd">
+  <contributor id="joas">
+    <github url="https://github.com/joasyannick"/>
+  </contributor>
+</trackers>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-06-18
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+
+  ### Added
+
+  - Added contributor registry entry for Joas Yannick Kinouani.
+-->

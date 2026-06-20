@@ -7,12 +7,13 @@
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-    xmlns="http://chrysalide-learning.coop/ns/contributions"
-    targetNamespace="http://chrysalide-learning.coop/ns/contributions"
+    xmlns="http://chrysalide-learning.coop/ns/releases"
+    targetNamespace="http://chrysalide-learning.coop/ns/releases"
     elementFormDefault="qualified">
 
-  <xs:import namespace="http://www.w3.org/XML/1998/namespace"
-             schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+  <xs:import
+      namespace="http://www.w3.org/XML/1998/namespace"
+      schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 
   <xs:element name="release" type="ReleaseType"/>
 
@@ -73,7 +74,7 @@
   </xs:complexType>
 
   <xs:complexType name="ChangeControlNarrativeType">
-    <xs:attribute name="change-control" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
     <xs:attribute name="slug" type="xs:string" use="required"/>
   </xs:complexType>
 
@@ -81,7 +82,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 1 — 2026-06-18
 
   ### Authors
 

@@ -12,11 +12,11 @@
   <info>
     <biblioid class="pubsnumber">γ</biblioid>
     <title>Value propositions</title>
-    <date>2026-05-07</date>
-    <releaseinfo>0.1.0</releaseinfo>
+    <date>2026-06-18</date>
+    <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
-      <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+      <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
     <xi:include href="../shared/legal/publisher.xml"/>
     <xi:include href="../shared/legal/copyright.xml"/>
@@ -28,9 +28,9 @@
     </legalnotice>
     <revhistory>
       <revision>
-        <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-05-07</date>
-        <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date>2026-06-18</date>
+        <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>

@@ -31,19 +31,19 @@
     <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
   -xsl:documentation/07-contributions/01-people/author.xsl \
-  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author.xml
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author.gen.xml
 
 java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
   -xsl:documentation/07-contributions/01-people/author.xsl \
-  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-name.xml \
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-name.gen.xml \
   detail=name</programlisting>
   </section>
 </chapter>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 1 — 2026-06-18
 
   ### Authors
 
@@ -52,7 +52,7 @@ java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

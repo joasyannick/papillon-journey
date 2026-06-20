@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<evaluation
+    story-id="1"
+    story-slug="product-vision"
+    xmlns="http://chrysalide-learning.coop/ns/narratives/lifecycle"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://chrysalide-learning.coop/ns/narratives/lifecycle ../../../lifecycle.xsd"
+    xmlns:doc="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <iteration number="1">
+    <target-end><!-- TODO --></target-end>
+  </iteration>
+  <doc:article xml:lang="en-GB" version="5.1">
+    <doc:info>
+      <doc:biblioid class="pubsnumber">ϛε1β</doc:biblioid>
+      <doc:title>Product vision</doc:title>
+      <doc:subtitle>Evaluation</doc:subtitle>
+      <doc:date>2026-06-20</doc:date>
+      <doc:releaseinfo>Éclosion 0.1.0</doc:releaseinfo>
+      <doc:edition>0.1</doc:edition>
+      <doc:authorgroup>
+        <xi:include href="../../../../07-contributions/01-people/joas/author.gen.xml"/>
+      </doc:authorgroup>
+      <xi:include href="../../../../shared/legal/publisher.xml"/>
+      <xi:include href="../../../../shared/legal/copyright.xml"/>
+      <doc:legalnotice>
+        <doc:simpara>
+          <xi:include href="../../../../shared/legal/trademarks-owned.xml"/>
+          <xi:include href="../../../../shared/legal/trademarks-other.xml"/>
+        </doc:simpara>
+      </doc:legalnotice>
+      <doc:revhistory>
+        <doc:revision>
+          <doc:revnumber>Draft 0.1 — Story 1</doc:revnumber>
+          <doc:date>2026-06-20</doc:date>
+          <xi:include href="../../../../07-contributions/01-people/joas/author.gen.xml"/>
+          <doc:revdescription>
+            <doc:simpara>Agents:</doc:simpara>
+            <doc:itemizedlist>
+              <doc:listitem><doc:simpara>Claude Code: Sonnet 4.6</doc:simpara></doc:listitem>
+              <doc:listitem><doc:simpara>Codex: GPT-5.5</doc:simpara></doc:listitem>
+            </doc:itemizedlist>
+            <doc:simpara>Added:</doc:simpara>
+            <doc:itemizedlist>
+              <doc:listitem><doc:simpara>Scaffolded the evaluation document.</doc:simpara></doc:listitem>
+            </doc:itemizedlist>
+          </doc:revdescription>
+        </doc:revision>
+      </doc:revhistory>
+    </doc:info>
+    <doc:section role="intro">
+      <doc:title>Introduction</doc:title>
+      <doc:simpara>
+      </doc:simpara>
+    </doc:section>
+    <doc:section role="outro">
+      <doc:title>Feedback</doc:title>
+      <doc:simpara>
+      </doc:simpara>
+    </doc:section>
+  </doc:article>
+</evaluation>

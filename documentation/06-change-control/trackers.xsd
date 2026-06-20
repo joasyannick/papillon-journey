@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://chrysalide-learning.coop/ns/narratives/trackers"
+    targetNamespace="http://chrysalide-learning.coop/ns/narratives/trackers"
+    elementFormDefault="qualified">
+
+  <xs:element name="trackers" type="TrackersType"/>
+
+  <xs:complexType name="TrackersType">
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="saga" type="NarrativeRefType"/>
+      <xs:element name="what-if" type="NarrativeRefType"/>
+      <xs:element name="tale" type="NarrativeRefType"/>
+      <xs:element name="epic" type="NarrativeRefType"/>
+      <xs:element name="story" type="NarrativeRefType"/>
+    </xs:choice>
+  </xs:complexType>
+
+  <xs:complexType name="NarrativeRefType">
+    <xs:sequence>
+      <xs:element name="github" type="PlatformRefType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="slug" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="PlatformRefType">
+    <xs:attribute name="url" type="xs:anyURI" use="required"/>
+  </xs:complexType>
+
+</xs:schema>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-06-18
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+
+  ### Added
+
+  - Introduced the narratives tracker schema.
+  - Added slug attribute to narrative references.
+-->

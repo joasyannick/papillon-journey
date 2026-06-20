@@ -6,38 +6,47 @@
 -->
 <article xmlns="http://docbook.org/ns/docbook" xml:lang="en-GB" version="5.1">
    <info>
-      <biblioid class="pubsnumber">ϛε9</biblioid>
-      <title>Story 9</title>
-      <subtitle>Write the project vision document — by 31 May 2026</subtitle>
-      <date>2026-04-24</date>
-      <releaseinfo>0.1.0</releaseinfo>
+      <biblioid class="pubsnumber">ϛε1</biblioid>
+      <title>Product vision</title>
+      <date>2026-06-18</date>
+      <releaseinfo>Éclosion 0.1.0</releaseinfo>
       <edition>0.1</edition>
-      <xi:include xmlns="http://chrysalide-learning.coop/ns/storytelling"
+      <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
                   xmlns:doc="http://docbook.org/ns/docbook"
                   xmlns:xi="http://www.w3.org/2001/XInclude"
-                  href="../../../07-contributions/01-people/joasyannick/author.xml"/>
+                  href="../../../07-contributions/01-people/joas/author.gen.xml"/>
       <revhistory>
          <revision>
-            <revnumber>Draft 0.1 — Story 9</revnumber>
-            <date>2026-04-24</date>
-            <xi:include xmlns="http://chrysalide-learning.coop/ns/storytelling"
+            <revnumber>Draft 0.1 — Story 1</revnumber>
+            <date>2026-06-18</date>
+            <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
                         xmlns:doc="http://docbook.org/ns/docbook"
                         xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="../../../07-contributions/01-people/joasyannick/author.xml"/>
+                        href="../../../07-contributions/01-people/joas/author.gen.xml"/>
             <revdescription>
-          </revdescription>
+               <simpara>Agents:</simpara>
+               <itemizedlist>
+                  <listitem>
+                     <simpara>Claude Code: Sonnet 4.6</simpara>
+                  </listitem>
+                  <listitem>
+                     <simpara>Codex: GPT-5.5</simpara>
+                  </listitem>
+               </itemizedlist>
+               <simpara>Added:</simpara>
+               <itemizedlist>
+                  <listitem>
+                     <simpara>Authored Story 1.</simpara>
+                  </listitem>
+               </itemizedlist>
+            </revdescription>
          </revision>
       </revhistory>
    </info>
    <section>
       <title>Introduction</title>
-      <simpara>
-        This document records Story 9 within the controlled change system of <productname>Papillon Journey</productname>.
-        It formalises the need to produce a concise project vision document intended to clarify the project's direction for prospective contributors and stakeholders.
-      </simpara>
-      <simpara>
-        The story defines the motivation, narrative context, ownership, and lifecycle placement of this work item, and provides traceability within the project's documentation structure.
-      </simpara>
+      <simpara>This document records Story 1 within the controlled change system of <productname>Papillon Journey</productname>.</simpara>
+      <simpara>The story defines the motivation, narrative context, ownership, and lifecycle placement of this work item, and provides traceability within the project's documentation structure.</simpara>
    </section>
    <section>
       <title>Story</title>
@@ -90,16 +99,16 @@
       <title>Activity notes</title>
       <itemizedlist>
          <listitem>
-            <simpara>Evaluation: /documentation/06-change-control/05-stories/9-write-vision/01-evaluation</simpara>
+            <simpara>Elicitation: N/A</simpara>
+         </listitem>
+         <listitem>
+            <simpara>Evaluation: [ϛε1β]</simpara>
          </listitem>
          <listitem>
             <simpara>Specification: N/A</simpara>
          </listitem>
          <listitem>
-            <simpara>Development: /documentation/06-change-control/05-stories/9-write-vision/02-development</simpara>
-         </listitem>
-         <listitem>
-            <simpara>Integration: TBD</simpara>
+            <simpara>Development: [ϛε1δ]</simpara>
          </listitem>
          <listitem>
             <simpara>Verification: N/A</simpara>
@@ -108,12 +117,16 @@
             <simpara>Validation: TBD</simpara>
          </listitem>
          <listitem>
+            <simpara>Integration: TBD</simpara>
+         </listitem>
+         <listitem>
             <simpara>Retrospective: TBD</simpara>
          </listitem>
       </itemizedlist>
    </section>
 </article>
 <!--
-  Generated from  using storytelling.xsl.
+  Generated from product-vision.xml using narratives.xsl.
+  Do not edit directly.
   See the _Lifecycle management playbook_ [ββ] for regeneration instructions.
 -->

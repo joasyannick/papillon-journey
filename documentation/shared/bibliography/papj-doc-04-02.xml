@@ -13,13 +13,13 @@
   <biblioid class="pubsnumber">δβ</biblioid>
   <title>Business plan</title>
   <authorgroup>
-    <xi:include href="../../07-contributions/01-people/joasyannick/author-name.xml"/>
+    <xi:include href="../../07-contributions/01-people/joas/author-name.gen.xml"/>
   </authorgroup>
 </biblioentry>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-05-07
+  ## Story 1 — 2026-06-18
 
   ### Authors
 
@@ -28,6 +28,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.5
 
   ### Added
 

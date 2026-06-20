@@ -89,6 +89,13 @@
     </simpara>
   </section>
   <section>
+    <title>Generated files</title>
+    <simpara>
+      Generated files use <literal>.gen</literal> immediately before the filename extension and remain beside their source file.
+      Each generated file must identify its source and generator, state that it must not be edited directly, and omit a manually maintained changelog.
+    </simpara>
+  </section>
+  <section>
     <title>Changelogs</title>
     <simpara>
       Project-authored files without a built-in changelog mechanism (such as <code>revhistory</code>) carry a footer changelog in Keep a Changelog format, using Story numbers instead of release versions.
@@ -115,7 +122,7 @@
 <!--
   # Changelog
 
-  ## Story 9 — 2026-05-09
+  ## Story 1 — 2026-06-18
 
   ### Authors
 
@@ -124,7 +131,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 

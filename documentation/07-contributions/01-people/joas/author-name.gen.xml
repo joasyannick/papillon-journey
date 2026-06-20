@@ -9,16 +9,9 @@
       <othername>Yannick</othername>
       <surname>Kinouani</surname>
    </personname>
-   <uri xmlns:xlink="http://www.w3.org/1999/xlink"
-        role="github"
-        xlink:href="https://github.com/joasyannick"/>
-   <affiliation>
-      <jobtitle>Product manager</jobtitle>
-      <jobtitle>Project manager</jobtitle>
-      <orgname>Chrysalide Learning</orgname>
-   </affiliation>
 </author>
 <!--
   Generated from ./contributor.xml using ../author.xsl.
+  Do not edit directly.
   See the _Lifecycle management playbook_ [ββ] for regeneration instructions.
 -->

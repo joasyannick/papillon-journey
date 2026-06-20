@@ -12,8 +12,8 @@
   <info>
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle management playbook</title>
-    <date>2026-05-09</date>
-    <releaseinfo>0.1.0</releaseinfo>
+    <date>2026-06-18</date>
+    <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <author>
       <orgname>Chrysalide Learning</orgname>
@@ -28,9 +28,9 @@
     </legalnotice>
     <revhistory>
       <revision>
-        <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-05-09</date>
-        <xi:include href="../../07-contributions/01-people/joasyannick/author.xml"/>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date>2026-06-18</date>
+        <xi:include href="../../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>

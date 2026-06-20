@@ -17,7 +17,7 @@
     <edition><!-- TODO: edition number --></edition>
     <authorgroup>
       <!-- TODO: replace with the author's contributor file -->
-      <xi:include href="../07-contributions/01-people/author/author.xml"/>
+      <xi:include href="../07-contributions/01-people/author/author.gen.xml"/>
     </authorgroup>
     <xi:include href="../shared/legal/publisher.xml"/>
     <xi:include href="../shared/legal/copyright.xml"/>
@@ -30,9 +30,9 @@
     <revhistory>
       <!-- TODO: replace this entry with your document's first revision -->
       <revision>
-        <revnumber>Draft 0.1 — Story 9</revnumber>
-        <date>2026-05-05</date>
-        <xi:include href="../07-contributions/01-people/joasyannick/author.xml"/>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date>2026-06-18</date>
+        <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>

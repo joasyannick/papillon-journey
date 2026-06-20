@@ -6,8 +6,8 @@
 -->
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://chrysalide-learning.coop/ns/contributions"
-    targetNamespace="http://chrysalide-learning.coop/ns/contributions"
+    xmlns="http://chrysalide-learning.coop/ns/contributors"
+    targetNamespace="http://chrysalide-learning.coop/ns/contributors"
     elementFormDefault="qualified"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     vc:minVersion="1.1">
@@ -21,7 +21,6 @@
   <xs:complexType name="ContributorType">
     <xs:sequence>
       <xs:element name="name" type="NameType"/>
-      <xs:element name="account" type="AccountType"/>
       <xs:element name="organisations" type="OrganisationsType" minOccurs="0"/>
       <xs:element name="persona" type="PersonaType" minOccurs="0"/>
     </xs:sequence>
@@ -63,20 +62,6 @@
     </xs:simpleContent>
   </xs:complexType>
 
-  <xs:complexType name="AccountType">
-    <xs:simpleContent>
-      <xs:extension base="xs:string">
-        <xs:attribute name="platform" use="required">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:enumeration value="github"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:attribute>
-      </xs:extension>
-    </xs:simpleContent>
-  </xs:complexType>
-
   <xs:complexType name="PersonaType">
     <xs:sequence>
       <xs:element name="home" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
@@ -109,12 +94,11 @@
     </xs:sequence>
   </xs:complexType>
 
-
 </xs:schema>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 1 — 2026-06-18
 
   ### Authors
 
@@ -127,5 +111,5 @@
 
   ### Added
 
-  - Defined the contributor schema.
+  - Introduced the contributor schema.
 -->

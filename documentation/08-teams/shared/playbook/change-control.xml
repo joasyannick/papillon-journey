@@ -10,12 +10,30 @@
     version="5.1">
   <title>Change Control</title>
   <section>
+    <title>Narrative IDs</title>
+    <simpara>
+      Each narrative (story, epic, tale, saga, or what-if) carries an <tag>id</tag> attribute that is a positive integer drawn from an internal sequential counter, independent of any external platform.
+      The counter starts at 1 and increments with each new narrative, regardless of the identifier assigned on any hosting platform (e.g. GitHub, GitLab).
+      The mapping between internal IDs and external platform issue references is recorded in <filename>documentation/06-change-control/trackers.xml</filename>.
+    </simpara>
+  </section>
+  <section>
+    <title>Contributor IDs</title>
+    <simpara>
+      Each contributor is assigned a platform-independent handle recorded as the <tag>xml:id</tag>
+      attribute of their <filename>contributor.xml</filename> profile file and used as the
+      <tag>contributor</tag> attribute value in release history files.
+      The mapping between this handle and platform account URLs is maintained in
+      <filename>documentation/07-contributions/trackers.xml</filename>.
+    </simpara>
+  </section>
+  <section>
     <title>Branching</title>
     <simpara>
       The main branch is <literal>canon</literal>.
       Feature branches follow the naming convention:
     </simpara>
-    <programlisting><![CDATA[<team>/<storytelling>/<github-id>-<branch-label>]]></programlisting>
+    <programlisting><![CDATA[<team>/<storytelling>/<narrative-id>-<branch-label>]]></programlisting>
   </section>
   <section>
     <title>Commit messages</title>
@@ -28,7 +46,7 @@
 -- <state-before>.
 => <state-after>.
 * <additional-information>.
-[<Team> <Storytelling> <github-id>]]]></programlisting>
+[<Team> <Storytelling> <narrative-id>]]]></programlisting>
     <simpara>
       Example:
     </simpara>
@@ -36,7 +54,7 @@
 -- Other documents will have the same author, publisher, or introduction.
 => Extracted shareable fragments for reuse via XInclude.
 * Enhanced phrasing along the way.
-[Product Story 9]]]></programlisting>
+[Product Story 1]]]></programlisting>
   </section>
   <section>
     <title>Changelogs</title>
@@ -44,7 +62,7 @@
       Every file carries a changelog in a trailing XML comment.
       Each entry covers one story and follows this structure:
     </simpara>
-    <programlisting><![CDATA[## <narrative-type> <github-id> — <date>
+    <programlisting><![CDATA[## <narrative-type> <narrative-id> — <date>
 
 ### Authors
 
@@ -52,8 +70,8 @@
 
 ### Agents
 
-- Claude Code: Sonnet 4.5, Sonnet 4.6
-- Codex: GPT-5.4
+- Claude Code: Sonnet 4.6
+- Codex: GPT-5.5
 
 ### Added
 
@@ -67,24 +85,24 @@
     </simpara>
   </section>
   <section>
-    <title>Storytelling vocabulary</title>
+    <title>Narratives vocabulary</title>
     <simpara>
-      Change control narratives are authored in the storytelling vocabulary at <filename>documentation/06-change-control/storytelling.xsd</filename>.
+      Change control narratives are authored in the narratives vocabulary at <filename>documentation/06-change-control/narratives.xsd</filename>.
       Each narrative type — <tag>saga</tag>, <tag>epic</tag>, <tag>story</tag>, <tag>tale</tag>, or <tag>what-if</tag> — wraps a DocBook <tag>article</tag> and carries the metadata required for change control: <tag>responsible-team</tag> and <tag>priority</tag>.
     </simpara>
     <simpara>
-      The DocBook article can be extracted into a standalone document using the storytelling stylesheet:
+      The DocBook article can be extracted into a standalone document using the narratives stylesheet:
     </simpara>
     <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/06-change-control/<replaceable>path/to/narrative.xml</replaceable> \
-  -xsl:documentation/06-change-control/storytelling.xsl \
-  -o:documentation/06-change-control/<replaceable>path/to/narrative-article.xml</replaceable></programlisting>
+  -xsl:documentation/06-change-control/narratives.xsl \
+  -o:documentation/06-change-control/<replaceable>path/to/narrative.gen.xml</replaceable></programlisting>
   </section>
 </chapter>
 <!--
   # Changelog
 
-  ## Story 9 — 2026-04-23
+  ## Story 1 — 2026-06-20
 
   ### Authors
 
@@ -93,7 +111,7 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.5
 
   ### Added
 
