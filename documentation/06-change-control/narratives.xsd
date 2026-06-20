@@ -16,11 +16,22 @@
   <xs:element name="epic" type="NarrativeType"/>
   <xs:element name="story" type="StoryType"/>
 
+  <xs:group name="TimeDataGroup">
+    <xs:sequence>
+      <xs:element name="time-estimate" type="xs:duration" minOccurs="0"/>
+      <xs:element name="start-date" type="xs:date" minOccurs="0"/>
+      <xs:element name="target-end" type="xs:date" minOccurs="0"/>
+      <xs:element name="actual-end" type="xs:date" minOccurs="0"/>
+      <xs:element name="time-spent" type="xs:duration" minOccurs="0"/>
+    </xs:sequence>
+  </xs:group>
+
   <xs:complexType name="StoryType">
     <xs:sequence>
       <xs:element name="responsible-team" type="TeamType"/>
       <xs:element name="priority" type="PriorityType"/>
       <xs:element name="relations" type="StoryRelationsType" minOccurs="0"/>
+      <xs:group ref="TimeDataGroup"/>
       <xs:any namespace="http://docbook.org/ns/docbook" processContents="lax"/>
       <xs:element name="activities" type="ActivitiesType" minOccurs="0"/>
     </xs:sequence>
@@ -58,6 +69,7 @@
     <xs:sequence>
       <xs:element name="responsible-team" type="TeamType"/>
       <xs:element name="priority" type="PriorityType"/>
+      <xs:group ref="TimeDataGroup"/>
       <xs:any namespace="http://docbook.org/ns/docbook" processContents="lax"/>
     </xs:sequence>
     <xs:attribute name="id" type="xs:positiveInteger" use="required"/>

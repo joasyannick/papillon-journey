@@ -69,6 +69,45 @@
     </variablelist>
   </section>
   <section>
+    <title>Document identifiers</title>
+    <simpara>
+      Every project document carries a <tag>biblioid</tag> element with <tag class="attribute">class="pubsnumber"</tag> that uniquely identifies it within the documentation tree.
+      The value encodes the document's filesystem path by converting each numeric directory prefix into a Greek numeral and concatenating the results.
+      Narrative IDs — bare integers without a directory prefix — are preserved as Arabic numerals.
+      Directory names without a numeric prefix are not encoded.
+    </simpara>
+    <simpara>
+      The numeral mapping follows the Milesian system: α = 1, β = 2, γ = 3, δ = 4, ε = 5, ϛ = 6, ζ = 7, η = 8, θ = 9, ι = 10, and so on.
+    </simpara>
+    <simpara>
+      Examples:
+    </simpara>
+    <variablelist>
+      <varlistentry>
+        <term><literal>ϛε1β</literal></term>
+        <listitem>
+          <simpara>
+            <filename>documentation/06-change-control/05-stories/1-product-vision/02-evaluation/</filename>
+            — prefixes 06, 05, and 02 encode as ϛ, ε, and β; the narrative ID 1 is kept as 1.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><literal>ββ</literal></term>
+        <listitem>
+          <simpara>
+            <filename>documentation/02-lifecycle-management/02-playbook/</filename>
+            — both prefixes 02 encode as β.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <simpara>
+      The biblioid changes only when a document moves to a different directory.
+      It is used as a stable, concise cross-reference identifier throughout the documentation.
+    </simpara>
+  </section>
+  <section>
     <title>Shared content</title>
     <simpara>
       Reusable fragments live in <filename>documentation/shared/</filename> and are included via XInclude:
@@ -122,7 +161,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-18
+  ## Story 1 — 2026-06-20
 
   ### Authors
 

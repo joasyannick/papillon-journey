@@ -30,8 +30,11 @@
 
   <xs:complexType name="IterationType">
     <xs:sequence>
+      <xs:element name="time-estimate" type="xs:duration" minOccurs="0"/>
+      <xs:element name="start-date" type="xs:date" minOccurs="0"/>
       <xs:element name="target-end" type="xs:date" minOccurs="0"/>
       <xs:element name="actual-end" type="xs:date" minOccurs="0"/>
+      <xs:element name="time-spent" type="xs:duration" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute name="number" type="xs:positiveInteger" use="required"/>
   </xs:complexType>

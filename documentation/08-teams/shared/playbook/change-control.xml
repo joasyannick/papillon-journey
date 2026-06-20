@@ -98,6 +98,54 @@
   -xsl:documentation/06-change-control/narratives.xsl \
   -o:documentation/06-change-control/<replaceable>path/to/narrative.gen.xml</replaceable></programlisting>
   </section>
+  <section>
+    <title>Time tracking</title>
+    <simpara>
+      Every narrative level — tale, epic, story — and every activity iteration carries five time fields:
+    </simpara>
+    <variablelist>
+      <varlistentry>
+        <term><tag>time-estimate</tag></term>
+        <listitem><simpara>Expected effort, expressed as an ISO 8601 duration (e.g. <literal>PT8H</literal>, <literal>P3D</literal>).</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><tag>start-date</tag></term>
+        <listitem><simpara>Date work actually began.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><tag>target-end</tag></term>
+        <listitem><simpara>Planned completion date.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><tag>actual-end</tag></term>
+        <listitem><simpara>Date work actually closed.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><tag>time-spent</tag></term>
+        <listitem><simpara>Actual effort, expressed as an ISO 8601 duration.</simpara></listitem>
+      </varlistentry>
+    </variablelist>
+    <simpara>
+      These fields follow a V-model.
+      Estimates are set top-down: a tale is estimated first, its epics next, then their stories, and finally each activity iteration.
+      Actuals are recorded bottom-up: activity iterations are closed first, which informs the story's actuals, which in turn inform the epic's, and so on up to the tale.
+      All five fields are optional and are filled in as work progresses.
+    </simpara>
+    <simpara>
+      Duration values (<tag>time-estimate</tag> and <tag>time-spent</tag>) use hours, days,
+      and weeks as units, with the following work-time definitions:
+    </simpara>
+    <itemizedlist>
+      <listitem><simpara>1 day = 8 hours</simpara></listitem>
+      <listitem><simpara>1 week = 5 days = 40 hours</simpara></listitem>
+    </itemizedlist>
+    <simpara>
+      Months and years are not used as duration units.
+      When the estimated duration is under a year, record both <tag>time-estimate</tag>
+      (weeks being the largest unit) and <tag>target-end</tag>.
+      When the estimated duration is a year or more, record <tag>target-end</tag> only.
+    </simpara>
+  </section>
 </chapter>
 <!--
   # Changelog

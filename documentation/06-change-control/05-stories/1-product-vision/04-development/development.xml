@@ -13,7 +13,9 @@
     xmlns:doc="http://docbook.org/ns/docbook"
     xmlns:xi="http://www.w3.org/2001/XInclude">
   <iteration number="1">
-    <target-end><!-- TODO --></target-end>
+    <time-estimate>P4D</time-estimate>
+    <target-end>2026-08-31</target-end>
+    <time-spent>P8DT6H</time-spent>
   </iteration>
   <doc:article xml:lang="en-GB" version="5.1">
     <doc:info>

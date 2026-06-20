@@ -12,9 +12,7 @@
     xsi:schemaLocation="http://chrysalide-learning.coop/ns/narratives/lifecycle ../../../lifecycle.xsd"
     xmlns:doc="http://docbook.org/ns/docbook"
     xmlns:xi="http://www.w3.org/2001/XInclude">
-  <iteration number="1">
-    <target-end><!-- TODO --></target-end>
-  </iteration>
+  <iteration number="1"/>
   <doc:article xml:lang="en-GB" version="5.1">
     <doc:info>
       <doc:biblioid class="pubsnumber">ϛε1β</doc:biblioid>
