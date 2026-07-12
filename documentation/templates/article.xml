@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: YYYY Chrysalide Learning
+  SPDX-FileCopyrightText: YYYY Author
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<article
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <biblioid class="pubsnumber"><!-- TODO: document ID --></biblioid>
+    <title><!-- TODO: document title --></title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-08</date>
+    <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
+    <edition><!-- TODO: edition number --></edition>
+    <authorgroup>
+      <!-- TODO: replace with the author's contributor file -->
+      <xi:include href="../07-contributions/01-people/author/author.gen.xml"/>
+    </authorgroup>
+    <xi:include href="../shared/notices/publisher.xml"/>
+    <xi:include href="../shared/notices/copyright.xml"/>
+    <legalnotice>
+      <simpara>
+        <xi:include href="../shared/notices/trademarks-owned.xml"/>
+        <xi:include href="../shared/notices/trademarks-other.xml"/>
+      </simpara>
+    </legalnotice>
+    <revhistory>
+      <!-- TODO: replace this entry with your document's first revision -->
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started the article template.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <epigraph xml:lang="lzh-Hant">
+    <!-- TODO: a short Chinese quote (any period, Classical or modern; a
+         Chinese translation of a non-Chinese text is also allowed, with its
+         own bibliography entry), left untranslated by design; see the shared
+         playbook's Writing chapter for the convention. The document-level
+         epigraph is always Chinese; each top-level section then alternates
+         language, starting with Japanese right after this one. The quoted
+         source must have a bibliography entry, cited here via <citation> and
+         included in the document's bibliography section. -->
+    <attribution>
+      <personname>TODO: source person name</personname>
+      <citation>TODO: citation label</citation>
+    </attribution>
+    <simpara><!-- TODO: quote --></simpara>
+  </epigraph>
+  <section role="intro">
+    <!-- What we are building -->
+    <title>Introduction</title>
+    <epigraph xml:lang="ja">
+      <!-- TODO: repeat this placeholder epigraph on every top-level section,
+           alternating xml:lang between "ja" and "lzh-Hant" as sections are
+           added (this one is Japanese, being the first section after the
+           Chinese document-level epigraph) -->
+      <attribution>
+        <personname>TODO: source person name</personname>
+        <citation>TODO: citation label</citation>
+      </attribution>
+      <simpara><!-- TODO: short Japanese quote fitting this section's theme --></simpara>
+    </epigraph>
+    <xi:include href="../shared/products/papillon-journey.xml"/>
+    <xi:include href="../shared/products/chrysal-studio.xml"/>
+    <simpara>
+      <!-- TODO: describe the purpose and scope of this document (at most two paragraphs) -->
+    </simpara>
+    <note role="standards">
+      <title>Applicable standards</title>
+      <!-- TODO: if standards apply, use a bibliolist of xi:include entries from
+           shared/bibliography/; entries used here must not appear in the
+           document's bibliography section. Otherwise, write a simpara stating
+           "No known standard specifically governs [document type] documents." -->
+    </note>
+    <note role="playbooks">
+      <title>Applied playbooks</title>
+      <bibliolist>
+        <!-- TODO: xi:include the shared bibliography entry for the playbook
+             chapter that governs this document type; at least one entry required.
+             Entries used here must not appear in the document's bibliography section. -->
+      </bibliolist>
+    </note>
+  </section>
+  <!-- TODO: add further sections; each top-level section should carry its
+       own epigraph placeholder, as in the intro section above, alternating
+       xml:lang between "ja" and "lzh-Hant" -->
+   <section role="outro">
+    <title>Feedback</title>
+    <epigraph xml:lang="lzh-Hant">
+      <!-- TODO: recompute this section's language: it alternates with each
+           top-level section counted from the Japanese Introduction epigraph
+           above, so this Chinese placeholder only holds if Feedback remains
+           the second top-level section -->
+      <attribution>
+        <personname>TODO: source person name</personname>
+        <citation>TODO: citation label</citation>
+      </attribution>
+      <simpara><!-- TODO: short Chinese quote fitting this section's theme (any period; a translation is also allowed, with its own bibliography entry) --></simpara>
+    </epigraph>
+    <simpara>
+    </simpara>
+   </section>
+  <glossary>
+    <title>Glossary</title>
+    <xi:include href="../shared/glossary/integrated-engineering-environment.xml"/>
+    <xi:include href="../shared/glossary/japanese-role-playing-game.xml"/>
+    <!-- TODO: add further glossary entries as needed, all taken from the shared glossary directory -->
+  </glossary>
+  <!-- TODO: add a bibliography if needed, all entries taken from the shared bibliography directory -->
+  <!--
+  <bibliography>
+    <title>References</title>
+    <xi:include href="../shared/bibliography/01.xml"/>
+  </bibliography>
+  -->
+</article>

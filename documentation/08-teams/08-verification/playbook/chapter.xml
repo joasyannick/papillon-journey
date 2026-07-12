@@ -8,24 +8,35 @@
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <title><!-- TODO: chapter title --></title>
+  <info>
+    <title><!-- TODO: chapter title --></title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-12</date>
+    <authorgroup>
+      <author>
+        <personname><!-- TODO: Author 1 --></personname>
+      </author>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <author>
+          <personname><!-- TODO: Author 2 --></personname>
+        </author>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.4</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Created a placeholder chapter for the Verification team.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
   <!-- TODO: write the chapter content -->
 </chapter>
-<!--
-  # Changelog
-
-  ## Story 1 — 2026-06-14
-
-  ### Authors
-
-  - Joas Yannick Kinouani
-
-  ### Agents
-
-  - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
-
-  ### Added
-
-  - Started the chapter.
--->

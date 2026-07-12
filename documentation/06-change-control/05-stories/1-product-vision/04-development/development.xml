@@ -15,31 +15,32 @@
   <iteration number="1">
     <time-estimate>P4D</time-estimate>
     <target-end>2026-08-31</target-end>
-    <time-spent>P8DT6H</time-spent>
+    <time-spent>P10DT5H30M</time-spent>
   </iteration>
   <doc:article xml:lang="en-GB" version="5.1">
     <doc:info>
       <doc:biblioid class="pubsnumber">ϛε1δ</doc:biblioid>
       <doc:title>Product vision</doc:title>
       <doc:subtitle>Development</doc:subtitle>
-      <doc:date>2026-06-20</doc:date>
+      <doc:date role="modified">2026-07-11</doc:date>
+      <doc:pubdate></doc:pubdate>
       <doc:releaseinfo>Éclosion 0.1.0</doc:releaseinfo>
       <doc:edition>0.1</doc:edition>
       <doc:authorgroup>
         <xi:include href="../../../../07-contributions/01-people/joas/author.gen.xml"/>
       </doc:authorgroup>
-      <xi:include href="../../../../shared/legal/publisher.xml"/>
-      <xi:include href="../../../../shared/legal/copyright.xml"/>
+      <xi:include href="../../../../shared/notices/publisher.xml"/>
+      <xi:include href="../../../../shared/notices/copyright.xml"/>
       <doc:legalnotice>
         <doc:simpara>
-          <xi:include href="../../../../shared/legal/trademarks-owned.xml"/>
-          <xi:include href="../../../../shared/legal/trademarks-other.xml"/>
+          <xi:include href="../../../../shared/notices/trademarks-owned.xml"/>
+          <xi:include href="../../../../shared/notices/trademarks-other.xml"/>
         </doc:simpara>
       </doc:legalnotice>
       <doc:revhistory>
         <doc:revision>
           <doc:revnumber>Draft 0.1 — Story 1</doc:revnumber>
-          <doc:date>2026-06-20</doc:date>
+          <doc:date role="pubdate"></doc:date>
           <xi:include href="../../../../07-contributions/01-people/joas/author.gen.xml"/>
           <doc:revdescription>
             <doc:simpara>Agents:</doc:simpara>

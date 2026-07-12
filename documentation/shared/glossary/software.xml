@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<glossentry
+    xml:id="term-software"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <glossterm>Software</glossterm>
+  <glossdef>
+    <simpara>
+      The instructions, data, and configuration that define behaviour executed by a computing <glossterm linkend="term-system">system</glossterm>.
+    </simpara>
+    <glossseealso otherterm="term-software-engineering">Software engineering</glossseealso>
+    <glossseealso otherterm="term-system">System</glossseealso>
+  </glossdef>
+</glossentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-08
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Defined ‘software’.
+  - Cross-referenced related terms.
+-->

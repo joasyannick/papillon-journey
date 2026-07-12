@@ -12,16 +12,18 @@
   <glossterm>Software engineering</glossterm>
   <glossdef>
     <simpara>
-      The application of engineering principles — rigour, method, and accountability — to the design, construction, and <glossterm linkend="term-maintenance">maintenance</glossterm> of software systems.
+      The application of engineering principles — rigour, method, and accountability — to the design, construction, and <glossterm linkend="term-maintenance">maintenance</glossterm> of <glossterm linkend="term-software">software</glossterm> systems.
     </simpara>
     <glossseealso otherterm="term-formal-engineering">Formal engineering</glossseealso>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
+    <glossseealso otherterm="term-software">Software</glossseealso>
+    <glossseealso otherterm="term-systems-engineering">Systems engineering</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-08
 
   ### Authors
 

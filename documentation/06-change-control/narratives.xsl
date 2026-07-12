@@ -14,6 +14,7 @@
   <xsl:output method="xml" indent="yes" encoding="utf-8"/>
 
   <xsl:template match="/">
+    <!-- REUSE-IgnoreStart -->
     <xsl:comment>
       <xsl:text>&#10;  SPDX-FileCopyrightText: </xsl:text>
       <xsl:value-of select="year-from-date(current-date())"/>
@@ -21,6 +22,7 @@
       <xsl:value-of select="year-from-date(current-date())"/>
       <xsl:text> Joas Yannick Kinouani&#10;  SPDX-License-Identifier: GPL-3.0-or-later&#10;</xsl:text>
     </xsl:comment>
+    <!-- REUSE-IgnoreEnd -->
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates select="narratives:*"/>
     <xsl:text>&#10;</xsl:text>
@@ -124,7 +126,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-20
+  ## Story 1 — 2026-07-04
 
   ### Authors
 
@@ -132,7 +134,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added

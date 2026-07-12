@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<editor xmlns="http://docbook.org/ns/docbook" xml:lang="en-GB" version="5.1">
+   <personname>
+      <givenname>Joas</givenname>
+      <othername>Yannick</othername>
+      <surname>Kinouani</surname>
+   </personname>
+   <affiliation>
+      <jobtitle>Product manager</jobtitle>
+      <jobtitle>Project manager</jobtitle>
+      <orgname>Chrysalide Learning</orgname>
+   </affiliation>
+</editor>
+<!--
+  Generated from ./contributor.xml using ../contributor.xsl.
+  Do not edit directly.
+  See the _Lifecycle management playbook_ [ββ] for regeneration instructions.
+-->

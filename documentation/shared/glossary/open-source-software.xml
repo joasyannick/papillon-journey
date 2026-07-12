@@ -12,7 +12,7 @@
   <glossterm>Open-source software</glossterm>
   <glossdef>
     <simpara>
-      Software that users can study, modify, and redistribute, with licensing terms that may allow derivatives to deny others these freedoms.
+      Software that users are allowed to study, modify, and redistribute, with licensing terms that may allow derivatives to withhold those permissions from others.
     </simpara>
     <glossseealso otherterm="term-libre-software">Libre software</glossseealso>
     <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
@@ -21,7 +21,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-08
 
   ### Authors
 
@@ -29,7 +29,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added

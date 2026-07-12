@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Defining a vision</title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-04</date>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started dedicated vision document guidance.</simpara></listitem>
+            <listitem><simpara>Explained the vision document's purpose, structure, ownership, and maintenance.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <simpara>
+    The vision document is the product team's primary deliverable.
+    It establishes the shared understanding of the product across all stakeholders and teams and serves as the authoritative reference for the product's direction throughout the project lifecycle.
+  </simpara>
+  <section>
+    <title>Purpose</title>
+    <simpara>
+      The document answers five questions:
+    </simpara>
+    <itemizedlist>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">What.</emphasis>
+          What the product is and does.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Why.</emphasis>
+          The problem it addresses and why it matters.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Who.</emphasis>
+          The stakeholder groups it serves and the value it delivers to each.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">How.</emphasis>
+          The lifecycle phases through which the product will be built and delivered.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Success.</emphasis>
+          The key success indicators and the metrics used to observe them.
+        </simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Applicable standards</title>
+    <simpara>
+      <!-- TODO: list external standards that govern the vision document, or state that none specifically apply. -->
+    </simpara>
+  </section>
+  <section>
+    <title>Ownership</title>
+    <simpara>
+      The vision document is owned by the product team and authored by the product lead.
+    </simpara>
+  </section>
+  <section>
+    <title>Reviews</title>
+    <simpara>
+      <!-- TODO: define required review roles, review timing, checklists, and approval expectations. -->
+    </simpara>
+  </section>
+  <section>
+    <title>Structure</title>
+    <simpara>
+      The document is structured as follows:
+    </simpara>
+    <itemizedlist>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Introduction.</emphasis>
+          Product and environment overview; purpose and scope of the document; applicable standards and applied playbooks.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Purpose.</emphasis>
+          The problem the product addresses and the motivation for building it.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Stakeholders and value propositions.</emphasis>
+          One subsection per stakeholder group, each describing the group's core needs and the value propositions that address them.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Lifecycle.</emphasis>
+          The named phases of the project lifecycle, their goals, and the gates between them.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Key success indicators.</emphasis>
+          The KSIs, the metrics used to observe them at each lifecycle phase, and a summary table mapping value propositions to KSIs.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Getting involved.</emphasis>
+          How external contributors and stakeholders can participate in the project.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Feedback.</emphasis>
+          How readers can submit feedback on the document.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Glossary.</emphasis>
+          Terms introduced or used in the document.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Bibliography.</emphasis>
+          External documents referenced in the text.
+        </simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section>
+    <title>Templates</title>
+    <simpara>
+      <!-- TODO: reference the template used to start or refresh the vision document. -->
+    </simpara>
+  </section>
+  <section>
+    <title>Maintenance</title>
+    <simpara>
+      The vision document is reviewed and updated whenever the product's direction changes significantly — for example, when a new stakeholder group is identified, a value proposition is retired, or the lifecycle is restructured.
+      Routine updates to metrics and thresholds do not require a full review cycle.
+      Each revision must be reflected in the document's <tag>revhistory</tag>.
+    </simpara>
+    <simpara>
+      The sections most likely to evolve are Stakeholders and value propositions, as market and community feedback accumulates, and Key success indicators, as early metrics are replaced by stronger signals.
+      The Purpose and Lifecycle sections are more stable and should change only when the fundamental rationale or structure of the project shifts.
+    </simpara>
+  </section>
+</chapter>

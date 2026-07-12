@@ -5,21 +5,27 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <biblioentry
-    xml:id="papj-doc-01"
+    xml:id="α"
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <abbrev>α</abbrev>
   <biblioid class="pubsnumber">α</biblioid>
   <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
+  <pubdate></pubdate>
+  <releaseinfo>Éclosion 0.1.0</releaseinfo>
+  <edition>0.1</edition>
   <authorgroup>
     <xi:include href="../../07-contributions/01-people/joas/author-name.gen.xml"/>
   </authorgroup>
+  <xi:include href="../notices/publisher.xml"/>
+  <xi:include href="../notices/copyright.xml"/>
 </biblioentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-18
+  ## Story 1 — 2026-07-08
 
   ### Authors
 
@@ -27,7 +33,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added

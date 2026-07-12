@@ -17,33 +17,58 @@
   <section>
     <title>Validation</title>
     <simpara>
-      The contributor schema uses XSD 1.1 features and requires an XSD 1.1-capable validator.
-      <!-- TODO: Build a dedicated command-line XSD 1.1 validator (fat JAR wrapping Xerces2-J) and add it to documentation/tools/, then replace this note with the corresponding command. -->
-      Until a dedicated tool is available, validate contributor profiles using Oxygen XML or another XSD 1.1-capable editor.
+      Validate a profile's structure against the schema:
     </simpara>
+    <programlisting>xmllint --noout --schema documentation/07-contributions/01-people/contributor.xsd \
+  documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
+    <simpara>
+      Then check the Schematron rules, which cover constraints the schema itself can't express.
+      Compile the rules into a validation stylesheet, then run it against the profile and inspect the report for <tag>svrl:failed-assert</tag> elements — none means the profile passes:
+    </simpara>
+    <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/07-contributions/01-people/contributor.sch \
+  -xsl:documentation/tools/schematron/schxslt2/1.11.1/transpile.xsl \
+  -o:/tmp/contributor-validator.xsl
+
+java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
+  -xsl:/tmp/contributor-validator.xsl</programlisting>
   </section>
   <section>
     <title>DocBook fragment generation</title>
     <simpara>
       Two DocBook fragments are generated from each profile and committed alongside it: a full <tag>author</tag> element for document headers, and a name-only one for bibliographies.
+      Pass <literal>role=editor</literal> to generate the equivalent <tag>editor</tag> fragments instead, for edited-work cases.
       Regenerate them with Saxon after any change to the profile:
     </simpara>
     <programlisting>java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
-  -xsl:documentation/07-contributions/01-people/author.xsl \
+  -xsl:documentation/07-contributions/01-people/contributor.xsl \
   -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author.gen.xml
 
 java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
-  -xsl:documentation/07-contributions/01-people/author.xsl \
+  -xsl:documentation/07-contributions/01-people/contributor.xsl \
   -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/author-name.gen.xml \
-  detail=name</programlisting>
+  detail=name
+
+java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
+  -xsl:documentation/07-contributions/01-people/contributor.xsl \
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/editor.gen.xml \
+  role=editor
+
+java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
+  -s:documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml \
+  -xsl:documentation/07-contributions/01-people/contributor.xsl \
+  -o:documentation/07-contributions/01-people/<replaceable>username</replaceable>/editor-name.gen.xml \
+  role=editor detail=name</programlisting>
   </section>
 </chapter>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-18
+  ## Story 1 — 2026-07-12
 
   ### Authors
 
@@ -51,10 +76,10 @@ java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added
 
-  - Documented contributor registration, validation, and DocBook fragment generation.
+  - Started to document contributor registration.
 -->

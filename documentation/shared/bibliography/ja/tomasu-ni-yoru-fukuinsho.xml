@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="tomasu-ni-yoru-fukuinsho"
+    xml:lang="ja"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <abbrev>トマスによる福音書</abbrev>
+  <biblioset relation="book">
+    <biblioid class="isbn">978-4-06-159149-3</biblioid>
+    <title>トマスによる福音書</title>
+    <pubdate>1994-11-10</pubdate>
+    <releaseinfo>2025年2月12日　第27刷発行</releaseinfo>
+    <othercredit class="translator">
+      <personname>
+        <surname>荒井</surname>
+        <givenname>献</givenname>
+      </personname>
+    </othercredit>
+    <copyright>
+      <year>1994</year>
+      <holder>Keiko Yuizumi</holder>
+    </copyright>
+  </biblioset>
+  <biblioset relation="set" role="series">
+    <title>講談社学術文庫</title>
+    <publisher>
+      <publishername>講談社</publishername>
+      <address>
+        <country>日本</country>
+      </address>
+    </publisher>
+  </biblioset>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-09
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Made _Tomasu ni yoru fukuinsho_ citable.
+-->

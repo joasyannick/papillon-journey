@@ -8,7 +8,8 @@
    <info>
       <biblioid class="pubsnumber">ϛε1</biblioid>
       <title>Product vision</title>
-      <date>2026-06-18</date>
+      <pubdate/>
+      <date role="modified">2026-07-01</date>
       <releaseinfo>Éclosion 0.1.0</releaseinfo>
       <edition>0.1</edition>
       <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
@@ -18,7 +19,7 @@
       <revhistory>
          <revision>
             <revnumber>Draft 0.1 — Story 1</revnumber>
-            <date>2026-06-18</date>
+            <date role="pubdate"/>
             <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
                         xmlns:doc="http://docbook.org/ns/docbook"
                         xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -49,9 +50,9 @@
       <simpara>The story defines the motivation, narrative context, ownership, and lifecycle placement of this work item, and provides traceability within the project's documentation structure.</simpara>
    </section>
    <section>
-      <title>Story</title>
+      <title>User story</title>
       <simpara>
-        As a prospective contributor evaluating whether to invest time in <productname>Papillon Journey</productname>, I prefer not having to guess a project's purpose, goals, value propositions, and action plan by trawling through GitHub issues or discussions — as is often the case in open source.
+        As a prospective contributor evaluating whether to invest time in <productname>Papillon Journey</productname>, I prefer not having to guess the project’s purpose, goals, value propositions, and action plan by trawling through GitHub issues or discussions — as is often the case in open source.
         Instead, I want these elements articulated in a concise 2–4-page vision document, so that I can quickly decide whether the project aligns with my interests, contribute effectively, and share my enthusiasm for it.
       </simpara>
    </section>
@@ -63,11 +64,12 @@
          </listitem>
       </itemizedlist>
       <simpara>
-        'Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!'
+        ‘Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!’
       </simpara>
       <simpara>
-        The SMS notification lit up Joséphine's phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
-        Messages like this are what keep her going. She is a freelance web designer and front-end developer who has helped several small businesses thrive online.
+        The SMS notification lit up Joséphine’s phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
+        Messages like this are what keep her going.
+        She is a freelance web designer and front-end developer who has helped several small businesses thrive online.
         Nothing makes her happier than seeing her clients reach their goals through the UX she has crafted, and watching their users genuinely enjoy the experience.
         Her growing portfolio of success stories attests to this.
       </simpara>
@@ -82,17 +84,17 @@
         Whose problems was <productname>Papillon Journey</productname> actually aiming to solve?
         Why opt for a JRPG format over a straightforward course catalogue?
         How was success meant to be gauged — through completion rates, skills gained, player retention, or something else?
-        And, zooming out, what did the project's roadmap look like, even loosely sketched, over the next three to five years?
+        And, zooming out, what did the project’s roadmap look like, even loosely sketched, over the next three to five years?
       </simpara>
       <simpara>
-        She couldn't find any document that brought these elements into one place.
-        The fragments pieced together from various issues and comments fell short, leaving her uncertain if contributing would truly align with the project's direction or meaningfully strengthen her professional trajectory.
-        As a freelancer with limited time for open source, she couldn't afford guesswork.
+        She couldn’t find any document that brought these elements into one place.
+        The fragments pieced together from various issues and comments fell short, leaving her uncertain if contributing would truly align with the project’s direction or meaningfully strengthen her professional trajectory.
+        As a freelancer with limited time for open source, she couldn’t afford guesswork.
         She bookmarked the repo, gulped down her remaining coffee, and shifted to another important task — one backed by a clear path forward.
       </simpara>
       <simpara>
         To boost the odds that Joséphine contributes on her next visit, a concise 2–4-page vision document answering these questions is essential.
-        A detailed lifecycle management plan is the next step — but that's another story.
+        A detailed lifecycle management plan is the next step — but that’s another story.
       </simpara>
    </section>
    <section>

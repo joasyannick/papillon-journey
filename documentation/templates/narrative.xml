@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: YYYY Chrysalide Learning
+  SPDX-FileCopyrightText: YYYY Author
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<story
+    id="1"
+    slug="narrative-slug"
+    xmlns="http://chrysalide-learning.coop/ns/narratives"
+    xmlns:doc="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <responsible-team>product</responsible-team>
+  <priority>medium</priority>
+  <!-- Replace the root element with saga, what-if, tale, epic, or story. -->
+  <!--
+  <relations>
+    <epic id="1" slug="epic-slug"/>
+  </relations>
+  -->
+  <!--
+  <time-estimate>PT8H</time-estimate>
+  <start-date>YYYY-MM-DD</start-date>
+  <target-end>YYYY-MM-DD</target-end>
+  <actual-end>YYYY-MM-DD</actual-end>
+  <time-spent>PT8H</time-spent>
+  -->
+  <doc:article xml:lang="en-GB" version="5.1">
+    <doc:info>
+      <doc:biblioid class="pubsnumber"><!-- TODO: document ID --></doc:biblioid>
+      <doc:title><!-- TODO: narrative title --></doc:title>
+      <doc:date role="modified"><!-- TODO: last modified date (YYYY-MM-DD) --></doc:date>
+      <doc:pubdate></doc:pubdate>
+      <doc:releaseinfo><!-- TODO: release name and version --></doc:releaseinfo>
+      <doc:edition><!-- TODO: edition number --></doc:edition>
+      <!-- TODO: replace with the author's contributor file -->
+      <xi:include href="../../../07-contributions/01-people/author/author.gen.xml"/>
+      <doc:revhistory>
+        <doc:revision>
+          <doc:revnumber>Draft 0.1 — Story 1</doc:revnumber>
+          <doc:date role="pubdate"></doc:date>
+          <!-- TODO: replace with the author's contributor file -->
+          <xi:include href="../../../07-contributions/01-people/author/author.gen.xml"/>
+          <doc:revdescription>
+            <doc:simpara>Agents:</doc:simpara>
+            <doc:itemizedlist>
+              <doc:listitem><doc:simpara>Codex: GPT-5.5</doc:simpara></doc:listitem>
+            </doc:itemizedlist>
+            <doc:simpara>Added:</doc:simpara>
+            <doc:itemizedlist>
+              <doc:listitem><doc:simpara><!-- TODO: describe the initial narrative content. --></doc:simpara></doc:listitem>
+            </doc:itemizedlist>
+          </doc:revdescription>
+        </doc:revision>
+      </doc:revhistory>
+    </doc:info>
+    <doc:section>
+      <doc:title>User story</doc:title>
+      <doc:simpara>
+        <!-- TODO: As a [Role] trying to [Job], but facing [Pains], I want [Feature], so that [Gains]. -->
+      </doc:simpara>
+    </doc:section>
+    <doc:section>
+      <doc:title>Backstory</doc:title>
+      <doc:itemizedlist>
+        <doc:listitem><doc:simpara><!-- TODO: primary stakeholder persona --></doc:simpara></doc:listitem>
+      </doc:itemizedlist>
+      <doc:simpara>
+        <!-- TODO: describe the situation that makes the user story necessary. -->
+      </doc:simpara>
+      <doc:simpara>
+        <!-- TODO: describe the tension, cost, or missed opportunity in the current state. -->
+      </doc:simpara>
+      <doc:simpara>
+        <!-- TODO: describe how satisfying this user story improves the project or stakeholder experience. -->
+      </doc:simpara>
+    </doc:section>
+  </doc:article>
+  <activities>
+    <!-- TODO: keep only the activities that apply to the user story. -->
+    <elicitation/>
+    <evaluation/>
+    <specification/>
+    <development/>
+    <verification/>
+    <validation/>
+    <integration/>
+    <retrospective/>
+  </activities>
+</story>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-06-27
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Added a reusable narrative template based on the product vision story.
+-->

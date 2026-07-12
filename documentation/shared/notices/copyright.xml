@@ -4,17 +4,16 @@
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<chapter
-    xml:lang="en-GB"
+<copyright
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <title><!-- TODO: chapter title --></title>
-  <!-- TODO: write the chapter content -->
-</chapter>
+  <year>2026</year>
+  <holder>Chrysalide Learning</holder>
+</copyright>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-04
 
   ### Authors
 
@@ -22,10 +21,10 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added
 
-  - Started the chapter.
+  - Named Chrysalide Learning as the copyright holder.
 -->

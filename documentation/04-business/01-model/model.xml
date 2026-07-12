@@ -6,35 +6,36 @@
 -->
 <article
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
   <info>
     <biblioid class="pubsnumber">δα</biblioid>
     <title>Business model</title>
-    <date>2026-06-18</date>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-08</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
       <xi:include href="../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
-    <xi:include href="../../shared/legal/publisher.xml"/>
-    <xi:include href="../../shared/legal/copyright.xml"/>
+    <xi:include href="../../shared/notices/publisher.xml"/>
+    <xi:include href="../../shared/notices/copyright.xml"/>
     <legalnotice>
       <simpara>
-        <xi:include href="../../shared/legal/trademarks-owned.xml"/>
-        <xi:include href="../../shared/legal/trademarks-other.xml"/>
+        <xi:include href="../../shared/notices/trademarks-owned.xml"/>
+        <xi:include href="../../shared/notices/trademarks-other.xml"/>
       </simpara>
     </legalnotice>
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 1</revnumber>
-        <date>2026-06-18</date>
+        <date role="pubdate"></date>
         <xi:include href="../../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>

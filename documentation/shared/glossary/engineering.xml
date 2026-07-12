@@ -6,9 +6,9 @@
 -->
 <glossdiv
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Engineering</title>
   <xi:include href="architecture.xml"/>
   <xi:include href="art-direction.xml"/>
@@ -41,9 +41,12 @@
   <xi:include href="retention.xml"/>
   <xi:include href="safety.xml"/>
   <xi:include href="security.xml"/>
+  <xi:include href="software.xml"/>
   <xi:include href="software-development.xml"/>
   <xi:include href="software-engineering.xml"/>
   <xi:include href="stakeholder.xml"/>
+  <xi:include href="system.xml"/>
+  <xi:include href="systems-engineering.xml"/>
   <xi:include href="technical-specification.xml"/>
   <xi:include href="usability.xml"/>
   <xi:include href="user-experience-design.xml"/>
@@ -54,7 +57,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-08
 
   ### Authors
 
@@ -62,7 +65,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added

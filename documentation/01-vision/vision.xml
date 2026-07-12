@@ -6,36 +6,38 @@
 -->
 <article
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
   <info>
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
-    <date>2026-06-19</date>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-12</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
       <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
-    <xi:include href="../shared/legal/publisher.xml"/>
-    <xi:include href="../shared/legal/copyright.xml"/>
+    <xi:include href="../shared/notices/publisher.xml"/>
+    <xi:include href="../shared/notices/copyright.xml"/>
     <legalnotice>
       <simpara>
-        <xi:include href="../shared/legal/trademarks-owned.xml"/>
-        <xi:include href="../shared/legal/trademarks-other.xml"/>
+        <xi:include href="../shared/notices/trademarks-owned.xml"/>
+        <xi:include href="../shared/notices/trademarks-other.xml"/>
       </simpara>
     </legalnotice>
     <revhistory>
       <revision>
         <revnumber>Draft 0.1 — Story 1</revnumber>
-        <date>2026-06-19</date>
+        <date role="pubdate"></date>
         <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+            <listitem><simpara>Grok Build: Grok 4.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
@@ -50,23 +52,56 @@
       </revision>
     </revhistory>
   </info>
+  <epigraph xml:lang="lzh-Hant">
+    <attribution>
+      <personname>老子</personname>
+      <citation>道德經</citation>
+    </attribution>
+    <simpara>合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。</simpara>
+  </epigraph>
   <section role="intro">
     <!-- What we are building -->
     <title>Introduction</title>
+    <epigraph xml:lang="ja">
+      <attribution>
+        <personname>イエス</personname>
+        <citation>トマスによる福音書</citation>
+      </attribution>
+      <simpara>あなたがたは一体、終わりを求めるために、はじめを見出したのか。なぜなら、はじめのあるところに、そこに終わりがあるであろうから。</simpara>
+    </epigraph>
     <xi:include href="../shared/products/papillon-journey.xml"/>
     <xi:include href="../shared/products/chrysal-studio.xml"/>
     <simpara>
       <!-- Purpose and scope of this document -->
       This document sets out our vision for the project: what it is, why it matters, and how we intend to make it succeed.
     </simpara>
+    <note role="standards">
+      <title>Applicable standards</title>
+      <simpara>
+        No known standard governs product vision documents.
+      </simpara>
+    </note>
+    <note role="playbooks">
+      <title>Applied playbooks</title>
+      <bibliolist>
+        <xi:include href="../shared/bibliography/02-02-vision.xml"/>
+      </bibliolist>
+    </note>
   </section>
   <section>
     <!-- Why we are building it -->
     <title>Purpose</title>
+    <epigraph xml:lang="lzh-Hant">
+      <attribution>
+        <personname>白居易</personname>
+        <citation>畫彌勒上生幀記</citation>
+      </attribution>
+      <simpara>不忘初心，而必果本願也。</simpara>
+    </epigraph>
     <simpara>
       <firstterm linkend="term-formal-methods">Formal methods</firstterm> and <firstterm linkend="term-model-based-engineering" baseform="Model-based engineering">model-based</firstterm> approaches to <firstterm linkend="term-software-development">software development</firstterm> gained industrial traction in the 1960s–1980s through close collaboration between academia and industries operating under extreme <firstterm linkend="term-safety">safety</firstterm> and <firstterm linkend="term-reliability">reliability</firstterm> demands — the earliest being defence, aerospace, and nuclear power.
       Their use broadened during the 1990s–2000s to other life-critical (railways, automotive, medical devices) and high-stakes domains (hardware design, finance).
-      They are now gradually entering mainstream <firstterm linkend="term-software-engineering">software engineering</firstterm>, finding applications in cloud computing, cybersecurity, and blockchain.
+      They are now gradually entering mainstream software engineering, finding applications in cloud computing, cybersecurity, and blockchain.
     </simpara>
     <simpara>
       <productname>Papillon Journey</productname> seizes this momentum and tackles three persistent barriers to broader adoption:
@@ -111,12 +146,26 @@
   <section>
     <!-- Who we are building it for -->
     <title>Stakeholders and value propositions</title>
+    <epigraph xml:lang="ja">
+      <attribution>
+        <personname>
+          <surname>福澤</surname>
+          <givenname>諭吉</givenname>
+        </personname>
+        <personname>
+          <surname>小幡</surname>
+          <givenname>篤次郎</givenname>
+        </personname>
+        <citation>学問のすゝめ</citation>
+      </attribution>
+      <simpara>天は人の上に人を造らず人の下に人を造らずといへり。</simpara>
+    </epigraph>
     <simpara>
       <firstterm linkend="term-value-proposition">Value propositions</firstterm> evolve alongside the people they serve.
       As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
       Even so, certain core needs persist, and these are what keep a project relevant over time.
       Below, we outline those that matter most to our <firstterm linkend="term-stakeholder">stakeholders</firstterm> and map them to value propositions.
-      For a deeper dive, see <citation>papj-doc-03</citation>.
+      For a deeper dive, see <citation>γ</citation>.
     </simpara>
     <section>
       <title>Video game players</title>
@@ -170,7 +219,7 @@
       <title>Software engineering learners</title>
       <simpara>
         <!-- Core jobs -->
-        The initial training of a software engineer reaches a satisfying end once they have the skills to turn software ideas into working, maintainable systems.
+        The initial training of a software engineer reaches a satisfying end once they have the skills to turn software ideas into working, maintainable <firstterm linkend="term-system">systems</firstterm>.
         Teamwork is one of them, as most systems are built through collaborative effort.
         Continuing education then becomes a pursuit of mastery and specialisation.
       </simpara>
@@ -221,6 +270,23 @@
         Any that erroneously slipped through will be de-indexed upon report, and every mod update will have to undergo re-evaluation before being re-indexed.
         Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the <firstterm linkend="term-cross-cutting-concern">cross-cutting concerns</firstterm> of <firstterm linkend="term-security">security</firstterm>, <firstterm linkend="term-legal-compliance">legal compliance</firstterm>, and <firstterm linkend="term-quality-assurance">quality assurance</firstterm>.
       </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ10: game design guides and tutorials co-authored with partner studios.
+          Purpose: inverted pedagogy.
+
+          Strategic rationale:
+          - This value proposition supports project profitability.
+          - It complements VPαʹ5: multimedia training materials can be a companion to the crossover in-game content, both produced with the same studio.
+
+          Why learners may like this:
+          - This is expertise peer modders cannot be expected to provide.
+        -->
+        Spending time with the mod development framework may awaken in some learners a passion for game design, and they may aspire to turn it into a profession.
+        For them, <productname>Papillon Journey</productname> will offer premium guides and tutorials co-authored with experienced studios.
+        Delivered across multiple media, these materials will draw on concrete examples and exercises straight from the mod development framework, giving learners experience in crafting games on par with professional productions.
+        For partner studios, this will be a distinctive opportunity to invest in people who are more than fans — who look to them as inspiration for a career of their own.
+      </simpara>
     </section>
     <section>
       <title>Software engineering educators</title>
@@ -237,32 +303,33 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ10: a real-world formal engineering project built for teaching.
+          Value Proposition VPαʹ11: a real-world formal engineering project built for teaching.
           Purpose: inverted pedagogy.
         -->
         <productname>Papillon Journey</productname> will be that real-world project.
-        Its engineering lifecycle will be anchored in industry standards, starting with ISO/IEC/IEEE 12207, while its documentation will be deliberately written as teaching material for classrooms and self-study.
-      </simpara>
-      <simpara>
-        Teaching is never one-size-fits-all.
-        Some learners respond more readily to play than to conventional instruction.
-        For them, a gamified approach may unlock understanding that lectures and homework projects do not.
+        Its engineering lifecycle will be anchored in industry standards — starting with ISO/IEC/IEEE 15288 and 12207 — while its documentation will be deliberately written as training material for classrooms and self-study.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ11: partnerships for signature educational adventures.
+          Value Proposition VPαʹ12: sustaining engagement through play.
+          Purpose: inverted pedagogy.
+        -->
+        Teaching is never one-size-fits-all.
+        Not every learner thrives under lectures and routine homework.
+        Play, by contrast, has near-universal appeal and offers a formidable counterweight to the sense of obligation intrinsic to every curriculum.
+        <productname>Papillon Journey</productname> will give educators an immersive and entertaining environment where formal engineering is practised through play.
+        By integrating it into their programmes, they will be able to sustain learners’ interest and re-engage those struggling with traditional teaching formats.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ13: partnerships for signature educational adventures.
           Purpose: limited exposure, inverted pedagogy.
 
           Strategic rationale:
-          - This value proposition may also support project profitability through funded partnerships.
-          - Partner organisations may value official in-game presence as a way to showcase their programmes and reach prospective learners.
-
-          Governance rationale:
-          - Unlike third-party mods, partner content is developed through a dedicated partnership process.
-          - This offers partners a more controlled and prestigious mode of participation than the mod ecosystem.
-          - Organisations that do not enter formal partnerships may still create and distribute teaching content through the mod development framework.
+          - This value proposition supports project profitability.
+          - Organisations that do not enter formal partnerships can still create and distribute teaching content through the mod development framework.
         -->
-        Educators at partner organisations will co-create with us adventures for players and prospective learners that showcase their expertise and the distinctive character of their programmes.
+        Educators at partner organisations will shape the play they bring into their classrooms by co-creating adventures for players and prospective learners that showcase their expertise and the distinctive character of their programmes.
         Their development will follow a dedicated partnership process, giving partners an official presence in the game through a route more prestigious than community mods.
         This will offer partners a valuable path to audiences who may not encounter them through conventional outreach.
       </simpara>
@@ -274,14 +341,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ12: a formal specification language for the agentic era.
+          Value Proposition VPαʹ14: a formal specification language for the agentic era.
           Purpose: limited exposure, fragmented tooling.
           TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ13: an integrated engineering environment.
+          Value Proposition VPαʹ15: an integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
           TODO: write this.
         -->
@@ -294,14 +361,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ14: a living use case to apply and demonstrate research in context.
+          Value Proposition VPαʹ16: a living use case to apply and demonstrate research in context.
           Purpose: inverted pedagogy.
           TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ15: a unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ17: a unified engineering environment to host research-grade integrations.
           Purpose: fragmented tooling.
           TODO: write this.
         -->
@@ -311,6 +378,13 @@
   <section>
     <!-- How we are building it -->
     <title>Lifecycle</title>
+    <epigraph xml:lang="zh">
+      <attribution>
+        <personname><!-- TODO --></personname>
+        <citation><!-- TODO --></citation>
+      </attribution>
+      <simpara><!-- TODO --></simpara>
+    </epigraph>
     <simpara>
       The project lifecycle is defined by outcomes rather than fixed timing.
       Its pace will depend on community building, community support, and the evidence gathered at each gate.
@@ -339,7 +413,7 @@
       <listitem>
         <simpara>
           <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Renaissance</foreignphrase>.</emphasis>
-          The game becomes ready for public operation through rented infrastructure, deployment rehearsal, launch testing, operational hardening, and the partnerships needed to sustain it.
+          The game becomes ready for public operation through rented infrastructure, deployment rehearsal, launch testing, operational hardening, and the partnerships needed to sustain it — including studio-co-authored game design materials once the mod development framework is mature enough to support them.
         </simpara>
       </listitem>
       <listitem>
@@ -353,6 +427,13 @@
   <section>
     <!-- What success looks like -->
     <title>Key success indicators</title>
+    <epigraph xml:lang="ja">
+      <attribution>
+        <personname><!-- TODO --></personname>
+        <citation><!-- TODO --></citation>
+      </attribution>
+      <simpara><!-- TODO --></simpara>
+    </epigraph>
     <simpara>
       <!-- TODO: introduce this section -->
     </simpara>
@@ -415,6 +496,13 @@
               Players like the game: <quote>thumbs up</quote> outnumber <quote>thumbs down</quote>, and written reviews are positive.
             </entry>
           </row>
+          <row xml:id="ksi-01-7">
+            <entry>KSIαʹ7</entry>
+            <entry>Player satisfaction score</entry>
+            <entry>
+              Players are happy with the game: it nets a good score on a player satisfaction survey — calibrated to capture more nuance than a binary vote could.
+            </entry>
+          </row>
         </tbody>
       </tgroup>
     </table>
@@ -440,14 +528,14 @@
         </thead>
         <tbody>
           <row>
-            <entry morerows="3">VPαʹ1</entry>
-            <entry morerows="3">Enjoyable gameplay</entry>
-            <entry morerows="3">
+            <entry morerows="4">VPαʹ1</entry>
+            <entry morerows="4">Enjoyable gameplay</entry>
+            <entry morerows="4">
               As a player drawn to the genuine breaks from daily concerns video games offer, I would not say no to play sessions that also gave me valuable real-world skills.
               But, please, do not sacrifice fun for instruction.
               I want gameplay that puts entertainment first and lets me fully enjoy the present moment.
             </entry>
-            <entry morerows="3">Inverted pedagogy</entry>
+            <entry morerows="4">Inverted pedagogy</entry>
             <entry>
               <link linkend="ksi-01-2">Share of non-engineer players</link>: players have fun and gain skills.
               The two are blended well, and neither is sacrificed for the other.
@@ -466,6 +554,11 @@
           <row>
             <entry>
               <link linkend="ksi-01-6">Player approval rate</link>: players say they are having a good time and leave more positive votes than negative ones.
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <link linkend="ksi-01-7">Player satisfaction score</link>: the majority of players report their play sessions as genuine breaks and rate the game above average.
             </entry>
           </row>
           <row>
@@ -559,41 +652,55 @@
           </row>
           <row>
             <entry>VPαʹ10</entry>
-            <entry>A real-world formal engineering project built for teaching</entry>
+            <entry>Game design guides and tutorials co-authored with partner studios</entry>
             <entry/>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ11</entry>
+            <entry>A real-world formal engineering project built for teaching</entry>
+            <entry/>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ12</entry>
+            <entry>Sustaining engagement through play</entry>
+            <entry/>
+            <entry>Inverted pedagogy</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ13</entry>
             <entry>Partnerships for signature educational adventures</entry>
             <entry/>
             <entry>Limited exposure, inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ12</entry>
+            <entry>VPαʹ14</entry>
             <entry>A formal specification language for the agentic era</entry>
             <entry/>
             <entry>Limited exposure, fragmented tooling</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ13</entry>
+            <entry>VPαʹ15</entry>
             <entry>An integrated engineering environment</entry>
             <entry/>
             <entry>Limited exposure, fragmented tooling</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ14</entry>
+            <entry>VPαʹ16</entry>
             <entry>A living use case to apply and demonstrate research in context</entry>
             <entry/>
             <entry>Inverted pedagogy</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ15</entry>
+            <entry>VPαʹ17</entry>
             <entry>A unified engineering environment to host research-grade integrations</entry>
             <entry/>
             <entry>Fragmented tooling</entry>
@@ -676,12 +783,28 @@
   <section>
     <!-- How to get involved -->
     <title>Getting involved</title>
+    <epigraph xml:lang="zh">
+      <attribution>
+        <personname><!-- TODO --></personname>
+        <citation><!-- TODO --></citation>
+      </attribution>
+      <simpara><!-- TODO --></simpara>
+    </epigraph>
     <simpara>
+      <!-- TODO -->
     </simpara>
   </section>
   <section role="outro">
     <title>Feedback</title>
+    <epigraph xml:lang="ja">
+      <attribution>
+        <personname><!-- TODO --></personname>
+        <citation><!-- TODO --></citation>
+      </attribution>
+      <simpara><!-- TODO --></simpara>
+    </epigraph>
     <simpara>
+      <!-- TODO -->
     </simpara>
   </section>
   <glossary>
@@ -691,6 +814,10 @@
   </glossary>
   <bibliography>
     <title>References</title>
-    <xi:include href="../shared/bibliography/papj-doc-03.xml"/>
+    <xi:include href="../shared/bibliography/03.xml"/>
+    <xi:include href="../shared/bibliography/zh/dao4-de2-jing1.xml"/>
+    <xi:include href="../shared/bibliography/zh/hua4-mi2-le4-shang4-sheng1-zhen1-ji4.xml"/>
+    <xi:include href="../shared/bibliography/ja/tomasu-ni-yoru-fukuinsho.xml"/>
+    <xi:include href="../shared/bibliography/ja/gakumon-no-susume.xml"/>
   </bibliography>
 </article>

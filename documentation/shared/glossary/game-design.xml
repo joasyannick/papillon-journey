@@ -6,9 +6,9 @@
 -->
 <glossdiv
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Game design</title>
   <xi:include href="cross-platform-play.xml"/>
   <xi:include href="crossover.xml"/>
@@ -25,7 +25,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-04
 
   ### Authors
 
@@ -33,7 +33,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added

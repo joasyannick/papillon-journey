@@ -4,21 +4,15 @@
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<biblioentry
-    xml:id="papj-doc-02-02"
-    xml:lang="en-GB"
+<publisher
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <biblioid class="pubsnumber">ββ</biblioid>
-  <title>Lifecycle management playbook</title>
-  <author>
-    <orgname>Chrysalide Learning</orgname>
-  </author>
-</biblioentry>
+  <publishername>Chrysalide Learning</publishername>
+</publisher>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-07
 
   ### Authors
 
@@ -26,10 +20,10 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added
 
-  - Made the _Lifecycle management playbook_ citable.
+  - Named Chrysalide Learning as the publisher.
 -->

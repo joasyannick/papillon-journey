@@ -87,9 +87,16 @@ path = "documentation/tools/saxon/**/xmlresolver-*.jar"
 SPDX-FileCopyrightText = "Norman Walsh"
 SPDX-License-Identifier = "Apache-2.0"
 
+# SchXslt2 (Schematron to XSLT 3.0 transpiler)
+# https://codeberg.org/schxslt/schxslt2
+[[annotations]]
+path = "documentation/tools/schematron/schxslt2/**"
+SPDX-FileCopyrightText = "David Maus"
+SPDX-License-Identifier = "MIT"
+
 # # Changelog
 #
-# ## Story 1 — 2026-06-17
+# ## Story 1 — 2026-07-04
 #
 # ### Authors
 #
@@ -97,7 +104,7 @@ SPDX-License-Identifier = "Apache-2.0"
 #
 # ### Agents
 #
-# - Claude Code: Sonnet 4.6
+# - Claude Code: Sonnet 5
 #
 # ### Added
 #

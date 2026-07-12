@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="gakumon-no-susume"
+    xml:lang="ja"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>学問のすゝめ</abbrev>
+  <title>学問のすゝめ</title>
+  <pubdate>1872-02</pubdate>
+  <edition>1</edition>
+  <date role="accessed">2026-07-10</date>
+  <authorgroup>
+    <author>
+      <personname>
+        <surname>福澤</surname>
+        <givenname>諭吉</givenname>
+      </personname>
+    </author>
+    <author>
+      <personname>
+        <surname>小幡</surname>
+        <givenname>篤次郎</givenname>
+      </personname>
+    </author>
+  </authorgroup>
+  <bibliosource class="uri">
+    <link xlink:href="https://ja.wikisource.org/wiki/学問のすすめ_(初編)">ウィキソース</link>
+  </bibliosource>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-10
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+
+  ### Added
+
+  - Made _Gakumon no susume_ citable.
+-->

@@ -18,13 +18,14 @@
     </simpara>
     <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
     <glossseealso otherterm="term-quality-attribute">Quality attribute</glossseealso>
+    <glossseealso otherterm="term-system">System</glossseealso>
     <glossseealso otherterm="term-technical-specification">Technical specification</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-08
 
   ### Authors
 

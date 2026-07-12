@@ -16,13 +16,11 @@
     <additional>Yannick</additional>
     <family>Kinouani</family>
   </name>
-  <organisations>
-    <organisation>
-      <name>Chrysalide Learning</name>
-      <position>Product manager</position>
-      <position>Project manager</position>
-    </organisation>
-  </organisations>
+  <affiliation>
+    <name>Chrysalide Learning</name>
+    <position>Product manager</position>
+    <position>Project manager</position>
+  </affiliation>
   <persona>
     <portfolio name="GitHub" url="https://github.com/joasyannick" />
     <social network="X" url="https://x.com/JoasYannick"/>
@@ -32,7 +30,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-18
+  ## Story 1 — 2026-07-04
 
   ### Authors
 
@@ -40,7 +38,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added

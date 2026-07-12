@@ -6,37 +6,38 @@
 -->
 <book
     xml:lang="en-GB"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
   <info>
     <biblioid class="pubsnumber"><!-- TODO: document ID --></biblioid>
     <title><!-- TODO: document title --></title>
-    <date><!-- TODO: publication date (YYYY-MM-DD) --></date>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-08</date>
     <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
     <edition><!-- TODO: edition number --></edition>
     <authorgroup>
       <!-- TODO: replace with the author's contributor file -->
        <xi:include href="../07-contributions/01-people/author/author.gen.xml"/>
     </authorgroup>
-    <xi:include href="../shared/legal/publisher.xml"/>
-    <xi:include href="../shared/legal/copyright.xml"/>
+    <xi:include href="../shared/notices/publisher.xml"/>
+    <xi:include href="../shared/notices/copyright.xml"/>
     <legalnotice>
       <simpara>
-        <xi:include href="../shared/legal/trademarks-owned.xml"/>
-        <xi:include href="../shared/legal/trademarks-other.xml"/>
+        <xi:include href="../shared/notices/trademarks-owned.xml"/>
+        <xi:include href="../shared/notices/trademarks-other.xml"/>
       </simpara>
     </legalnotice>
     <revhistory>
       <!-- TODO: replace this entry with your document's first revision -->
       <revision>
         <revnumber>Draft 0.1 — Story 1</revnumber>
-        <date>2026-06-18</date>
+        <date role="pubdate"></date>
         <xi:include href="../07-contributions/01-people/joas/author.gen.xml"/>
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 4.6</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -62,7 +63,39 @@
     <chapter>
       <!-- TODO: replace with the chapter title -->
       <title>Chapter Title</title>
-      <simpara><!-- TODO: write the chapter content --></simpara>
+      <epigraph xml:lang="lzh-Hant">
+        <!-- TODO: a short Chinese quote (any period, Classical or modern; a
+             Chinese translation of a non-Chinese text is also allowed, with
+             its own bibliography entry), left untranslated by design; see
+             the shared playbook's Writing chapter for the convention. Books
+             carry an epigraph on each chapter and on each top-level section
+             directly under a chapter, not on the book, preface, or part.
+             Each chapter's own epigraph is always Chinese; its top-level
+             sections then alternate language, starting with Japanese. The
+             quoted source must have a bibliography entry, cited here via
+             <citation> and included in the document's bibliography section. -->
+        <attribution>
+          <personname>TODO: source person name</personname>
+          <citation>TODO: citation label</citation>
+        </attribution>
+        <simpara><!-- TODO: quote --></simpara>
+      </epigraph>
+      <section>
+        <!-- TODO: replace with the section title; repeat this epigraph
+             placeholder on every top-level section directly under a chapter,
+             alternating xml:lang between "ja" and "lzh-Hant" (this one is
+             Japanese, being the first section after the chapter's Chinese
+             epigraph) -->
+        <title>Section Title</title>
+        <epigraph xml:lang="ja">
+          <attribution>
+            <personname>TODO: source person name</personname>
+            <citation>TODO: citation label</citation>
+          </attribution>
+          <simpara><!-- TODO: short Japanese quote fitting this section's theme --></simpara>
+        </epigraph>
+        <simpara><!-- TODO: write the section content --></simpara>
+      </section>
     </chapter>
   </part>
   <!-- TODO: add further parts as needed -->
@@ -76,7 +109,7 @@
   <!--
   <bibliography>
     <title>References</title>
-    <xi:include href="../shared/bibliography/papj-doc-01.xml"/>
+    <xi:include href="../shared/bibliography/01.xml"/>
   </bibliography>
   -->
 </book>

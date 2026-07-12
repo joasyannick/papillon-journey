@@ -4,16 +4,16 @@
   SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<copyright
+<phrase
+    xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <year>2026</year>
-  <holder>Chrysalide Learning</holder>
-</copyright>
+  <productname>Papillon Journey</productname> and <productname>Chrysal Studio</productname> are trademarks of <orgname>Chrysalide Learning</orgname>.
+</phrase>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-04
 
   ### Authors
 
@@ -21,10 +21,10 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added
 
-  - Stated the copyright holder.
+  - Listed Papillon Journey and Chrysal Studio as owned trademarks.
 -->

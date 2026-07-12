@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="dao4-de2-jing1"
+    xml:lang="lzh-Hant"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>道德經</abbrev>
+  <biblioid class="uri">https://ctext.org/dao-de-jing</biblioid>
+  <title>道德經</title>
+  <pubdate role="approximate">戰國</pubdate>
+  <date role="accessed">2026-07-01</date>
+  <author>
+    <personname>老子</personname>
+  </author>
+  <bibliosource xml:lang="zh-Hant" class="uri">
+    <link xlink:href="https://ctext.org/dao-de-jing">中國哲學書電子化計劃</link>
+  </bibliosource>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-08
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Made _Dào Dé Jīng_ citable.
+-->

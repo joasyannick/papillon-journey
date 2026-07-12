@@ -19,14 +19,15 @@
     <doc:info>
       <doc:biblioid class="pubsnumber">ϛε1</doc:biblioid>
       <doc:title>Product vision</doc:title>
-      <doc:date>2026-06-20</doc:date>
+      <doc:date role="modified">2026-07-01</doc:date>
+      <doc:pubdate></doc:pubdate>
       <doc:releaseinfo>Éclosion 0.1.0</doc:releaseinfo>
       <doc:edition>0.1</doc:edition>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
       <doc:revhistory>
         <doc:revision>
           <doc:revnumber>Draft 0.1 — Story 1</doc:revnumber>
-          <doc:date>2026-06-20</doc:date>
+          <doc:date role="pubdate"></doc:date>
           <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
           <doc:revdescription>
             <doc:simpara>Agents:</doc:simpara>
@@ -43,7 +44,7 @@
       </doc:revhistory>
     </doc:info>
     <doc:section>
-      <doc:title>Story</doc:title>
+      <doc:title>User story</doc:title>
       <doc:simpara>
         As a prospective contributor evaluating whether to invest time in <doc:productname>Papillon Journey</doc:productname>, I prefer not having to guess the project’s purpose, goals, value propositions, and action plan by trawling through GitHub issues or discussions — as is often the case in open source.
         Instead, I want these elements articulated in a concise 2–4-page vision document, so that I can quickly decide whether the project aligns with my interests, contribute effectively, and share my enthusiasm for it.
@@ -59,7 +60,8 @@
       </doc:simpara>
       <doc:simpara>
         The SMS notification lit up Joséphine’s phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
-        Messages like this are what keep her going. She is a freelance web designer and front-end developer who has helped several small businesses thrive online.
+        Messages like this are what keep her going.
+        She is a freelance web designer and front-end developer who has helped several small businesses thrive online.
         Nothing makes her happier than seeing her clients reach their goals through the UX she has crafted, and watching their users genuinely enjoy the experience.
         Her growing portfolio of success stories attests to this.
       </doc:simpara>

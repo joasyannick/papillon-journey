@@ -8,9 +8,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns="http://chrysalide-learning.coop/ns/contributors"
     targetNamespace="http://chrysalide-learning.coop/ns/contributors"
-    elementFormDefault="qualified"
-    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
-    vc:minVersion="1.1">
+    elementFormDefault="qualified">
 
   <xs:import
       namespace="http://www.w3.org/XML/1998/namespace"
@@ -21,7 +19,7 @@
   <xs:complexType name="ContributorType">
     <xs:sequence>
       <xs:element name="name" type="NameType"/>
-      <xs:element name="organisations" type="OrganisationsType" minOccurs="0"/>
+      <xs:element name="affiliation" type="AffiliationType" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="persona" type="PersonaType" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="xml:id" use="required"/>
@@ -48,9 +46,6 @@
     <xs:sequence minOccurs="0">
       <xs:element name="translation" type="TranslationType"/>
     </xs:sequence>
-    <xs:assert
-        test="not(translation) or not(text()[normalize-space()])"
-        xpathDefaultNamespace="##targetNamespace"/>
   </xs:complexType>
 
   <xs:complexType name="TranslationType">
@@ -81,13 +76,7 @@
     <xs:attribute name="url" type="xs:anyURI" use="required"/>
   </xs:complexType>
 
-  <xs:complexType name="OrganisationsType">
-    <xs:sequence>
-      <xs:element name="organisation" type="OrganisationType" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
-
-  <xs:complexType name="OrganisationType">
+  <xs:complexType name="AffiliationType">
     <xs:sequence>
       <xs:element name="name" type="xs:string"/>
       <xs:element name="position" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
@@ -98,7 +87,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-18
+  ## Story 1 — 2026-07-04
 
   ### Authors
 
@@ -106,7 +95,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added

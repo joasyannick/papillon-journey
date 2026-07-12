@@ -33,6 +33,15 @@
           </simpara>
         </listitem>
       </varlistentry>
+      <varlistentry>
+        <term>SchXslt2 1.11.1</term>
+        <listitem>
+          <simpara>
+            Compiles Schematron schemas into XSLT validation stylesheets, run with Saxon.
+            Located at <filename>documentation/tools/schematron/schxslt2/</filename>.
+          </simpara>
+        </listitem>
+      </varlistentry>
     </variablelist>
   </section>
   <section>
@@ -62,7 +71,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-12
 
   ### Authors
 
@@ -70,10 +79,10 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added
 
-  - Documented the toolchain, including bundled tools and runtime dependencies.
+  - Started to document the toolchain.
 -->

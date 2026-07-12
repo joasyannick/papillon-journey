@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="hua4-mi2-le4-shang4-sheng1-zhen1-ji4"
+    xml:lang="lzh-Hant"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>畫彌勒上生幀記</abbrev>
+  <biblioset relation="article" role="essay">
+    <title>畫彌勒上生幀記</title>
+    <pubdate>840-03</pubdate>
+    <date role="accessed">2026-07-09</date>
+    <author>
+      <personname>
+        <surname>白</surname>
+        <givenname>居易</givenname>
+      </personname>
+    </author>
+    <bibliosource xml:lang="zh-Hant" class="uri">
+      <link xlink:href="https://zh.wikisource.org/wiki/畫彌勒上生幀記">維基文庫</link>
+    </bibliosource>
+  </biblioset>
+  <biblioset relation="book" role="collection">
+    <title>白氏文集</title>
+    <pubdate role="approximate">唐</pubdate>
+  </biblioset>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-09
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.5
+
+  ### Added
+
+  - Made _Huà Mílè Shàngshēng Zhēn Jì_ citable.
+-->

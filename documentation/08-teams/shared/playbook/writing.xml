@@ -29,11 +29,57 @@
       </simpara>
     </listitem>
   </itemizedlist>
+  <simpara>
+    Every document opens with a short quote in its original language, given only in the original and left untranslated by design — the inaccessibility is intentional, prompting readers to attempt the translation themselves.
+    A document's own epigraph is always in Chinese; from there, each top-level section alternates language, starting with Japanese.
+    Articles carry one such <tag>epigraph</tag> at the document level and one on each top-level section.
+    Books carry one on each chapter (always Chinese) and one on each top-level section directly under a chapter (alternating from Japanese), but not on the book, preface, or part.
+    Narratives do not carry epigraphs.
+  </simpara>
+  <simpara>
+    Quoted texts are not restricted to the classical era: any Chinese or Japanese text, of any period, is eligible.
+    Texts originally written in another language may also be quoted, but only in Chinese or Japanese translation, and the translation itself must have its own bibliography entry, distinct from any entry for the original work.
+  </simpara>
+  <simpara>
+    A quoted source must have a bibliography entry in <filename>shared/bibliography/</filename>, referenced from the epigraph's <tag>attribution</tag> with a <tag>personname</tag> followed by a <tag>citation</tag>.
+    Chinese epigraphs use <literal>xml:lang="lzh-Hant"</literal> for Classical/Literary Chinese; modern Chinese uses <literal>xml:lang="zh-Hant"</literal> or <literal>xml:lang="zh-Hans"</literal> according to the script of the source material — a quote from a Simplified-script source keeps its Simplified characters rather than being converted to Traditional. Japanese epigraphs use <literal>xml:lang="ja"</literal> regardless of period or register.
+  </simpara>
+  <simpara>
+    Bibliography entry files, and their <tag>xml:id</tag>, are named identically, using a scheme based on the kind of source:
+  </simpara>
+  <itemizedlist>
+    <listitem>
+      <simpara>
+        Classical or epigraph sources, kept under <filename>ja/</filename> or <filename>zh/</filename>, use a romanised transliteration of the title — pinyin with tone numbers for Chinese, rōmaji for Japanese — since authorship for such sources is often anonymous, pseudepigraphic, or disputed.
+      </simpara>
+    </listitem>
+    <listitem>
+      <simpara>
+        Individually authored modern sources use <literal>surname-year</literal> for one author, <literal>surname1-surname2-year</literal> for two, or <literal>surname1-et-al-year</literal> for three or more, all lowercase and hyphenated.
+      </simpara>
+    </listitem>
+    <listitem>
+      <simpara>
+        Organisational sources use <literal>orgabbreviation-year</literal> when the organisation has a recognised abbreviation, or <literal>orgname-year</literal> otherwise.
+      </simpara>
+    </listitem>
+    <listitem>
+      <simpara>
+        A disambiguating <literal>a</literal>, <literal>b</literal>, or <literal>c</literal> suffix is appended only once an actual collision occurs between two entries that would otherwise share the same identifier, never reserved in advance.
+      </simpara>
+    </listitem>
+  </itemizedlist>
+  <simpara>
+    When a source is nested inside a larger work, <tag>biblioset</tag>'s <literal>relation</literal> attribute names only an actual DocBook container element — <literal>article</literal>, <literal>book</literal>, <literal>chapter</literal>, or <literal>set</literal> — never an invented value such as <literal>journal</literal> or <literal>series</literal>. The finer bibliographic genre goes on <literal>role</literal> instead, for example <literal>role="essay"</literal>, <literal>role="collection"</literal>, or <literal>role="series"</literal>.
+  </simpara>
+  <simpara>
+    Between <literal>book</literal> and <literal>set</literal>, the deciding question is whether the container is a single physical or material unit. A bounded volume — even one gathering many pieces, such as an author's collected works — is a <literal>book</literal>. Several volumes cited as one work, as a multi-volume monograph would be, is a <literal>set</literal> with <literal>role="multi-volume"</literal>. An open-ended series of independently titled books under a shared imprint is a <literal>set</literal> with <literal>role="series"</literal>.
+  </simpara>
 </chapter>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-12
 
   ### Authors
 
@@ -41,10 +87,10 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added
 
-  - Started the chapter.
+  - Started to document writing conventions.
 -->
