@@ -8,8 +8,8 @@
    <info>
       <biblioid class="pubsnumber">ϛε1</biblioid>
       <title>Product vision</title>
+      <date role="modified">2026-07-16</date>
       <pubdate/>
-      <date role="modified">2026-07-01</date>
       <releaseinfo>Éclosion 0.1.0</releaseinfo>
       <edition>0.1</edition>
       <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
@@ -31,7 +31,7 @@
                      <simpara>Claude Code: Sonnet 4.6</simpara>
                   </listitem>
                   <listitem>
-                     <simpara>Codex: GPT-5.5</simpara>
+                     <simpara>Codex: GPT-5.6 Sol</simpara>
                   </listitem>
                </itemizedlist>
                <simpara>Added:</simpara>
@@ -96,6 +96,15 @@
         To boost the odds that Joséphine contributes on her next visit, a concise 2–4-page vision document answering these questions is essential.
         A detailed lifecycle management plan is the next step — but that’s another story.
       </simpara>
+   </section>
+   <section role="playbooks">
+      <title>Applied playbooks</title>
+      <bibliolist>
+         <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
+                     xmlns:doc="http://docbook.org/ns/docbook"
+                     xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="../../../shared/bibliography/02-02-narratives.xml"/>
+      </bibliolist>
    </section>
    <section>
       <title>Activity notes</title>

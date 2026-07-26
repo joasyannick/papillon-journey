@@ -59,20 +59,26 @@
 
   <xs:complexType name="PersonaType">
     <xs:sequence>
-      <xs:element name="home" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="portfolio" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="blog" type="NamedLinkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="home" type="WebsiteType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="portfolio" type="WebsiteType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="blog" type="WebsiteType" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="social" type="SocialType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="tv" type="TvType" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 
-  <xs:complexType name="NamedLinkType">
-    <xs:attribute name="name" type="xs:string" use="required"/>
+  <xs:complexType name="WebsiteType">
+    <xs:attribute name="website" type="xs:string" use="required"/>
     <xs:attribute name="url" type="xs:anyURI" use="required"/>
   </xs:complexType>
 
   <xs:complexType name="SocialType">
     <xs:attribute name="network" type="xs:string" use="required"/>
+    <xs:attribute name="url" type="xs:anyURI" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="TvType">
+    <xs:attribute name="channel" type="xs:string" use="required"/>
     <xs:attribute name="url" type="xs:anyURI" use="required"/>
   </xs:complexType>
 
@@ -87,7 +93,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-04
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -96,9 +102,13 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.4
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Introduced the contributor schema.
+
+  ### Future work
+
+  - Generalise and polish the contributor schema.
 -->

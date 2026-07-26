@@ -12,7 +12,7 @@
   <info>
     <title>Defining a vision</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-04</date>
+    <date role="modified">2026-07-16</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -25,12 +25,14 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
             <listitem><simpara>Started dedicated vision document guidance.</simpara></listitem>
             <listitem><simpara>Explained the vision document's purpose, structure, ownership, and maintenance.</simpara></listitem>
+            <listitem><simpara>Identified model stories for the playbook.</simpara></listitem>
+            <listitem><simpara>Cited Value Proposition Design as a guiding reference.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>
@@ -40,6 +42,18 @@
     The vision document is the product team's primary deliverable.
     It establishes the shared understanding of the product across all stakeholders and teams and serves as the authoritative reference for the product's direction throughout the project lifecycle.
   </simpara>
+  <note role="stories">
+    <title>Model stories</title>
+    <bibliolist>
+      <xi:include href="../../../shared/bibliography/06-05-1.xml"/>
+    </bibliolist>
+  </note>
+  <note role="guidance">
+    <title>Guiding references</title>
+    <bibliolist>
+      <xi:include href="../../../shared/bibliography/osterwalder-et-al-2014.xml"/>
+    </bibliolist>
+  </note>
   <section>
     <title>Purpose</title>
     <simpara>
@@ -81,7 +95,7 @@
   <section>
     <title>Applicable standards</title>
     <simpara>
-      <!-- TODO: list external standards that govern the vision document, or state that none specifically apply. -->
+      No known standard specifically governs product vision documents.
     </simpara>
   </section>
   <section>
@@ -105,7 +119,7 @@
       <listitem>
         <simpara>
           <emphasis role="strong">Introduction.</emphasis>
-          Product and environment overview; purpose and scope of the document; applicable standards and applied playbooks.
+          Product and environment overview; purpose and scope of the document; applied playbooks.
         </simpara>
       </listitem>
       <listitem>

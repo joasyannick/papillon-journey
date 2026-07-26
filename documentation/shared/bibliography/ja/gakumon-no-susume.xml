@@ -11,6 +11,7 @@
     version="5.1"
     xmlns:xlink="http://www.w3.org/1999/xlink">
   <abbrev>学問のすゝめ</abbrev>
+  <biblioid class="uri">https://ja.wikisource.org/wiki/学問のすすめ_(初編)</biblioid>
   <title>学問のすゝめ</title>
   <pubdate>1872-02</pubdate>
   <edition>1</edition>
@@ -36,7 +37,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-10
+  ## Story 1 — 2026-07-16
 
   ### Authors
 

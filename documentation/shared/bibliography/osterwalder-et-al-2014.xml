@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="osterwalder-et-al-2014"
+    xml:lang="en-US"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <abbrev>Osterwalder et al. 2014</abbrev>
+  <biblioset relation="book">
+    <biblioid class="isbn">978-1-118-96805-5</biblioid>
+    <title>Value Proposition Design</title>
+    <subtitle>How to create products and services customers want</subtitle>
+    <pubdate>2014-10</pubdate>
+    <authorgroup>
+      <author>
+        <personname>
+          <givenname>Alexander</givenname>
+          <surname>Osterwalder</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <givenname>Yves</givenname>
+          <surname>Pigneur</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <givenname>Greg</givenname>
+          <surname>Bernarda</surname>
+        </personname>
+      </author>
+      <author>
+        <personname>
+          <givenname>Alan</givenname>
+          <surname>Smith</surname>
+        </personname>
+      </author>
+      <othercredit class="other" otherclass="designer">
+        <personname>
+          <givenname>Trish</givenname>
+          <surname>Papadakos</surname>
+        </personname>
+      </othercredit>
+    </authorgroup>
+    <copyright>
+      <year>2014</year>
+      <holder>Alexander Osterwalder</holder>
+      <holder>Yves Pigneur</holder>
+      <holder>Alan Smith</holder>
+      <holder>Greg Bernarda</holder>
+      <holder>Patricia Papadakos</holder>
+    </copyright>
+  </biblioset>
+  <biblioset relation="set" role="series">
+    <title>Strategyzer Series</title>
+    <publisher>
+      <publishername>John Wiley &amp; Sons</publishername>
+      <address>
+        <city>Hoboken</city>
+        <state>New Jersey</state>
+        <country>United States</country>
+      </address>
+    </publisher>
+  </biblioset>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-14
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Made _Value Proposition Design_ citable.
+-->

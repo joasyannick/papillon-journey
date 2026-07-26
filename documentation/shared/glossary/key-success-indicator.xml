@@ -15,9 +15,6 @@
     <simpara>
       A measurable signal used to assess whether a goal, <glossterm linkend="term-value-proposition">value proposition</glossterm>, or project outcome is being achieved.
     </simpara>
-    <glossseealso otherterm="term-completion">Completion</glossseealso>
-    <glossseealso otherterm="term-reach">Reach</glossseealso>
-    <glossseealso otherterm="term-retention">Retention</glossseealso>
     <glossseealso otherterm="term-validation">Validation</glossseealso>
     <glossseealso otherterm="term-value-proposition">Value proposition</glossseealso>
   </glossdef>
@@ -25,7 +22,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-20
 
   ### Authors
 
@@ -33,10 +30,15 @@
 
   ### Agents
 
-  - Codex: GPT-5.5
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Defined ‘key success indicator’.
   - Cross-referenced related terms.
+
+  ### Future work
+
+  - Cite bibliography sources.
 -->

@@ -19,7 +19,7 @@
     <doc:info>
       <doc:biblioid class="pubsnumber">ϛε1</doc:biblioid>
       <doc:title>Product vision</doc:title>
-      <doc:date role="modified">2026-07-01</doc:date>
+      <doc:date role="modified">2026-07-16</doc:date>
       <doc:pubdate></doc:pubdate>
       <doc:releaseinfo>Éclosion 0.1.0</doc:releaseinfo>
       <doc:edition>0.1</doc:edition>
@@ -33,7 +33,7 @@
             <doc:simpara>Agents:</doc:simpara>
             <doc:itemizedlist>
               <doc:listitem><doc:simpara>Claude Code: Sonnet 4.6</doc:simpara></doc:listitem>
-              <doc:listitem><doc:simpara>Codex: GPT-5.5</doc:simpara></doc:listitem>
+              <doc:listitem><doc:simpara>Codex: GPT-5.6 Sol</doc:simpara></doc:listitem>
             </doc:itemizedlist>
             <doc:simpara>Added:</doc:simpara>
             <doc:itemizedlist>
@@ -88,6 +88,12 @@
         To boost the odds that Joséphine contributes on her next visit, a concise 2–4-page vision document answering these questions is essential.
         A detailed lifecycle management plan is the next step — but that’s another story.
       </doc:simpara>
+    </doc:section>
+    <doc:section role="playbooks">
+      <doc:title>Applied playbooks</doc:title>
+      <doc:bibliolist>
+        <xi:include href="../../../shared/bibliography/02-02-narratives.xml"/>
+      </doc:bibliolist>
     </doc:section>
   </doc:article>
   <activities>

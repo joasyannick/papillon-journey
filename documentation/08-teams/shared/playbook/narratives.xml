@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Defining narratives</title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-16</date>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started guidance for defining change control narratives.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Develop complete narrative-authoring guidance.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <note role="standards">
+    <title>Applicable standards</title>
+    <bibliolist>
+      <bibliomixed><biblioref linkend="oasis-2016"/></bibliomixed>
+      <bibliomixed><biblioref linkend="w3c-2006"/></bibliomixed>
+    </bibliolist>
+  </note>
+  <note role="stories">
+    <title>Model stories</title>
+    <bibliolist>
+      <bibliomixed><biblioref linkend="story-1-product-vision"/></bibliomixed>
+    </bibliolist>
+  </note>
+  <simpara>
+    Narratives express proposed and completed project changes through a user story and its supporting backstory.
+    Start them from <filename>documentation/templates/narrative.xml</filename> and retain only the lifecycle activities that apply.
+  </simpara>
+</chapter>

@@ -22,7 +22,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-08
+  ## Story 1 — 2026-07-15
 
   ### Authors
 
@@ -30,10 +30,15 @@
 
   ### Agents
 
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.5
 
   ### Added
 
   - Defined ‘system’.
   - Cross-referenced related terms.
+
+  ### Future work
+
+  - Cite bibliography sources.
 -->

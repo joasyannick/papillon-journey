@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioset
+    relation="set"
+    role="documentation"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Papillon Journey</title>
+  <xi:include href="../notices/publisher.xml"/>
+</biblioset>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-17
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Introduced the Papillon Journey collection, shared across internal bibliography entries.
+-->

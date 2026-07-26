@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="story-1-product-vision"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <abbrev>ϛε1</abbrev>
+  <biblioset relation="article">
+    <biblioid class="pubsnumber">ϛε1</biblioid>
+    <title>Product vision</title>
+    <pubdate></pubdate>
+    <releaseinfo>Éclosion 0.1.0</releaseinfo>
+    <edition>0.1</edition>
+    <authorgroup>
+      <xi:include href="../../07-contributions/01-people/joas/author-name.gen.xml"/>
+    </authorgroup>
+    <xi:include href="../notices/copyright.xml"/>
+  </biblioset>
+  <xi:include href="papillon-journey.xml"/>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-17
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Made Story 1 citable.
+-->

@@ -44,7 +44,7 @@
           <doc:revdescription>
             <doc:simpara>Agents:</doc:simpara>
             <doc:itemizedlist>
-              <doc:listitem><doc:simpara>Codex: GPT-5.5</doc:simpara></doc:listitem>
+              <doc:listitem><doc:simpara>Codex: GPT-5.6 Sol</doc:simpara></doc:listitem>
             </doc:itemizedlist>
             <doc:simpara>Added:</doc:simpara>
             <doc:itemizedlist>
@@ -75,6 +75,13 @@
         <!-- TODO: describe how satisfying this user story improves the project or stakeholder experience. -->
       </doc:simpara>
     </doc:section>
+    <doc:section role="playbooks">
+      <doc:title>Applied playbooks</doc:title>
+      <doc:bibliolist>
+        <!-- TODO: xi:include every shared bibliography entry for the playbook
+             chapters governing this narrative; at least one entry required. -->
+      </doc:bibliolist>
+    </doc:section>
   </doc:article>
   <activities>
     <!-- TODO: keep only the activities that apply to the user story. -->
@@ -91,7 +98,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-27
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -99,10 +106,15 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.5
+  - Claude Code: Sonnet 5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Added a reusable narrative template based on the product vision story.
+
+  ### Future work
+
+  - Flesh out this template into a complete, self-documenting document.
+  - Define the corporate style of every document created from it.
 -->

@@ -13,12 +13,12 @@
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle management playbook</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-08</date>
+    <date role="modified">2026-07-16</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
-    <author>
-      <orgname>Chrysalide Learning</orgname>
-    </author>
+    <authorgroup>
+      <xi:include href="../../07-contributions/01-people/joas/editor.gen.xml"/>
+    </authorgroup>
     <xi:include href="../../shared/notices/publisher.xml"/>
     <xi:include href="../../shared/notices/copyright.xml"/>
     <legalnotice>
@@ -36,12 +36,16 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
             <listitem><simpara>Started the lifecycle management playbook.</simpara></listitem>
-            <listitem><simpara>Extracted each part into its own folder so teams can own and evolve their sections independently.</simpara></listitem>
+            <listitem><simpara>Split it into separate folders so teams can own and evolve their sections independently.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Complete and polish the lifecycle management playbook outside the vision guidance.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>

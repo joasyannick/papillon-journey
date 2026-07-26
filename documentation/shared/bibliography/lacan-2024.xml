@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="lacan-2024"
+    xml:lang="en-US"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>Lacan 2024</abbrev>
+  <biblioid class="uri">https://keepachangelog.com</biblioid>
+  <title>Keep a Changelog</title>
+  <subtitle>Don’t let your friends dump git logs into changelogs</subtitle>
+  <pubdate>2024-09-27</pubdate>
+  <releaseinfo>1.1.2</releaseinfo>
+  <date role="accessed">2026-07-16</date>
+  <authorgroup>
+    <author>
+      <personname>
+        <givenname>Olivier</givenname>
+        <surname>Lacan</surname>
+      </personname>
+    </author>
+    <othercredit class="other" otherclass="designer">
+      <personname>
+        <givenname>Tyler</givenname>
+        <surname>Fortune</surname>
+      </personname>
+    </othercredit>
+  </authorgroup>
+  <bibliosource class="uri">
+    <link xlink:href="https://keepachangelog.com">Keep a Changelog</link>
+  </bibliosource>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-16
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5
+
+  ### Added
+
+  - Made _Keep a Changelog_ citable.
+-->

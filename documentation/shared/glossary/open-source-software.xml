@@ -12,7 +12,7 @@
   <glossterm>Open-source software</glossterm>
   <glossdef>
     <simpara>
-      Software that users are allowed to study, modify, and redistribute, with licensing terms that may allow derivatives to withhold those permissions from others.
+      Software that users are allowed to study, modify, and redistribute, with licensing terms that may enable derivatives to withhold those permissions from others.
     </simpara>
     <glossseealso otherterm="term-libre-software">Libre software</glossseealso>
     <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
@@ -21,7 +21,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-08
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -36,4 +36,8 @@
 
   - Defined ‘open-source software’.
   - Cross-referenced related terms.
+
+  ### Future work
+
+  - Cite bibliography sources.
 -->

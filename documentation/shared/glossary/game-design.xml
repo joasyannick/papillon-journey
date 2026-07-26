@@ -25,7 +25,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-04
+  ## Story 1 — 2026-07-15
 
   ### Authors
 
@@ -39,4 +39,8 @@
   ### Added
 
   - Created the Game Design glossary division to group terms that form a single connected component in the see/see-also graph.
+
+  ### Future work
+
+  - Cite bibliography sources.
 -->

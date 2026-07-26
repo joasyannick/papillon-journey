@@ -16,7 +16,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -25,9 +25,13 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
-  - Codex: GPT-5.4
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Started the XSLT stylesheet transformation for articles.
+
+  ### Future work
+
+  - Generalise and polish article rendering.
 -->

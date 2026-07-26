@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="oasis-2016"
+    xml:lang="en-US"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>OASIS 2016</abbrev>
+  <title>DocBook Version 5.1</title>
+  <pubdate>2016-11-22</pubdate>
+  <orgname>OASIS</orgname>
+  <biblioid class="uri">https://docs.oasis-open.org/docbook/docbook/v5.1/docbook-v5.1.html</biblioid>
+  <bibliomisc>
+    <link xlink:href="https://docs.oasis-open.org/docbook/docbook/v5.1/docbook-v5.1.html">OASIS Standard</link>
+  </bibliomisc>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-16
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Made the DocBook 5.1 standard citable.
+-->

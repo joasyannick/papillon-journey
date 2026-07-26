@@ -70,7 +70,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-08
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -79,9 +79,13 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Introduced the author transformation.
+
+  ### Future work
+
+  - Generalise and polish contributor fragment generation.
 -->

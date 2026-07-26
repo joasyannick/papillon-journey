@@ -22,7 +22,7 @@
     <position>Project manager</position>
   </affiliation>
   <persona>
-    <portfolio name="GitHub" url="https://github.com/joasyannick" />
+    <portfolio website="GitHub" url="https://github.com/joasyannick" />
     <social network="X" url="https://x.com/JoasYannick"/>
     <social network="LinkedIn" url="https://www.linkedin.com/in/joas-yannick-kinouani"/>
   </persona>
@@ -30,7 +30,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-04
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -39,9 +39,13 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.4
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Registered Joas Yannick Kinouani as a contributor.
+
+  ### Future work
+
+  - Review and polish the contributor registry format.
 -->

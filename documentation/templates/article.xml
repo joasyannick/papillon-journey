@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber"><!-- TODO: document ID --></biblioid>
     <title><!-- TODO: document title --></title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-08</date>
+    <date role="modified">2026-07-16</date>
     <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
     <edition><!-- TODO: edition number --></edition>
     <authorgroup>
@@ -38,11 +38,16 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
             <listitem><simpara>Started the article template.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Flesh out this template into a complete, self-documenting document.</simpara></listitem>
+            <listitem><simpara>Define the corporate style of every document created from it.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>
@@ -82,13 +87,6 @@
     <simpara>
       <!-- TODO: describe the purpose and scope of this document (at most two paragraphs) -->
     </simpara>
-    <note role="standards">
-      <title>Applicable standards</title>
-      <!-- TODO: if standards apply, use a bibliolist of xi:include entries from
-           shared/bibliography/; entries used here must not appear in the
-           document's bibliography section. Otherwise, write a simpara stating
-           "No known standard specifically governs [document type] documents." -->
-    </note>
     <note role="playbooks">
       <title>Applied playbooks</title>
       <bibliolist>
@@ -119,9 +117,8 @@
    </section>
   <glossary>
     <title>Glossary</title>
-    <xi:include href="../shared/glossary/integrated-engineering-environment.xml"/>
-    <xi:include href="../shared/glossary/japanese-role-playing-game.xml"/>
-    <!-- TODO: add further glossary entries as needed, all taken from the shared glossary directory -->
+    <xi:include href="../shared/glossary/engineering.xml"/>
+    <xi:include href="../shared/glossary/game-design.xml"/>
   </glossary>
   <!-- TODO: add a bibliography if needed, all entries taken from the shared bibliography directory -->
   <!--

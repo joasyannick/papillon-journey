@@ -33,7 +33,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-18
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -42,8 +42,13 @@
   ### Agents
 
   - Claude Code: Sonnet 4.6
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Introduced the contributors tracker schema.
+
+  ### Future work
+
+  - Generalise and polish the contributor tracker schema.
 -->

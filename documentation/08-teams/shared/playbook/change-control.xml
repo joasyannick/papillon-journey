@@ -7,8 +7,52 @@
 <chapter
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
-  <title>Change Control</title>
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Change Control</title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-16</date>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started to document change control conventions.</simpara></listitem>
+            <listitem><simpara>Cited Keep a Changelog as a guiding reference.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Evolve the lifecycle vocabulary to record incidental effort outside evaluated narrative goals separately.</simpara></listitem>
+            <listitem><simpara>Complete and polish project-wide change control guidance.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <note role="standards">
+    <title>Applicable standards</title>
+    <bibliolist>
+      <xi:include href="../../../shared/bibliography/iso-2019.xml"/>
+    </bibliolist>
+  </note>
+  <note role="guidance">
+    <title>Guiding references</title>
+    <bibliolist>
+      <bibliomixed><biblioref linkend="lacan-2024"/></bibliomixed>
+    </bibliolist>
+  </note>
   <section>
     <title>Narrative IDs</title>
     <simpara>
@@ -71,7 +115,7 @@
 ### Agents
 
 - Claude Code: Sonnet 4.6
-- Codex: GPT-5.5
+- Codex: GPT-5.6 Sol
 
 ### Added
 
@@ -83,6 +127,43 @@
       AI agents cannot bear that responsibility, which is why they are recorded separately and omitted from commit messages.
       Omit <code>### Agents</code> entirely when no agent contributed.
     </simpara>
+    <simpara>
+      The remaining categories describe what happened in the entry. Use Keep a Changelog's standard set, plus one project-specific addition — include only the categories that apply, and omit the rest:
+    </simpara>
+    <variablelist>
+      <varlistentry>
+        <term><code>### Added</code></term>
+        <listitem><simpara>New features.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><code>### Changed</code></term>
+        <listitem><simpara>Changes in existing functionality.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><code>### Deprecated</code></term>
+        <listitem><simpara>Soon-to-be removed features.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><code>### Removed</code></term>
+        <listitem><simpara>Now removed features.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><code>### Fixed</code></term>
+        <listitem><simpara>Bug fixes.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><code>### Security</code></term>
+        <listitem><simpara>Vulnerability fixes.</simpara></listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><code>### Future work</code></term>
+        <listitem>
+          <simpara>
+            Work identified as remaining when producing the entry, including the completion or polishing of incidental work initiated outside the goals established during evaluation — not part of Keep a Changelog.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
   </section>
   <section>
     <title>Narratives vocabulary</title>
@@ -126,10 +207,14 @@
       </varlistentry>
     </variablelist>
     <simpara>
-      These fields follow a V-model.
       Estimates are set top-down: a tale is estimated first, its epics next, then their stories, and finally each activity iteration.
       Actuals are recorded bottom-up: activity iterations are closed first, which informs the story's actuals, which in turn inform the epic's, and so on up to the tale.
       All five fields are optional and are filled in as work progresses.
+    </simpara>
+    <simpara>
+      Estimates and actuals cover only work serving the goals established during evaluation.
+      Time spent on incidental work outside those goals is excluded from the narrative and activity <tag>time-spent</tag> values, even when that work occurs during the same period.
+      Until the lifecycle vocabulary can record incidental effort separately, such work is identified through the affected artefacts' <code>Future work</code> entries.
     </simpara>
     <simpara>
       Duration values (<tag>time-estimate</tag> and <tag>time-spent</tag>) use hours, days,
@@ -147,21 +232,3 @@
     </simpara>
   </section>
 </chapter>
-<!--
-  # Changelog
-
-  ## Story 1 — 2026-07-12
-
-  ### Authors
-
-  - Joas Yannick Kinouani
-
-  ### Agents
-
-  - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
-
-  ### Added
-
-  - Started to document change control conventions.
--->

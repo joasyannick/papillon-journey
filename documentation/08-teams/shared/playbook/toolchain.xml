@@ -7,8 +7,38 @@
 <chapter
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
-  <title>Toolchain</title>
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Toolchain</title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-16</date>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started to document the toolchain.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Complete and polish the project-wide toolchain guidance.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
   <simpara>
     The documentation toolchain consists of bundled tools, which are checked into the repository under <filename>documentation/tools/</filename>, and runtime dependencies, which must be installed separately.
   </simpara>
@@ -68,21 +98,3 @@
     </variablelist>
   </section>
 </chapter>
-<!--
-  # Changelog
-
-  ## Story 1 — 2026-07-12
-
-  ### Authors
-
-  - Joas Yannick Kinouani
-
-  ### Agents
-
-  - Claude Code: Sonnet 5
-  - Codex: GPT-5.4
-
-  ### Added
-
-  - Started to document the toolchain.
--->

@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">δα</biblioid>
     <title>Business model</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-08</date>
+    <date role="modified">2026-07-16</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -36,11 +36,15 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
             <listitem><simpara>Started the business model.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Complete and polish the business model.</simpara></listitem>
           </itemizedlist>
         </revdescription>
       </revision>

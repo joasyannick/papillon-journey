@@ -25,14 +25,14 @@
     <authorgroup>
       <xi:include href="../../07-contributions/01-people/joas/editor-name.gen.xml"/>
     </authorgroup>
-    <xi:include href="../notices/publisher.xml"/>
     <xi:include href="../notices/copyright.xml"/>
   </biblioset>
+  <xi:include href="papillon-journey.xml"/>
 </biblioentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-08
+  ## Story 1 — 2026-07-17
 
   ### Authors
 
@@ -41,7 +41,7 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 

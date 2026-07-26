@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-12</date>
+    <date role="modified">2026-07-26</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -75,12 +75,6 @@
       <!-- Purpose and scope of this document -->
       This document sets out our vision for the project: what it is, why it matters, and how we intend to make it succeed.
     </simpara>
-    <note role="standards">
-      <title>Applicable standards</title>
-      <simpara>
-        No known standard governs product vision documents.
-      </simpara>
-    </note>
     <note role="playbooks">
       <title>Applied playbooks</title>
       <bibliolist>
@@ -255,9 +249,9 @@
           Purpose: limited exposure, inverted pedagogy.
         -->
         We never truly know something until we teach it to someone else.
-        <productname>Papillon Journey</productname> will provide a <firstterm linkend="term-mod">mod</firstterm> development framework that enables players to upskill one another.
+        <productname>Papillon Journey</productname> will provide a <firstterm linkend="term-mod" baseform="Mod">modding</firstterm> framework that enables players to upskill one another.
         It will facilitate the creation of custom <firstterm linkend="term-downloadable-content">downloadable content</firstterm> (DLC) that transforms visuals, reshapes the soundscape, alters game mechanics, introduces new quests, tells new stories, and covers additional training topics.
-        By officially embracing <glossterm linkend="term-mod" baseform="Mod">modding</glossterm>, we will motivate learners to dive into the source code and practise formal engineering in earnest.
+        By officially embracing modding, we will motivate learners to dive into the source code and practise formal engineering in earnest.
       </simpara>
       <simpara>
         <!--
@@ -272,19 +266,19 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ10: game design guides and tutorials co-authored with partner studios.
+          Value Proposition VPαʹ10: partner-studio training for professional-quality game production.
           Purpose: inverted pedagogy.
 
           Strategic rationale:
           - This value proposition supports project profitability.
-          - It complements VPαʹ5: multimedia training materials can be a companion to the crossover in-game content, both produced with the same studio.
+          - It complements VPαʹ5: the same partner studio can co-produce the crossover in-game content and its accompanying training materials.
 
           Why learners may like this:
           - This is expertise peer modders cannot be expected to provide.
         -->
-        Spending time with the mod development framework may awaken in some learners a passion for game design, and they may aspire to turn it into a profession.
+        Spending time with the modding framework may awaken in some learners a passion for game design, and they may aspire to turn it into a profession.
         For them, <productname>Papillon Journey</productname> will offer premium guides and tutorials co-authored with experienced studios.
-        Delivered across multiple media, these materials will draw on concrete examples and exercises straight from the mod development framework, giving learners experience in crafting games on par with professional productions.
+        Delivered across multiple media, these materials will draw on concrete examples and exercises straight from the modding framework, giving learners experience in crafting games on par with professional productions.
         For partner studios, this will be a distinctive opportunity to invest in people who are more than fans — who look to them as inspiration for a career of their own.
       </simpara>
     </section>
@@ -311,14 +305,13 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ12: sustaining engagement through play.
+          Value Proposition VPαʹ12: sustaining learners’ engagement through play.
           Purpose: inverted pedagogy.
         -->
         Teaching is never one-size-fits-all.
         Not every learner thrives under lectures and routine homework.
         Play, by contrast, has near-universal appeal and offers a formidable counterweight to the sense of obligation intrinsic to every curriculum.
-        <productname>Papillon Journey</productname> will give educators an immersive and entertaining environment where formal engineering is practised through play.
-        By integrating it into their programmes, they will be able to sustain learners’ interest and re-engage those struggling with traditional teaching formats.
+        By integrating the game into their programmes, educators will be able to sustain learners’ interest and re-engage those struggling with traditional teaching formats.
       </simpara>
       <simpara>
         <!--
@@ -327,17 +320,27 @@
 
           Strategic rationale:
           - This value proposition supports project profitability.
-          - Organisations that do not enter formal partnerships can still create and distribute teaching content through the mod development framework.
+          - Organisations that do not become partners can still create and distribute teaching content through the modding framework.
         -->
-        Educators at partner organisations will shape the play they bring into their classrooms by co-creating adventures for players and prospective learners that showcase their expertise and the distinctive character of their programmes.
+        Educators at partner organisations will shape the play they bring into their classrooms by co-creating signature educational adventures.
         Their development will follow a dedicated partnership process, giving partners an official presence in the game through a route more prestigious than community mods.
-        This will offer partners a valuable path to audiences who may not encounter them through conventional outreach.
+        This will also offer partners a valuable way to showcase their expertise and the distinctive character of their programmes to a global audience of players and prospective learners, who may not encounter them through conventional outreach.
       </simpara>
     </section>
     <section>
       <title>Software engineering practitioners</title>
       <simpara>
-        <!-- TODO: core jobs -->
+        <!-- Engineers’ core jobs in general -->
+        At its core, engineering is the negotiation, establishment, and preservation of the integrity of a system, and the continual renewal of that work to keep it fit for its evolving sociotechnical context.
+        Integrity, here, should be understood broadly as the system ‘doing the right thing’; stakeholders do not usually agree at first on what that means.
+        This is why integrity must be negotiated.
+        Take a bridge proposed to relieve congestion on an older one: drivers may want a wide, modern crossing, while local residents may press for a design that does not disrupt the landscape and echoes the proportions and style of the existing bridge.
+        Engineers mediate between such competing expectations, reconciling them with what is feasible within the constraints of schedule, funding, workforce, law, social norms, and the current state of knowledge and technology.
+      </simpara>
+      <simpara>
+        <!-- Practitioners’ core jobs -->
+        In software engineering, the integrity at stake is chiefly that of the software’s behaviour within the larger system it belongs to, and of the data that flows through it.
+        The practitioners involved — across design, development, verification, and operations, to name a few — are collectively accountable to stakeholders for stewarding that integrity, whatever this requires in context.
       </simpara>
       <simpara>
         <!--
@@ -348,7 +351,7 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ15: an integrated engineering environment.
+          Value Proposition VPαʹ15: a libre integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
           TODO: write this.
         -->
@@ -413,7 +416,7 @@
       <listitem>
         <simpara>
           <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Renaissance</foreignphrase>.</emphasis>
-          The game becomes ready for public operation through rented infrastructure, deployment rehearsal, launch testing, operational hardening, and the partnerships needed to sustain it — including studio-co-authored game design materials once the mod development framework is mature enough to support them.
+          The game becomes ready for public operation through rented infrastructure, deployment rehearsal, launch testing, operational hardening, and the partnerships needed to sustain it — including studio-co-authored game design materials once the modding framework is mature enough to support them.
         </simpara>
       </listitem>
       <listitem>
@@ -456,7 +459,7 @@
         <tbody>
           <row xml:id="ksi-01-1">
             <entry>KSIαʹ1</entry>
-            <entry>Player <firstterm linkend="term-reach">reach</firstterm></entry>
+            <entry>Player reach</entry>
             <entry>
               <productname>Papillon Journey</productname>’s audience is growing: it resonates with players and attracts new ones consistently.
             </entry>
@@ -477,14 +480,14 @@
           </row>
           <row xml:id="ksi-01-4">
             <entry>KSIαʹ4</entry>
-            <entry>Player <firstterm linkend="term-retention">retention</firstterm> rate</entry>
+            <entry>Player retention rate</entry>
             <entry>
               Players keep playing beyond the initial novelty: the gameplay loop delivers lasting value.
             </entry>
           </row>
           <row xml:id="ksi-01-5">
             <entry>KSIαʹ5</entry>
-            <entry>Player <firstterm linkend="term-completion">completion</firstterm> rate</entry>
+            <entry>Player completion rate</entry>
             <entry>
               Players reach the credit roll: the narrative and gameplay sustain interest from start to finish.
             </entry>
@@ -652,7 +655,7 @@
           </row>
           <row>
             <entry>VPαʹ10</entry>
-            <entry>Game design guides and tutorials co-authored with partner studios</entry>
+            <entry>Partner-studio training for professional-quality game production</entry>
             <entry/>
             <entry>Inverted pedagogy</entry>
             <entry/>
@@ -666,7 +669,7 @@
           </row>
           <row>
             <entry>VPαʹ12</entry>
-            <entry>Sustaining engagement through play</entry>
+            <entry>Sustaining learners’ engagement through play</entry>
             <entry/>
             <entry>Inverted pedagogy</entry>
             <entry/>

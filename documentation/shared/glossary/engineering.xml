@@ -13,7 +13,6 @@
   <xi:include href="architecture.xml"/>
   <xi:include href="art-direction.xml"/>
   <xi:include href="artefact.xml"/>
-  <xi:include href="completion.xml"/>
   <xi:include href="cross-cutting-concern.xml"/>
   <xi:include href="devops.xml"/>
   <xi:include href="formal-engineering.xml"/>
@@ -34,11 +33,9 @@
   <xi:include href="project-management.xml"/>
   <xi:include href="quality-assurance.xml"/>
   <xi:include href="quality-attribute.xml"/>
-  <xi:include href="reach.xml"/>
   <xi:include href="reliability.xml"/>
   <xi:include href="requirement.xml"/>
   <xi:include href="requirements-management.xml"/>
-  <xi:include href="retention.xml"/>
   <xi:include href="safety.xml"/>
   <xi:include href="security.xml"/>
   <xi:include href="software.xml"/>
@@ -57,7 +54,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-08
+  ## Story 1 — 2026-07-20
 
   ### Authors
 
@@ -66,9 +63,13 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Created the Engineering glossary division to group terms that form a single connected component in the see/see-also graph.
+
+  ### Future work
+
+  - Cite bibliography sources.
 -->

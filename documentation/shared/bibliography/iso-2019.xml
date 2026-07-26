@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="iso-2019"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>ISO 8601-1:2019</abbrev>
+  <biblioid class="other" otherclass="standard">ISO 8601-1:2019</biblioid>
+  <title>Date and time</title>
+  <subtitle>Representations for information interchange — Part 1: Basic rules</subtitle>
+  <pubdate>2019-02</pubdate>
+  <orgname>International Organization for Standardization</orgname>
+  <bibliomisc>
+    <link xlink:href="https://www.iso.org/standard/70907.html">ISO standard catalogue</link>
+  </bibliomisc>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-16
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Made ISO 8601-1:2019 citable.
+-->

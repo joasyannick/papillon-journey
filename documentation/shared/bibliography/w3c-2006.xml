@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="w3c-2006"
+    xml:lang="en-US"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>W3C 2006</abbrev>
+  <title>XML Inclusions (XInclude) Version 1.0</title>
+  <subtitle>Second Edition</subtitle>
+  <pubdate>2006-11-15</pubdate>
+  <orgname>World Wide Web Consortium</orgname>
+  <biblioid class="uri">https://www.w3.org/TR/xinclude/</biblioid>
+  <bibliomisc>
+    <link xlink:href="https://www.w3.org/TR/xinclude/">W3C Recommendation</link>
+  </bibliomisc>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-16
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Made the XInclude 1.0 standard citable.
+-->

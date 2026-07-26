@@ -7,25 +7,42 @@
 <chapter
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
-    version="5.1">
-  <title>Verification</title>
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Verification plan</title>
+    <pubdate></pubdate>
+    <date role="modified">2026-07-16</date>
+    <authorgroup>
+      <author>
+        <personname><!-- TODO: Author 1 --></personname>
+      </author>
+      <author>
+        <personname><!-- TODO: Author 2 --></personname>
+      </author>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Started the verification plan.</simpara></listitem>
+          </itemizedlist>
+          <simpara>Future work:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Complete and polish the Verification team's plan.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
   <simpara><!-- TODO: describe the Verification team's lifecycle management plan --></simpara>
 </chapter>
-<!--
-  # Changelog
-
-  ## Story 1 — 2026-07-12
-
-  ### Authors
-
-  - Joas Yannick Kinouani
-
-  ### Agents
-
-  - Claude Code: Sonnet 5
-  - Codex: GPT-5.4
-
-  ### Added
-
-  - Started the verification plan.
--->

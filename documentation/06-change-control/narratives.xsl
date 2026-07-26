@@ -126,7 +126,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-04
+  ## Story 1 — 2026-07-16
 
   ### Authors
 
@@ -135,9 +135,13 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
   - Extracts the DocBook article from a narratives document.
+
+  ### Future work
+
+  - Generalise and polish narrative generation.
 -->

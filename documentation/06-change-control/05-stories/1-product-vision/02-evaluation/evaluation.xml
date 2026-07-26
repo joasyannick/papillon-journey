@@ -18,7 +18,7 @@
       <doc:biblioid class="pubsnumber">ϛε1β</doc:biblioid>
       <doc:title>Product vision</doc:title>
       <doc:subtitle>Evaluation</doc:subtitle>
-      <doc:date role="modified">2026-07-08</doc:date>
+      <doc:date role="modified">2026-07-16</doc:date>
       <doc:pubdate></doc:pubdate>
       <doc:releaseinfo>Éclosion 0.1.0</doc:releaseinfo>
       <doc:edition>0.1</doc:edition>
@@ -42,7 +42,7 @@
             <doc:simpara>Agents:</doc:simpara>
             <doc:itemizedlist>
               <doc:listitem><doc:simpara>Claude Code: Sonnet 4.6</doc:simpara></doc:listitem>
-              <doc:listitem><doc:simpara>Codex: GPT-5.5</doc:simpara></doc:listitem>
+              <doc:listitem><doc:simpara>Codex: GPT-5.6 Sol</doc:simpara></doc:listitem>
             </doc:itemizedlist>
             <doc:simpara>Added:</doc:simpara>
             <doc:itemizedlist>
@@ -55,6 +55,19 @@
     <doc:section role="intro">
       <doc:title>Introduction</doc:title>
       <doc:simpara>
+        Story 1 delivers the product vision and the <doc:citetitle>Defining a vision</doc:citetitle> playbook chapter.
+        Its evaluation, development, validation, integration, and retrospective notes are also part of the story.
+      </doc:simpara>
+    </doc:section>
+    <doc:section>
+      <doc:title>Scope</doc:title>
+      <doc:simpara>
+        Work directly required to produce, support, and assess those deliverables is in scope.
+        This includes the shared glossary, bibliography, product, notice, contributor, and generated fragments included by them.
+      </doc:simpara>
+      <doc:simpara>
+        Other documents, templates, schemas, transformations, registries, and project structures initiated while carrying out Story 1 are incidental foundations.
+        They may remain usable, but completing, generalising, and polishing them is outside the goals of this story and must be recorded as future work.
       </doc:simpara>
     </doc:section>
     <doc:section role="outro">

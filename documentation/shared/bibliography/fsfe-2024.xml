@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="fsfe-2024"
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+  <abbrev>FSFE 2024</abbrev>
+  <biblioid class="uri">https://reuse.software/spec-3.3/</biblioid>
+  <title>REUSE Specification</title>
+  <pubdate>2024-11-14</pubdate>
+  <releaseinfo>3.3</releaseinfo>
+  <date role="accessed">2026-07-16</date>
+  <authorgroup>
+    <author>
+      <orgname>Free Software Foundation Europe</orgname>
+    </author>
+  </authorgroup>
+  <bibliosource class="uri">
+    <link xlink:href="https://reuse.software/spec-3.3/">REUSE Specification</link>
+  </bibliosource>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-07-16
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Made the _REUSE Specification_ citable.
+-->

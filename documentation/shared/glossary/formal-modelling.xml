@@ -15,7 +15,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-06-14
+  ## Story 1 — 2026-07-15
 
   ### Authors
 
@@ -23,10 +23,14 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.4
 
   ### Added
 
   - Made ‘formal modelling’ a see-reference to ‘formal methods’.
+
+  ### Future work
+
+  - Cite bibliography sources.
 -->
