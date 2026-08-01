@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-26</date>
+    <date role="modified">2026-08-01</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -334,11 +334,11 @@
         At its core, engineering is the negotiation, establishment, and preservation of the integrity of a system, and the continual renewal of that work to keep it fit for its evolving sociotechnical context.
         Integrity, here, should be understood broadly as the system ‘doing the right thing’; stakeholders do not usually agree at first on what that means.
         This is why integrity must be negotiated.
-        Take a bridge proposed to relieve congestion on an older one: drivers may want a wide, modern crossing, while local residents may press for a design that does not disrupt the landscape and echoes the proportions and style of the existing bridge.
+        Take a bridge proposed to relieve congestion on an older one: drivers may want a wide, modern crossing, while locals may press for a design that does not disrupt the landscape and echoes the proportions and style of the existing bridge.
         Engineers mediate between such competing expectations, reconciling them with what is feasible within the constraints of schedule, funding, workforce, law, social norms, and the current state of knowledge and technology.
       </simpara>
       <simpara>
-        <!-- Practitioners’ core jobs -->
+        <!-- Software engineers’ core jobs -->
         In software engineering, the integrity at stake is chiefly that of the software’s behaviour within the larger system it belongs to, and of the data that flows through it.
         The practitioners involved — across design, development, verification, and operations, to name a few — are collectively accountable to stakeholders for stewarding that integrity, whatever this requires in context.
       </simpara>
@@ -360,19 +360,39 @@
     <section>
       <title>Software engineering researchers</title>
       <simpara>
-        <!-- TODO: core jobs -->
+        In ordinary commercial settings, practitioners are hired to steward the integrity of software subsystems for their stakeholders.
+        The organisations funding their work must remain economically viable, so ideas with uncertain or distant returns compete for resources with immediate delivery needs.
+        This leaves limited capacity to advance the knowledge and technologies through which integrity is negotiated, established, and preserved.
+        Even when companies make that investment, the results often remain proprietary, retained as a competitive advantage rather than made available for collective scrutiny and reuse.
+      </simpara>
+      <simpara>
+        <!-- Core jobs -->
+        Research creates room to explore those very ideas.
+        The public agencies, universities, and other organisations funding it accept the uncertainty involved, but expect regular, evidence-backed accounts of where each idea leads — whether it bears fruit, reaches a dead end, or reveals possibilities worth pursuing.
+        Findings undergo peer review before publication in scholarly journals, while research magazines bring them to the attention of the wider public.
+        Standardisation efforts, teaching activities, tool development, and joint projects with practitioners then translate the resulting knowledge into practice.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ16: a living use case to apply and demonstrate research in context.
-          Purpose: inverted pedagogy.
-          TODO: write this.
+          Value Proposition VPαʹ16: a use case to experiment with and demonstrate research in context.
+          Purpose: limited exposure.
         -->
+        Formal engineering has historically advanced through collaboration with high-stakes industries, where legitimate confidentiality and security obligations have restricted public access to project documentation and artefacts.
+        Many publications have therefore relied on simplified experiments to demonstrate the new approaches without exposing the contexts that shaped them.
+        As a game, <productname>Papillon Journey</productname> does not carry the kinds of stakes that require its engineering to remain secret.
+        And as a large-scale project, it will give researchers a use case in which to experiment with ideas and demonstrate their viability in addressing problems practitioners encounter in day-to-day work.
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ17: a unified engineering environment to host research-grade integrations.
           Purpose: fragmented tooling.
+          TODO: write this.
+        -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ18: a project magazine issued with each release to showcase contributors’ work and research.
+          Purpose: limited exposure.
           TODO: write this.
         -->
       </simpara>
@@ -697,9 +717,9 @@
           </row>
           <row>
             <entry>VPαʹ16</entry>
-            <entry>A living use case to apply and demonstrate research in context</entry>
+            <entry>A use case to experiment with and demonstrate research in context</entry>
             <entry/>
-            <entry>Inverted pedagogy</entry>
+            <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
@@ -707,6 +727,13 @@
             <entry>A unified engineering environment to host research-grade integrations</entry>
             <entry/>
             <entry>Fragmented tooling</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ18</entry>
+            <entry>A project magazine issued with each release to showcase contributors’ work and research</entry>
+            <entry/>
+            <entry>Limited exposure</entry>
             <entry/>
           </row>
         </tbody>
