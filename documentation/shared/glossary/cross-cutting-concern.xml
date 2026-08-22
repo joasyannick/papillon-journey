@@ -13,7 +13,7 @@
   <glossdef>
     <simpara>
       A concern like <glossterm linkend="term-security">security</glossterm> or <glossterm linkend="term-observability">observability</glossterm> that has no natural boundary within the <glossterm linkend="term-architecture">architecture</glossterm>, but cuts across many components, forcing each to deal with it alongside its primary responsibility — for example, by checking whether a user is allowed access, or by writing logs for troubleshooting.
-      There is no real ‘done’ status to such concerns: they keep recurring as the system or software evolves.
+      There is no real <quote>done</quote> status to such concerns: they keep recurring as the system or software evolves.
     </simpara>
     <glossseealso otherterm="term-architecture">Architecture</glossseealso>
     <glossseealso otherterm="term-observability">Observability</glossseealso>
@@ -23,7 +23,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-08-14
 
   ### Authors
 

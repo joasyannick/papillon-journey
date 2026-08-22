@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-08-01</date>
+    <date role="modified">2026-08-22</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -182,9 +182,9 @@
           Purpose: limited exposure.
         -->
         It will be a play-anywhere-anytime game by design.
-        The web version will render 2D isometric visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from smartphones to desktops.
-        Where hardware permits, native editions on Windows, Linux, Android, iOS/iPadOS, and HarmonyOS will elevate the experience with enhanced 2.5D graphics, richer lighting, and added depth.
-        Progress will synchronise across all platforms, so players can switch between devices.
+        The web version will render 2.5D visuals with vector-based, hand-drawn art that looks great and performs beautifully on everything from smartphones to desktops.
+        Native editions on Windows, Linux, Android, iOS/iPadOS, and HarmonyOS will elevate the experience with richer graphics and platform-specific features.
+        Progress will remain synchronised, so players can switch between devices.
       </simpara>
       <simpara>
         <!--
@@ -294,8 +294,6 @@
         Effective navigation relies on reference points: at sea, a lighthouse; ashore, a landmark.
         For educators, the equivalent is a canonical work — a book, a research paper, or a project — that learners can steer by.
         Formal engineering does not lack reference texts; what is missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
-      </simpara>
-      <simpara>
         <!--
           Value Proposition VPαʹ11: a real-world formal engineering project built for teaching.
           Purpose: inverted pedagogy.
@@ -324,7 +322,8 @@
         -->
         Educators at partner organisations will shape the play they bring into their classrooms by co-creating signature educational adventures.
         Their development will follow a dedicated partnership process, giving partners an official presence in the game through a route more prestigious than community mods.
-        This will also offer partners a valuable way to showcase their expertise and the distinctive character of their programmes to a global audience of players and prospective learners, who may not encounter them through conventional outreach.
+        This will also offer them a valuable way to showcase their expertise and the distinctive character of their programmes.
+        <productname>Papillon Journey</productname> will connect them with a global audience of players and prospective learners who may not encounter them through conventional outreach.
       </simpara>
     </section>
     <section>
@@ -332,15 +331,32 @@
       <simpara>
         <!-- Engineers’ core jobs in general -->
         At its core, engineering is the negotiation, establishment, and preservation of the integrity of a system, and the continual renewal of that work to keep it fit for its evolving sociotechnical context.
-        Integrity, here, should be understood broadly as the system ‘doing the right thing’; stakeholders do not usually agree at first on what that means.
+        Integrity, here, should be understood broadly as the system <quote>doing the right thing</quote>; stakeholders do not usually agree at first on what that means.
         This is why integrity must be negotiated.
-        Take a bridge proposed to relieve congestion on an older one: drivers may want a wide, modern crossing, while locals may press for a design that does not disrupt the landscape and echoes the proportions and style of the existing bridge.
+        Take a bridge proposed to relieve congestion on an old one: drivers may want a wide, modern crossing, while locals may press for a design that does not disrupt the landscape and echoes the proportions and style of the existing bridge.
         Engineers mediate between such competing expectations, reconciling them with what is feasible within the constraints of schedule, funding, workforce, law, social norms, and the current state of knowledge and technology.
       </simpara>
       <simpara>
         <!-- Software engineers’ core jobs -->
         In software engineering, the integrity at stake is chiefly that of the software’s behaviour within the larger system it belongs to, and of the data that flows through it.
         The practitioners involved — across design, development, verification, and operations, to name a few — are collectively accountable to stakeholders for stewarding that integrity, whatever this requires in context.
+      </simpara>
+      <simpara>
+        The advent of AI agents, however, is deeply reshaping the profession.
+        They generate <firstterm linkend="term-artefact">artefacts</firstterm> in a sliver of the time a dedicated team would need to produce them.
+        That speed comes at a price.
+        Software has long been subject to assurance before deployment, yet agents sever the link between artefact production and the accountability on which assurance processes depend.
+        Agents cannot answer for their outputs; accountability remains with practitioners, who therefore need stronger evidence of those outputs’ integrity.
+      </simpara>
+      <simpara>
+        This situation opens a clear path for formal engineering to move into mainstream practice.
+        Before the agentic era, it was often regarded as too time-consuming — a competitive penalty on speed-to-market — and so reserved for contexts where the consequences of failure justified its cost, or where regulation required every competitor to bear it.
+        Formal engineering provides mathematical languages in which agents can express why their work is <quote>done right</quote>, and independent verification tools that turn their claims into evidence everyone can trust.
+        For agents, such proofs are merely further artefacts to produce.
+      </simpara>
+      <simpara>
+        Formal engineering supplies trustworthy evidence for agentic work, while generative AI drives down the cost that has confined the discipline: each addresses the other’s weakness.
+        Just as agents have found their way from a specialist niche into everyday business workflows, formal engineering now has an opportunity to do the same — provided it too makes itself widely accessible.
       </simpara>
       <simpara>
         <!--
@@ -353,6 +369,13 @@
         <!--
           Value Proposition VPαʹ15: a libre integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
+          TODO: write this.
+        -->
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ16: evidence for making the case for formal engineering.
+          Purpose: limited exposure.
           TODO: write this.
         -->
       </simpara>
@@ -370,11 +393,11 @@
         Research creates room to explore those very ideas.
         The public agencies, universities, and other organisations funding it accept the uncertainty involved, but expect regular, evidence-backed accounts of where each idea leads — whether it bears fruit, reaches a dead end, or reveals possibilities worth pursuing.
         Findings undergo peer review before publication in scholarly journals, while research magazines bring them to the attention of the wider public.
-        Standardisation efforts, teaching activities, tool development, and joint projects with practitioners then translate the resulting knowledge into practice.
+        Standardisation efforts, teaching activities, tool development, and joint projects with practitioners then transfer the resulting knowledge and technologies into practice.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ16: a use case to experiment with and demonstrate research in context.
+          Value Proposition VPαʹ17: a use case to experiment with and demonstrate research in context.
           Purpose: limited exposure.
         -->
         Formal engineering has historically advanced through collaboration with high-stakes industries, where legitimate confidentiality and security obligations have restricted public access to project documentation and artefacts.
@@ -384,14 +407,14 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ17: a unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ18: a unified engineering environment to host research-grade integrations.
           Purpose: fragmented tooling.
           TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ18: a project magazine issued with each release to showcase contributors’ work and research.
+          Value Proposition VPαʹ19: a project magazine issued with each release to showcase contributors’ work and research.
           Purpose: limited exposure.
           TODO: write this.
         -->
@@ -710,27 +733,34 @@
           </row>
           <row>
             <entry>VPαʹ15</entry>
-            <entry>An integrated engineering environment</entry>
+            <entry>A libre integrated engineering environment</entry>
             <entry/>
             <entry>Limited exposure, fragmented tooling</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ16</entry>
-            <entry>A use case to experiment with and demonstrate research in context</entry>
+            <entry>Evidence for making the case for formal engineering</entry>
             <entry/>
             <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ17</entry>
+            <entry>A use case to experiment with and demonstrate research in context</entry>
+            <entry/>
+            <entry>Limited exposure</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ18</entry>
             <entry>A unified engineering environment to host research-grade integrations</entry>
             <entry/>
             <entry>Fragmented tooling</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ18</entry>
+            <entry>VPαʹ19</entry>
             <entry>A project magazine issued with each release to showcase contributors’ work and research</entry>
             <entry/>
             <entry>Limited exposure</entry>

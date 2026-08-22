@@ -19,7 +19,7 @@
     <doc:info>
       <doc:biblioid class="pubsnumber">ϛε1</doc:biblioid>
       <doc:title>Product vision</doc:title>
-      <doc:date role="modified">2026-07-16</doc:date>
+      <doc:date role="modified">2026-08-14</doc:date>
       <doc:pubdate></doc:pubdate>
       <doc:releaseinfo>Éclosion 0.1.0</doc:releaseinfo>
       <doc:edition>0.1</doc:edition>
@@ -56,7 +56,7 @@
         <doc:listitem><doc:simpara>Prospective contributor: Joséphine Rossi</doc:simpara></doc:listitem>
       </doc:itemizedlist>
       <doc:simpara>
-        ‘Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!’
+        <quote>Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!</quote>
       </doc:simpara>
       <doc:simpara>
         The SMS notification lit up Joséphine’s phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
