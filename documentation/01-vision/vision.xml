@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-08-22</date>
+    <date role="modified">2026-08-28</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -134,7 +134,8 @@
       We require only that derivatives remain libre and clearly distinguishable from the official project by their own branding and trademarks.
     </simpara>
     <simpara>
-      <firstterm linkend="term-formal-engineering">Formal engineering</firstterm> deserves wider visibility through a transparent, participatory, and engaging real-world use case accessible across various devices.
+      <firstterm linkend="term-formal-engineering">Formal engineering</firstterm> deserves wider visibility.
+      A transparent, participatory, and engaging real-world use case accessible across various devices will provide it.
     </simpara>
   </section>
   <section>
@@ -227,7 +228,7 @@
               Value Proposition VPαʹ6: learning fundamentals through play.
               Purpose: limited exposure, inverted pedagogy.
               -->
-            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="term-project-management">project management</firstterm>, <firstterm linkend="term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="term-verification">verification</firstterm>, and <firstterm linkend="term-validation">validation</firstterm>.
+            The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="term-project-management">project management</firstterm>, <firstterm linkend="term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="term-devops">devops</firstterm>, <firstterm linkend="term-verification">verification</firstterm>, and <firstterm linkend="term-validation">validation</firstterm>.
             As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame putting their skills to the ultimate test.
           </simpara>
         </listitem>
@@ -351,6 +352,7 @@
       <simpara>
         This situation opens a clear path for formal engineering to move into mainstream practice.
         Before the agentic era, it was often regarded as too time-consuming — a competitive penalty on speed-to-market — and so reserved for contexts where the consequences of failure justified its cost, or where regulation required every competitor to bear it.
+        AI now removes much of that penalty, since agents can absorb the extra labour.
         Formal engineering provides mathematical languages in which agents can express why their work is <quote>done right</quote>, and independent verification tools that turn their claims into evidence everyone can trust.
         For agents, such proofs are merely further artefacts to produce.
       </simpara>
@@ -360,21 +362,42 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ14: a formal specification language for the agentic era.
+          Value Proposition VPαʹ14: a formal modelling language for everyone involved.
+          Purpose: limited exposure.
+        -->
+        Making formal engineering accessible to everyone involved is at the heart of <productname>Papillon Journey</productname>.
+        The project will develop a new formal modelling language through which its five stakeholder groups, product managers, and six engineering teams — UX, art, specification, development, devops, and verification — will negotiate integrity at the outset and validate it throughout delivery.
+        Existing languages are not quite there yet.
+        Even those with proven industrial success — e.g. Z, B, Rocq, or Lean — typically address specification, development, and verification needs.
+        UX designers, artists, devops engineers, product managers, users, and other external stakeholders generally leave such languages to specialists; to them, they are no different from programming languages like, say, C++ or JavaScript.
+        Their preference for other ways of describing systems shows that formal languages are not yet accessible enough for those groups to participate directly.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ15: a formal modelling language for the agentic era.
+          Purpose: fragmented tooling.
+        -->
+        A common formal language will also allow agents to contribute coherently throughout the engineering lifecycle.
+        Each role will be able to direct them precisely through shared models and receive independently verifiable claims in return.
+        By carrying intent and evidence across activities, agents will connect workflows.
+        The language’s name, <productname>Aurore</productname>, will commemorate its birth at the dawn of the agentic era.
+      </simpara>
+      <simpara>
+        <!--
+          Value Proposition VPαʹ16: a libre integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
+
+          Strategic rationale:
+          - “Libre” addresses limited exposure by making a professional engineering environment available regardless of licensing budgets, institutional resources, or access to commercial vendors.
+          - “Integrated” addresses fragmented tooling by building on the common formal language introduced in VPαʹ15: Aurore connects engineering activities semantically, while Chrysal Studio brings the tools that support them into a coherent environment.
+          - Integrated engineering environments are not themselves a new concept; the proposition is to make one both broadly accessible and suited to formal engineering.
+
           TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ15: a libre integrated engineering environment.
-          Purpose: limited exposure, fragmented tooling.
-          TODO: write this.
-        -->
-      </simpara>
-      <simpara>
-        <!--
-          Value Proposition VPαʹ16: evidence for making the case for formal engineering.
+          Value Proposition VPαʹ17: evidence for making the case for formal engineering.
           Purpose: limited exposure.
           TODO: write this.
         -->
@@ -397,24 +420,24 @@
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ17: a use case to experiment with and demonstrate research in context.
+          Value Proposition VPαʹ18: a use case to experiment with and demonstrate research in context.
           Purpose: limited exposure.
         -->
         Formal engineering has historically advanced through collaboration with high-stakes industries, where legitimate confidentiality and security obligations have restricted public access to project documentation and artefacts.
         Many publications have therefore relied on simplified experiments to demonstrate the new approaches without exposing the contexts that shaped them.
         As a game, <productname>Papillon Journey</productname> does not carry the kinds of stakes that require its engineering to remain secret.
-        And as a large-scale project, it will give researchers a use case in which to experiment with ideas and demonstrate their viability in addressing problems practitioners encounter in day-to-day work.
+        And as an industrial-scale project, it will give researchers a use case in which to experiment with ideas and demonstrate their viability in addressing problems practitioners encounter in day-to-day work.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ18: a unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ19: a unified engineering environment to host research-grade integrations.
           Purpose: fragmented tooling.
           TODO: write this.
         -->
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ19: a project magazine issued with each release to showcase contributors’ work and research.
+          Value Proposition VPαʹ20: a project magazine issued with each release to showcase contributors’ work and research.
           Purpose: limited exposure.
           TODO: write this.
         -->
@@ -726,41 +749,48 @@
           </row>
           <row>
             <entry>VPαʹ14</entry>
-            <entry>A formal specification language for the agentic era</entry>
+            <entry>A formal modelling language for everyone involved</entry>
             <entry/>
-            <entry>Limited exposure, fragmented tooling</entry>
+            <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
             <entry>VPαʹ15</entry>
+            <entry>A formal modelling language for the agentic era</entry>
+            <entry/>
+            <entry>Fragmented tooling</entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>VPαʹ16</entry>
             <entry>A libre integrated engineering environment</entry>
             <entry/>
             <entry>Limited exposure, fragmented tooling</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ16</entry>
+            <entry>VPαʹ17</entry>
             <entry>Evidence for making the case for formal engineering</entry>
             <entry/>
             <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ17</entry>
+            <entry>VPαʹ18</entry>
             <entry>A use case to experiment with and demonstrate research in context</entry>
             <entry/>
             <entry>Limited exposure</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ18</entry>
+            <entry>VPαʹ19</entry>
             <entry>A unified engineering environment to host research-grade integrations</entry>
             <entry/>
             <entry>Fragmented tooling</entry>
             <entry/>
           </row>
           <row>
-            <entry>VPαʹ19</entry>
+            <entry>VPαʹ20</entry>
             <entry>A project magazine issued with each release to showcase contributors’ work and research</entry>
             <entry/>
             <entry>Limited exposure</entry>
