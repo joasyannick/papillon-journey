@@ -12,7 +12,7 @@
   <title>Security</title>
   <partintro>
     <simpara>
-      The Security team embeds secure practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm>, proactively mitigating risks and vulnerabilities.
+      The Security team embeds secure practices throughout the <glossterm linkend="term-product-lifecycle">product lifecycle</glossterm>, proactively mitigating risks and vulnerabilities.
     </simpara>
   </partintro>
   <xi:include href="chapter.xml"/>
@@ -20,7 +20,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-16
+  ## Story 1 — 2026-09-11
 
   ### Authors
 

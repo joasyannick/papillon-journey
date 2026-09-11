@@ -17,7 +17,7 @@
     <note>
       <simpara>
         Because users and stakeholders care about functionality and <glossterm linkend="term-value-proposition" baseform="Value proposition">value</glossterm>, requirements should reflect this — leaving design, <glossterm linkend="term-architecture">architecture</glossterm>, and technical choices to <glossterm linkend="term-user-experience-design" baseform="User experience design">UX</glossterm> designers and <glossterm linkend="term-technical-specification" baseform="Technical specification">specification</glossterm> engineers.
-        In practice, however, these teams are often handed ‘requirements’ that already embed pre-design or pre-specification decisions.
+        In practice, however, these teams are often handed <quote>requirements</quote> that already embed pre-design or pre-specification decisions.
       </simpara>
     </note>
     <glossseealso otherterm="term-requirements-management">Requirements management</glossseealso>
@@ -30,7 +30,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-09-03
 
   ### Authors
 

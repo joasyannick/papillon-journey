@@ -12,7 +12,7 @@
   <glossterm>Security</glossterm>
   <glossdef>
     <simpara>
-      The integration of secure practices throughout the <glossterm linkend="term-lifecycle-management" baseform="Lifecycle management">product lifecycle</glossterm> to proactively mitigate risks and vulnerabilities.
+      The integration of secure practices throughout the <glossterm linkend="term-product-lifecycle">product lifecycle</glossterm> to proactively mitigate risks and vulnerabilities.
       As a <glossterm linkend="term-quality-attribute">quality attribute</glossterm>, it expresses the degree to which a system or software protects itself and its data from disruption and unauthorised access, modification, or disclosure.
     </simpara>
     <glossseealso otherterm="term-cross-cutting-concern">Cross-cutting concern</glossseealso>
@@ -23,7 +23,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-09-11
 
   ### Authors
 
@@ -32,7 +32,7 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.4
+  - Codex: GPT-5.6 Sol
 
   ### Added
 

@@ -12,11 +12,12 @@
   <glossterm>Lifecycle management</glossterm>
   <glossdef>
     <simpara>
-      The coordinated oversight of all engineering activities across the product lifecycle, from conception through delivery and beyond.
+      The coordinated oversight of all engineering activities across the <glossterm linkend="term-product-lifecycle">product lifecycle</glossterm>, from conception through delivery and beyond.
     </simpara>
     <glossseealso otherterm="term-artefact">Artefact</glossseealso>
     <glossseealso otherterm="term-legal-compliance">Legal compliance</glossseealso>
     <glossseealso otherterm="term-maintenance">Maintenance</glossseealso>
+    <glossseealso otherterm="term-product-lifecycle">Product lifecycle</glossseealso>
     <glossseealso otherterm="term-product-management">Product management</glossseealso>
     <glossseealso otherterm="term-project-management">Project management</glossseealso>
     <glossseealso otherterm="term-quality-assurance">Quality assurance</glossseealso>
@@ -28,7 +29,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-09-11
 
   ### Authors
 
@@ -37,7 +38,7 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 

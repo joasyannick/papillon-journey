@@ -12,7 +12,7 @@
   <info>
     <title>Change Control</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-09-11</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -25,7 +25,7 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol, GPT-6 Astra</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
@@ -115,7 +115,7 @@
 ### Agents
 
 - Claude Code: Sonnet 4.6
-- Codex: GPT-5.6 Sol
+- Codex: GPT-5.6 Sol, GPT-6 Astra
 
 ### Added
 
@@ -126,6 +126,16 @@
       Authorship implies responsibility: an author can be contacted and held accountable for what they have written.
       AI agents cannot bear that responsibility, which is why they are recorded separately and omitted from commit messages.
       Omit <code>### Agents</code> entirely when no agent contributed.
+    </simpara>
+    <simpara>
+      Use one entry per agent environment, followed by a comma-separated list of contributing model lineages.
+      Within each lineage, retain only the latest version that contributed to the file.
+      List substantially different models separately within that entry.
+      This is a project convention for recording contributions, not a claim about the models’ underlying architecture or an exhaustive history of every version used.
+    </simpara>
+    <simpara>
+      For example, if Codex contributed using GPT-5.4, GPT-5.5, GPT-5.6 Sol, and GPT-6 Astra, record <literal>Codex: GPT-5.6 Sol, GPT-6 Astra</literal>.
+      For this convention, GPT-5.6 Sol represents the continuing lineage that includes GPT-5.4 and GPT-5.5, while GPT-6 Astra is recorded separately.
     </simpara>
     <simpara>
       The remaining categories describe what happened in the entry. Use Keep a Changelog's standard set, plus one project-specific addition — include only the categories that apply, and omit the rest:

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<bibliodiv
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Engineering</title>
+  <!-- TODO: include sources cited by the Engineering glossary. -->
+</bibliodiv>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-09-04
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Codex: GPT-5.6 Sol
+
+  ### Added
+
+  - Scaffolded the Engineering glossary's shared bibliography division.
+
+  ### Future work
+
+  - Add the first bibliography entry before including this division in a document.
+-->

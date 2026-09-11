@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-08-28</date>
+    <date role="modified">2026-09-11</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -36,7 +36,7 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+            <listitem><simpara>Codex: GPT-5.6 Sol, GPT-6 Astra</simpara></listitem>
             <listitem><simpara>Grok Build: Grok 4.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -300,7 +300,7 @@
           Purpose: inverted pedagogy.
         -->
         <productname>Papillon Journey</productname> will be that real-world project.
-        Its engineering lifecycle will be anchored in industry standards — starting with ISO/IEC/IEEE 15288 and 12207 — while its documentation will be deliberately written as training material for classrooms and self-study.
+        Its engineering processes will be anchored in industry standards — starting with ISO/IEC/IEEE 15288 and 12207 — while its documentation will be deliberately written as training material for classrooms and self-study.
       </simpara>
       <simpara>
         <!--
@@ -351,9 +351,9 @@
       </simpara>
       <simpara>
         This situation opens a clear path for formal engineering to move into mainstream practice.
-        Before the agentic era, it was often regarded as too time-consuming — a competitive penalty on speed-to-market — and so reserved for contexts where the consequences of failure justified its cost, or where regulation required every competitor to bear it.
+        It was often regarded as too time-consuming — a competitive penalty on speed-to-market — and so reserved for contexts where the consequences of failure justified its cost, or where regulation required every competitor to bear it.
         AI now removes much of that penalty, since agents can absorb the extra labour.
-        Formal engineering provides mathematical languages in which agents can express why their work is <quote>done right</quote>, and independent verification tools that turn their claims into evidence everyone can trust.
+        Formal engineering provides mathematical languages in which agents can express why their work is <quote>done right</quote>, and independent verification tools that turn their claims into trustworthy evidence.
         For agents, such proofs are merely further artefacts to produce.
       </simpara>
       <simpara>
@@ -365,42 +365,58 @@
           Value Proposition VPαʹ14: a formal modelling language for everyone involved.
           Purpose: limited exposure.
         -->
-        Making formal engineering accessible to everyone involved is at the heart of <productname>Papillon Journey</productname>.
-        The project will develop a new formal modelling language through which its five stakeholder groups, product managers, and six engineering teams — UX, art, specification, development, devops, and verification — will negotiate integrity at the outset and validate it throughout delivery.
+        Meeting that condition is at the heart of <productname>Papillon Journey</productname>.
+        The project will develop a new formal modelling language through which its five stakeholder groups and twelve teams — <glossterm linkend="term-product-management" baseform="Product management">Product</glossterm>, <glossterm linkend="term-project-management" baseform="Project management">Project</glossterm>, <glossterm linkend="term-user-experience-design" baseform="User experience design">UX</glossterm>, <firstterm linkend="term-art-direction" baseform="Art direction">Art</firstterm>, <glossterm linkend="term-technical-specification" baseform="Technical specification">Specification</glossterm>, <glossterm linkend="term-software-development" baseform="Software development">Development</glossterm>, <glossterm linkend="term-devops">Devops</glossterm>, <glossterm linkend="term-verification">Verification</glossterm>, <glossterm linkend="term-validation">Validation</glossterm>, <glossterm linkend="term-quality-assurance" baseform="Quality assurance">Quality</glossterm>, <glossterm linkend="term-security">Security</glossterm>, and <glossterm linkend="term-legal-compliance" baseform="Legal compliance">Legal</glossterm> — will negotiate integrity together.
         Existing languages are not quite there yet.
-        Even those with proven industrial success — e.g. Z, B, Rocq, or Lean — typically address specification, development, and verification needs.
-        UX designers, artists, devops engineers, product managers, users, and other external stakeholders generally leave such languages to specialists; to them, they are no different from programming languages like, say, C++ or JavaScript.
-        Their preference for other ways of describing systems shows that formal languages are not yet accessible enough for those groups to participate directly.
+        Even those with proven industrial success — e.g. Z, B, Rocq, or Lean — primarily support specification, development, and verification.
+        Product managers, UX designers, artists, devops engineers, and stakeholders generally leave such languages to specialists; to them, they are no different from programming languages like, say, C++ or JavaScript.
+        Their preference for other ways of describing systems shows that formal languages are not yet accessible enough for them to use as a direct means of communication.
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ15: a formal modelling language for the agentic era.
           Purpose: fragmented tooling.
         -->
-        A common formal language will also allow agents to contribute coherently throughout the engineering lifecycle.
-        Each role will be able to direct them precisely through shared models and receive independently verifiable claims in return.
-        By carrying intent and evidence across activities, agents will connect workflows.
-        The language’s name, <productname>Aurore</productname>, will commemorate its birth at the dawn of the agentic era.
+        A language designed to include them will not only strengthen inter-team synergy but also let agents assist everyone coherently throughout the <firstterm linkend="term-product-lifecycle">product lifecycle</firstterm>.
+        As teams express their models of the system in that language and reach agreement, they will be able to direct agents precisely and receive independently verifiable claims in return.
+        The language’s name, <productname>Aurore</productname><footnote><simpara>In French, <foreignphrase xml:lang="fr-FR">aurore</foreignphrase> is both the word for dawn and the name of a butterfly — the Orange-tip.</simpara></footnote>, will commemorate its birth at the dawn of the agentic era.
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ16: a libre integrated engineering environment.
           Purpose: limited exposure, fragmented tooling.
-
-          Strategic rationale:
-          - “Libre” addresses limited exposure by making a professional engineering environment available regardless of licensing budgets, institutional resources, or access to commercial vendors.
-          - “Integrated” addresses fragmented tooling by building on the common formal language introduced in VPαʹ15: Aurore connects engineering activities semantically, while Chrysal Studio brings the tools that support them into a coherent environment.
-          - Integrated engineering environments are not themselves a new concept; the proposition is to make one both broadly accessible and suited to formal engineering.
-
-          TODO: write this.
         -->
+        Each contributor to <productname>Papillon Journey</productname> must be able to use <productname>Aurore</productname> through an interface suited to their role.
+        That interface will materialise as <productname>Chrysal Studio</productname>, a <glossterm linkend="term-libre-software">libre</glossterm> <glossterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm>:
       </simpara>
+      <itemizedlist>
+        <listitem>
+          <simpara>
+            <glossterm linkend="term-libre-software">Libre</glossterm> because nobody will have to buy a seat to take part.
+            Anyone will also be free to repurpose <productname>Chrysal Studio</productname> for their own projects and share any variants they create.
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            <emphasis>Integrated</emphasis> because it will incorporate all the specialist tools each team needs, easing <productname>Aurore</productname>’s adoption.
+            Support for plugins will allow other tools to be added.
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            <glossterm linkend="term-software-engineering" baseform="Software engineering">Engineering</glossterm> because everybody will use the same software to negotiate, establish, and preserve integrity.
+          </simpara>
+        </listitem>
+      </itemizedlist>
       <simpara>
+        <productname>Chrysal Studio</productname> is <productname>Papillon Journey</productname>’s concrete answer to the challenge of making formal engineering widely accessible.
         <!--
-          Value Proposition VPαʹ17: evidence for making the case for formal engineering.
+          Value Proposition VPαʹ17: real-world examples to help advocates make the case for formal engineering.
           Purpose: limited exposure.
-          TODO: write this.
         -->
+        Keeping both products libre will enable people to fork them, experiment with them, and judge for themselves how well formal engineering works in their own practice.
+        Fellow formal-methods evangelists will also benefit from two real-world examples to help win clients over.
+        We hope they will use them to make their case or draw inspiration from them to build persuasive projects of their own — in the spirit of St Paul: less preaching, more demonstration (1&#xA0;Cor&#xA0;2:4).
       </simpara>
     </section>
     <section>
@@ -455,7 +471,7 @@
       <simpara><!-- TODO --></simpara>
     </epigraph>
     <simpara>
-      The project lifecycle is defined by outcomes rather than fixed timing.
+      The <glossterm linkend="term-product-lifecycle">product lifecycle</glossterm> is defined by outcomes rather than fixed timing.
       Its pace will depend on community building, community support, and the evidence gathered at each gate.
     </simpara>
     <itemizedlist>
@@ -488,7 +504,8 @@
       <listitem>
         <simpara>
           <emphasis role="strong"><foreignphrase xml:lang="fr-FR">Envol</foreignphrase>.</emphasis>
-          The project goes live: promotion, community growth, maintenance, partnerships, expansions, and feedback loops.
+          The product enters live operation: promotion, community growth, maintenance, partnerships, expansions, and feedback loops.
+          This final phase continues through its eventual responsible retirement.
         </simpara>
       </listitem>
     </itemizedlist>
@@ -770,7 +787,7 @@
           </row>
           <row>
             <entry>VPαʹ17</entry>
-            <entry>Evidence for making the case for formal engineering</entry>
+            <entry>Real-world examples to help advocates make the case for formal engineering</entry>
             <entry/>
             <entry>Limited exposure</entry>
             <entry/>
@@ -904,10 +921,16 @@
   </glossary>
   <bibliography>
     <title>References</title>
-    <xi:include href="../shared/bibliography/03.xml"/>
-    <xi:include href="../shared/bibliography/zh/dao4-de2-jing1.xml"/>
-    <xi:include href="../shared/bibliography/zh/hua4-mi2-le4-shang4-sheng1-zhen1-ji4.xml"/>
-    <xi:include href="../shared/bibliography/ja/tomasu-ni-yoru-fukuinsho.xml"/>
-    <xi:include href="../shared/bibliography/ja/gakumon-no-susume.xml"/>
+    <bibliodiv>
+      <title><productname>Papillon Journey</productname></title>
+      <xi:include href="../shared/bibliography/03.xml"/>
+    </bibliodiv>
+    <bibliodiv>
+      <title>Epigraphs</title>
+      <xi:include href="../shared/bibliography/zh/dao4-de2-jing1.xml"/>
+      <xi:include href="../shared/bibliography/zh/hua4-mi2-le4-shang4-sheng1-zhen1-ji4.xml"/>
+      <xi:include href="../shared/bibliography/ja/tomasu-ni-yoru-fukuinsho.xml"/>
+      <xi:include href="../shared/bibliography/ja/gakumon-no-susume.xml"/>
+    </bibliodiv>
   </bibliography>
 </article>

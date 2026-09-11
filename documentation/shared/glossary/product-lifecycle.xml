@@ -5,14 +5,15 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-legal-compliance"
+    xml:id="term-product-lifecycle"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Legal compliance</glossterm>
+  <glossterm>Product lifecycle</glossterm>
   <glossdef>
     <simpara>
-      The oversight of compliance with applicable laws and regulations throughout the <glossterm linkend="term-product-lifecycle">product lifecycle</glossterm> to safeguard the project and its <glossterm linkend="term-stakeholder">stakeholders</glossterm>.
+      The sequence of stages through which a product passes, from conception to retirement.
+      A product lifecycle can span multiple projects and continues beyond initial delivery through operation, support, and evolution.
     </simpara>
     <glossseealso otherterm="term-lifecycle-management">Lifecycle management</glossseealso>
   </glossdef>
@@ -28,12 +29,11 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
   - Codex: GPT-5.6 Sol
 
   ### Added
 
-  - Defined ‘legal compliance’.
+  - Defined ‘product lifecycle’.
   - Cross-referenced related terms.
 
   ### Future work
