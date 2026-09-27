@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-09-11</date>
+    <date role="modified">2026-09-27</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -36,7 +36,7 @@
           <simpara>Agents:</simpara>
           <itemizedlist>
             <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.6 Sol, GPT-6 Astra</simpara></listitem>
+            <listitem><simpara>Codex: GPT-6 Sol, GPT-6 Astra</simpara></listitem>
             <listitem><simpara>Grok Build: Grok 4.5</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -78,7 +78,7 @@
     <note role="playbooks">
       <title>Applied playbooks</title>
       <bibliolist>
-        <xi:include href="../shared/bibliography/02-02-vision.xml"/>
+        <xi:include href="../shared/bibliography/en/02-02-vision.xml"/>
       </bibliolist>
     </note>
   </section>
@@ -115,7 +115,7 @@
           Companies favour tools that integrate smoothly into existing workflows.
           Those supporting formal methods — narrowly specialised and rarely <firstterm linkend="term-interoperability" baseform="Interoperability">interoperable</firstterm> — often fail to do so.
           <productname>Chrysal Studio</productname>, the research subproject of <productname>Papillon Journey</productname>, will explore and prototype an <glossterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm> to change that.
-          We will start building with the patchwork of disjointed tools available today, transitioning progressively to <productname>Chrysal Studio</productname>, until it can fully sustain both itself and the game.
+          We will start building with the patchwork of disjointed tools available today and progressively transition to <productname>Chrysal Studio</productname> until it can fully sustain both itself and the game.
         </simpara>
       </listitem>
       <listitem>
@@ -135,7 +135,7 @@
     </simpara>
     <simpara>
       <firstterm linkend="term-formal-engineering">Formal engineering</firstterm> deserves wider visibility.
-      A transparent, participatory, and engaging real-world use case accessible across various devices will provide it.
+      <productname>Papillon Journey</productname> is an invitation to experience it through a transparent, participatory, and engaging real-world use case accessible across various devices.
     </simpara>
   </section>
   <section>
@@ -169,7 +169,7 @@
         Training is future-oriented: the time and effort invested in it aim to unlock later payoffs — a job, promotion, career pivot, or proficiency.
         There is no such thing as training for the sake of it.
         The appeal of gaming, on the other hand, is precisely a break from that logic.
-        Players expect games to provide a brief window in their day through which they can throw out all future concerns and fully enjoy the present moment.
+        Players expect games to provide a brief window in their day in which they can set aside all future concerns and fully enjoy the present moment.
         An experience that fails to honour this misses the whole point.
         <!--
           Value Proposition VPαʹ1: enjoyable gameplay.
@@ -215,7 +215,7 @@
       <simpara>
         <!-- Core jobs -->
         The initial training of a software engineer reaches a satisfying end once they have the skills to turn software ideas into working, maintainable <firstterm linkend="term-system">systems</firstterm>.
-        Teamwork is one of them, as most systems are built through collaborative effort.
+        Those skills include teamwork, as most systems are built through collaborative effort.
         Continuing education then becomes a pursuit of mastery and specialisation.
       </simpara>
       <simpara>
@@ -229,7 +229,7 @@
               Purpose: limited exposure, inverted pedagogy.
               -->
             The fundamentals will be woven into the gameplay, so learners build skills through playful practice of <firstterm linkend="term-product-management" baseform="Product management">product</firstterm> and <firstterm linkend="term-project-management">project management</firstterm>, <firstterm linkend="term-user-experience-design" baseform="User experience design">UX design</firstterm>, <firstterm linkend="term-technical-specification" baseform="Technical specification">specification</firstterm>, <glossterm linkend="term-software-development" baseform="Software development">development</glossterm>, <firstterm linkend="term-devops">devops</firstterm>, <firstterm linkend="term-verification">verification</firstterm>, and <firstterm linkend="term-validation">validation</firstterm>.
-            As they advance the story, the levelling up of their characters will mirror their own progress, with the climactic endgame putting their skills to the ultimate test.
+            As they advance the story, their characters will level up in step with their own learning, and the climactic endgame will put their skills to the ultimate test.
           </simpara>
         </listitem>
         <listitem>
@@ -238,7 +238,7 @@
               Value Proposition VPαʹ7: hands-on mastery through the source code.
               Purpose: limited exposure, inverted pedagogy.
             -->
-            For learners eager to apply lessons learnt in-game to real-world scenarios, the project’s libre codebase will serve as an expansive playground for deeper mastery.
+            For learners eager to put lessons learnt in-game into real-world practice, the project’s libre codebase will serve as an expansive playground for deeper mastery.
             The comprehensive and high-quality documentation will empower them to study, contribute to, and adapt it with confidence.
             Dedicated community channels will foster support, collaboration, and knowledge sharing, ensuring no one navigates this journey alone.
           </simpara>
@@ -262,7 +262,7 @@
         Mods featured in-game will be selected through a transparent, fair, and community-driven peer-review process in which learners actively participate.
         To maintain a clear legal boundary, they will be indexed from third-party repositories rather than hosted on the project’s infrastructure.
         The process will filter out insecure or IP-infringing content, protecting the <productname>Papillon Journey</productname> trademark from association with harmful or unauthorised material.
-        Any that erroneously slipped through will be de-indexed upon report, and every mod update will have to undergo re-evaluation before being re-indexed.
+        Any that slip through will be de-indexed when reported, and every mod update will undergo re-evaluation before being re-indexed.
         Beyond risk mitigation, this collaborative effort will sharpen learners’ awareness of the <firstterm linkend="term-cross-cutting-concern">cross-cutting concerns</firstterm> of <firstterm linkend="term-security">security</firstterm>, <firstterm linkend="term-legal-compliance">legal compliance</firstterm>, and <firstterm linkend="term-quality-assurance">quality assurance</firstterm>.
       </simpara>
       <simpara>
@@ -273,14 +273,12 @@
           Strategic rationale:
           - This value proposition supports project profitability.
           - It complements VPαʹ5: the same partner studio can co-produce the crossover in-game content and its accompanying training materials.
-
-          Why learners may like this:
-          - This is expertise peer modders cannot be expected to provide.
+          - They offer learners expertise that peer modders cannot be expected to provide.
         -->
         Spending time with the modding framework may awaken in some learners a passion for game design, and they may aspire to turn it into a profession.
         For them, <productname>Papillon Journey</productname> will offer premium guides and tutorials co-authored with experienced studios.
-        Delivered across multiple media, these materials will draw on concrete examples and exercises straight from the modding framework, giving learners experience in crafting games on par with professional productions.
-        For partner studios, this will be a distinctive opportunity to invest in people who are more than fans — who look to them as inspiration for a career of their own.
+        Delivered across multiple media, these materials will feature concrete examples and exercises based on the modding framework, giving learners experience in crafting games on par with professional productions.
+        For partner studios, this will be a distinctive opportunity to invest in people who are more than fans — who draw inspiration from them for a career of their own.
       </simpara>
     </section>
     <section>
@@ -293,7 +291,8 @@
       </simpara>
       <simpara>
         Effective navigation relies on reference points: at sea, a lighthouse; ashore, a landmark.
-        For educators, the equivalent is a canonical work — a book, a research paper, or a project — that learners can steer by.
+        For educators, the equivalent is a canonical work — a book, research paper, or project — that learners can steer by.
+        <!-- Pain focus -->
         Formal engineering does not lack reference texts; what is missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
         <!--
           Value Proposition VPαʹ11: a real-world formal engineering project built for teaching.
@@ -358,7 +357,7 @@
       </simpara>
       <simpara>
         Formal engineering supplies trustworthy evidence for agentic work, while generative AI drives down the cost that has confined the discipline: each addresses the other’s weakness.
-        Just as agents have found their way from a specialist niche into everyday business workflows, formal engineering now has an opportunity to do the same — provided it too makes itself widely accessible.
+        Just as agents have found their way from a specialist niche into everyday business workflows, formal engineering now has an opportunity to do the same — <!-- Pain focus --> provided it too makes itself widely accessible.
       </simpara>
       <simpara>
         <!--
@@ -369,7 +368,7 @@
         The project will develop a new formal modelling language through which its five stakeholder groups and twelve teams — <glossterm linkend="term-product-management" baseform="Product management">Product</glossterm>, <glossterm linkend="term-project-management" baseform="Project management">Project</glossterm>, <glossterm linkend="term-user-experience-design" baseform="User experience design">UX</glossterm>, <firstterm linkend="term-art-direction" baseform="Art direction">Art</firstterm>, <glossterm linkend="term-technical-specification" baseform="Technical specification">Specification</glossterm>, <glossterm linkend="term-software-development" baseform="Software development">Development</glossterm>, <glossterm linkend="term-devops">Devops</glossterm>, <glossterm linkend="term-verification">Verification</glossterm>, <glossterm linkend="term-validation">Validation</glossterm>, <glossterm linkend="term-quality-assurance" baseform="Quality assurance">Quality</glossterm>, <glossterm linkend="term-security">Security</glossterm>, and <glossterm linkend="term-legal-compliance" baseform="Legal compliance">Legal</glossterm> — will negotiate integrity together.
         Existing languages are not quite there yet.
         Even those with proven industrial success — e.g. Z, B, Rocq, or Lean — primarily support specification, development, and verification.
-        Product managers, UX designers, artists, devops engineers, and stakeholders generally leave such languages to specialists; to them, they are no different from programming languages like, say, C++ or JavaScript.
+        Stakeholders, product managers, UX designers, artists, and devops engineers generally leave such languages to specialists; to them, they are no different from programming languages like, say, C++ or JavaScript.
         Their preference for other ways of describing systems shows that formal languages are not yet accessible enough for them to use as a direct means of communication.
       </simpara>
       <simpara>
@@ -387,7 +386,7 @@
           Purpose: limited exposure, fragmented tooling.
         -->
         Each contributor to <productname>Papillon Journey</productname> must be able to use <productname>Aurore</productname> through an interface suited to their role.
-        That interface will materialise as <productname>Chrysal Studio</productname>, a <glossterm linkend="term-libre-software">libre</glossterm> <glossterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm>:
+        That interface will be <productname>Chrysal Studio</productname>, a <glossterm linkend="term-libre-software">libre</glossterm> <glossterm linkend="term-integrated-engineering-environment">integrated <emphasis>engineering</emphasis> environment</glossterm>:
       </simpara>
       <itemizedlist>
         <listitem>
@@ -422,41 +421,71 @@
     <section>
       <title>Software engineering researchers</title>
       <simpara>
-        In ordinary commercial settings, practitioners are hired to steward the integrity of software subsystems for their stakeholders.
+        In ordinary commercial settings, software engineers are hired to steward the integrity of <firstterm linkend="term-software-subsystem">software subsystems</firstterm> for their stakeholders.
         The organisations funding their work must remain economically viable, so ideas with uncertain or distant returns compete for resources with immediate delivery needs.
         This leaves limited capacity to advance the knowledge and technologies through which integrity is negotiated, established, and preserved.
-        Even when companies make that investment, the results often remain proprietary, retained as a competitive advantage rather than made available for collective scrutiny and reuse.
+        Even when companies make that investment, the results often remain <firstterm linkend="term-proprietary-software" baseform="Proprietary software">proprietary</firstterm> to safeguard a competitive advantage, rather than being open to collective scrutiny and libre reuse.
       </simpara>
       <simpara>
         <!-- Core jobs -->
-        Research creates room to explore those very ideas.
-        The public agencies, universities, and other organisations funding it accept the uncertainty involved, but expect regular, evidence-backed accounts of where each idea leads — whether it bears fruit, reaches a dead end, or reveals possibilities worth pursuing.
-        Findings undergo peer review before publication in scholarly journals, while research magazines bring them to the attention of the wider public.
-        Standardisation efforts, teaching activities, tool development, and joint projects with practitioners then transfer the resulting knowledge and technologies into practice.
+        Research is where those ideas can be explored over the long term.
+        The universities, agencies, and other organisations funding it accept the uncertainty involved, but expect regular, evidence-backed accounts of where each idea leads.
+        Findings undergo peer review before publication in scholarly journals, while magazines bring them to the attention of the wider public.
+        Standardisation efforts, teaching activities, tool development, and joint projects with practitioners help bring discoveries into practice.
       </simpara>
       <simpara>
+        Formal engineering has progressed through partnerships with high-stakes industries, whose legitimate confidentiality and security concerns have restricted public access to project documentation and artefacts.
+        At first glance, that may seem at odds with researchers’ imperative to publish.
+        But simplified examples have allowed researchers to illustrate the formal methods they pioneered without revealing the context that shaped them.
+        Seen as a lifecycle, research produces artefacts — papers, textbooks, webinars, and the like — that researchers use to:
+      </simpara>
+      <itemizedlist>
+        <listitem>
+          <simpara>
+            expand the theory and practice of stewarding software integrity;
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            show progress to funders and secure their continued support;
+          </simpara>
+        </listitem>
+        <listitem>
+          <simpara>
+            gain recognition for their contributions and unlock further opportunities.
+          </simpara>
+        </listitem>
+      </itemizedlist>
+      <simpara>
+        Keeping the engineering context confidential does not prevent researchers from pursuing these aims, particularly the last two, which are vital to their careers.
         <!--
           Value Proposition VPαʹ18: a use case to experiment with and demonstrate research in context.
           Purpose: limited exposure.
         -->
-        Formal engineering has historically advanced through collaboration with high-stakes industries, where legitimate confidentiality and security obligations have restricted public access to project documentation and artefacts.
-        Many publications have therefore relied on simplified experiments to demonstrate the new approaches without exposing the contexts that shaped them.
-        As a game, <productname>Papillon Journey</productname> does not carry the kinds of stakes that require its engineering to remain secret.
-        And as an industrial-scale project, it will give researchers a use case in which to experiment with ideas and demonstrate their viability in addressing problems practitioners encounter in day-to-day work.
+        It does, however, make it harder for outsiders to see how formal methods could apply to their own work.
+        That gap reinforces the impression that they belong to a specialist niche.
+        As a game, <productname>Papillon Journey</productname> does not warrant that degree of secrecy.
+        It will give researchers an open, industrial-scale use case in which to experiment with ideas and demonstrate their viability in addressing problems practitioners encounter in day-to-day work.
       </simpara>
       <simpara>
         <!--
-          Value Proposition VPαʹ19: a unified engineering environment to host research-grade integrations.
+          Value Proposition VPαʹ19: a bridge between research and practice.
           Purpose: fragmented tooling.
-          TODO: write this.
         -->
+        Research builds on published work.
+        A significant part of <productname>Papillon Journey</productname>’s engineering effort will therefore be to make relevant formal-methods contributions usable with <productname>Aurore</productname> and <productname>Chrysal Studio</productname> — integrating compatible tools where possible and adapting or implementing underlying ideas where necessary.
+        This will give promising results a route into practitioners’ workflows.
+        In turn, problems encountered while putting them to work in game development can become questions for further research.
       </simpara>
       <simpara>
         <!--
           Value Proposition VPαʹ20: a project magazine issued with each release to showcase contributors’ work and research.
           Purpose: limited exposure.
-          TODO: write this.
         -->
+        Each release of <productname>Papillon Journey</productname> will come with a magazine that folds in its release notes.
+        Alongside a clear account of what changed, it will feature retrospectives, interviews, and perspectives from inside and outside the project.
+        These stories will give contributors and their work visibility and a public record they can point to when seeking recognition.
+        Edited rather than peer-reviewed, it makes no claim to be a scholarly journal — freeing it to recognise worthwhile contributions in many forms, whoever made them.
       </simpara>
     </section>
   </section>
@@ -801,7 +830,7 @@
           </row>
           <row>
             <entry>VPαʹ19</entry>
-            <entry>A unified engineering environment to host research-grade integrations</entry>
+            <entry>A bridge between research and practice</entry>
             <entry/>
             <entry>Fragmented tooling</entry>
             <entry/>
@@ -923,7 +952,7 @@
     <title>References</title>
     <bibliodiv>
       <title><productname>Papillon Journey</productname></title>
-      <xi:include href="../shared/bibliography/03.xml"/>
+      <xi:include href="../shared/bibliography/en/03.xml"/>
     </bibliodiv>
     <bibliodiv>
       <title>Epigraphs</title>

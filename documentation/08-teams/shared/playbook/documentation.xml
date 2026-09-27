@@ -12,7 +12,7 @@
   <info>
     <title>Documentation</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-09-11</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -42,14 +42,14 @@
   <note role="standards">
     <title>Applicable standards</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/oasis-2016.xml"/>
-      <xi:include href="../../../shared/bibliography/w3c-2006.xml"/>
+      <xi:include href="../../../shared/bibliography/en/oasis-2016.xml"/>
+      <xi:include href="../../../shared/bibliography/en/w3c-2006.xml"/>
     </bibliolist>
   </note>
   <note role="guidance">
     <title>Guiding references</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/lacan-2024.xml"/>
+      <xi:include href="../../../shared/bibliography/en/lacan-2024.xml"/>
     </bibliolist>
   </note>
   <simpara>

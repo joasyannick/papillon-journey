@@ -44,7 +44,7 @@
   <note role="standards">
     <title>Applicable standards</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/iso-2019.xml"/>
+      <xi:include href="../../../shared/bibliography/en/iso-2019.xml"/>
     </bibliolist>
   </note>
   <note role="guidance">

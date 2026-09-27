@@ -10,12 +10,12 @@
     xmlns="http://docbook.org/ns/docbook"
     xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Papillon Journey</title>
-  <xi:include href="../notices/publisher.xml"/>
+  <xi:include href="../../notices/publisher.xml"/>
 </biblioset>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-17
+  ## Story 1 — 2026-09-11
 
   ### Authors
 

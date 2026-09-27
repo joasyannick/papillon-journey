@@ -20,15 +20,6 @@ starting any task.
 
 Story 1: Product Vision (branch `product/story/1-product-vision`)
 
-Stakeholder groups:
-1. Video game players
-2. Software engineering learners
-3. Software engineering educators
-4. Software engineering practitioners
-5. Software engineering researchers
-
 Outstanding TODOs:
-- Complete practitioners' value propositions
-- Complete researchers' value propositions
 - Lifecycle management documentation
 - Success metrics definition

@@ -5,25 +5,24 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <biblioentry
-    xml:id="w3c-2006"
+    xml:id="oasis-2016"
     xml:lang="en-US"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1"
     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <abbrev>W3C 2006</abbrev>
-  <title>XML Inclusions (XInclude) Version 1.0</title>
-  <subtitle>Second Edition</subtitle>
-  <pubdate>2006-11-15</pubdate>
-  <orgname>World Wide Web Consortium</orgname>
-  <biblioid class="uri">https://www.w3.org/TR/xinclude/</biblioid>
+  <abbrev>OASIS 2016</abbrev>
+  <title>DocBook Version 5.1</title>
+  <pubdate>2016-11-22</pubdate>
+  <orgname>OASIS</orgname>
+  <biblioid class="uri">https://docs.oasis-open.org/docbook/docbook/v5.1/docbook-v5.1.html</biblioid>
   <bibliomisc>
-    <link xlink:href="https://www.w3.org/TR/xinclude/">W3C Recommendation</link>
+    <link xlink:href="https://docs.oasis-open.org/docbook/docbook/v5.1/docbook-v5.1.html">OASIS Standard</link>
   </bibliomisc>
 </biblioentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-16
+  ## Story 1 — 2026-09-11
 
   ### Authors
 
@@ -31,9 +30,10 @@
 
   ### Agents
 
+  - Claude Code: Sonnet 5
   - Codex: GPT-5.6 Sol
 
   ### Added
 
-  - Made the XInclude 1.0 standard citable.
+  - Made the DocBook 5.1 standard citable.
 -->

@@ -5,18 +5,17 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-software"
+    xml:id="term-proprietary-software"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Software</glossterm>
+  <glossterm>Proprietary software</glossterm>
   <glossdef>
     <simpara>
-      The instructions, data, and configuration that define behaviour executed by a computing <glossterm linkend="term-system">system</glossterm>.
+      Software whose owner restricts users from studying, modifying, or redistributing it.
     </simpara>
-    <glossseealso otherterm="term-software-engineering">Software engineering</glossseealso>
-    <glossseealso otherterm="term-software-subsystem">Software subsystem</glossseealso>
-    <glossseealso otherterm="term-system">System</glossseealso>
+    <glossseealso otherterm="term-libre-software">Libre software</glossseealso>
+    <glossseealso otherterm="term-open-source-software">Open-source software</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -30,12 +29,11 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
   - Codex: GPT-6 Sol
 
   ### Added
 
-  - Defined ‘software’.
+  - Defined ‘proprietary software’.
   - Cross-referenced related terms.
 
   ### Future work

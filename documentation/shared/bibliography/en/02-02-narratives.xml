@@ -5,29 +5,34 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <biblioentry
-    xml:id="βα"
+    xml:id="ββ-narratives"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1"
     xmlns:xi="http://www.w3.org/2001/XInclude">
-  <abbrev>βα</abbrev>
+  <biblioset relation="chapter">
+    <title>Defining narratives</title>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author-name.gen.xml"/>
+    </authorgroup>
+  </biblioset>
   <biblioset relation="book">
-    <biblioid class="pubsnumber">βα</biblioid>
-    <title>Lifecycle management plan</title>
+    <biblioid class="pubsnumber">ββ</biblioid>
+    <title>Lifecycle management playbook</title>
     <pubdate></pubdate>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
-      <xi:include href="../../07-contributions/01-people/joas/editor-name.gen.xml"/>
+      <xi:include href="../../../07-contributions/01-people/joas/editor-name.gen.xml"/>
     </authorgroup>
-    <xi:include href="../notices/copyright.xml"/>
+    <xi:include href="../../notices/copyright.xml"/>
   </biblioset>
   <xi:include href="papillon-journey.xml"/>
 </biblioentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-17
+  ## Story 1 — 2026-09-11
 
   ### Authors
 
@@ -40,5 +45,5 @@
 
   ### Added
 
-  - Made _Lifecycle management plan_ citable.
+  - Made _Defining narratives_ citable.
 -->

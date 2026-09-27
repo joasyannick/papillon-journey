@@ -16,12 +16,13 @@
     </simpara>
     <glossseealso otherterm="term-limited-exposure">Limited exposure</glossseealso>
     <glossseealso otherterm="term-open-source-software">Open-source software</glossseealso>
+    <glossseealso otherterm="term-proprietary-software">Proprietary software</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-09-27
 
   ### Authors
 
@@ -30,7 +31,7 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-6 Sol
 
   ### Added
 

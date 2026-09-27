@@ -8,7 +8,7 @@
    <info>
       <biblioid class="pubsnumber">ϛε1</biblioid>
       <title>Product vision</title>
-      <date role="modified">2026-07-16</date>
+      <date role="modified">2026-09-11</date>
       <pubdate/>
       <releaseinfo>Éclosion 0.1.0</releaseinfo>
       <edition>0.1</edition>
@@ -28,7 +28,7 @@
                <simpara>Agents:</simpara>
                <itemizedlist>
                   <listitem>
-                     <simpara>Claude Code: Sonnet 4.6</simpara>
+                     <simpara>Claude Code: Sonnet 5</simpara>
                   </listitem>
                   <listitem>
                      <simpara>Codex: GPT-5.6 Sol</simpara>
@@ -64,7 +64,7 @@
          </listitem>
       </itemizedlist>
       <simpara>
-        ‘Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!’
+         <quote>Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!</quote>
       </simpara>
       <simpara>
         The SMS notification lit up Joséphine’s phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
@@ -103,7 +103,7 @@
          <xi:include xmlns="http://chrysalide-learning.coop/ns/narratives"
                      xmlns:doc="http://docbook.org/ns/docbook"
                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="../../../shared/bibliography/02-02-narratives.xml"/>
+                     href="../../../shared/bibliography/en/02-02-narratives.xml"/>
       </bibliolist>
    </section>
    <section>

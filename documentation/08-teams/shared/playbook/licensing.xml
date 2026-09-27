@@ -12,7 +12,7 @@
   <info>
     <title>Licensing</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-09-11</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -42,7 +42,7 @@
   <note role="guidance">
     <title>Guiding references</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/fsfe-2024.xml"/>
+      <xi:include href="../../../shared/bibliography/en/fsfe-2024.xml"/>
     </bibliolist>
   </note>
   <simpara>

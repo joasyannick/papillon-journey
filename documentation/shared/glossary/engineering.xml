@@ -42,6 +42,7 @@
   <xi:include href="software.xml"/>
   <xi:include href="software-development.xml"/>
   <xi:include href="software-engineering.xml"/>
+  <xi:include href="software-subsystem.xml"/>
   <xi:include href="stakeholder.xml"/>
   <xi:include href="system.xml"/>
   <xi:include href="systems-engineering.xml"/>
@@ -55,7 +56,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-09-11
+  ## Story 1 — 2026-09-19
 
   ### Authors
 
@@ -69,8 +70,4 @@
   ### Added
 
   - Created the Engineering glossary division to group terms that form a single connected component in the see/see-also graph.
-
-  ### Future work
-
-  - Cite bibliography sources.
 -->

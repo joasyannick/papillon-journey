@@ -12,7 +12,7 @@
   <info>
     <title>Writing</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-17</date>
+    <date role="modified">2026-09-11</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -75,6 +75,10 @@
     Chinese epigraphs use <literal>xml:lang="lzh-Hant"</literal> for Classical/Literary Chinese; modern Chinese uses <literal>xml:lang="zh-Hant"</literal> or <literal>xml:lang="zh-Hans"</literal> according to the script of the source material — a quote from a Simplified-script source keeps its Simplified characters rather than being converted to Traditional. Japanese epigraphs use <literal>xml:lang="ja"</literal> regardless of period or register.
   </simpara>
   <simpara>
+    Entries are grouped into a subfolder per source language: <filename>en/</filename> for the large majority of sources — English-language works, and this project's own documentation — and <filename>ja/</filename> or <filename>zh/</filename> for the classical or epigraph sources described below.
+    A <tag>bibliodiv</tag> that groups entries under a glossary topic, rather than being an entry itself, stays directly under <filename>shared/bibliography/</filename> instead of inside a language subfolder, since the entries it eventually collects may span more than one language.
+  </simpara>
+  <simpara>
     Bibliography entry files, and their <tag>xml:id</tag>, are named identically, using a scheme based on the kind of source:
   </simpara>
   <itemizedlist>
@@ -106,6 +110,6 @@
     Between <literal>book</literal> and <literal>set</literal>, the deciding question is whether the container is a single physical or material unit. A bounded volume — even one gathering many pieces, such as an author's collected works — is a <literal>book</literal>. Several volumes cited as one work, as a multi-volume monograph would be, is a <literal>set</literal> with <literal>role="multi-volume"</literal>. An open-ended series of independently titled books under a shared imprint is a <literal>set</literal> with <literal>role="series"</literal>.
   </simpara>
   <simpara>
-    Every internal document — a source produced by this project itself, such as the vision or a playbook chapter — additionally sits inside a <literal>relation="set" role="documentation"</literal> <tag>biblioset</tag> titled <literal>Papillon Journey</literal>, shared across entries via <filename>shared/bibliography/papillon-journey.xml</filename>.
+    Every internal document — a source produced by this project itself, such as the vision or a playbook chapter — additionally sits inside a <literal>relation="set" role="documentation"</literal> <tag>biblioset</tag> titled <literal>Papillon Journey</literal>, shared across entries via <filename>shared/bibliography/en/papillon-journey.xml</filename>.
   </simpara>
 </chapter>

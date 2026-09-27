@@ -45,13 +45,13 @@
   <note role="stories">
     <title>Model stories</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/06-05-1.xml"/>
+      <xi:include href="../../../shared/bibliography/en/06-05-1.xml"/>
     </bibliolist>
   </note>
   <note role="guidance">
     <title>Guiding references</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/osterwalder-et-al-2014.xml"/>
+      <xi:include href="../../../shared/bibliography/en/osterwalder-et-al-2014.xml"/>
     </bibliolist>
   </note>
   <section>

@@ -21,11 +21,12 @@
   <xi:include href="non-player-character.xml"/>
   <xi:include href="open-source-software.xml"/>
   <xi:include href="player-versus-player.xml"/>
+  <xi:include href="proprietary-software.xml"/>
 </glossdiv>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-09-27
 
   ### Authors
 
@@ -34,13 +35,10 @@
   ### Agents
 
   - Claude Code: Sonnet 5
-  - Codex: GPT-5.5
+  - Codex: GPT-5.6 Sol
 
   ### Added
 
+  - Included proprietary software in the glossary division.
   - Created the Game Design glossary division to group terms that form a single connected component in the see/see-also graph.
-
-  ### Future work
-
-  - Cite bibliography sources.
 -->

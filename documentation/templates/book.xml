@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber"><!-- TODO: document ID --></biblioid>
     <title><!-- TODO: document title --></title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-09-11</date>
     <releaseinfo><!-- TODO: version of the release this edition is delivered with --></releaseinfo>
     <edition><!-- TODO: edition number --></edition>
     <authorgroup>
@@ -123,7 +123,7 @@
   <!--
   <bibliography>
     <title>References</title>
-    <xi:include href="../shared/bibliography/01.xml"/>
+    <xi:include href="../shared/bibliography/en/01.xml"/>
   </bibliography>
   -->
 </book>

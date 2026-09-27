@@ -5,29 +5,34 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <biblioentry
-    xml:id="δα"
+    xml:id="ββ-vision"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1"
     xmlns:xi="http://www.w3.org/2001/XInclude">
-  <abbrev>δα</abbrev>
-  <biblioset relation="article">
-    <biblioid class="pubsnumber">δα</biblioid>
-    <title>Business model</title>
+  <biblioset relation="chapter">
+    <title>Defining a vision</title>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author-name.gen.xml"/>
+    </authorgroup>
+  </biblioset>
+  <biblioset relation="book">
+    <biblioid class="pubsnumber">ββ</biblioid>
+    <title>Lifecycle management playbook</title>
     <pubdate></pubdate>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
-      <xi:include href="../../07-contributions/01-people/joas/author-name.gen.xml"/>
+      <xi:include href="../../../07-contributions/01-people/joas/editor-name.gen.xml"/>
     </authorgroup>
-    <xi:include href="../notices/copyright.xml"/>
+    <xi:include href="../../notices/copyright.xml"/>
   </biblioset>
   <xi:include href="papillon-journey.xml"/>
 </biblioentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-17
+  ## Story 1 — 2026-09-11
 
   ### Authors
 
@@ -40,5 +45,5 @@
 
   ### Added
 
-  - Made _Business model_ citable.
+  - Made _Defining a vision_ citable.
 -->
