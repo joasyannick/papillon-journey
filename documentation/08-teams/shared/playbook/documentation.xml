@@ -12,7 +12,7 @@
   <info>
     <title>Documentation</title>
     <pubdate></pubdate>
-    <date role="modified">2026-09-11</date>
+    <date role="modified">2026-10-03</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -24,7 +24,7 @@
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -39,17 +39,20 @@
       </revision>
     </revhistory>
   </info>
+  <epigraph>
+    <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+  </epigraph>
   <note role="standards">
     <title>Applicable standards</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/en/oasis-2016.xml"/>
-      <xi:include href="../../../shared/bibliography/en/w3c-2006.xml"/>
+      <bibliomixed role="expanded"><biblioref linkend="oasis-2016"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="w3c-2006"/></bibliomixed>
     </bibliolist>
   </note>
   <note role="guidance">
     <title>Guiding references</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/en/lacan-2024.xml"/>
+      <bibliomixed role="expanded"><biblioref linkend="lacan-2024"/></bibliomixed>
     </bibliolist>
   </note>
   <simpara>
@@ -60,6 +63,9 @@
   </simpara>
   <section>
     <title>Project layout</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <variablelist>
       <varlistentry>
         <term><filename>documentation/shared/</filename></term>
@@ -113,6 +119,9 @@
   </section>
   <section>
     <title>Document identifiers</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Every project document carries a <tag>biblioid</tag> element with <tag class="attribute">class="pubsnumber"</tag> that uniquely identifies it within the documentation tree.
       The value encodes the document's filesystem path by converting each numeric directory prefix into a Greek numeral and concatenating the results.
@@ -152,6 +161,9 @@
   </section>
   <section>
     <title>Shared content</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Reusable fragments live in <filename>documentation/shared/</filename> and are included via XInclude:
     </simpara>
@@ -159,6 +171,9 @@
   </section>
   <section>
     <title>Glossary</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       A document's glossary must contain every term referenced in the document body, plus every term in the same connected component of the <code>glossseealso</code> graph.
       <code>glossseealso</code> links are bidirectional: if entry A links to B, entry B must also link back to A.
@@ -166,12 +181,22 @@
   </section>
   <section>
     <title>Bibliography</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       A document's bibliography must contain only entries cited in the document body.
+    </simpara>
+    <simpara>
+      Because each entry carries an <tag>xml:id</tag> that must be unique within a document, a book includes every entry exactly once, in its bibliography, grouped in divisions.
+      Chapters that need an entry in their own notes point to it with a <tag>biblioref</tag> wrapped in a <tag>bibliomixed</tag>, rather than including the entry file again.
     </simpara>
   </section>
   <section>
     <title>Generated files</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Generated files use <literal>.gen</literal> immediately before the filename extension and remain beside their source file.
       Each generated file must identify its source and generator, state that it must not be edited directly, and omit a manually maintained changelog.
@@ -179,6 +204,9 @@
   </section>
   <section>
     <title>Changelogs</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Project-authored files without a built-in changelog mechanism (such as <code>revhistory</code>) carry a footer changelog in Keep a Changelog format, using Story numbers instead of release versions.
       The union of authors across all changelog entries must equal the SPDX copyright holders of the file.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<biblioentry
+    xml:id="mckee-1997"
+    xml:lang="en-US"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1">
+  <abbrev>McKee 1997</abbrev>
+  <biblioset relation="book">
+    <biblioid class="isbn">978-0-06-039168-3</biblioid>
+    <title>Story</title>
+    <subtitle>Substance, structure, style, and the principles of screenwriting</subtitle>
+    <pubdate>1997</pubdate>
+    <author>
+      <personname>
+        <givenname>Robert</givenname>
+        <surname>McKee</surname>
+      </personname>
+    </author>
+    <copyright>
+      <year>1997</year>
+      <holder>Robert McKee</holder>
+    </copyright>
+    <publisher>
+      <publishername>ReganBooks</publishername>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <country>United States</country>
+      </address>
+    </publisher>
+  </biblioset>
+</biblioentry>
+<!--
+  # Changelog
+
+  ## Story 1 — 2026-10-02
+
+  ### Authors
+
+  - Joas Yannick Kinouani
+
+  ### Agents
+
+  - Claude Code: Sonnet 5.5
+
+  ### Added
+
+  - Made _Story_ citable.
+-->

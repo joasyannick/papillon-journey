@@ -24,12 +24,13 @@
   <persona>
     <portfolio website="GitHub" url="https://github.com/joasyannick" />
     <social network="LinkedIn" url="https://www.linkedin.com/in/joas-yannick-kinouani"/>
+    <webTv channel="LocalFrequenciesFM" url="https://www.youtube.com/@LocalFrequenciesFM"/>
   </persona>
 </contributor>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-09-25
+  ## Story 1 — 2026-10-02
 
   ### Authors
 
@@ -37,7 +38,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
+  - Claude Code: Sonnet 5.5
   - Codex: GPT-5.6 Sol
 
   ### Added

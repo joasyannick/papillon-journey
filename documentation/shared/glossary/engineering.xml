@@ -49,6 +49,7 @@
   <xi:include href="technical-specification.xml"/>
   <xi:include href="usability.xml"/>
   <xi:include href="user-experience-design.xml"/>
+  <xi:include href="user-story.xml"/>
   <xi:include href="validation.xml"/>
   <xi:include href="value-proposition.xml"/>
   <xi:include href="verification.xml"/>
@@ -56,7 +57,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-09-19
+  ## Story 1 — 2026-10-03
 
   ### Authors
 
@@ -64,7 +65,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
+  - Claude Code: Sonnet 5.5
   - Codex: GPT-5.6 Sol
 
   ### Added

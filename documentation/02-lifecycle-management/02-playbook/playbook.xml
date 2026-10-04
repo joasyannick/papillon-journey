@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">ββ</biblioid>
     <title>Lifecycle management playbook</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-10-04</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -35,8 +35,8 @@
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
-            <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
           <itemizedlist>
@@ -77,4 +77,25 @@
     <xi:include href="../../shared/glossary/engineering.xml"/>
     <xi:include href="../../shared/glossary/game-design.xml"/>
   </glossary>
+  <bibliography>
+    <title>References</title>
+    <bibliodiv>
+      <title>Applicable standards</title>
+      <xi:include href="../../shared/bibliography/en/iso-2019.xml"/>
+      <xi:include href="../../shared/bibliography/en/oasis-2016.xml"/>
+      <xi:include href="../../shared/bibliography/en/w3c-2006.xml"/>
+    </bibliodiv>
+    <bibliodiv>
+      <title>Guiding references</title>
+      <xi:include href="../../shared/bibliography/en/cohn-2004.xml"/>
+      <xi:include href="../../shared/bibliography/en/fsfe-2024.xml"/>
+      <xi:include href="../../shared/bibliography/en/lacan-2024.xml"/>
+      <xi:include href="../../shared/bibliography/en/mckee-1997.xml"/>
+      <xi:include href="../../shared/bibliography/en/osterwalder-et-al-2014.xml"/>
+    </bibliodiv>
+    <bibliodiv>
+      <title>Model stories</title>
+      <xi:include href="../../shared/bibliography/en/06-05-1.xml"/>
+    </bibliodiv>
+  </bibliography>
 </book>

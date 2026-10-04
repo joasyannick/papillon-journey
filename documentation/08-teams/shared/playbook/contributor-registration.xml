@@ -12,7 +12,7 @@
   <info>
     <title>Contributor registration</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-10-02</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -24,7 +24,7 @@
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -39,6 +39,9 @@
       </revision>
     </revhistory>
   </info>
+  <epigraph>
+    <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+  </epigraph>
   <simpara>
     Every contributor is registered via a profile file conforming to the contributor schema at <filename>documentation/07-contributions/01-people/contributor.xsd</filename>.
     Profiles live under <filename>documentation/07-contributions/01-people/</filename>, one directory per contributor named after their GitHub username:
@@ -46,6 +49,9 @@
   <programlisting>documentation/07-contributions/01-people/<replaceable>username</replaceable>/contributor.xml</programlisting>
   <section>
     <title>Validation</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Validate a profile's structure against the schema:
     </simpara>
@@ -66,6 +72,9 @@ java -jar documentation/tools/saxon/home-edition/12.7/saxon-he-12.7.jar \
   </section>
   <section>
     <title>DocBook fragment generation</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Two DocBook fragments are generated from each profile and committed alongside it: a full <tag>author</tag> element for document headers, and a name-only one for bibliographies.
       Pass <literal>role=editor</literal> to generate the equivalent <tag>editor</tag> fragments instead, for edited-work cases.

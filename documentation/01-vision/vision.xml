@@ -13,7 +13,7 @@
     <biblioid class="pubsnumber">α</biblioid>
     <title>The <foreignphrase xml:lang="fr-FR">papillon</foreignphrase> journey ahead</title>
     <pubdate></pubdate>
-    <date role="modified">2026-09-27</date>
+    <date role="modified">2026-09-29</date>
     <releaseinfo>Éclosion 0.1.0</releaseinfo>
     <edition>0.1</edition>
     <authorgroup>
@@ -157,7 +157,7 @@
     </epigraph>
     <simpara>
       <firstterm linkend="term-value-proposition">Value propositions</firstterm> evolve alongside the people they serve.
-      As their goals, challenges, and expectations shift, some facets are reinvented and others phased out.
+      As their goals, challenges, and expectations shift, some facets are reshaped and others phased out.
       Even so, certain core needs persist, and these are what keep a project relevant over time.
       Below, we outline those that matter most to our <firstterm linkend="term-stakeholder">stakeholders</firstterm> and map them to value propositions.
       For a deeper dive, see <citation>γ</citation>.
@@ -170,7 +170,7 @@
         There is no such thing as training for the sake of it.
         The appeal of gaming, on the other hand, is precisely a break from that logic.
         Players expect games to provide a brief window in their day in which they can set aside all future concerns and fully enjoy the present moment.
-        An experience that fails to honour this misses the whole point.
+        <!-- Main pain --> An experience that fails to honour this misses the whole point.
         <!--
           Value Proposition VPαʹ1: enjoyable gameplay.
           Purpose: inverted pedagogy.
@@ -292,8 +292,7 @@
       <simpara>
         Effective navigation relies on reference points: at sea, a lighthouse; ashore, a landmark.
         For educators, the equivalent is a canonical work — a book, research paper, or project — that learners can steer by.
-        <!-- Pain focus -->
-        Formal engineering does not lack reference texts; what is missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
+        Formal engineering does not lack reference texts; <!-- Main pain --> what is missing is an industrial-scale project designed to be taught from, so educators no longer have to rely on toy examples alone.
         <!--
           Value Proposition VPαʹ11: a real-world formal engineering project built for teaching.
           Purpose: inverted pedagogy.
@@ -357,7 +356,7 @@
       </simpara>
       <simpara>
         Formal engineering supplies trustworthy evidence for agentic work, while generative AI drives down the cost that has confined the discipline: each addresses the other’s weakness.
-        Just as agents have found their way from a specialist niche into everyday business workflows, formal engineering now has an opportunity to do the same — <!-- Pain focus --> provided it too makes itself widely accessible.
+        Just as agents have found their way from a specialist niche into everyday business workflows, formal engineering now has an opportunity to do the same — <!-- Main pain --> provided it too makes itself widely accessible.
       </simpara>
       <simpara>
         <!--
@@ -458,12 +457,12 @@
       </itemizedlist>
       <simpara>
         Keeping the engineering context confidential does not prevent researchers from pursuing these aims, particularly the last two, which are vital to their careers.
+        <!-- Main pain --> It does, however, make it harder for outsiders to see how formal methods could apply to their own work.
+        That gap reinforces the impression that they belong to a specialist niche.
         <!--
           Value Proposition VPαʹ18: a use case to experiment with and demonstrate research in context.
           Purpose: limited exposure.
         -->
-        It does, however, make it harder for outsiders to see how formal methods could apply to their own work.
-        That gap reinforces the impression that they belong to a specialist niche.
         As a game, <productname>Papillon Journey</productname> does not warrant that degree of secrecy.
         It will give researchers an open, industrial-scale use case in which to experiment with ideas and demonstrate their viability in addressing problems practitioners encounter in day-to-day work.
       </simpara>

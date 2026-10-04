@@ -7,12 +7,14 @@
 <story
     id="1"
     slug="narrative-slug"
+    backstory="fiction"
     xmlns="http://chrysalide-learning.coop/ns/narratives"
     xmlns:doc="http://docbook.org/ns/docbook"
     xmlns:xi="http://www.w3.org/2001/XInclude">
   <responsible-team>product</responsible-team>
   <priority>medium</priority>
   <!-- Replace the root element with saga, what-if, tale, epic, or story. -->
+  <!-- Set backstory to true-story (a real-world story), mixed (real and invented elements combined), or fiction (invented). -->
   <!--
   <relations>
     <epic id="1" slug="epic-slug"/>
@@ -98,7 +100,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-16
+  ## Story 1 — 2026-10-03
 
   ### Authors
 
@@ -106,7 +108,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
+  - Claude Code: Sonnet 5.5
   - Codex: GPT-5.6 Sol
 
   ### Added

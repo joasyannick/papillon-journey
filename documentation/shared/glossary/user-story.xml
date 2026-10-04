@@ -5,20 +5,18 @@
   SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <glossentry
-    xml:id="term-value-proposition"
+    xml:id="term-user-story"
     xml:lang="en-GB"
     xmlns="http://docbook.org/ns/docbook"
     version="5.1">
-  <glossterm>Value proposition</glossterm>
+  <glossterm>User story</glossterm>
   <glossdef>
     <simpara>
-      A clear statement of the benefit a product or service delivers to a specific group of stakeholders.
+      A <glossterm linkend="term-requirement">requirement</glossterm> told as a story from the user's point of view: who they are, the job they are trying to do, the pains standing in their way, the feature they want, and the gains it unlocks.
     </simpara>
-    <glossseealso otherterm="term-product-management">Product management</glossseealso>
-    <glossseealso otherterm="term-key-success-indicator">Key success indicator</glossseealso>
     <glossseealso otherterm="term-requirement">Requirement</glossseealso>
     <glossseealso otherterm="term-stakeholder">Stakeholder</glossseealso>
-    <glossseealso otherterm="term-user-story">User story</glossseealso>
+    <glossseealso otherterm="term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
 <!--
@@ -33,11 +31,10 @@
   ### Agents
 
   - Claude Code: Sonnet 5.5
-  - Codex: GPT-5.5
 
   ### Added
 
-  - Defined ‘value proposition’.
+  - Defined ‘user story’.
   - Cross-referenced related terms.
 
   ### Future work

@@ -17,13 +17,14 @@
     <glossseealso otherterm="term-product-management">Product management</glossseealso>
     <glossseealso otherterm="term-project-management">Project management</glossseealso>
     <glossseealso otherterm="term-requirement">Requirement</glossseealso>
+    <glossseealso otherterm="term-user-story">User story</glossseealso>
     <glossseealso otherterm="term-value-proposition">Value proposition</glossseealso>
   </glossdef>
 </glossentry>
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-15
+  ## Story 1 — 2026-10-03
 
   ### Authors
 
@@ -31,7 +32,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
+  - Claude Code: Sonnet 5.5
   - Codex: GPT-5.5
 
   ### Added

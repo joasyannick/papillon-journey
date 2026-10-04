@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: 2026 Chrysalide Learning
+  SPDX-FileCopyrightText: 2026 Joas Yannick Kinouani
+  SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<chapter
+    xml:lang="en-GB"
+    xmlns="http://docbook.org/ns/docbook"
+    version="5.1"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+  <info>
+    <title>Bringing stories to user stories</title>
+    <pubdate></pubdate>
+    <date role="modified">2026-10-04</date>
+    <authorgroup>
+      <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+    </authorgroup>
+    <revhistory>
+      <revision>
+        <revnumber>Draft 0.1 — Story 1</revnumber>
+        <date role="pubdate"></date>
+        <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
+        <revdescription>
+          <simpara>Agents:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
+            <listitem><simpara>Codex: GPT-6 Sol</simpara></listitem>
+          </itemizedlist>
+          <simpara>Added:</simpara>
+          <itemizedlist>
+            <listitem><simpara>Wrote guidance on storytelling in user stories.</simpara></listitem>
+          </itemizedlist>
+        </revdescription>
+      </revision>
+    </revhistory>
+  </info>
+  <epigraph>
+    <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+  </epigraph>
+  <note role="guidance">
+    <title>Guiding references</title>
+    <bibliolist>
+      <bibliomixed role="expanded"><biblioref linkend="cohn-2004"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="mckee-1997"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="osterwalder-et-al-2014"/></bibliomixed>
+    </bibliolist>
+  </note>
+  <note role="stories">
+    <title>Model stories</title>
+    <bibliolist>
+      <bibliomixed role="expanded"><biblioref linkend="story-1-product-vision"/></bibliomixed>
+    </bibliolist>
+  </note>
+  <simpara>
+    Here is a classic <firstterm linkend="term-user-story">user story</firstterm>:
+  </simpara>
+  <blockquote>
+    <simpara>
+      I, as a prospective contributor, want a vision document so that I can decide whether to join Papillon Journey.
+    </simpara>
+  </blockquote>
+  <simpara>
+    Functional?
+    Yes.
+    Inspiring?
+    Not quite.
+    It captures the user’s need, but where is the story?
+  </simpara>
+  <simpara>
+    User stories emerged to humanise requirements, moving away from dry specs like:
+  </simpara>
+  <blockquote>
+    <simpara>
+      The project shall publish a vision document.
+    </simpara>
+  </blockquote>
+  <simpara>
+    This <quote>I, as a (role), want (function) so that (business value)</quote> template <citation>Cohn 2004</citation> was a leap forward, but it still falls short of true storytelling.
+  </simpara>
+  <section>
+    <title>Stories are about change</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
+    <simpara>
+      According to Robert McKee’s bestseller <citetitle pubwork="book">Story</citetitle> <citation>McKee 1997</citation>, a story narrates a meaningful change in the life of a character — a change triggered by conflicts and experienced as a shift in value.
+    </simpara>
+    <simpara>
+      To ground storytelling in software engineering, we can draw from Strategyzer’s Value Proposition Canvas <citation>Osterwalder et al. 2014</citation>, where conflicts are the user’s pains, and the shift in value comes when features relieve those pains and unlock gains.
+    </simpara>
+    <simpara>
+      Stories follow a universal arc: context (the user’s job), conflict (their pains), confrontation (their efforts to overcome them, supported by what teams deliver), and resolution (their gains).
+    </simpara>
+    <simpara>
+      With this in mind, we can enhance the classic user story template:
+    </simpara>
+    <blockquote>
+      <simpara>
+        As a (role) trying to (job), but facing (pains), I want (feature), so that (gains).
+      </simpara>
+    </blockquote>
+    <simpara>
+      We put it to work in <citation>ϛε1</citation>:
+    </simpara>
+    <blockquote>
+      <simpara>
+        As a prospective contributor evaluating whether to invest time in <productname>Papillon Journey</productname>, I prefer not having to guess the project’s purpose, goals, value propositions, and action plan by trawling through GitHub issues or discussions — as is often the case in open source.
+        Instead, I want these elements articulated in a concise 2–4-page vision document, so that I can quickly decide whether the project aligns with my interests, contribute effectively, and share my enthusiasm for it.
+      </simpara>
+    </blockquote>
+    <simpara>
+      Now we are talking.
+    </simpara>
+    <simpara>
+      This template does not just align with the essence of storytelling — transforming a negative into a positive — it also feeds directly into the Value Proposition Canvas.
+      Win–win.
+      That said, giving the <quote>I</quote> in the user story a backstory would engage teams even more.
+    </simpara>
+  </section>
+  <section>
+    <title>Stories drive action</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
+    <simpara>
+      Meet Joséphine, our prospective contributor considering whether to join Papillon Journey.
+      Imagine bringing her user story to life with a personal narrative <citation>ϛε1</citation>:
+    </simpara>
+    <blockquote>
+      <simpara>
+        <quote>Thank you so much for the redesign of our site. Customers keep telling us how intuitive, clean, and easy it is to navigate!</quote>
+      </simpara>
+      <simpara>
+        The SMS notification lit up Joséphine’s phone, briefly breaking the quiet focus of her cosy home office — and it made her day.
+        Messages like this are what keep her going.
+        She is a freelance web designer and front-end developer who has helped several small businesses thrive online.
+        Nothing makes her happier than seeing her clients reach their goals through the UX she has crafted, and watching their users genuinely enjoy the experience.
+        Her growing portfolio of success stories attests to this.
+      </simpara>
+      <simpara>
+        Just before the SMS pulled her away, Joséphine had been immersed in the <productname>Papillon Journey</productname> GitHub project, scrolling through issues and discussions.
+        The idea of repurposing JRPG mechanics for graduate-level education set her imagination racing with UX concepts, all promising serious design challenges — the kind that could stretch her skills, enrich her portfolio, and open doors to new opportunities.
+        She wanted to contribute.
+      </simpara>
+      <simpara>
+        She set her phone on the desk and turned her eyes back to her laptop screen, picking up where she had left off.
+        She had already spent an hour exploring the project, and her seasoned UX instincts were starting to raise red flags — questions piling up unanswered with every page she opened.
+        Whose problems was <productname>Papillon Journey</productname> actually aiming to solve?
+        Why opt for a JRPG format over a straightforward course catalogue?
+        How was success meant to be gauged — through completion rates, skills gained, player retention, or something else?
+        And, zooming out, what did the project’s roadmap look like, even loosely sketched, over the next three to five years?
+      </simpara>
+      <simpara>
+        She couldn’t find any document that brought these elements into one place.
+        The fragments pieced together from various issues and comments fell short, leaving her uncertain if contributing would truly align with the project’s direction or meaningfully strengthen her professional trajectory.
+        As a freelancer with limited time for open source, she couldn’t afford guesswork.
+        She bookmarked the repo, gulped down her remaining coffee, and shifted to another important task — one backed by a clear path forward.
+      </simpara>
+      <simpara>
+        To boost the odds that Joséphine contributes on her next visit, a concise 2–4-page vision document answering these questions is essential.
+        Walking her through her first contribution comes next — but that’s another story.
+      </simpara>
+    </blockquote>
+    <simpara>
+      Does this not make you want to write that vision document?
+      This narrative does not just humanise the user story: it inspires teams to deliver solutions that truly matter.
+    </simpara>
+  </section>
+  <section>
+    <title>Does your story hold?</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
+    <simpara>
+      Before acting on a user story, reread it with a sceptic’s eye.
+      While the feature is still on paper and the resolution still a hope, ask three questions:
+    </simpara>
+    <orderedlist>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Does the feature relieve each pain?</emphasis>
+          Take them one by one.
+          A pain the feature leaves untouched is a conflict the user story never resolves.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Does it unlock each gain?</emphasis>
+          A gain does not come for free.
+          It should be easy to see why the feature delivers it.
+        </simpara>
+      </listitem>
+      <listitem>
+        <simpara>
+          <emphasis role="strong">Does it shift value, turning each pain into one or more gains?</emphasis>
+          Every pain must end up as a gain.
+          The reverse is not required: a gain can stand on its own.
+          If every gain merely mirrors a pain, the feature goes no further than putting things right; extra gains can give people another reason to choose one product over another.
+        </simpara>
+      </listitem>
+    </orderedlist>
+    <simpara>
+      Back to Joséphine’s story:
+    </simpara>
+    <blockquote>
+      <simpara>
+        As a prospective contributor evaluating whether to invest time in <productname>Papillon Journey</productname>, I prefer not having to <phrase role="pain">guess the project’s purpose, goals, value propositions, and action plan</phrase> by <phrase role="pain">trawling through GitHub issues or discussions</phrase> — as is often the case in open source.
+        Instead, I want these elements articulated in a concise 2–4-page vision document, so that I can <phrase role="gain">quickly decide whether the project aligns with my interests</phrase>, <phrase role="gain">contribute effectively</phrase>, and <phrase role="gain">share my enthusiasm for it</phrase>.
+      </simpara>
+    </blockquote>
+    <table>
+      <title>Checking Joséphine’s story</title>
+      <tgroup cols="4">
+        <thead>
+          <row>
+            <entry>Check</entry>
+            <entry>Pains and gains</entry>
+            <entry>Verdict</entry>
+            <entry>Why</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry morerows="1">Does the feature relieve each pain?</entry>
+            <entry>Pain: guessing the project’s purpose, goals, value propositions, and action plan</entry>
+            <entry>Relieved</entry>
+            <entry>A document that articulates them leaves nothing to guess.</entry>
+          </row>
+          <row>
+            <entry>Pain: trawling through issues and discussions</entry>
+            <entry>Relieved</entry>
+            <entry>One document replaces the hunt.</entry>
+          </row>
+          <row>
+            <entry morerows="2">Does it unlock each gain?</entry>
+            <entry>Gain: quickly deciding whether the project fits her interests</entry>
+            <entry>Unlocked</entry>
+            <entry>A two-to-four-page document is concise enough for a quick read.</entry>
+          </row>
+          <row>
+            <entry>Gain: contributing effectively</entry>
+            <entry>Unclear</entry>
+            <entry>A vision document is not an onboarding guide, but it could show Joséphine where to find one.</entry>
+          </row>
+          <row>
+            <entry>Gain: sharing her enthusiasm</entry>
+            <entry>Unlocked</entry>
+            <entry>A clear, compact vision is something she can point others to.</entry>
+          </row>
+          <row>
+            <entry morerows="1">Does it shift value?</entry>
+            <entry>Guessing → quickly deciding</entry>
+            <entry>Shifted</entry>
+            <entry>With nothing left to guess, she can decide quickly.</entry>
+          </row>
+          <row>
+            <entry>Trawling → quickly deciding</entry>
+            <entry>Shifted</entry>
+            <entry>Without the hunt, the decision comes sooner.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <simpara>
+      When a check fails, do not dismiss it and call the user story finished.
+      Pause and take another look:
+    </simpara>
+    <variablelist>
+      <varlistentry>
+        <term>A pain is not relieved.</term>
+        <listitem>
+          <simpara>
+            Take it out.
+            If the project still wants to address it, it is material for another user story.
+            If that pain really drives the user story, the feature itself needs rethinking.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>A gain is not unlocked.</term>
+        <listitem>
+          <simpara>
+            Your call.
+            Drop it, or keep it as a reminder if the project cares about it and no other user story covers it yet.
+            But make it clear somewhere that this user story is not expected to deliver it.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>A pain is not turned into a gain.</term>
+        <listitem>
+          <simpara>
+            Something is off.
+            Perhaps the user story leaves the gain unstated; if so, write it down.
+            If relieving this pain leads to no gain, rethink the feature or the pain it promises to address.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <simpara>
+      The checks reveal one unaddressed expectation in Joséphine’s story: <quote>contributing effectively</quote> needs its own user story.
+      The vision document can focus on helping her decide whether to join.
+    </simpara>
+    <simpara>
+      Now pick a user story you wrote recently and put it through the three checks.
+      Does it hold, or does it break?
+    </simpara>
+  </section>
+</chapter>

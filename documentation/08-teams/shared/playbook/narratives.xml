@@ -12,7 +12,7 @@
   <info>
     <title>Defining narratives</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-10-03</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -24,6 +24,7 @@
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -38,21 +39,69 @@
       </revision>
     </revhistory>
   </info>
+  <epigraph>
+    <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+  </epigraph>
   <note role="standards">
     <title>Applicable standards</title>
     <bibliolist>
-      <bibliomixed><biblioref linkend="oasis-2016"/></bibliomixed>
-      <bibliomixed><biblioref linkend="w3c-2006"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="oasis-2016"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="w3c-2006"/></bibliomixed>
     </bibliolist>
   </note>
   <note role="stories">
     <title>Model stories</title>
     <bibliolist>
-      <bibliomixed><biblioref linkend="story-1-product-vision"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="story-1-product-vision"/></bibliomixed>
     </bibliolist>
   </note>
   <simpara>
     Narratives express proposed and completed project changes through a user story and its supporting backstory.
     Start them from <filename>documentation/templates/narrative.xml</filename> and retain only the lifecycle activities that apply.
   </simpara>
+  <section>
+    <title>How true is the backstory?</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
+    <simpara>
+      Every narrative opens with a backstory, and every backstory says how much of it really happened.
+      The answer goes in the required <tag class="attribute">backstory</tag> attribute of the narrative's root element, and it tells readers how far the story proves that the issue exists, and how far it only illustrates the value of resolving it.
+    </simpara>
+    <variablelist>
+      <varlistentry>
+        <term><literal>true-story</literal></term>
+        <listitem>
+          <simpara>
+            The backstory is, in substance, an account of something that really happened.
+            Changing names or smoothing details to protect people does not make it any less true.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><literal>mixed</literal></term>
+        <listitem>
+          <simpara>
+            The backstory is anchored in something real — an actual event, a real person's situation, a remark someone really made — and completed with invented elements.
+            A persona assembled from several real cases belongs here.
+          </simpara>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><literal>fiction</literal></term>
+        <listitem>
+          <simpara>
+            The backstory is invented to illustrate the value of resolving the issue.
+            It may be perfectly realistic, even informed by years of experience, but no specific real case lies behind it.
+          </simpara>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <simpara>
+      When in doubt, ask yourself: can I point to a real observation behind this story?
+      If not, it is fiction, because general experience does not count and a specific case does.
+      If you can, but you invented parts of it, it is mixed.
+      If you invented almost nothing, it is a true story.
+    </simpara>
+  </section>
 </chapter>

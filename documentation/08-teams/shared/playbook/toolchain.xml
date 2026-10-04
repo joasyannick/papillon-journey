@@ -12,7 +12,7 @@
   <info>
     <title>Toolchain</title>
     <pubdate></pubdate>
-    <date role="modified">2026-07-16</date>
+    <date role="modified">2026-10-02</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -24,7 +24,7 @@
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.6 Sol</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -39,11 +39,17 @@
       </revision>
     </revhistory>
   </info>
+  <epigraph>
+    <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+  </epigraph>
   <simpara>
     The documentation toolchain consists of bundled tools, which are checked into the repository under <filename>documentation/tools/</filename>, and runtime dependencies, which must be installed separately.
   </simpara>
   <section>
     <title>Bundled tools</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <variablelist>
       <varlistentry>
         <term>Saxon HE 12.7</term>
@@ -76,6 +82,9 @@
   </section>
   <section>
     <title>Runtime dependencies</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <variablelist>
       <varlistentry>
         <term>Java 21 or later</term>

@@ -12,7 +12,7 @@
   <info>
     <title>Change Control</title>
     <pubdate></pubdate>
-    <date role="modified">2026-09-11</date>
+    <date role="modified">2026-10-03</date>
     <authorgroup>
       <xi:include href="../../../07-contributions/01-people/joas/author.gen.xml"/>
     </authorgroup>
@@ -24,7 +24,7 @@
         <revdescription>
           <simpara>Agents:</simpara>
           <itemizedlist>
-            <listitem><simpara>Claude Code: Sonnet 5</simpara></listitem>
+            <listitem><simpara>Claude Code: Sonnet 5.5</simpara></listitem>
             <listitem><simpara>Codex: GPT-5.6 Sol, GPT-6 Astra</simpara></listitem>
           </itemizedlist>
           <simpara>Added:</simpara>
@@ -41,20 +41,26 @@
       </revision>
     </revhistory>
   </info>
+  <epigraph>
+    <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+  </epigraph>
   <note role="standards">
     <title>Applicable standards</title>
     <bibliolist>
-      <xi:include href="../../../shared/bibliography/en/iso-2019.xml"/>
+      <bibliomixed role="expanded"><biblioref linkend="iso-2019"/></bibliomixed>
     </bibliolist>
   </note>
   <note role="guidance">
     <title>Guiding references</title>
     <bibliolist>
-      <bibliomixed><biblioref linkend="lacan-2024"/></bibliomixed>
+      <bibliomixed role="expanded"><biblioref linkend="lacan-2024"/></bibliomixed>
     </bibliolist>
   </note>
   <section>
     <title>Narrative IDs</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Each narrative (story, epic, tale, saga, or what-if) carries an <tag>id</tag> attribute that is a positive integer drawn from an internal sequential counter, independent of any external platform.
       The counter starts at 1 and increments with each new narrative, regardless of the identifier assigned on any hosting platform (e.g. GitHub, GitLab).
@@ -63,6 +69,9 @@
   </section>
   <section>
     <title>Contributor IDs</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Each contributor is assigned a platform-independent handle recorded as the <tag>xml:id</tag>
       attribute of their <filename>contributor.xml</filename> profile file and used as the
@@ -73,6 +82,9 @@
   </section>
   <section>
     <title>Branching</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       The main branch is <literal>canon</literal>.
       Feature branches follow the naming convention:
@@ -81,6 +93,9 @@
   </section>
   <section>
     <title>Commit messages</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       The title line must not exceed 72 characters including the newline.
       All other lines must not exceed 80 characters including the newline.
@@ -102,6 +117,9 @@
   </section>
   <section>
     <title>Changelogs</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Every file carries a changelog in a trailing XML comment.
       Each entry covers one story and follows this structure:
@@ -177,6 +195,9 @@
   </section>
   <section>
     <title>Narratives vocabulary</title>
+    <epigraph xml:lang="zh-Hant">
+      <simpara><!-- TODO: add a Chinese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Change control narratives are authored in the narratives vocabulary at <filename>documentation/06-change-control/narratives.xsd</filename>.
       Each narrative type — <tag>saga</tag>, <tag>epic</tag>, <tag>story</tag>, <tag>tale</tag>, or <tag>what-if</tag> — wraps a DocBook <tag>article</tag> and carries the metadata required for change control: <tag>responsible-team</tag> and <tag>priority</tag>.
@@ -191,6 +212,9 @@
   </section>
   <section>
     <title>Time tracking</title>
+    <epigraph xml:lang="ja">
+      <simpara><!-- TODO: add a Japanese epigraph with attribution and bibliography entry --></simpara>
+    </epigraph>
     <simpara>
       Every narrative level — tale, epic, story — and every activity iteration carries five time fields:
     </simpara>

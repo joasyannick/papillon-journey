@@ -37,6 +37,7 @@
     </xs:sequence>
     <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
     <xs:attribute name="slug" type="xs:string" use="required"/>
+    <xs:attribute name="backstory" type="BackstoryType" use="required"/>
   </xs:complexType>
 
   <xs:complexType name="ActivitiesType">
@@ -74,6 +75,7 @@
     </xs:sequence>
     <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
     <xs:attribute name="slug" type="xs:string" use="required"/>
+    <xs:attribute name="backstory" type="BackstoryType" use="required"/>
   </xs:complexType>
 
   <xs:simpleType name="TeamType">
@@ -93,6 +95,14 @@
     </xs:restriction>
   </xs:simpleType>
 
+  <xs:simpleType name="BackstoryType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="true-story"/>
+      <xs:enumeration value="mixed"/>
+      <xs:enumeration value="fiction"/>
+    </xs:restriction>
+  </xs:simpleType>
+
   <xs:simpleType name="PriorityType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="lowest"/>
@@ -107,7 +117,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-16
+  ## Story 1 — 2026-10-03
 
   ### Authors
 
@@ -115,7 +125,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 4.6
+  - Claude Code: Sonnet 5.5
   - Codex: GPT-5.6 Sol
 
   ### Added

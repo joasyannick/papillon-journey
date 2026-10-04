@@ -63,7 +63,7 @@
       <xs:element name="portfolio" type="WebsiteType" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="blog" type="WebsiteType" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element name="social" type="SocialType" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element name="tv" type="TvType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="webTv" type="WebTvType" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
 
@@ -77,7 +77,7 @@
     <xs:attribute name="url" type="xs:anyURI" use="required"/>
   </xs:complexType>
 
-  <xs:complexType name="TvType">
+  <xs:complexType name="WebTvType">
     <xs:attribute name="channel" type="xs:string" use="required"/>
     <xs:attribute name="url" type="xs:anyURI" use="required"/>
   </xs:complexType>
@@ -93,7 +93,7 @@
 <!--
   # Changelog
 
-  ## Story 1 — 2026-07-16
+  ## Story 1 — 2026-10-02
 
   ### Authors
 
@@ -101,7 +101,7 @@
 
   ### Agents
 
-  - Claude Code: Sonnet 5
+  - Claude Code: Sonnet 5.5
   - Codex: GPT-5.6 Sol
 
   ### Added

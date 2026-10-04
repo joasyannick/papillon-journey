@@ -21,5 +21,5 @@ starting any task.
 Story 1: Product Vision (branch `product/story/1-product-vision`)
 
 Outstanding TODOs:
-- Lifecycle management documentation
+- Lifecycle documentation
 - Success metrics definition
